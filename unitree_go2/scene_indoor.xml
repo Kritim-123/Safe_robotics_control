@@ -1,0 +1,85 @@
+<mujoco model="Go2 indoor navigation lab">
+  <include file="go2.xml"/>
+
+  <statistic center="2 0 0.5" extent="7"/>
+  <visual>
+    <headlight diffuse="0.3 0.3 0.3" ambient="0.2 0.2 0.2" specular="0.1 0.1 0.1"/>
+    <global azimuth="-115" elevation="-55" offwidth="1440" offheight="1080"/>
+  </visual>
+  <default>
+    <default class="indoor">
+      <geom type="box" friction="0.8 0.02 0.01" condim="3"/>
+      <default class="wall">
+        <geom material="plaster"/>
+      </default>
+      <default class="furniture">
+        <geom material="wood"/>
+      </default>
+    </default>
+  </default>
+  <asset>
+    <texture name="indoor_tiles" type="2d" builtin="checker" width="512" height="512"
+      rgb1="0.66 0.69 0.70" rgb2="0.73 0.75 0.75"/>
+    <material name="tile" texture="indoor_tiles" texuniform="true" texrepeat="1 1"/>
+    <material name="plaster" rgba="0.82 0.85 0.88 1"/>
+    <material name="wood" rgba="0.42 0.26 0.14 1"/>
+    <material name="fabric" rgba="0.16 0.36 0.43 1"/>
+    <material name="metal_indoor" rgba="0.24 0.29 0.33 1"/>
+  </asset>
+  <worldbody>
+    <light pos="0 0 4" dir="0 0 -1" directional="true" diffuse="0.4 0.4 0.4"/>
+    <light pos="5 1 3.5" dir="0 0 -1" diffuse="0.2 0.2 0.2" castshadow="false"/>
+    <camera name="overview" pos="2 -9 12" xyaxes="1 0 0 0 0.8 0.6"/>
+    <camera name="top_down" pos="2 0 13" xyaxes="1 0 0 0 1 0"/>
+
+    <!-- All dimensions are metres; box sizes are HALF extents.
+         Interior: x [-3, 7], y [-4, 4]. Walls are 0.16 m thick, 2.4 m tall.
+         No ceiling, allowing inspection from above. -->
+    <geom name="floor" type="plane" size="5.2 4.2 0.05" pos="2 0 0" material="tile"
+      friction="0.8 0.02 0.01" condim="3"/>
+    <body name="indoor_layout" childclass="indoor">
+      <geom name="wall_west" class="wall" pos="-3.08 0 1.2" size="0.08 4.16 1.2"/>
+      <geom name="wall_east" class="wall" pos="7.08 0 1.2" size="0.08 4.16 1.2"/>
+      <geom name="wall_south" class="wall" pos="2 -4.08 1.2" size="5 0.08 1.2"/>
+      <geom name="wall_north" class="wall" pos="2 4.08 1.2" size="5 0.08 1.2"/>
+
+      <!-- Entry room connects to the corridor through a 1.2 m doorway at y=0. -->
+      <geom name="entry_partition_south" class="wall" pos="1 -2.3 1.2" size="0.08 1.7 1.2"/>
+      <geom name="entry_partition_north" class="wall" pos="1 2.3 1.2" size="0.08 1.7 1.2"/>
+      <geom name="entry_lintel" class="wall" pos="1 0 2.25" size="0.08 0.6 0.15"/>
+
+      <!-- Corridor clear width 1.6 m. Two 1.2 m doors centred at x=4.8. -->
+      <geom name="corridor_north_left" class="wall" pos="2.64 0.88 1.2" size="1.56 0.08 1.2"/>
+      <geom name="corridor_north_right" class="wall" pos="6.2 0.88 1.2" size="0.8 0.08 1.2"/>
+      <geom name="corridor_north_lintel" class="wall" pos="4.8 0.88 2.25" size="0.6 0.08 0.15"/>
+      <geom name="corridor_south_left" class="wall" pos="2.64 -0.88 1.2" size="1.56 0.08 1.2"/>
+      <geom name="corridor_south_right" class="wall" pos="6.2 -0.88 1.2" size="0.8 0.08 1.2"/>
+      <geom name="corridor_south_lintel" class="wall" pos="4.8 -0.88 2.25" size="0.6 0.08 0.15"/>
+
+      <!-- Fixed furniture provides repeatable collision obstacles. -->
+      <geom name="entry_cabinet" class="furniture" pos="-2.55 2.5 0.55" size="0.35 0.95 0.55"/>
+      <geom name="sofa_seat" pos="2.05 2.7 0.23" size="0.6 0.95 0.23" material="fabric"/>
+      <geom name="sofa_back" pos="1.5 2.7 0.65" size="0.12 0.95 0.35" material="fabric"/>
+      <geom name="sofa_arm_north" pos="2.05 3.58 0.48" size="0.6 0.12 0.25" material="fabric"/>
+      <geom name="sofa_arm_south" pos="2.05 1.82 0.48" size="0.6 0.12 0.25" material="fabric"/>
+      <geom name="table_top" class="furniture" pos="3.5 2.75 0.72" size="0.55 0.6 0.05"/>
+      <geom name="table_leg_sw" pos="3.07 2.27 0.335" size="0.055 0.055 0.335" material="metal_indoor"/>
+      <geom name="table_leg_se" pos="3.93 2.27 0.335" size="0.055 0.055 0.335" material="metal_indoor"/>
+      <geom name="table_leg_nw" pos="3.07 3.23 0.335" size="0.055 0.055 0.335" material="metal_indoor"/>
+      <geom name="table_leg_ne" pos="3.93 3.23 0.335" size="0.055 0.055 0.335" material="metal_indoor"/>
+      <geom name="office_desk_top" class="furniture" pos="6.25 -2.75 0.77" size="0.55 0.9 0.05"/>
+      <geom name="office_desk_support_south" class="furniture" pos="6.25 -3.5 0.36" size="0.5 0.08 0.36"/>
+      <geom name="office_desk_support_north" class="furniture" pos="6.25 -2 0.36" size="0.5 0.08 0.36"/>
+      <geom name="office_box" class="furniture" pos="2.35 -2.8 0.25" size="0.45 0.4 0.25"/>
+
+      <!-- 2 cm threshold across the office doorway. -->
+      <geom name="office_threshold" pos="4.8 -0.88 0.01" size="0.6 0.12 0.01" rgba="0.65 0.49 0.28 1"/>
+    </body>
+    <!-- Sites are visual task references, never collision geometry. -->
+    <site name="start" type="cylinder" pos="0 0 0.004" size="0.26 0.003" rgba="0.2 0.75 0.4 0.6"/>
+    <site name="waypoint_entry" type="cylinder" pos="1.5 0 0.004" size="0.16 0.003" rgba="0.2 0.55 0.95 0.7"/>
+    <site name="waypoint_corridor" type="cylinder" pos="4.8 0 0.004" size="0.16 0.003" rgba="0.2 0.55 0.95 0.7"/>
+    <site name="goal_lounge" type="cylinder" pos="5.4 2.6 0.004" size="0.26 0.003" rgba="0.95 0.65 0.15 0.8"/>
+    <site name="goal_office" type="cylinder" pos="4.8 -2.6 0.004" size="0.26 0.003" rgba="0.95 0.65 0.15 0.8"/>
+  </worldbody>
+</mujoco>
