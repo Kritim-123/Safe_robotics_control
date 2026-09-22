@@ -1,5 +1,5 @@
 <mujoco model="Go2 indoor navigation lab">
-  <include file="go2.xml"/>
+  <include file="go2_mjx.xml"/>
 
   <statistic center="2 0 0.5" extent="7"/>
   <visual>
