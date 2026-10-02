@@ -1,0 +1,254 @@
+{
+  "episodes": 24,
+  "successes": 24,
+  "collisions": 0,
+  "falls": 0,
+  "benchmark": {
+    "method": "Best of five batches; 200 full decisions and 500 threat checks per batch; identical inputs and unchanged SNN weights",
+    "results": [
+      {
+        "obstacles": 3,
+        "version": "before",
+        "decision_pipeline_ms": 0.2748579999024514,
+        "threat_check_ms": 0.1371692000539042
+      },
+      {
+        "obstacles": 3,
+        "version": "vectorized",
+        "decision_pipeline_ms": 0.247329000121681,
+        "threat_check_ms": 0.023523800016846508
+      },
+      {
+        "obstacles": 12,
+        "version": "before",
+        "decision_pipeline_ms": 0.640758000081405,
+        "threat_check_ms": 0.5511467999895103
+      },
+      {
+        "obstacles": 12,
+        "version": "vectorized",
+        "decision_pipeline_ms": 0.260437999968417,
+        "threat_check_ms": 0.031462799990549684
+      }
+    ]
+  },
+  "model_sha256": "207e70715604b887a0c19b2177ebba31587b5759aaea2d11db9b48dea9c5dc6a",
+  "runs": [
+    {
+      "scenario": "oscillating_gate",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 89.75999999997221,
+      "min_footprint_clearance": 0.6563468462012132,
+      "decision_mean_ms": 0.2961999853141606
+    },
+    {
+      "scenario": "oscillating_gate",
+      "reaction_profile": "standard",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 89.73999999997226,
+      "min_footprint_clearance": 0.65635299716689,
+      "decision_mean_ms": 0.3130999975837767
+    },
+    {
+      "scenario": "mixed_course",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 135.0399999999167,
+      "min_footprint_clearance": 0.1284630036956756,
+      "decision_mean_ms": 0.30633332789875567
+    },
+    {
+      "scenario": "oscillating_gate",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 90.05999999997151,
+      "min_footprint_clearance": 0.5343328984204032,
+      "decision_mean_ms": 0.3008000203408301
+    },
+    {
+      "scenario": "mixed_course",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 134.43999999991382,
+      "min_footprint_clearance": 0.14429945773936265,
+      "decision_mean_ms": 0.3534999947684507
+    },
+    {
+      "scenario": "oscillating_gate",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 89.75999999997221,
+      "min_footprint_clearance": 0.7329164469370748,
+      "decision_mean_ms": 0.30350001179613173
+    },
+    {
+      "scenario": "moving_gate",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 72.9000000000115,
+      "min_footprint_clearance": 0.3877116326220014,
+      "decision_mean_ms": 0.29319999157451093
+    },
+    {
+      "scenario": "moving_gate",
+      "reaction_profile": "standard",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 72.64000000001211,
+      "min_footprint_clearance": 0.3809330009589678,
+      "decision_mean_ms": 0.30169999809004366
+    },
+    {
+      "scenario": "mixed_course",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 134.43999999991382,
+      "min_footprint_clearance": 0.1346407641660779,
+      "decision_mean_ms": 0.3143666738954683
+    },
+    {
+      "scenario": "mixed_course",
+      "reaction_profile": "standard",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 134.73999999991526,
+      "min_footprint_clearance": 0.1303705167325389,
+      "decision_mean_ms": 0.3157666651532054
+    },
+    {
+      "scenario": "late_crossing",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 108.0399999999296,
+      "min_footprint_clearance": 0.15755728331049984,
+      "decision_mean_ms": 0.324566683654363
+    },
+    {
+      "scenario": "late_crossing",
+      "reaction_profile": "standard",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 108.3399999999289,
+      "min_footprint_clearance": 0.1631842249923638,
+      "decision_mean_ms": 0.3052333292240898
+    },
+    {
+      "scenario": "crate",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 72.08000000001341,
+      "min_footprint_clearance": 0.13097684486949562,
+      "decision_mean_ms": 0.2948000037577003
+    },
+    {
+      "scenario": "late_crossing",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 107.439999999931,
+      "min_footprint_clearance": 0.15217631218115552,
+      "decision_mean_ms": 0.30146667268127203
+    },
+    {
+      "scenario": "mixed_course",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 135.0399999999167,
+      "min_footprint_clearance": 0.1318009540456168,
+      "decision_mean_ms": 0.3107999994729956
+    },
+    {
+      "scenario": "moving_gate",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 72.92000000001146,
+      "min_footprint_clearance": 0.3006923924267329,
+      "decision_mean_ms": 0.2861000248230994
+    },
+    {
+      "scenario": "oscillating_gate",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 90.03999999997156,
+      "min_footprint_clearance": 0.5662629595937467,
+      "decision_mean_ms": 0.30139999580569565
+    },
+    {
+      "scenario": "crate",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 72.0400000000135,
+      "min_footprint_clearance": 0.13721521023554523,
+      "decision_mean_ms": 0.39870000910013914
+    },
+    {
+      "scenario": "late_crossing",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 108.31999999992895,
+      "min_footprint_clearance": 0.1546877050695455,
+      "decision_mean_ms": 0.30186666602579254
+    },
+    {
+      "scenario": "mixed_course",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 134.45999999991392,
+      "min_footprint_clearance": 0.13382828936878016,
+      "decision_mean_ms": 0.3167000055933992
+    },
+    {
+      "scenario": "moving_gate",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 72.9000000000115,
+      "min_footprint_clearance": 0.35767832563145513,
+      "decision_mean_ms": 0.3105000068899244
+    },
+    {
+      "scenario": "oscillating_gate",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 89.77999999997216,
+      "min_footprint_clearance": 0.6263132331255128,
+      "decision_mean_ms": 0.29579998226836324
+    },
+    {
+      "scenario": "crate",
+      "reaction_profile": "fast",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 72.0400000000135,
+      "min_footprint_clearance": 0.1385566172117973,
+      "decision_mean_ms": 0.308299990138039
+    },
+    {
+      "scenario": "crate",
+      "reaction_profile": "standard",
+      "success": true,
+      "reason": "goal reached",
+      "elapsed": 72.64000000001211,
+      "min_footprint_clearance": 0.12727936905807452,
+      "decision_mean_ms": 0.3899000003002584
+    }
+  ]
+}

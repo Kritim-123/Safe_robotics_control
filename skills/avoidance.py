@@ -26,13 +26,20 @@ def clearance(point, obstacles, bounds, radius=ROBOT_RADIUS):
 
 
 def path_clearance(start, points, obstacles, bounds):
-    minimum = float('inf')
-    for end in points:
-        # Cylinder distances are exact for the conservative circular footprint.
-        minimum = min(minimum, clearance(start, [], bounds), clearance(end, [], bounds))
-        for center, radius, _ in obstacles:
-            minimum = min(minimum, segment_distance(center, np.asarray(start), np.asarray(end)) - radius - ROBOT_RADIUS)
-        start = end
+    if len(points) == 0:
+        return float('inf')
+    vertices = np.vstack([start, points])
+    x0, x1, y0, y1 = bounds
+    minimum = np.min(np.c_[vertices[:, 0]-x0, x1-vertices[:, 0],
+                           vertices[:, 1]-y0, y1-vertices[:, 1]])-ROBOT_RADIUS
+    if obstacles:
+        centers = np.asarray([o[0] for o in obstacles])
+        radii = np.asarray([o[1] for o in obstacles])
+        starts, vectors = vertices[:-1], np.diff(vertices, axis=0)
+        t = np.clip(np.sum((centers[:, None, :]-starts)*vectors, axis=-1)/
+                    np.maximum(np.sum(vectors*vectors, axis=-1), 1e-12), 0, 1)
+        gaps = np.linalg.norm(centers[:, None, :]-(starts+t[..., None]*vectors), axis=-1)-radii[:, None]-ROBOT_RADIUS
+        minimum = min(minimum, np.min(gaps))
     return float(minimum)
 
 

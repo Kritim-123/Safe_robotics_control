@@ -29,25 +29,34 @@ def main():
     parser.add_argument('--mode', choices=('baseline', 'rules', 'snn'), default='snn')
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--headless', action='store_true')
+    parser.add_argument('--max-speed', type=float, default=0.18, help='Body command limit in m/s; actual speed depends on gait')
+    parser.add_argument('--playback-speed', type=float, default=1.0, help='Viewer time multiplier; does not change physics')
+    parser.add_argument('--brain', action='store_true', help='Save SNN decision plots and an HTML report after the run')
     parser.add_argument('--replan', action='store_true', help='Experimental active-skill preemption for moving hazards')
+    parser.add_argument('--reaction', choices=('standard', 'fast'), default='standard', help='Fast: 50 Hz sensing and 80 ms conflict confirmation')
     parser.add_argument('--model', type=Path, default=DEFAULT_MODEL)
     parser.add_argument('--output', type=Path, default=Path('output/hybrid/latest'))
     parser.add_argument('--video', type=Path, help='Optional MP4 recorded offscreen at 4x playback')
     args = parser.parse_args()
+    if args.brain and args.mode != 'snn':
+        parser.error('--brain requires --mode snn')
     recorder = None
     if args.video:
         from hybrid.recording import VideoRecorder
         recorder = VideoRecorder(args.video)
     try:
         spec = Scenario.load(args.config) if args.config else scenario(args.scenario, args.seed)
-        result = HybridSystem(spec, args.mode, args.model, replanning=args.replan).run(
-            viewer=not args.headless, record_callback=recorder)
+        result = HybridSystem(spec, args.mode, args.model, replanning=args.replan, max_speed=args.max_speed, reaction=args.reaction).run(
+            viewer=not args.headless, record_callback=recorder, playback_speed=args.playback_speed)
         if recorder is not None:
             recorder.finish(result.summary)
     finally:
         if recorder is not None:
             recorder.close()
     save_result(result, args.output)
+    if args.brain:
+        from hybrid.brain import build_report
+        build_report(args.output, args.model)
     print(json.dumps(result.summary, indent=2, allow_nan=False))
     raise SystemExit(0 if result.summary['success'] else 1)
 

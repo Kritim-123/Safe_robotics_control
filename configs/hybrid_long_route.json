@@ -1,0 +1,10 @@
+{
+  "name": "long_static_route",
+  "start": [0.0, 0.0],
+  "goal": [6.0, 0.0],
+  "bounds": [-1.5, 7.5, -2.0, 2.0],
+  "timeout": 240.0,
+  "obstacles": [
+    {"name": "cylinder", "center": [2.5, 0.0], "radius": 0.23}
+  ]
+}

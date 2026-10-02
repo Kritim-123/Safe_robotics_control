@@ -48,20 +48,30 @@ class SpikingSelector:
         counts = np.zeros(32, dtype=np.float32)
         spike_count = 0
         raster = []
+        voltages, resets, readouts = [], [], []
         for _ in range(self.steps):
             membrane1 = self.beta * membrane1 + current
             spike1 = (membrane1 >= 1).astype(np.float32)
+            before1 = membrane1.copy() if trace else None
             membrane1 -= spike1
             membrane2 = self.beta * membrane2 + w['w2'] @ spike1 + w['b2']
             spike2 = (membrane2 >= 1).astype(np.float32)
+            if trace:
+                voltages.append(np.r_[before1, membrane2])
             membrane2 -= spike2
             counts += spike2
             spike_count += int(spike1.sum() + spike2.sum())
             if trace:
                 raster.append(np.r_[spike1, spike2])
+                resets.append(np.r_[membrane1, membrane2])
+                readouts.append(w['w3'] @ (counts / len(raster)) + w['b3'])
         scores = w['w3'] @ (counts / self.steps) + w['b3']
         diagnostics = dict(spikes=spike_count, opportunities=self.steps*96,
                            spike_fraction=spike_count / (self.steps*96))
         if trace:
             diagnostics['raster'] = np.asarray(raster)
+            diagnostics['membrane_before_reset'] = np.asarray(voltages)
+            diagnostics['membrane_after_reset'] = np.asarray(resets)
+            diagnostics['readouts'] = np.asarray(readouts)
+            diagnostics['normalized_inputs'] = x.copy()
         return scores, diagnostics

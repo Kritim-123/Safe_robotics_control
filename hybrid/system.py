@@ -32,16 +32,26 @@ class HybridSystem:
     Safety masks/supervision are deterministic and independent of SNN scores.
     """
 
-    def __init__(self, scenario, mode='snn', model_path=DEFAULT_MODEL, *, replanning=False):
+    def __init__(self, scenario, mode='snn', model_path=DEFAULT_MODEL, *, replanning=False, max_speed=0.18,
+                 reaction='standard'):
         if mode not in ('baseline', 'rules', 'snn'):
             raise ValueError('mode must be baseline, rules, or snn')
         self.scenario, self.mode = scenario, mode
         self.replanning = bool(replanning)
+        if reaction not in ('standard', 'fast'):
+            raise ValueError('Reaction must be standard or fast')
+        self.reaction = reaction
+        self.sensing_dt = .02 if reaction == 'fast' else .1
+        self.confirmation_dt = .08 if reaction == 'fast' else .2
+        self.max_speed = WaypointController(max_speed=max_speed).max_speed
         self.robot = NavigationExperiment(build_model(scenario))
         self.arena = Arena(scenario, self.robot.model)
         self.selector = SpikingSelector(model_path) if mode == 'snn' else None
 
-    def run(self, *, viewer=False, record_callback=None):
+    def run(self, *, viewer=False, record_callback=None, playback_speed=1.0,
+            event_callback=None, should_stop=None):
+        if not np.isfinite(playback_speed) or playback_speed <= 0:
+            raise ValueError('Playback speed must be finite and positive')
         spec, robot = self.scenario, self.robot
         m, d = robot.model, robot.data
         mujoco.mj_resetDataKeyframe(m, d, robot.home_id)
@@ -50,19 +60,20 @@ class HybridSystem:
         self.arena.update(d)
         mujoco.mj_forward(m, d)
         pid = JointPID(robot.kp, robot.ki, robot.kd, robot.limits)
-        tracker = WaypointController()
+        tracker = WaypointController(max_speed=self.max_speed)
         sensor = ObstacleSensor(position_noise=spec.position_noise, velocity_noise=spec.velocity_noise,
                                 delay=spec.sensor_delay, filter_tau=spec.sensor_filter_tau, seed=spec.sensing_seed)
         robot.commanded_velocity[:] = 0
         robot.activity = robot.gait_time = 0.0
         goal = np.asarray(spec.goal)
         base_id = m.body('base').id
-        dt, control_dt, sensing_dt = float(m.opt.timestep), 0.01, 0.1
+        dt, control_dt, sensing_dt = float(m.opt.timestep), 0.01, self.sensing_dt
         next_control = next_sense = next_log = 0.0
         target, target_velocity = robot.home.copy(), np.zeros(m.nu)
         command = np.zeros(3)
         state, skill = 'BASELINE', None
         events, history, latencies = [], [], []
+        decision_latencies = []
         recovery_until, recovery_deadline, clear_since, settled = 0.0, 0.0, None, 0.0
         intervention_count = returns = overrides = total_spikes = total_opportunities = 0
         stopping, collision = False, False
@@ -78,6 +89,8 @@ class HybridSystem:
             nonlocal state
             events.append(dict(time=float(d.time), source=state, target=new_state,
                                reason=reason_text, **details))
+            if event_callback is not None:
+                event_callback(events[-1])
             state = new_state
             # The trajectory and command slews remain continuous. Only stale
             # accumulated error is removed; physics and gait phase are untouched.
@@ -91,6 +104,7 @@ class HybridSystem:
                 reason = 'intervention limit'
                 transition('FAILED', reason)
                 return False
+            decision_started = time.perf_counter()
             encounter = observe_encounter(position, yaw, goal, observed, spec.bounds, obstacle_index, d.time)
             if self.selector is None:
                 scores, diagnostics = teacher_scores(encounter.features), dict(spikes=0, opportunities=0)
@@ -99,6 +113,8 @@ class HybridSystem:
                 scores, diagnostics = self.selector.predict(encounter.features)
                 latencies.append((time.perf_counter()-started)*1000)
             choice = choose_masked(scores, encounter.allowed)
+            decision_ms = (time.perf_counter()-decision_started)*1000
+            decision_latencies.append(decision_ms)
             if choice is None:
                 reason = 'no applicable skill'
                 transition('FAILED', reason)
@@ -117,6 +133,12 @@ class HybridSystem:
             conflict_since, conflict_obstacle = None, None
             transition('SKILL', reason_text, skill=skill.name, interrupted_skill=interrupted,
                        obstacle_index=obstacle_index, scores=np.asarray(scores).tolist(),
+                       decision_ms=decision_ms, inference_ms=latencies[-1] if self.selector else None,
+                       selection_position=position.tolist(), goal=goal.tolist(),
+                       candidate_paths=[[p.tolist() for p in s.points] for s in encounter.skills],
+                       obstacle_name=spec.obstacles[obstacle_index].name,
+                       obstacle_shape=spec.obstacles[obstacle_index].shape,
+                       confirmation_dt=self.confirmation_dt,
                        allowed=encounter.allowed.tolist(), features=encounter.features.tolist(), **diagnostics)
             return True
 
@@ -124,9 +146,13 @@ class HybridSystem:
         try:
             with ctx as view:
                 if view is not None:
-                    view.cam.lookat[:] = [1.3, 0, 0.25]
-                    view.cam.distance, view.cam.azimuth, view.cam.elevation = 7.0, 110, -60
+                    x0, x1, y0, y1 = spec.bounds
+                    view.cam.lookat[:] = [(x0+x1)/2, (y0+y1)/2, 0.25]
+                    view.cam.distance, view.cam.azimuth, view.cam.elevation = max(7.0, 1.2*max(x1-x0, y1-y0)), 110, -60
                 while d.time < spec.timeout:
+                    if should_stop is not None and should_stop():
+                        reason = 'user stopped'
+                        break
                     wall_start = time.perf_counter()
                     if view is not None and not view.is_running():
                         reason = 'viewer closed'
@@ -159,7 +185,7 @@ class HybridSystem:
                                         conflict_index = moving[conflict][0]
                                         if conflict_index != conflict_obstacle:
                                             conflict_since, conflict_obstacle = float(d.time), conflict_index
-                                        if d.time-conflict_since >= .2:
+                                        if d.time-conflict_since >= self.confirmation_dt-1e-9:
                                             if not activate_skill(conflict_index, 'moving obstacle invalidated active route'):
                                                 break
                                     else:
@@ -257,6 +283,10 @@ class HybridSystem:
                                             clearance=clearance(position, obstacles, spec.bounds),
                                             observed_clearance=gap,
                                             torque=float(np.max(np.abs(torque))),
+                                            command_vx=float(robot.commanded_velocity[0]),
+                                            command_vy=float(robot.commanded_velocity[1]),
+                                            command_yaw_rate=float(robot.commanded_velocity[2]),
+                                            selected_target=selected_target.tolist() if selected_target is not None else None,
                                             obstacle_positions=[c.tolist() for c, _, _ in obstacles]))
                         next_log += 0.1
                         if record_callback is not None:
@@ -267,7 +297,7 @@ class HybridSystem:
                         break
                     if view is not None:
                         view.sync()
-                        time.sleep(max(0, dt-(time.perf_counter()-wall_start)))
+                        time.sleep(max(0, dt/playback_speed-(time.perf_counter()-wall_start)))
         except KeyboardInterrupt:
             reason = 'interrupted'
         finally:
@@ -275,7 +305,8 @@ class HybridSystem:
             d.xfrc_applied[:] = 0
         if state not in ('COMPLETE', 'FAILED'):
             transition('FAILED', reason)
-        summary = dict(mode=self.mode, scenario=spec.name, success=reason == 'goal reached',
+        summary = dict(mode=self.mode, scenario=spec.name, max_command_speed=self.max_speed,
+                       playback_speed=playback_speed, success=reason == 'goal reached',
                        reason=reason, elapsed=float(d.time), final_position=d.qpos[:2].tolist(),
                        final_distance=float(np.linalg.norm(goal-d.qpos[:2])), collision=collision,
                        fall=reason == 'height/tilt limit', path_length=path_length,
@@ -286,6 +317,9 @@ class HybridSystem:
                        snn_spike_fraction=total_spikes/max(total_opportunities, 1),
                        inference_mean_ms=float(np.mean(latencies)) if latencies else None,
                        inference_max_ms=max(latencies) if latencies else None,
+                       decision_mean_ms=float(np.mean(decision_latencies)) if decision_latencies else None,
+                       decision_max_ms=max(decision_latencies) if decision_latencies else None,
+                       reaction_profile=self.reaction, confirmation_dt=self.confirmation_dt,
                        model_sha256=(hashlib.sha256(self.selector.path.read_bytes()).hexdigest()
                                      if self.selector is not None else None),
                        python_version=platform.python_version(), mujoco_version=mujoco.__version__,

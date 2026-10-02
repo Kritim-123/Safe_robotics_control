@@ -1,0 +1,114 @@
+{
+  "name": "mixed_course",
+  "start": [
+    0.0,
+    0.0
+  ],
+  "goal": [
+    6.5,
+    0
+  ],
+  "obstacles": [
+    {
+      "name": "angled_crate",
+      "center": [
+        1.3828708049571492,
+        0.1
+      ],
+      "radius": 0.23,
+      "velocity": [
+        0.0,
+        0.0
+      ],
+      "stop_after": 40.0,
+      "shape": "box",
+      "half_extents": [
+        0.24,
+        0.2
+      ],
+      "height": 0.6,
+      "yaw": 0.4,
+      "motion": "linear",
+      "amplitude": [
+        0.0,
+        0.8
+      ],
+      "period": 60.0,
+      "start_after": 0.0
+    },
+    {
+      "name": "barrel",
+      "center": [
+        4.2,
+        -0.15
+      ],
+      "radius": 0.27,
+      "velocity": [
+        0.0,
+        0.0
+      ],
+      "stop_after": 40.0,
+      "shape": "cylinder",
+      "half_extents": [
+        0.2,
+        0.2
+      ],
+      "height": 0.8,
+      "yaw": 0.0,
+      "motion": "linear",
+      "amplitude": [
+        0.0,
+        0.8
+      ],
+      "period": 60.0,
+      "start_after": 0.0
+    },
+    {
+      "name": "moving_barrier",
+      "center": [
+        3.7,
+        -1.8
+      ],
+      "radius": 0.23,
+      "velocity": [
+        0,
+        0.065
+      ],
+      "stop_after": 55,
+      "shape": "box",
+      "half_extents": [
+        0.12,
+        0.28
+      ],
+      "height": 0.7,
+      "yaw": 0.0,
+      "motion": "linear",
+      "amplitude": [
+        0.0,
+        0.8
+      ],
+      "period": 60.0,
+      "start_after": 25
+    }
+  ],
+  "bounds": [
+    -1.5,
+    8,
+    -2.6,
+    2.6
+  ],
+  "start_yaw": 0.0,
+  "timeout": 240,
+  "friction": 0.8,
+  "push_time": -1.0,
+  "push_force": [
+    0.0,
+    0.0
+  ],
+  "push_duration": 0.2,
+  "position_noise": 0.0,
+  "velocity_noise": 0.0,
+  "sensor_delay": 0.0,
+  "sensor_filter_tau": 0.0,
+  "sensing_seed": 0
+}

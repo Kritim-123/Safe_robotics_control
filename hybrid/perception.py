@@ -28,13 +28,17 @@ def threatening_obstacle(position, goal, obstacles, horizon=3.0, lookahead=1.15)
     if distance < 0.12:
         return None
     end = position + delta / distance * min(distance, lookahead)
-    candidates = []
-    for i, (center, radius, velocity) in enumerate(obstacles):
-        # Sample bounded constant-velocity prediction, not the future script.
-        gap = min(segment_distance(center + velocity*t, position, end)
-                  for t in np.linspace(0, horizon, 7)) - radius - ROBOT_RADIUS - 0.10
-        if gap < 0:
-            candidates.append((np.linalg.norm(center-position), i))
+    if not obstacles:
+        return None
+    centers = np.asarray([o[0] for o in obstacles])
+    radii = np.asarray([o[1] for o in obstacles])
+    velocities = np.asarray([o[2] for o in obstacles])
+    # Same seven prediction samples, batched over obstacles and times.
+    samples = centers[:, None, :] + velocities[:, None, :]*np.linspace(0, horizon, 7)[None, :, None]
+    vector = end-position
+    projected = np.clip(np.sum((samples-position)*vector, axis=-1)/max(np.dot(vector, vector), 1e-12), 0, 1)
+    gaps = np.linalg.norm(samples-(position+projected[..., None]*vector), axis=-1).min(axis=1)-radii-ROBOT_RADIUS-.10
+    candidates = [(np.linalg.norm(centers[i]-position), int(i)) for i in np.flatnonzero(gaps < 0)]
     return min(candidates)[1] if candidates else None
 
 
@@ -48,8 +52,12 @@ def observe_encounter(position, yaw, goal, obstacles, bounds, obstacle_index, no
     relative = center-position
     skills = build_skills(position, goal, obstacles[obstacle_index], now)
     left_gap, right_gap, back_gap = [path_clearance(position, skills[i].points, obstacles, bounds) for i in (0, 1, 3)]
-    wait_gap = min(clearance(position, [(c + v*t, r, v) for c, r, v in obstacles], bounds)
-                   for t in np.linspace(0, 3.0, 7))
+    centers = np.asarray([o[0] for o in obstacles])
+    radii = np.asarray([o[1] for o in obstacles])
+    velocities = np.asarray([o[2] for o in obstacles])
+    future = centers[:, None, :] + velocities[:, None, :]*np.linspace(0, 3.0, 7)[None, :, None]
+    wait_gap = min(clearance(position, [], bounds),
+                   float(np.min(np.linalg.norm(future-position, axis=-1)-radii[:, None]-ROBOT_RADIUS)))
     heading = np.arctan2(delta[1], delta[0]) - yaw
     heading = np.arctan2(np.sin(heading), np.cos(heading))
     features = np.array([np.dot(relative, forward), np.dot(relative, left),

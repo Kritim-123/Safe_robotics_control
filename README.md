@@ -9,6 +9,17 @@ for the baseline/rules/SNN comparison and known limitations.
 For the full development story, architecture, experiments, fixes and run
 instructions, see [Project history](PROJECT_HISTORY.md).
 
+For faster walking, a six-metre route, and plots of every SNN decision, see
+[Faster motion and brain signals](docs/faster_motion_and_brain.md).
+
+To adjust observations and watch neural scores, safety masks and neuron
+signals respond, launch the [interactive SNN inspector](docs/snn_inspector.md).
+
+To watch actual robot motion beside those signals, launch the
+[live simulation dashboard](docs/live_dashboard.md) with `python -m hybrid.live`.
+The [complex-obstacle upgrade](docs/complex_obstacles_and_neural_ui.md) adds
+crates, moving/reversing barriers, faster scene checks and neural readout evidence.
+
 ## Setup
 
 1. Clone or download this repository.

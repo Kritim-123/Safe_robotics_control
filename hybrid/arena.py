@@ -17,12 +17,32 @@ class Obstacle:
     radius: float = 0.23
     velocity: tuple[float, float] = (0.0, 0.0)
     stop_after: float = 40.0
+    shape: str = 'cylinder'
+    half_extents: tuple[float, float] = (.2, .2)
+    height: float = .8
+    yaw: float = 0.0
+    motion: str = 'linear'
+    amplitude: tuple[float, float] = (0.0, .8)
+    period: float = 60.0
+    start_after: float = 0.0
+
+    @property
+    def planning_radius(self):
+        # Circumscribed circle contains every box corner, at every yaw.
+        return float(np.linalg.norm(self.half_extents)) if self.shape == 'box' else self.radius
 
     def at(self, time):
-        return np.asarray(self.center) + np.asarray(self.velocity) * min(max(time, 0), self.stop_after)
+        elapsed = min(max(time-self.start_after, 0), self.stop_after)
+        if self.motion == 'oscillate':
+            return np.asarray(self.center) + np.asarray(self.amplitude)*np.sin(2*np.pi*elapsed/self.period)
+        return np.asarray(self.center) + np.asarray(self.velocity) * elapsed
 
     def speed_at(self, time):
-        return np.asarray(self.velocity) if time < self.stop_after else np.zeros(2)
+        if time < self.start_after or time >= self.start_after+self.stop_after:
+            return np.zeros(2)
+        if self.motion == 'oscillate':
+            return np.asarray(self.amplitude)*(2*np.pi/self.period)*np.cos(2*np.pi*(time-self.start_after)/self.period)
+        return np.asarray(self.velocity)
 
 
 @dataclass(frozen=True)
@@ -66,6 +86,13 @@ class Scenario:
         if len(set(o.name for o in self.obstacles)) != len(self.obstacles):
             raise ValueError('Obstacle names must be unique')
         for o in self.obstacles:
+            if o.shape not in ('box', 'cylinder') or o.motion not in ('linear', 'oscillate'):
+                raise ValueError('Unsupported obstacle shape or motion')
+            if np.shape(o.half_extents) != (2,) or np.shape(o.amplitude) != (2,):
+                raise ValueError('Obstacle dimensions and amplitude must be 2D')
+            if (not np.all(np.isfinite([*o.half_extents, *o.amplitude, o.height, o.yaw, o.period, o.start_after]))
+                    or min(*o.half_extents, o.height, o.period) <= 0 or o.start_after < 0):
+                raise ValueError('Invalid obstacle dimensions or timing')
             if np.shape(o.center) != (2,) or np.shape(o.velocity) != (2,):
                 raise ValueError('Obstacle center and velocity must be 2D')
             if not np.all(np.isfinite([*o.center, o.radius, *o.velocity, o.stop_after])) or o.radius <= 0 or o.stop_after < 0:
@@ -89,6 +116,24 @@ def scenario(name='crossing', seed=0):
     rng = np.random.default_rng(seed)
     x = 1.35 + rng.uniform(-0.12, 0.12)
     radius = rng.uniform(0.20, 0.27)
+    if name == 'crate':
+        return Scenario(name, obstacles=(Obstacle('crate', (x, 0), shape='box',
+                        half_extents=(.25, .18), yaw=.35, height=.6),))
+    if name == 'moving_gate':
+        return Scenario(name, obstacles=(Obstacle('sliding_barrier', (x, -1.5),
+                        velocity=(0, .075), stop_after=40, shape='box',
+                        half_extents=(.12, .35), height=.65),), bounds=(-1.5, 4.5, -2.4, 2.4))
+    if name == 'oscillating_gate':
+        return Scenario(name, obstacles=(Obstacle('oscillating_barrier', (x, -1.25),
+                        shape='box', half_extents=(.14, .28), motion='oscillate',
+                        amplitude=(0, 2.0), period=100, stop_after=100, height=.55),),
+                        bounds=(-1.5, 4.5, -3.6, 2.6), timeout=180)
+    if name == 'mixed_course':
+        return Scenario(name, goal=(6.5, 0), bounds=(-1.5, 8, -2.6, 2.6), timeout=240,
+                        obstacles=(Obstacle('angled_crate', (x, .1), shape='box', half_extents=(.24, .20), yaw=.4, height=.6),
+                                   Obstacle('barrel', (4.2, -.15), .27),
+                                   Obstacle('moving_barrier', (3.7, -1.8), shape='box', half_extents=(.12, .28),
+                                            velocity=(0, .065), start_after=25, stop_after=55, height=.7)))
     if name == 'clear':
         return Scenario(name)
     if name == 'static':
@@ -139,7 +184,8 @@ def scenario(name='crossing', seed=0):
 
 SCENARIOS = ('clear', 'static', 'crossing', 'crossing_reverse', 'left_blocked',
              'right_blocked', 'narrow_crossing', 'push')
-STRESS_SCENARIOS = ('head_on', 'blocked', 'low_friction', 'angled', 'rotated_static', 'late_crossing')
+STRESS_SCENARIOS = ('head_on', 'blocked', 'low_friction', 'angled', 'rotated_static', 'late_crossing',
+                    'crate', 'moving_gate', 'oscillating_gate', 'mixed_course')
 
 
 def build_model(spec):
@@ -152,12 +198,17 @@ def build_model(spec):
     # override the floor's priority=0. Change that default as well, preserving
     # its contact dimensions and softness while making friction experiments real.
     root.find(".//default[@class='foot']/geom").set('friction', f'{spec.friction} 0.02 0.01')
+    assets = root.find('asset')
+    ET.SubElement(assets, 'texture', name='arena_grid', type='2d', builtin='checker',
+                  rgb1='.16 .23 .29', rgb2='.20 .28 .34', width='512', height='512')
+    ET.SubElement(assets, 'material', name='arena_grid_material', texture='arena_grid',
+                  texrepeat='1 1', texuniform='true', reflectance='.08')
     visual = ET.SubElement(root, 'visual')
     ET.SubElement(visual, 'global', offwidth='960', offheight='640')
     world = root.find('worldbody')
     ET.SubElement(world, 'light', pos='1 -1 5', dir='0 0 -1', directional='true')
     ET.SubElement(world, 'geom', name='arena_floor', type='plane', size='8 5 0.1',
-                  rgba='0.78 0.80 0.82 1', friction=f'{spec.friction} 0.02 0.01', condim='3')
+                  material='arena_grid_material', friction=f'{spec.friction} 0.02 0.01', condim='3')
     x0, x1, y0, y1 = spec.bounds
     walls = [('west', (x0 - .08, (y0+y1)/2), (.08, (y1-y0)/2+.16)),
              ('east', (x1 + .08, (y0+y1)/2), (.08, (y1-y0)/2+.16)),
@@ -169,9 +220,14 @@ def build_model(spec):
                       rgba='.38 .44 .52 1', friction='0.8 .02 .01')
     for i, obstacle in enumerate(spec.obstacles):
         body = ET.SubElement(world, 'body', name=f'obstacle_{i}', mocap='true',
-                             pos=f'{obstacle.center[0]} {obstacle.center[1]} .4')
-        ET.SubElement(body, 'geom', name=f'obstacle_geom_{i}', type='cylinder',
-                      size=f'{obstacle.radius} .4', rgba='.88 .29 .20 1', friction='.8 .02 .01')
+                             pos=f'{obstacle.center[0]} {obstacle.center[1]} {obstacle.height/2}',
+                             quat=f'{np.cos(obstacle.yaw/2)} 0 0 {np.sin(obstacle.yaw/2)}')
+        size = (f'{obstacle.half_extents[0]} {obstacle.half_extents[1]} {obstacle.height/2}'
+                if obstacle.shape == 'box' else f'{obstacle.radius} {obstacle.height/2}')
+        moving = np.linalg.norm(obstacle.velocity) > 0 or obstacle.motion == 'oscillate'
+        color = '.75 .28 .68 1' if moving else ('.18 .52 .72 1' if obstacle.shape == 'box' else '.9 .46 .16 1')
+        ET.SubElement(body, 'geom', name=f'obstacle_geom_{i}', type=obstacle.shape,
+                      size=size, rgba=color, friction='.8 .02 .01')
     for name, point, color in [('task_start', spec.start, '.15 .7 .4 .8'),
                                 ('task_goal', spec.goal, '1 .72 .1 .9')]:
         ET.SubElement(world, 'site', name=name, type='cylinder', pos=f'{point[0]} {point[1]} .006',
@@ -201,7 +257,7 @@ class Arena:
 
     def sensed_obstacles(self, data):
         """Ground-truth positions and scripted velocities; not camera/LiDAR perception."""
-        return [(data.mocap_pos[mid, :2].copy(), obstacle.radius,
+        return [(data.mocap_pos[mid, :2].copy(), obstacle.planning_radius,
                  obstacle.speed_at(data.time).copy())
                 for mid, obstacle in zip(self.mocap_ids, self.spec.obstacles)]
 
