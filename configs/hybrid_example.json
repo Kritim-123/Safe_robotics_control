@@ -1,0 +1,18 @@
+{
+  "name": "custom_crossing",
+  "start": [0.0, 0.0],
+  "goal": [3.0, 0.0],
+  "start_yaw": 0.0,
+  "bounds": [-1.5, 4.5, -2.0, 2.0],
+  "timeout": 150.0,
+  "friction": 0.8,
+  "obstacles": [
+    {
+      "name": "moving_cylinder",
+      "center": [1.35, -1.3],
+      "radius": 0.23,
+      "velocity": [0.0, 0.08],
+      "stop_after": 32.5
+    }
+  ]
+}

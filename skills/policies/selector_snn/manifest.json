@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "model_type": "two-layer LIF spiking neural network",
+  "architecture": [
+    12,
+    64,
+    32,
+    4
+  ],
+  "temporal_steps": 16,
+  "beta": 0.9,
+  "threshold": 1,
+  "reset": "immediate subtractive reset",
+  "encoding": "constant normalized analog current",
+  "decoding": "linear readout of mean layer-2 spike counts",
+  "state_reset": "membranes reset to zero on each skill-selection call",
+  "training": "supervised geometric-teacher imitation; no RL",
+  "features": [
+    "obstacle_forward",
+    "obstacle_left",
+    "obstacle_v_forward",
+    "obstacle_v_left",
+    "obstacle_radius",
+    "current_clearance",
+    "left_path_clearance",
+    "right_path_clearance",
+    "back_path_clearance",
+    "predicted_wait_clearance",
+    "goal_distance",
+    "heading_error"
+  ],
+  "skills": [
+    "bypass_left",
+    "bypass_right",
+    "wait",
+    "back_off"
+  ],
+  "data_seeds": {
+    "train": 17,
+    "validation": 10017,
+    "test": 20017
+  },
+  "sha256": "207e70715604b887a0c19b2177ebba31587b5759aaea2d11db9b48dea9c5dc6a",
+  "pytorch_version": "2.14.1+cpu",
+  "numpy_version": "2.5.3",
+  "observation_source": "privileged simulator obstacle state",
+  "validation": "synthetic classification only; see evaluation reports for MuJoCo results"
+}

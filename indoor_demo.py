@@ -6,14 +6,17 @@ import time
 
 import mujoco
 import numpy as np
+from controllers.walking import WalkingExperiment
 
 
 SCENE = Path(__file__).resolve().parent / "unitree_go2" / "scene_indoor.xml"
 
 
 def load_scene():
-    model = mujoco.MjModel.from_xml_path(str(SCENE))
-    data = mujoco.MjData(model)
+    # Use the same explicit torque actuators as walking/navigation. The MJX
+    # scene starts with position servos; feeding those PID torques is incorrect.
+    experiment = WalkingExperiment(SCENE)
+    model, data = experiment.model, experiment.data
     mujoco.mj_resetDataKeyframe(model, data, model.key("home").id)
     # Menagerie's home ctrl values are joint angles; these actuators take torque.
     data.ctrl[:] = 0

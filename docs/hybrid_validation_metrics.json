@@ -1,0 +1,1674 @@
+{
+  "recorded_utc": "2026-10-02T01:59:14.734797+00:00",
+  "batches": {
+    "holdout": {
+      "seeds": [
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "scenarios": [
+        "clear",
+        "static",
+        "crossing",
+        "crossing_reverse",
+        "left_blocked",
+        "right_blocked",
+        "narrow_crossing",
+        "push"
+      ],
+      "replanning": false,
+      "sensing": {},
+      "total_trials": 120,
+      "totals": {
+        "baseline": {
+          "trials": 40,
+          "successes": 18,
+          "collisions": 22,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 18,
+            "obstacle contact": 22
+          }
+        },
+        "rules": {
+          "trials": 40,
+          "successes": 40,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 40
+          }
+        },
+        "snn": {
+          "trials": 40,
+          "successes": 40,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 40
+          }
+        }
+      },
+      "aggregates": [
+        {
+          "scenario": "clear",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 64.04000000003215,
+          "mean_final_distance": 0.06486444935357413
+        },
+        {
+          "scenario": "clear",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 64.04000000003215,
+          "mean_final_distance": 0.06486444935357413
+        },
+        {
+          "scenario": "clear",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 64.04000000003215,
+          "mean_final_distance": 0.06486444935357413
+        },
+        {
+          "scenario": "static",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 0,
+          "collisions": 5,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.189521974995015
+        },
+        {
+          "scenario": "static",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 96.47999999995655,
+          "mean_final_distance": 0.06470416530067155
+        },
+        {
+          "scenario": "static",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 96.47999999995655,
+          "mean_final_distance": 0.06470416530067155
+        },
+        {
+          "scenario": "crossing",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 4,
+          "collisions": 1,
+          "falls": 0,
+          "mean_success_time": 64.04000000003215,
+          "mean_final_distance": 0.5021921527867923
+        },
+        {
+          "scenario": "crossing",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 87.25999999997804,
+          "mean_final_distance": 0.0639191763024822
+        },
+        {
+          "scenario": "crossing",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 87.25999999997804,
+          "mean_final_distance": 0.0639191763024822
+        },
+        {
+          "scenario": "crossing_reverse",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 4,
+          "collisions": 1,
+          "falls": 0,
+          "mean_success_time": 64.04000000003215,
+          "mean_final_distance": 0.5022267615735764
+        },
+        {
+          "scenario": "crossing_reverse",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 87.25999999997804,
+          "mean_final_distance": 0.0639191763024822
+        },
+        {
+          "scenario": "crossing_reverse",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 87.25999999997804,
+          "mean_final_distance": 0.0639191763024822
+        },
+        {
+          "scenario": "left_blocked",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 0,
+          "collisions": 5,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.197814563693149
+        },
+        {
+          "scenario": "left_blocked",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 99.07999999995049,
+          "mean_final_distance": 0.06426819808824807
+        },
+        {
+          "scenario": "left_blocked",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 99.07999999995049,
+          "mean_final_distance": 0.06426819808824807
+        },
+        {
+          "scenario": "right_blocked",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 0,
+          "collisions": 5,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.197814563693149
+        },
+        {
+          "scenario": "right_blocked",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 98.83999999995105,
+          "mean_final_distance": 0.06504578283347452
+        },
+        {
+          "scenario": "right_blocked",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 98.83999999995105,
+          "mean_final_distance": 0.06504578283347452
+        },
+        {
+          "scenario": "narrow_crossing",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 64.04000000003215,
+          "mean_final_distance": 0.06486444935357413
+        },
+        {
+          "scenario": "narrow_crossing",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 84.51999999998442,
+          "mean_final_distance": 0.06504445517478784
+        },
+        {
+          "scenario": "narrow_crossing",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 84.51999999998442,
+          "mean_final_distance": 0.06504445517478784
+        },
+        {
+          "scenario": "push",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 0,
+          "collisions": 5,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.197814563693149
+        },
+        {
+          "scenario": "push",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 98.859999999951,
+          "mean_final_distance": 0.06487524363811097
+        },
+        {
+          "scenario": "push",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 98.859999999951,
+          "mean_final_distance": 0.06487524363811097
+        }
+      ],
+      "source": "output\\hybrid\\holdout\\evaluation.json",
+      "source_sha256": "dda5700b2c79adf0edb5118de096f71d1f9383e5f3e182236fc16acc7fd1299a"
+    },
+    "stress": {
+      "seeds": [
+        200,
+        201,
+        202
+      ],
+      "scenarios": [
+        "head_on",
+        "blocked",
+        "low_friction",
+        "angled"
+      ],
+      "replanning": false,
+      "sensing": {},
+      "total_trials": 36,
+      "totals": {
+        "baseline": {
+          "trials": 12,
+          "successes": 0,
+          "collisions": 12,
+          "falls": 0,
+          "reasons": {
+            "obstacle contact": 12
+          }
+        },
+        "rules": {
+          "trials": 12,
+          "successes": 9,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 9,
+            "clearance stop": 3
+          }
+        },
+        "snn": {
+          "trials": 12,
+          "successes": 9,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 9,
+            "clearance stop": 3
+          }
+        }
+      },
+      "aggregates": [
+        {
+          "scenario": "head_on",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.379197238447079
+        },
+        {
+          "scenario": "head_on",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 133.6733333332435,
+          "mean_final_distance": 0.06405296284742257
+        },
+        {
+          "scenario": "head_on",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 140.87333333327788,
+          "mean_final_distance": 0.06549210843424878
+        },
+        {
+          "scenario": "blocked",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.2531422699242563
+        },
+        {
+          "scenario": "blocked",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 3.6358454270795124
+        },
+        {
+          "scenario": "blocked",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 3.6358454270795124
+        },
+        {
+          "scenario": "low_friction",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.191413375192464
+        },
+        {
+          "scenario": "low_friction",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 99.07333333328383,
+          "mean_final_distance": 0.06566902531983841
+        },
+        {
+          "scenario": "low_friction",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 99.07333333328383,
+          "mean_final_distance": 0.06566902531983841
+        },
+        {
+          "scenario": "angled",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 1.946766005846273
+        },
+        {
+          "scenario": "angled",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 96.1066666666241,
+          "mean_final_distance": 0.06499119027239238
+        },
+        {
+          "scenario": "angled",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 96.1066666666241,
+          "mean_final_distance": 0.06499119027239238
+        }
+      ],
+      "source": "output\\hybrid\\stress\\evaluation.json",
+      "source_sha256": "48da33a306ce9c2838dba006417926a937e48b2a789b1093668b9304211a1bc3",
+      "caveat": "Discard original low_friction rows; use friction-corrected instead."
+    },
+    "friction-corrected": {
+      "seeds": [
+        200,
+        201,
+        202
+      ],
+      "scenarios": [
+        "low_friction"
+      ],
+      "replanning": false,
+      "sensing": {},
+      "total_trials": 9,
+      "totals": {
+        "baseline": {
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "reasons": {
+            "obstacle contact": 3
+          }
+        },
+        "rules": {
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 3
+          }
+        },
+        "snn": {
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 3
+          }
+        }
+      },
+      "aggregates": [
+        {
+          "scenario": "low_friction",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.190907172097325
+        },
+        {
+          "scenario": "low_friction",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 73.00666666667792,
+          "mean_final_distance": 0.06806948865956731
+        },
+        {
+          "scenario": "low_friction",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 73.00666666667792,
+          "mean_final_distance": 0.06806948865956731
+        }
+      ],
+      "source": "output\\hybrid\\friction-corrected\\evaluation.json",
+      "source_sha256": "b6750860bd76e0ce2f484463d5c421bbefebf056bfd78376d51174fbaadd9573"
+    },
+    "noisy": {
+      "seeds": [
+        300,
+        301,
+        302
+      ],
+      "scenarios": [
+        "static",
+        "crossing",
+        "crossing_reverse",
+        "left_blocked",
+        "right_blocked",
+        "head_on"
+      ],
+      "replanning": false,
+      "sensing": {
+        "position_noise": 0.04,
+        "velocity_noise": 0.01,
+        "sensor_delay": 0.3
+      },
+      "total_trials": 54,
+      "totals": {
+        "baseline": {
+          "trials": 18,
+          "successes": 6,
+          "collisions": 12,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 6,
+            "obstacle contact": 12
+          }
+        },
+        "rules": {
+          "trials": 18,
+          "successes": 16,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 16,
+            "clearance stop": 2
+          }
+        },
+        "snn": {
+          "trials": 18,
+          "successes": 14,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 14,
+            "clearance stop": 4
+          }
+        }
+      },
+      "aggregates": [
+        {
+          "scenario": "static",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.189326406563071
+        },
+        {
+          "scenario": "static",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 2,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 97.38999999995443,
+          "mean_final_distance": 0.7294265920028904
+        },
+        {
+          "scenario": "static",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 2,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 97.38999999995443,
+          "mean_final_distance": 0.7294265920028904
+        },
+        {
+          "scenario": "crossing",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 64.04000000003215,
+          "mean_final_distance": 0.06486444935357413
+        },
+        {
+          "scenario": "crossing",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 87.03999999997855,
+          "mean_final_distance": 0.0656474768708357
+        },
+        {
+          "scenario": "crossing",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 87.03999999997855,
+          "mean_final_distance": 0.0656474768708357
+        },
+        {
+          "scenario": "crossing_reverse",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 64.04000000003215,
+          "mean_final_distance": 0.06486444935357413
+        },
+        {
+          "scenario": "crossing_reverse",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 86.90666666664553,
+          "mean_final_distance": 0.06383574259460394
+        },
+        {
+          "scenario": "crossing_reverse",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 86.90666666664553,
+          "mean_final_distance": 0.06383574259460394
+        },
+        {
+          "scenario": "left_blocked",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.199463326334113
+        },
+        {
+          "scenario": "left_blocked",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 2,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 98.03999999995291,
+          "mean_final_distance": 0.6806679792204043
+        },
+        {
+          "scenario": "left_blocked",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 2,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 98.03999999995291,
+          "mean_final_distance": 0.6806679792204043
+        },
+        {
+          "scenario": "right_blocked",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.199463326334113
+        },
+        {
+          "scenario": "right_blocked",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 99.90666666661524,
+          "mean_final_distance": 0.06416394257635714
+        },
+        {
+          "scenario": "right_blocked",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 99.90666666661524,
+          "mean_final_distance": 0.06416394257635714
+        },
+        {
+          "scenario": "head_on",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.3742549142828264
+        },
+        {
+          "scenario": "head_on",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 137.1066666665932,
+          "mean_final_distance": 0.06486639615451543
+        },
+        {
+          "scenario": "head_on",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 1,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 132.13999999990284,
+          "mean_final_distance": 1.406278607684204
+        }
+      ],
+      "source": "output\\hybrid\\noisy\\evaluation.json",
+      "source_sha256": "27079e5fc60f7baa56ce414b7c7532dd393af97b279f36f436f754a484c18ce4"
+    },
+    "noisy-filtered": {
+      "seeds": [
+        300,
+        301,
+        302
+      ],
+      "scenarios": [
+        "static",
+        "crossing",
+        "crossing_reverse",
+        "left_blocked",
+        "right_blocked",
+        "head_on"
+      ],
+      "replanning": false,
+      "sensing": {
+        "position_noise": 0.04,
+        "velocity_noise": 0.01,
+        "sensor_delay": 0.3,
+        "sensor_filter_tau": 0.2
+      },
+      "total_trials": 54,
+      "totals": {
+        "baseline": {
+          "trials": 18,
+          "successes": 6,
+          "collisions": 12,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 6,
+            "obstacle contact": 12
+          }
+        },
+        "rules": {
+          "trials": 18,
+          "successes": 18,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 18
+          }
+        },
+        "snn": {
+          "trials": 18,
+          "successes": 18,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 18
+          }
+        }
+      },
+      "aggregates": [
+        {
+          "scenario": "static",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.189326406563071
+        },
+        {
+          "scenario": "static",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 96.7733333332892,
+          "mean_final_distance": 0.06544106098921791
+        },
+        {
+          "scenario": "static",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 96.7733333332892,
+          "mean_final_distance": 0.06544106098921791
+        },
+        {
+          "scenario": "crossing",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 64.04000000003215,
+          "mean_final_distance": 0.06486444935357413
+        },
+        {
+          "scenario": "crossing",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 86.47333333331319,
+          "mean_final_distance": 0.06445799949360333
+        },
+        {
+          "scenario": "crossing",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 86.47333333331319,
+          "mean_final_distance": 0.06445799949360333
+        },
+        {
+          "scenario": "crossing_reverse",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 64.04000000003215,
+          "mean_final_distance": 0.06486444935357413
+        },
+        {
+          "scenario": "crossing_reverse",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 86.73999999997925,
+          "mean_final_distance": 0.06523154367900537
+        },
+        {
+          "scenario": "crossing_reverse",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 86.73999999997925,
+          "mean_final_distance": 0.06523154367900537
+        },
+        {
+          "scenario": "left_blocked",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.199463326334113
+        },
+        {
+          "scenario": "left_blocked",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 99.1066666666171,
+          "mean_final_distance": 0.06467795248165455
+        },
+        {
+          "scenario": "left_blocked",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 99.1066666666171,
+          "mean_final_distance": 0.06467795248165455
+        },
+        {
+          "scenario": "right_blocked",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.199463326334113
+        },
+        {
+          "scenario": "right_blocked",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 98.80666666661779,
+          "mean_final_distance": 0.06459571666081362
+        },
+        {
+          "scenario": "right_blocked",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 98.80666666661779,
+          "mean_final_distance": 0.06459571666081362
+        },
+        {
+          "scenario": "head_on",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.3742549142828264
+        },
+        {
+          "scenario": "head_on",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 132.83999999990618,
+          "mean_final_distance": 0.0649424165841838
+        },
+        {
+          "scenario": "head_on",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 141.50666666661422,
+          "mean_final_distance": 0.06469624146119869
+        }
+      ],
+      "source": "output\\hybrid\\noisy-filtered\\evaluation.json",
+      "source_sha256": "9a6868ea724b1d647f93d7c4d9250c5818cb1db76f5958bf3a1722fd3be7facf"
+    },
+    "noisy-holdout": {
+      "seeds": [
+        400,
+        401,
+        402,
+        403,
+        404
+      ],
+      "scenarios": [
+        "static",
+        "crossing",
+        "crossing_reverse",
+        "left_blocked",
+        "right_blocked",
+        "head_on"
+      ],
+      "replanning": false,
+      "sensing": {
+        "position_noise": 0.04,
+        "velocity_noise": 0.01,
+        "sensor_delay": 0.3,
+        "sensor_filter_tau": 0.2
+      },
+      "total_trials": 90,
+      "totals": {
+        "baseline": {
+          "trials": 30,
+          "successes": 2,
+          "collisions": 28,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 2,
+            "obstacle contact": 28
+          }
+        },
+        "rules": {
+          "trials": 30,
+          "successes": 30,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 30
+          }
+        },
+        "snn": {
+          "trials": 30,
+          "successes": 30,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 30
+          }
+        }
+      },
+      "aggregates": [
+        {
+          "scenario": "static",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 0,
+          "collisions": 5,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.2673657441241772
+        },
+        {
+          "scenario": "static",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 97.27999999995468,
+          "mean_final_distance": 0.06472316308646692
+        },
+        {
+          "scenario": "static",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 96.25999999995706,
+          "mean_final_distance": 0.0646302229052203
+        },
+        {
+          "scenario": "crossing",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 1,
+          "collisions": 4,
+          "falls": 0,
+          "mean_success_time": 64.04000000003215,
+          "mean_final_distance": 1.8253984473852132
+        },
+        {
+          "scenario": "crossing",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 88.61999999997487,
+          "mean_final_distance": 0.06514220476587604
+        },
+        {
+          "scenario": "crossing",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 88.61999999997487,
+          "mean_final_distance": 0.06514220476587604
+        },
+        {
+          "scenario": "crossing_reverse",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 1,
+          "collisions": 4,
+          "falls": 0,
+          "mean_success_time": 64.04000000003215,
+          "mean_final_distance": 1.8241915663785633
+        },
+        {
+          "scenario": "crossing_reverse",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 88.69999999997468,
+          "mean_final_distance": 0.06466037487499735
+        },
+        {
+          "scenario": "crossing_reverse",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 88.69999999997468,
+          "mean_final_distance": 0.06466037487499735
+        },
+        {
+          "scenario": "left_blocked",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 0,
+          "collisions": 5,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.2787402565614068
+        },
+        {
+          "scenario": "left_blocked",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 99.17999999995025,
+          "mean_final_distance": 0.06543296861864557
+        },
+        {
+          "scenario": "left_blocked",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 99.17999999995025,
+          "mean_final_distance": 0.06543296861864557
+        },
+        {
+          "scenario": "right_blocked",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 0,
+          "collisions": 5,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.2787402565614068
+        },
+        {
+          "scenario": "right_blocked",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 98.93999999995081,
+          "mean_final_distance": 0.06470049177759687
+        },
+        {
+          "scenario": "right_blocked",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 98.93999999995081,
+          "mean_final_distance": 0.06470049177759687
+        },
+        {
+          "scenario": "head_on",
+          "mode": "baseline",
+          "trials": 5,
+          "successes": 0,
+          "collisions": 5,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.38220671006827
+        },
+        {
+          "scenario": "head_on",
+          "mode": "rules",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 134.29999999991315,
+          "mean_final_distance": 0.0646925273216467
+        },
+        {
+          "scenario": "head_on",
+          "mode": "snn",
+          "trials": 5,
+          "successes": 5,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 140.65999999994352,
+          "mean_final_distance": 0.06502599430042014
+        }
+      ],
+      "source": "output\\hybrid\\noisy-holdout\\evaluation.json",
+      "source_sha256": "ef6468ba0403b15bd6bd40bc883c431a9785a7f3843d30a80b7fa39045d28d9a"
+    },
+    "rotated": {
+      "seeds": [
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507
+      ],
+      "scenarios": [
+        "rotated_static"
+      ],
+      "replanning": false,
+      "sensing": {
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0
+      },
+      "total_trials": 24,
+      "totals": {
+        "baseline": {
+          "trials": 8,
+          "successes": 0,
+          "collisions": 8,
+          "falls": 0,
+          "reasons": {
+            "obstacle contact": 8
+          }
+        },
+        "rules": {
+          "trials": 8,
+          "successes": 8,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 8
+          }
+        },
+        "snn": {
+          "trials": 8,
+          "successes": 8,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 8
+          }
+        }
+      },
+      "aggregates": [
+        {
+          "scenario": "rotated_static",
+          "mode": "baseline",
+          "trials": 8,
+          "successes": 0,
+          "collisions": 8,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.1850747896665723
+        },
+        {
+          "scenario": "rotated_static",
+          "mode": "rules",
+          "trials": 8,
+          "successes": 8,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 98.43999999995198,
+          "mean_final_distance": 0.06465344843881043
+        },
+        {
+          "scenario": "rotated_static",
+          "mode": "snn",
+          "trials": 8,
+          "successes": 8,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 99.83999999994872,
+          "mean_final_distance": 0.06468106482766164
+        }
+      ],
+      "source": "output\\hybrid\\rotated\\evaluation.json",
+      "source_sha256": "35330b899dc63df7a58ce7a3c90d0a123e1ac5095514837c9afa49249ec1a808"
+    },
+    "late-crossing": {
+      "seeds": [
+        600,
+        601,
+        602
+      ],
+      "scenarios": [
+        "late_crossing"
+      ],
+      "replanning": false,
+      "sensing": {
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0
+      },
+      "total_trials": 9,
+      "totals": {
+        "baseline": {
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "reasons": {
+            "obstacle contact": 3
+          }
+        },
+        "rules": {
+          "trials": 3,
+          "successes": 1,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "clearance stop": 2,
+            "goal reached": 1
+          }
+        },
+        "snn": {
+          "trials": 3,
+          "successes": 0,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "clearance stop": 3
+          }
+        }
+      },
+      "aggregates": [
+        {
+          "scenario": "late_crossing",
+          "mode": "baseline",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 3,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.2277731379588253
+        },
+        {
+          "scenario": "late_crossing",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 1,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 99.93999999994848,
+          "mean_final_distance": 1.8770224800963737
+        },
+        {
+          "scenario": "late_crossing",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 0,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.7838183412469775
+        }
+      ],
+      "source": "output\\hybrid\\late-crossing\\evaluation.json",
+      "source_sha256": "55cb59c2ff68e0d1106a21434d81151f2eeb4434ab4e6d17446a23c74a551e35"
+    },
+    "replanning": {
+      "seeds": [
+        600,
+        601,
+        602,
+        610,
+        611,
+        612,
+        613,
+        614
+      ],
+      "scenarios": [
+        "late_crossing"
+      ],
+      "replanning": true,
+      "sensing": {
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0
+      },
+      "total_trials": 24,
+      "totals": {
+        "baseline": {
+          "trials": 8,
+          "successes": 0,
+          "collisions": 8,
+          "falls": 0,
+          "reasons": {
+            "obstacle contact": 8
+          }
+        },
+        "rules": {
+          "trials": 8,
+          "successes": 7,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 7,
+            "clearance stop": 1
+          }
+        },
+        "snn": {
+          "trials": 8,
+          "successes": 8,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 8
+          }
+        }
+      },
+      "aggregates": [
+        {
+          "scenario": "late_crossing",
+          "mode": "baseline",
+          "trials": 8,
+          "successes": 0,
+          "collisions": 8,
+          "falls": 0,
+          "mean_success_time": null,
+          "mean_final_distance": 2.237572416266291
+        },
+        {
+          "scenario": "late_crossing",
+          "mode": "rules",
+          "trials": 8,
+          "successes": 7,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 132.21142857133174,
+          "mean_final_distance": 0.3391066909218859
+        },
+        {
+          "scenario": "late_crossing",
+          "mode": "snn",
+          "trials": 8,
+          "successes": 8,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 132.22749999990327,
+          "mean_final_distance": 0.06515163765250911
+        }
+      ],
+      "source": "output\\hybrid\\replanning\\evaluation.json",
+      "source_sha256": "7d83adcbd7c7d521152baa097983f9d73c36c30636163ed3a3dd3c1e71617f3d"
+    },
+    "replanning-noisy": {
+      "seeds": [
+        700,
+        701,
+        702
+      ],
+      "scenarios": [
+        "static",
+        "crossing",
+        "head_on",
+        "late_crossing"
+      ],
+      "replanning": true,
+      "sensing": {
+        "position_noise": 0.04,
+        "velocity_noise": 0.01,
+        "sensor_delay": 0.3,
+        "sensor_filter_tau": 0.2
+      },
+      "total_trials": 24,
+      "totals": {
+        "rules": {
+          "trials": 12,
+          "successes": 11,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 11,
+            "clearance stop": 1
+          }
+        },
+        "snn": {
+          "trials": 12,
+          "successes": 12,
+          "collisions": 0,
+          "falls": 0,
+          "reasons": {
+            "goal reached": 12
+          }
+        }
+      },
+      "aggregates": [
+        {
+          "scenario": "static",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 96.50666666662316,
+          "mean_final_distance": 0.0646164536220158
+        },
+        {
+          "scenario": "static",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 96.73999999995594,
+          "mean_final_distance": 0.06371112126525288
+        },
+        {
+          "scenario": "crossing",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 85.40666666664902,
+          "mean_final_distance": 0.06520329503869893
+        },
+        {
+          "scenario": "crossing",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 85.40666666664902,
+          "mean_final_distance": 0.06520329503869893
+        },
+        {
+          "scenario": "head_on",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 134.1733333332459,
+          "mean_final_distance": 0.0647855097547731
+        },
+        {
+          "scenario": "head_on",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 139.50666666660467,
+          "mean_final_distance": 0.06479727664250151
+        },
+        {
+          "scenario": "late_crossing",
+          "mode": "rules",
+          "trials": 3,
+          "successes": 2,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 132.63999999990523,
+          "mean_final_distance": 0.802395720479956
+        },
+        {
+          "scenario": "late_crossing",
+          "mode": "snn",
+          "trials": 3,
+          "successes": 3,
+          "collisions": 0,
+          "falls": 0,
+          "mean_success_time": 133.2733333332416,
+          "mean_final_distance": 0.06484482487621018
+        }
+      ],
+      "source": "output\\hybrid\\replanning-noisy\\evaluation.json",
+      "source_sha256": "75a7f41478824e83ebde1072b9b44257dc963a81ed131c73bda5883c31893261"
+    }
+  },
+  "model_sha256": "207e70715604b887a0c19b2177ebba31587b5759aaea2d11db9b48dea9c5dc6a",
+  "source_snapshot_after_validation": {
+    "controllers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "controllers/navigation.py": "70a6875ac2e79efd86999099310af330b7248dc3bce2ea9ad8c6708f023ef7f6",
+    "controllers/walking.py": "93d26f513a2671d002013da8c673d2d84fa207f78b53e6c56bc46d184e495d01",
+    "hybrid/__init__.py": "05e95d02d7ab73503f4ce8c681a3e6e1e905417a89198f6531e8542c6fe71590",
+    "hybrid/arena.py": "81ad5596897b0a656d993f89b4586a401659dddd20a15e49cb631ef784db613f",
+    "hybrid/evaluate.py": "e19b4c344515a65d9e78344d4fcd74f6ff46aa5a25ced50e8365b8196f3c9503",
+    "hybrid/perception.py": "a5cfed31b320cea9c2dea0b0f3fd89a42485846444e67bfbf7e3eb654d381562",
+    "hybrid/plots.py": "643d1a913fd9be1e2351cb214aeab4c26c49db6431099538e4da57ffd04b82b3",
+    "hybrid/recording.py": "5616ec305f88412fc02dcf76949d38132cfbefe7e56c2d2b4ac8de55a7ca10a7",
+    "hybrid/run.py": "4dfe05b05dc4d98912be251ea4d73ec4224b560653d9547a560f709e4bf444af",
+    "hybrid/sensing.py": "9d329c14d6d079714e4ebd52d184c409dcd4885991f4c177425959c524ded590",
+    "hybrid/snn.py": "a1d4b23c0d2579550121f122c9d506a10f19d48a2f223bdb5a75a06370e4ae7c",
+    "hybrid/system.py": "a37764839e380ba172994fc941105715531563d965d86068a674f0064aff70b4",
+    "hybrid/train_selector.py": "5faaa1dbd0be4838397acb3288a9624c593bcc2df17444c12b8a4174247e107e",
+    "skills/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "skills/avoidance.py": "3d7150c8cf6008a195006166080849e108d3dde9f4672a6dffc38588a4d51d13",
+    "skills/navigate.py": "f973e57202f78777f23991efd9a39574e60c91e454259e55adbc4b94c54d4090",
+    "skills/walk.py": "17b754f214bfc87479bcc4bbd6fdb1a58ea71306de105f3cd5acf243676fd4e8",
+    "tests/test_hybrid.py": "81c7a3a1553400487da8b4152037cf292f29eb0eedb7e1ed7fa4d6aa43689af5",
+    "tests/test_indoor.py": "be0ed7a10e8c137af02db820d90c98a84f6641b9b7e60b8d5c736d2a3bb578b3",
+    "tests/test_navigation.py": "2208b48466f574fc22f93c7b93f20d31933dcbf907b815d7f9831ae5f4e5fb80",
+    "tests/test_pid.py": "de80c66dda3866f4febfc8770a1f6ddb19b9ed3c59ae5bf03a013f267bc04183"
+  },
+  "notes": [
+    "Trials use simulator obstacle states, optionally corrupted; no sensor reconstruction.",
+    "Clear-seed repetitions are identical; scenario families are not independent.",
+    "No hardware transfer, general safety, energy advantage or superiority to the teacher is established."
+  ]
+}

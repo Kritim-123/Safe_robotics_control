@@ -1,40 +1,32 @@
 # Project assessment
 
-Assessment based on `Project Proposal.pdf` and the repository on 2026-09-13.
+Updated October 1, 2026 (America/Denver). The original proposal describes a
+drone. The user explicitly chose **Go2 in MuJoCo, with a spiking neural network**
+for this implementation. The proposal PDF has not been changed.
 
-The proposal, "Neural Networks for Safe Robotics Control," describes a quadcopter
-navigation task, a basic controller, a neural-network controller, and switching
-control responses during disturbances, including random human actions. The repository
-instead contains a Unitree Go2 quadruped. This implementation follows the current
-Go2 model and the requested indoor environment. The proposal should be updated if
-Go2 is the intended platform; quadruped locomotion requires a different controller
-from quadcopter flight. The proposal PDF has not been modified.
+| Component | Implemented | Remaining limitation |
+|---|---|---|
+| Go2 simulation | Menagerie model, torque-actuator adapter, flat arena and furnished indoor scene | No physical robot validation |
+| Classical locomotion | Gait trajectories, leg IK, joint torque PID with limits and anti-windup | Slow gait; no rough terrain or recovery from arbitrary pushes |
+| Destination tracking | World-frame start/goal and intermediate waypoints; arrival/timeout/fall/contact outcomes | Local tracking, not a global map planner |
+| Robot skill folder | Walk, navigate, bypass left/right, wait, back-off | Classical options; no imported RL locomotion weights |
+| Spiking network | Trained 12-64-32-4 LIF selector, 16-step spike encoding, NumPy deployment | Geometric-teacher imitation; no RL or event-camera input |
+| Handoffs | Persistent physics; skill completion, stable recovery, return to baseline; optional moving-hazard preemption | Local preemption is not a global planner; guards are not formal safety guarantees |
+| Obstacles/disturbances | Static and moving cylinders, constrained passages, lateral push, friction variation | Scripted mocap obstacles cannot be pushed out of their paths |
+| Perception | Ground-truth obstacle states with optional noise, delay and smoothing | Camera/LiDAR detection and tracking not implemented |
+| Evaluation | Paired baseline/rules/SNN batches; trajectories, events, videos, spike rasters | Small scenario families; no claim of broad generalization |
+| Usability | CLI, editable scenario JSON, executed notebook, retraining entry point | Notebook frontend must select the Windows environment |
 
-| Area | Before this change | Current status |
-| --- | --- | --- |
-| MuJoCo setup | Requirements, README, local virtual environment | Verified with installed MuJoCo 3.13.0 |
-| Robot model | Menagerie Go2 with meshes, joints, motors, home keyframe; standard and MJX variants | Reused unchanged |
-| Environment | Flat ground only | Added a furnished indoor scene with connected rooms |
-| Target/waypoint task | No task code | Named start, waypoint and goal sites; task logic still needed |
-| Basic control | No controller code | Stationary posture demo; walking/navigation baseline still needed |
-| Neural network | No implementation or training pipeline | Pending |
-| Disturbances/humans | No implementation | Pending; indoor obstacles are static |
-| Controller switching/safety | No implementation | Pending |
-| Evaluation/results | No metrics, trajectories, or comparisons | Geometry and posture checks only |
+Start with `Go2_hybrid.ipynb`, [the hybrid guide](hybrid_system.md) and
+[measured validation](hybrid_validation.md). The original `Go2_runner.ipynb`
+continues to provide the standalone walk experiment.
 
-The repository was at simulator/model setup, corresponding to portions of weeks
-1-2 of the proposal, rather than trained control. The new environment supplies
-part of the planned task setup, but is not evidence of navigation performance.
+The research in [pretrained policies](pretrained_policies_and_hybrid_control.md)
+identifies published external Go2 weights, but none has been imported into this
+controller. The saved learned artifact is our own **skill-selection SNN**.
 
-Recommended next implementation sequence:
-
-1. Establish a Go2 walking controller and a commanded velocity interface.
-2. Implement task resets, waypoint tracking, termination, and episode recording.
-3. Measure success rate, final goal distance, completion time, collisions and falls.
-4. Add a learned controller and evaluate on the same starts, goals and random seeds.
-5. Introduce controlled disturbances and moving human proxies, then implement and
-   evaluate the switching/safety mechanism.
-
-The posture demo only regulates joint angles. It cannot recover from arbitrary
-pushes, avoid obstacles, or navigate. Furniture is fixed, and floor friction is
-not calibrated to real materials. Transfer to a physical robot is not evaluated.
+The implementation demonstrates the requested control loop. It does not yet
+establish that an SNN beats the geometric teacher, saves energy, tolerates
+arbitrary moving obstacles, or transfers to hardware. The next milestones are
+sensor-derived perception, larger held-out environments, outcome-based skill
+learning, and a carefully validated pretrained locomotion adapter.
