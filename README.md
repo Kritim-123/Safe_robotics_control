@@ -1,10 +1,26 @@
 # Go2 MuJoCo Simulation
 
+For a consolidated account of completed work, recorded results, artifact
+availability and remaining work, see the [project progress summary](docs/project_summary.md)
+(October 16, 2026).
+
+An [experimental pretrained gap-jump adapter](docs/agents/pretrained_jump.md)
+now runs a published Go2 policy with real terrain scans. Transfer tests failed
+all seven gap conditions under the existing torque limits, so the tested
+in-place hop remains the default. The report includes a MuJoCo viewer command.
+
 A project for simulating the Unitree Go2 quadruped in MuJoCo, with classical
 goal tracking and a trained spiking network that selects obstacle-avoidance
 skills. Start with **[Go2_hybrid.ipynb](Go2_hybrid.ipynb)** and the
 [hybrid guide](docs/hybrid_system.md). See [measured results](docs/hybrid_validation.md)
 for the baseline/rules/SNN comparison and known limitations.
+
+The [run/jump and spiking-output experiment](docs/agents/skill_lif_validation.md)
+adds a fast trot, an in-place hop, a 252-attempt simulation CSV dataset and a
+trained LIF model with separate wait/run/jump output neurons. Data is under
+`output/skill_lif/dataset/`; the experimental model is under
+`output/skill_lif/model/`. See the report for collection, training and execution
+commands and the distinction between primitive completion and task success.
 
 For the full development story, architecture, experiments, fixes and run
 instructions, see [Project history](PROJECT_HISTORY.md).
@@ -116,6 +132,13 @@ See [the hybrid guide](docs/hybrid_system.md) for setup, controls, retraining an
 limitations, and [validation results](docs/hybrid_validation.md) for comparisons.
 The SNN weights and metadata are saved under `skills/policies/selector_snn/`.
 This is a simulation prototype with ground-truth obstacle sensing.
+
+For the optional across-observation memory experiment and expanded hold skills,
+see the [memory experiment report](docs/agents/integration_validation.md),
+[skill catalog](docs/agents/skill_catalog.md), and
+[SNN research brief](docs/agents/snn_research.md). The comparison retains the
+existing checkpoint and contrasts retained versus reset neuron membranes;
+it does not train a new recurrent policy.
 
 Experimental preemption handles a second moving obstacle entering an executing
 bypass: `python -m hybrid.run --scenario late_crossing --replan`. Set

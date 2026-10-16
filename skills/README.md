@@ -2,6 +2,11 @@
 
 This folder contains robot skills, not Codex agent skills.
 
+The separate experiment in `dynamic.py` implements `wait`, `run` (fast trot),
+and `jump` (in-place hop). The new output-spiking selector and collected dataset
+are documented in `docs/agents/skill_lif_validation.md`; it does not change the
+legacy four-action schema below.
+
 * `walk.py`: standalone straight-walking simulation entry point.
 * `navigate.py`: standalone world-waypoint tracking entry point.
 * `avoidance.py`: persistent-episode options `bypass_left`, `bypass_right`,

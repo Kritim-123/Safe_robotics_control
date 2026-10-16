@@ -1,0 +1,39 @@
+{
+  "attempts": 252,
+  "independent_contexts": 84,
+  "retained_failed_attempts": 70,
+  "labelled_contexts": 84,
+  "splits": {
+    "test": {
+      "wait": 9,
+      "run": 6,
+      "jump": 3
+    },
+    "train": {
+      "wait": 24,
+      "run": 16,
+      "jump": 8
+    },
+    "validation": {
+      "wait": 9,
+      "run": 6,
+      "jump": 3
+    }
+  },
+  "heldout_predictions": {
+    "wait": 9,
+    "run": 6,
+    "jump": 3
+  },
+  "verified": [
+    "all trace hashes",
+    "disjoint seed groups",
+    "matched candidate completeness",
+    "finite causal inputs",
+    "successful eligible utility winners",
+    "torque limits",
+    "actual binary output spike raster and count decoding"
+  ],
+  "dataset_sha256": "694b86708a59f02aa0d8235e94fff1ee1e3f6900073aef5ec495fcaf46abeb97",
+  "checkpoint_sha256": "f86266fafeb454bb92ec7ce3db7244dddc8851f7f656a26047c8d439497707a5"
+}

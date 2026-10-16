@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/SafeRoboticsLab/go2_atomic_skills",
+  "commit": "ce0169d179525c72c712df8e62475e2a0536d124",
+  "license": "MIT",
+  "modifications": [
+    "Minimal package initializer",
+    "nets.py requires weights_only=True; unsafe pickle fallback removed"
+  ],
+  "sha256": {
+    "LICENSE": "426f322f5f91df17720339c3ec1bdb34dfad15e722ec5102f6699eb9a8199f78",
+    "mujoco_helper.py": "a53ea6ca20b6992c028b89dc2cbfbadfe19dd69ebdc22aaa4b559108fe8daae3",
+    "nets.py": "7302b3a06981e997b52dfe215637245585a38e92990d73dfed0614c1f30b1b37",
+    "obs.py": "5a2ee15ffbac0f35f40f0a9d73c988574b15bce7122cb8d6236f100b8be6cd00",
+    "skills.py": "4fb5aa53e1619c4247a1a2f1c644fa7d0db2e8416628208b6b44ef9c369df09a",
+    "__init__.py": "37775b35c766a943f4517557bc47ad48cf326c91b3479ee9ecc3d8cc50c5328f",
+    "assets/extracted/jump_actor_hando_w30.pt": "44f671608a6cb1e0b88066e5b4497622f51f53d028da8ca84ca07dc356f1f692",
+    "assets/extracted/jump_norm_hando_w30.pt": "33ac0b5120c0d8219d0fa50328726ef23b788fd64f847b1844328c300744c021",
+    "assets/extracted/walker_actor.pt": "8551263e4aecb96f62d4f5cfda7c478521e3d8072b9dc2142df9cd21338a5dc7",
+    "assets/extracted/walker_norm.npz": "9c2ea520cbbd3a340b8459c8be754ee0a8c64cbaf68c929ab3a60b5236f3064a"
+  }
+}

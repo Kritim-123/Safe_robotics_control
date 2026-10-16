@@ -33,6 +33,8 @@ def main():
     parser.add_argument('--playback-speed', type=float, default=1.0, help='Viewer time multiplier; does not change physics')
     parser.add_argument('--brain', action='store_true', help='Save SNN decision plots and an HTML report after the run')
     parser.add_argument('--replan', action='store_true', help='Experimental active-skill preemption for moving hazards')
+    parser.add_argument('--memory', choices=('legacy', 'reset', 'retain'), default='legacy')
+    parser.add_argument('--expanded-skills', action='store_true', help='Map wait/back-off to yield_hold/retreat_hold')
     parser.add_argument('--reaction', choices=('standard', 'fast'), default='standard', help='Fast: 50 Hz sensing and 80 ms conflict confirmation')
     parser.add_argument('--model', type=Path, default=DEFAULT_MODEL)
     parser.add_argument('--output', type=Path, default=Path('output/hybrid/latest'))
@@ -40,13 +42,18 @@ def main():
     args = parser.parse_args()
     if args.brain and args.mode != 'snn':
         parser.error('--brain requires --mode snn')
+    if args.brain and args.memory != 'legacy':
+        parser.error('--brain replay currently supports only legacy reset-window inference')
+    if args.mode != 'snn' and args.memory != 'legacy':
+        parser.error('--memory reset/retain requires --mode snn')
     recorder = None
     if args.video:
         from hybrid.recording import VideoRecorder
         recorder = VideoRecorder(args.video)
     try:
         spec = Scenario.load(args.config) if args.config else scenario(args.scenario, args.seed)
-        result = HybridSystem(spec, args.mode, args.model, replanning=args.replan, max_speed=args.max_speed, reaction=args.reaction).run(
+        result = HybridSystem(spec, args.mode, args.model, replanning=args.replan, max_speed=args.max_speed,
+                              reaction=args.reaction, memory=args.memory, expanded_skills=args.expanded_skills).run(
             viewer=not args.headless, record_callback=recorder, playback_speed=args.playback_speed)
         if recorder is not None:
             recorder.finish(result.summary)

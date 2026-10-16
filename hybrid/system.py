@@ -15,6 +15,7 @@ from hybrid.perception import choose_masked, observe_encounter, teacher_scores, 
 from hybrid.snn import DEFAULT_MODEL, SpikingSelector
 from hybrid.sensing import ObstacleSensor
 from skills.avoidance import clearance
+from skills.temporal import TemporalSkill, build_temporal_skills
 
 
 @dataclass
@@ -33,9 +34,12 @@ class HybridSystem:
     """
 
     def __init__(self, scenario, mode='snn', model_path=DEFAULT_MODEL, *, replanning=False, max_speed=0.18,
-                 reaction='standard'):
+                 reaction='standard', memory='legacy', expanded_skills=False):
         if mode not in ('baseline', 'rules', 'snn'):
             raise ValueError('mode must be baseline, rules, or snn')
+        if memory not in ('legacy', 'reset', 'retain') or (mode != 'snn' and memory != 'legacy'):
+            raise ValueError('Memory must be legacy/reset/retain; temporal modes require snn')
+        self.memory, self.expanded_skills = memory, bool(expanded_skills)
         self.scenario, self.mode = scenario, mode
         self.replanning = bool(replanning)
         if reaction not in ('standard', 'fast'):
@@ -47,11 +51,16 @@ class HybridSystem:
         self.robot = NavigationExperiment(build_model(scenario))
         self.arena = Arena(scenario, self.robot.model)
         self.selector = SpikingSelector(model_path) if mode == 'snn' else None
+        if memory != 'legacy':
+            from hybrid.memory import TemporalSelector
+            self.selector = TemporalSelector(model_path, retain=memory == 'retain')
 
     def run(self, *, viewer=False, record_callback=None, playback_speed=1.0,
             event_callback=None, should_stop=None):
         if not np.isfinite(playback_speed) or playback_speed <= 0:
             raise ValueError('Playback speed must be finite and positive')
+        if self.memory != 'legacy':
+            self.selector.reset('episode')
         spec, robot = self.scenario, self.robot
         m, d = robot.model, robot.data
         mujoco.mj_resetDataKeyframe(m, d, robot.home_id)
@@ -106,13 +115,32 @@ class HybridSystem:
                 return False
             decision_started = time.perf_counter()
             encounter = observe_encounter(position, yaw, goal, observed, spec.bounds, obstacle_index, d.time)
+            if self.expanded_skills:
+                hold, retreat, hold_allowed, retreat_allowed = build_temporal_skills(
+                    position, goal, observed[obstacle_index], d.time, observed, spec.bounds)
+                encounter.skills[2:4] = [hold, retreat]
+                encounter.allowed[2:4] &= [hold_allowed, retreat_allowed]
             if self.selector is None:
                 scores, diagnostics = teacher_scores(encounter.features), dict(spikes=0, opportunities=0)
             else:
                 started = time.perf_counter()
-                scores, diagnostics = self.selector.predict(encounter.features)
-                latencies.append((time.perf_counter()-started)*1000)
-            choice = choose_masked(scores, encounter.allowed)
+                try:
+                    if self.memory == 'legacy':
+                        scores, diagnostics = self.selector.predict(encounter.features)
+                    else:
+                        scores, diagnostics = self.selector.observe(encounter.features, float(d.time), obstacle_index)
+                except Exception as error:
+                    reason = 'selector failure'
+                    transition('FAILED', reason, error=str(error))
+                    return False
+                if self.memory == 'legacy':
+                    latencies.append((time.perf_counter()-started)*1000)
+            try:
+                choice = choose_masked(scores, encounter.allowed)
+            except ValueError as error:
+                reason = 'selector failure'
+                transition('FAILED', reason, error=str(error))
+                return False
             decision_ms = (time.perf_counter()-decision_started)*1000
             decision_latencies.append(decision_ms)
             if choice is None:
@@ -123,6 +151,8 @@ class HybridSystem:
             total_spikes += diagnostics['spikes']
             total_opportunities += diagnostics['opportunities']
             interrupted = skill.name if state == 'SKILL' else None
+            if isinstance(skill, TemporalSkill):
+                skill.interrupt()
             replans += int(interrupted is not None)
             skill = encounter.skills[choice]
             if self.replanning and skill.name == 'wait':
@@ -133,7 +163,7 @@ class HybridSystem:
             conflict_since, conflict_obstacle = None, None
             transition('SKILL', reason_text, skill=skill.name, interrupted_skill=interrupted,
                        obstacle_index=obstacle_index, scores=np.asarray(scores).tolist(),
-                       decision_ms=decision_ms, inference_ms=latencies[-1] if self.selector else None,
+                       decision_ms=decision_ms, inference_ms=(latencies[-1] if latencies else None),
                        selection_position=position.tolist(), goal=goal.tolist(),
                        candidate_paths=[[p.tolist() for p in s.points] for s in encounter.skills],
                        obstacle_name=spec.obstacles[obstacle_index].name,
@@ -171,12 +201,28 @@ class HybridSystem:
                         gap = clearance(position, observed, spec.bounds)
                         minimum_clearance = min(minimum_clearance, clearance(position, obstacles, spec.bounds))
                         threat = threatening_obstacle(position, goal, observed)
+                        if self.memory != 'legacy':
+                            memory_target = threat if threat is not None else (selected_obstacle if state in ('SKILL', 'RECOVER') else None)
+                            if memory_target is None:
+                                if self.selector.last_time is not None:
+                                    self.selector.reset('no encounter')
+                            else:
+                                try:
+                                    memory_encounter = observe_encounter(position, yaw, goal, observed, spec.bounds, memory_target, d.time)
+                                    started = time.perf_counter()
+                                    self.selector.observe(memory_encounter.features, float(d.time), memory_target)
+                                    latencies.append((time.perf_counter()-started)*1000)
+                                except Exception as error:
+                                    reason = 'selector failure'
+                                    transition('FAILED', reason, error=str(error))
+                                    break
                         if d.time >= 2 and self.mode != 'baseline':
                             if state == 'BASELINE' and threat is not None and not stopping:
                                 if not activate_skill(threat, 'obstacle predicted on route'):
                                     break
                             elif state == 'SKILL':
-                                if self.replanning and skill.name != 'wait' and d.time-skill.started >= 1.0:
+                                if (self.replanning and skill.target(position) is not None
+                                        and d.time-skill.started >= 1.0):
                                     moving = [(i, obstacle) for i, obstacle in enumerate(observed)
                                               if np.linalg.norm(obstacle[2]) > .025]
                                     conflict = threatening_obstacle(position, skill.target(position),
@@ -190,7 +236,10 @@ class HybridSystem:
                                                 break
                                     else:
                                         conflict_since, conflict_obstacle = None, None
-                                if skill.name == 'wait':
+                                if isinstance(skill, TemporalSkill):
+                                    skill.update(position, float(d.time), threat is None)
+                                    completed = skill.complete(position, d.time)
+                                elif skill.name == 'wait':
                                     wait_threat = (threatening_obstacle(position, goal, [observed[selected_obstacle]])
                                                    if self.replanning else threat)
                                     clear_since = (float(d.time) if clear_since is None else clear_since) if wait_threat is None else None
@@ -234,7 +283,8 @@ class HybridSystem:
                                     command = tracker.command(position, yaw, goal)
                             elif state == 'SKILL' and skill.name != 'wait':
                                 selected_target = skill.target(position)
-                                command = tracker.command(position, yaw, selected_target)
+                                if selected_target is not None:
+                                    command = tracker.command(position, yaw, selected_target)
                         m.site_pos[m.site('skill_target').id] = ([*selected_target, .08]
                                                                  if selected_target is not None else [0, 0, -1])
                         # Conservative emergency stop. It is not a formal safety
@@ -305,7 +355,11 @@ class HybridSystem:
             d.xfrc_applied[:] = 0
         if state not in ('COMPLETE', 'FAILED'):
             transition('FAILED', reason)
-        summary = dict(mode=self.mode, scenario=spec.name, max_command_speed=self.max_speed,
+        summary = dict(mode=self.mode, memory_mode=self.memory, expanded_skills=self.expanded_skills,
+                       inference_timing_scope=("sensory updates" if self.memory != "legacy" else "selections"),
+                       spike_count_scope="selected windows only",
+                       memory_updates=getattr(self.selector, "updates", 0), memory_resets=getattr(self.selector, "resets", 0),
+                       scenario=spec.name, max_command_speed=self.max_speed,
                        playback_speed=playback_speed, success=reason == 'goal reached',
                        reason=reason, elapsed=float(d.time), final_position=d.qpos[:2].tolist(),
                        final_distance=float(np.linalg.norm(goal-d.qpos[:2])), collision=collision,

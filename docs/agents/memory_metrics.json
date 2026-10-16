@@ -1,0 +1,346 @@
+{
+  "clean": {
+    "report_sha256": "1b12a43100af489f4a78431ae1e4f9f89b308995e090d9da464d2017b387a2c6",
+    "groups": {
+      "baseline": {
+        "trials": 15,
+        "successes": 3,
+        "reasons": {
+          "goal reached": 3,
+          "obstacle contact": 12
+        },
+        "collisions": 12,
+        "falls": 0,
+        "min_clearance": -0.24165518647876993,
+        "max_torque": 20.739361313631925,
+        "replans": 0,
+        "mean_inference_ms": null
+      },
+      "legacy_snn": {
+        "trials": 15,
+        "successes": 15,
+        "reasons": {
+          "goal reached": 15
+        },
+        "collisions": 0,
+        "falls": 0,
+        "min_clearance": 0.13524376251681464,
+        "max_torque": 21.365089925728462,
+        "replans": 3,
+        "mean_inference_ms": 0.1201866647332079
+      },
+      "reset": {
+        "trials": 15,
+        "successes": 9,
+        "reasons": {
+          "goal reached": 9,
+          "skill timeout": 6
+        },
+        "collisions": 0,
+        "falls": 0,
+        "min_clearance": 0.14095086673012153,
+        "max_torque": 21.015357897849686,
+        "replans": 3,
+        "mean_inference_ms": 0.130821373358924
+      },
+      "retain": {
+        "trials": 15,
+        "successes": 9,
+        "reasons": {
+          "goal reached": 9,
+          "skill timeout": 6
+        },
+        "collisions": 0,
+        "falls": 0,
+        "min_clearance": 0.14095086673012153,
+        "max_torque": 21.015357897849686,
+        "replans": 3,
+        "mean_inference_ms": 0.12651713797395803
+      },
+      "rules": {
+        "trials": 15,
+        "successes": 9,
+        "reasons": {
+          "goal reached": 9,
+          "skill timeout": 6
+        },
+        "collisions": 0,
+        "falls": 0,
+        "min_clearance": 0.1431120442829465,
+        "max_torque": 21.015357897849686,
+        "replans": 3,
+        "mean_inference_ms": null
+      }
+    },
+    "pairs": [
+      {
+        "scenario": "static",
+        "seed": 810,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "static",
+        "seed": 811,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "static",
+        "seed": 812,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "crossing",
+        "seed": 810,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "crossing",
+        "seed": 811,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "crossing",
+        "seed": 812,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "head_on",
+        "seed": 810,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "head_on",
+        "seed": 811,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "head_on",
+        "seed": 812,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "oscillating_gate",
+        "seed": 810,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "oscillating_gate",
+        "seed": 811,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "oscillating_gate",
+        "seed": 812,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "late_crossing",
+        "seed": 810,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "late_crossing",
+        "seed": 811,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "late_crossing",
+        "seed": 812,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      }
+    ],
+    "decision_count": 18,
+    "changed_scores": 15,
+    "max_score_difference": 0.5263166427612305,
+    "raw_argmax_changes": 0,
+    "common_success_time_delta_mean": 0.0,
+    "scenario_success": {
+      "crossing": {
+        "baseline": 3,
+        "legacy_snn": 3,
+        "reset": 3,
+        "retain": 3,
+        "rules": 3
+      },
+      "head_on": {
+        "baseline": 0,
+        "legacy_snn": 3,
+        "reset": 0,
+        "retain": 0,
+        "rules": 0
+      },
+      "late_crossing": {
+        "baseline": 0,
+        "legacy_snn": 3,
+        "reset": 0,
+        "retain": 0,
+        "rules": 0
+      },
+      "oscillating_gate": {
+        "baseline": 0,
+        "legacy_snn": 3,
+        "reset": 3,
+        "retain": 3,
+        "rules": 3
+      },
+      "static": {
+        "baseline": 0,
+        "legacy_snn": 3,
+        "reset": 3,
+        "retain": 3,
+        "rules": 3
+      }
+    }
+  },
+  "noisy": {
+    "report_sha256": "6c2322823a1c01aa0ebf60a6cf8b6d62a511d124f645a660a24ae7d97c90e61d",
+    "groups": {
+      "reset": {
+        "trials": 6,
+        "successes": 3,
+        "reasons": {
+          "skill timeout": 3,
+          "goal reached": 3
+        },
+        "collisions": 0,
+        "falls": 0,
+        "min_clearance": 0.3759286552537849,
+        "max_torque": 20.838722361717313,
+        "replans": 3,
+        "mean_inference_ms": 0.1309475492969219
+      },
+      "retain": {
+        "trials": 6,
+        "successes": 3,
+        "reasons": {
+          "skill timeout": 3,
+          "goal reached": 3
+        },
+        "collisions": 0,
+        "falls": 0,
+        "min_clearance": 0.3759286552537849,
+        "max_torque": 20.838722361717313,
+        "replans": 3,
+        "mean_inference_ms": 0.12712349993349323
+      }
+    },
+    "pairs": [
+      {
+        "scenario": "oscillating_gate",
+        "seed": 820,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "oscillating_gate",
+        "seed": 821,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "oscillating_gate",
+        "seed": 822,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "late_crossing",
+        "seed": 820,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "late_crossing",
+        "seed": 821,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      },
+      {
+        "scenario": "late_crossing",
+        "seed": 822,
+        "success_delta": 0,
+        "elapsed_delta": 0.0,
+        "clearance_delta": 0.0,
+        "changed_choices": false
+      }
+    ],
+    "decision_count": 9,
+    "changed_scores": 9,
+    "max_score_difference": 0.555419921875,
+    "raw_argmax_changes": 0,
+    "common_success_time_delta_mean": 0.0,
+    "scenario_success": {
+      "late_crossing": {
+        "reset": 0,
+        "retain": 0
+      },
+      "oscillating_gate": {
+        "reset": 3,
+        "retain": 3
+      }
+    }
+  },
+  "source_sha256": {
+    "hybrid/snn.py": "64dfb253790d2a73f8f240df6c41c79d41bdc4db949568e8f29a934b7291e99c",
+    "hybrid/memory.py": "e7a41c90504aae297901016902ddbbef7fb1658cc6bfaf237b32172c92318eb0",
+    "hybrid/system.py": "669d176d67d6206553d1b2ffbfb6f6a103e84a2e430e29308904d248fe87bbd9",
+    "hybrid/evaluate_memory.py": "6a4c73dccd5895e135fe3b131d93be60c932ca23badd6663e90068aff81a7112",
+    "skills/temporal.py": "68442255bfdb5258c7fde5a4bc0a07fc11dc9ff7c12033880ea88f9d593ec228"
+  },
+  "checkpoint_sha256": "207e70715604b887a0c19b2177ebba31587b5759aaea2d11db9b48dea9c5dc6a"
+}

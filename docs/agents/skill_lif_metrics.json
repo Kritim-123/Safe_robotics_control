@@ -1,0 +1,316 @@
+{
+  "date": "2026-10-16",
+  "dataset": {
+    "schema_version": 1,
+    "contexts": 84,
+    "attempts": 252,
+    "split_seeds": {
+      "train": [
+        1100,
+        1101,
+        1102,
+        1103,
+        1104,
+        1105,
+        1106,
+        1107
+      ],
+      "validation": [
+        2100,
+        2101,
+        2102
+      ],
+      "test": [
+        3100,
+        3101,
+        3102
+      ]
+    },
+    "families": [
+      "clear",
+      "far_obstacle",
+      "blocked",
+      "crossing",
+      "jump_clear",
+      "jump_restricted"
+    ],
+    "feature_names": [
+      "obstacle_present",
+      "obstacle_forward",
+      "obstacle_left",
+      "obstacle_v_forward",
+      "obstacle_v_left",
+      "obstacle_radius",
+      "obstacle_height",
+      "obstacle_width",
+      "footprint_clearance",
+      "goal_forward",
+      "goal_left",
+      "speed",
+      "base_height",
+      "jump_requested"
+    ],
+    "skill_names": [
+      "wait",
+      "run",
+      "jump"
+    ],
+    "dataset_sha256": "694b86708a59f02aa0d8235e94fff1ee1e3f6900073aef5ec495fcaf46abeb97",
+    "failed_attempts": 70,
+    "runtime": {
+      "python": "3.14.7",
+      "numpy": "2.5.3",
+      "mujoco": "3.13.0"
+    },
+    "source_sha256": {
+      "hybrid\\behavior_dataset.py": "48d2591d9e8f120d8db0644af7ea729b132a765baef3abd693daecd1cad97a16",
+      "hybrid\\skill_lif.py": "d07a0b4c8ab3f6945b68092be1ada47a61aa100d172a8f19ade586d947dfe27b",
+      "skills\\dynamic.py": "e442ebb50ff68e804ef273e7034257763eb272ecba329f38f1f5bc381ae224c9",
+      "controllers\\walking.py": "93d26f513a2671d002013da8c673d2d84fa207f78b53e6c56bc46d184e495d01",
+      "controllers\\navigation.py": "70a6875ac2e79efd86999099310af330b7248dc3bce2ea9ad8c6708f023ef7f6"
+    },
+    "units": {
+      "obstacle_present": "boolean",
+      "obstacle_forward": "m",
+      "obstacle_left": "m",
+      "obstacle_v_forward": "m/s",
+      "obstacle_v_left": "m/s",
+      "obstacle_radius": "m",
+      "obstacle_height": "m",
+      "obstacle_width": "m",
+      "footprint_clearance": "m",
+      "goal_forward": "m",
+      "goal_left": "m",
+      "speed": "m/s",
+      "base_height": "m",
+      "jump_requested": "boolean"
+    },
+    "feature_frame": "relative coordinates projected onto current robot yaw; heights world vertical; all available before action",
+    "outcome_units": {
+      "duration": "s",
+      "progress": "m along world x",
+      "airtime": "s",
+      "clearance": "m",
+      "max_torque": "Nm",
+      "torque_limit_ratio": "dimensionless"
+    },
+    "feature_source": "settled pre-action simulator pose and privileged scripted obstacle state; explicit task command",
+    "label_protocol": "max utility among successful measured candidate trials; wait fallback utility 0; forward run 1+progress if >.1m; requested jump 10+verified flight; unrelated jump/run excluded",
+    "limitations": "in-place jump only; one independent decision per fresh episode; no sensor noise or real perception; scripted obstacles"
+  },
+  "training": {
+    "seed": 37,
+    "epochs": 200,
+    "best_validation_accuracy": 1.0,
+    "metrics": {
+      "train": {
+        "contexts": 48,
+        "accuracy": 1.0,
+        "label_counts": [
+          24,
+          16,
+          8
+        ],
+        "confusion": [
+          [
+            24,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            16,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            8,
+            0
+          ]
+        ],
+        "export_exact": true,
+        "unmasked_accuracy": 1.0,
+        "zero_eligible_spikes": 0,
+        "tied_eligible_maxima": 0
+      },
+      "validation": {
+        "contexts": 18,
+        "accuracy": 1.0,
+        "label_counts": [
+          9,
+          6,
+          3
+        ],
+        "confusion": [
+          [
+            9,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ]
+        ],
+        "export_exact": true,
+        "unmasked_accuracy": 1.0,
+        "zero_eligible_spikes": 0,
+        "tied_eligible_maxima": 0
+      },
+      "test": {
+        "contexts": 18,
+        "accuracy": 1.0,
+        "label_counts": [
+          9,
+          6,
+          3
+        ],
+        "confusion": [
+          [
+            9,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ]
+        ],
+        "export_exact": true,
+        "unmasked_accuracy": 1.0,
+        "zero_eligible_spikes": 0,
+        "tied_eligible_maxima": 0
+      }
+    },
+    "dataset_sha256": "694b86708a59f02aa0d8235e94fff1ee1e3f6900073aef5ec495fcaf46abeb97",
+    "model_sha256": "f86266fafeb454bb92ec7ce3db7244dddc8851f7f656a26047c8d439497707a5",
+    "feature_names": [
+      "obstacle_present",
+      "obstacle_forward",
+      "obstacle_left",
+      "obstacle_v_forward",
+      "obstacle_v_left",
+      "obstacle_radius",
+      "obstacle_height",
+      "obstacle_width",
+      "footprint_clearance",
+      "goal_forward",
+      "goal_left",
+      "speed",
+      "base_height",
+      "jump_requested"
+    ],
+    "skill_names": [
+      "wait",
+      "run",
+      "jump"
+    ],
+    "output": "binary LIF spikes; eligible spike-count decoding",
+    "checkpoint_selection": "highest validation accuracy then lowest validation cross entropy; test never selects checkpoint",
+    "training": "surrogate-gradient cross entropy on output spike counts; train-only normalization",
+    "torch_version": "2.14.1+cpu",
+    "numpy_version": "2.5.3"
+  },
+  "execution": {
+    "trials": 18,
+    "primitive_successes": 18,
+    "task_successes": 9,
+    "collisions": 0,
+    "falls": 0,
+    "minimum_clearance": 0.15285447795656731,
+    "max_torque": 24.0,
+    "max_torque_limit_ratio": 1.0,
+    "mean_inference_ms": 0.136427780186447,
+    "max_inference_ms": 0.34559998312033713,
+    "families": {
+      "blocked": {
+        "actions": {
+          "wait": 3
+        },
+        "mean_elapsed": 6.803999999999473,
+        "min_clearance": 0.15285447795656731
+      },
+      "clear": {
+        "actions": {
+          "run": 3
+        },
+        "mean_elapsed": 9.3739999999998,
+        "min_clearance": 2.5558750063056013
+      },
+      "crossing": {
+        "actions": {
+          "wait": 3
+        },
+        "mean_elapsed": 6.803999999999473,
+        "min_clearance": 0.24128801072121736
+      },
+      "far_obstacle": {
+        "actions": {
+          "run": 3
+        },
+        "mean_elapsed": 9.375333333333133,
+        "min_clearance": 1.6467494700129492
+      },
+      "jump_clear": {
+        "actions": {
+          "jump": 3
+        },
+        "mean_elapsed": 6.803999999999473,
+        "min_clearance": 2.386310891765335
+      },
+      "jump_restricted": {
+        "actions": {
+          "wait": 3
+        },
+        "mean_elapsed": 6.803999999999473,
+        "min_clearance": 0.15285447795656731
+      }
+    },
+    "jump_airtime": [
+      0.1220000000000001,
+      0.12800000000000009,
+      0.12600000000000008
+    ],
+    "run_progress": [
+      0.810113739276144,
+      0.9025622313051193,
+      0.8475317421065819,
+      0.8079847801469282,
+      0.7960991818220357,
+      0.8013628632981007
+    ],
+    "zero_spike_fallbacks": 0
+  },
+  "attempt_outcomes": {
+    "completed": 182,
+    "failed initiation": 56,
+    "clearance stop": 14
+  },
+  "report_hashes": {
+    "output\\skill_lif\\dataset\\decisions.csv": "694b86708a59f02aa0d8235e94fff1ee1e3f6900073aef5ec495fcaf46abeb97",
+    "output\\skill_lif\\model\\model.npz": "f86266fafeb454bb92ec7ce3db7244dddc8851f7f656a26047c8d439497707a5",
+    "output\\skill_lif\\model\\training.json": "0552cc862dd93ec37c36f9288ded62847a6f8fe9877b5340e1deb5c6461c5e02",
+    "output\\skill_lif\\execution\\evaluation.json": "cbc86c3309d4d86c50f5d7a08b55c83e4b8a49b67812c54b41164cfb6870c3d3"
+  }
+}

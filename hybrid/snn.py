@@ -36,7 +36,7 @@ class SpikingSelector:
         if np.any(w['std'] <= 0):
             raise ValueError('SNN normalization requires positive standard deviations')
 
-    def predict(self, features, *, trace=False):
+    def predict(self, features, *, trace=False, membrane_state=None):
         features = np.asarray(features, dtype=np.float32)
         if features.shape != (len(FEATURE_NAMES),) or not np.all(np.isfinite(features)):
             raise ValueError('Expected a finite feature vector matching FEATURE_NAMES')
@@ -45,6 +45,11 @@ class SpikingSelector:
         current = w['w1'] @ x + w['b1']
         membrane1 = np.zeros(64, dtype=np.float32)
         membrane2 = np.zeros(32, dtype=np.float32)
+        if membrane_state is not None:
+            membrane1, membrane2 = [np.asarray(v, dtype=np.float32).copy() for v in membrane_state]
+            if (membrane1.shape != (64,) or membrane2.shape != (32,)
+                    or not np.all(np.isfinite(membrane1)) or not np.all(np.isfinite(membrane2))):
+                raise ValueError('Invalid membrane state')
         counts = np.zeros(32, dtype=np.float32)
         spike_count = 0
         raster = []
@@ -74,4 +79,6 @@ class SpikingSelector:
             diagnostics['membrane_after_reset'] = np.asarray(resets)
             diagnostics['readouts'] = np.asarray(readouts)
             diagnostics['normalized_inputs'] = x.copy()
+        if membrane_state is not None:
+            diagnostics['_membrane_state'] = (membrane1, membrane2)
         return scores, diagnostics

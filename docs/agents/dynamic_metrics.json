@@ -1,0 +1,372 @@
+{
+  "date": "2026-10-16",
+  "python": "3.14.7",
+  "mujoco": "3.13.0",
+  "numpy": "2.5.3",
+  "development_seeds": [
+    0,
+    1,
+    2
+  ],
+  "profiles_frozen_before_dataset": true,
+  "physics_dt": 0.002,
+  "control_dt": 0.01,
+  "torque_limit_nm": 24,
+  "comparison": {
+    "active_duration_s": 4,
+    "original_walk_forward_m": 0.20684665740581135,
+    "fast_trot_forward_m": 0.6081976633042874,
+    "original_walk_mean_speed_m_s": 0.051711664351452837,
+    "fast_trot_mean_speed_m_s": 0.15204941582607184
+  },
+  "development_results": [
+    {
+      "skill": "run",
+      "seed": 0,
+      "success": true,
+      "reason": "completed",
+      "elapsed": 9.3739999999998,
+      "displacement": [
+        0.8274180917147512,
+        0.0009106477049061969
+      ],
+      "distance": 0.8274185928392732,
+      "airtime": 0.0,
+      "longest_airtime": 0.0,
+      "all_feet_airborne": false,
+      "max_height": 0.27638592758231995,
+      "stable_landing": true,
+      "max_torque": 23.28104801085319,
+      "max_torque_limit_ratio": 0.9700436671188829,
+      "collision": false,
+      "fall": false,
+      "min_clearance": 2.5557724503838033,
+      "decision_observation": {
+        "time": 2.0000000000000013,
+        "position": [
+          -0.013864251201755272,
+          8.669859778763285e-09
+        ],
+        "speed": 0.0005648727540125489,
+        "yaw": 1.4088814977795383e-07,
+        "height": 0.26463491581131693,
+        "upright": 0.9999797335292003,
+        "obstacles": []
+      },
+      "eligibility": {
+        "wait": true,
+        "run": true,
+        "jump": true
+      },
+      "physics_dt": 0.002,
+      "control_dt": 0.01,
+      "duration": 4.0,
+      "run_speed": 0.5
+    },
+    {
+      "skill": "jump",
+      "seed": 0,
+      "success": true,
+      "reason": "completed",
+      "elapsed": 6.803999999999473,
+      "displacement": [
+        -0.06780632825097353,
+        1.8370940547918786e-05
+      ],
+      "distance": 0.06780633073961626,
+      "airtime": 0.1240000000000001,
+      "longest_airtime": 0.1240000000000001,
+      "all_feet_airborne": true,
+      "max_height": 0.34280870926412027,
+      "stable_landing": true,
+      "max_torque": 24.0,
+      "max_torque_limit_ratio": 1.0,
+      "collision": false,
+      "fall": false,
+      "min_clearance": 2.387840978007742,
+      "decision_observation": {
+        "time": 2.0000000000000013,
+        "position": [
+          -0.013864251201755272,
+          8.669859778763285e-09
+        ],
+        "speed": 0.0005648727540125489,
+        "yaw": 1.4088814977795383e-07,
+        "height": 0.26463491581131693,
+        "upright": 0.9999797335292003,
+        "obstacles": []
+      },
+      "eligibility": {
+        "wait": true,
+        "run": true,
+        "jump": true
+      },
+      "physics_dt": 0.002,
+      "control_dt": 0.01,
+      "duration": 4.0,
+      "run_speed": 0.5
+    },
+    {
+      "skill": "run",
+      "seed": 1,
+      "success": true,
+      "reason": "completed",
+      "elapsed": 9.3739999999998,
+      "displacement": [
+        0.8604061991730236,
+        0.15652757240567564
+      ],
+      "distance": 0.874528277700946,
+      "airtime": 0.0,
+      "longest_airtime": 0.0,
+      "all_feet_airborne": false,
+      "max_height": 0.2765028410560883,
+      "stable_landing": true,
+      "max_torque": 23.559134296950123,
+      "max_torque_limit_ratio": 0.9816305957062551,
+      "collision": false,
+      "fall": false,
+      "min_clearance": 2.4226585506149636,
+      "decision_observation": {
+        "time": 2.0000000000000013,
+        "position": [
+          -0.013519500270634316,
+          -0.002757090167049448
+        ],
+        "speed": 0.0005682638947098694,
+        "yaw": 0.19964780471276683,
+        "height": 0.26511201402451695,
+        "upright": 0.9999798959336468,
+        "obstacles": []
+      },
+      "eligibility": {
+        "wait": true,
+        "run": true,
+        "jump": true
+      },
+      "physics_dt": 0.002,
+      "control_dt": 0.01,
+      "duration": 4.0,
+      "run_speed": 0.5
+    },
+    {
+      "skill": "jump",
+      "seed": 1,
+      "success": true,
+      "reason": "completed",
+      "elapsed": 6.803999999999473,
+      "displacement": [
+        -0.07077726767733437,
+        -0.014541660394823318
+      ],
+      "distance": 0.07225566764557237,
+      "airtime": 0.12600000000000008,
+      "longest_airtime": 0.12600000000000008,
+      "all_feet_airborne": true,
+      "max_height": 0.34314613704712577,
+      "stable_landing": true,
+      "max_torque": 24.0,
+      "max_torque_limit_ratio": 1.0,
+      "collision": false,
+      "fall": false,
+      "min_clearance": 2.396076217734935,
+      "decision_observation": {
+        "time": 2.0000000000000013,
+        "position": [
+          -0.013519500270634316,
+          -0.002757090167049448
+        ],
+        "speed": 0.0005682638947098694,
+        "yaw": 0.19964780471276683,
+        "height": 0.26511201402451695,
+        "upright": 0.9999798959336468,
+        "obstacles": []
+      },
+      "eligibility": {
+        "wait": true,
+        "run": true,
+        "jump": true
+      },
+      "physics_dt": 0.002,
+      "control_dt": 0.01,
+      "duration": 4.0,
+      "run_speed": 0.5
+    },
+    {
+      "skill": "run",
+      "seed": 2,
+      "success": true,
+      "reason": "completed",
+      "elapsed": 9.3739999999998,
+      "displacement": [
+        0.7904056292549284,
+        -0.13907532141024703
+      ],
+      "distance": 0.8025478202470198,
+      "airtime": 0.0,
+      "longest_airtime": 0.0,
+      "all_feet_airborne": false,
+      "max_height": 0.2763703913699986,
+      "stable_landing": true,
+      "max_torque": 23.218019870626605,
+      "max_torque_limit_ratio": 0.9674174946094419,
+      "collision": false,
+      "fall": false,
+      "min_clearance": 2.44053500115978,
+      "decision_observation": {
+        "time": 2.0000000000000013,
+        "position": [
+          -0.013609676086127287,
+          0.002706119059189383
+        ],
+        "speed": 0.0005611482566988527,
+        "yaw": -0.19997070530233055,
+        "height": 0.264172174700764,
+        "upright": 0.9999795696760526,
+        "obstacles": []
+      },
+      "eligibility": {
+        "wait": true,
+        "run": true,
+        "jump": true
+      },
+      "physics_dt": 0.002,
+      "control_dt": 0.01,
+      "duration": 4.0,
+      "run_speed": 0.5
+    },
+    {
+      "skill": "jump",
+      "seed": 2,
+      "success": true,
+      "reason": "completed",
+      "elapsed": 6.803999999999473,
+      "displacement": [
+        -0.06079839306930718,
+        0.013303755582383659
+      ],
+      "distance": 0.06223692242074461,
+      "airtime": 0.12000000000000009,
+      "longest_airtime": 0.12000000000000009,
+      "all_feet_airborne": true,
+      "max_height": 0.3422972848679486,
+      "stable_landing": true,
+      "max_torque": 24.0,
+      "max_torque_limit_ratio": 1.0,
+      "collision": false,
+      "fall": false,
+      "min_clearance": 2.389424753692076,
+      "decision_observation": {
+        "time": 2.0000000000000013,
+        "position": [
+          -0.013609676086127287,
+          0.002706119059189383
+        ],
+        "speed": 0.0005611482566988527,
+        "yaw": -0.19997070530233055,
+        "height": 0.264172174700764,
+        "upright": 0.9999795696760526,
+        "obstacles": []
+      },
+      "eligibility": {
+        "wait": true,
+        "run": true,
+        "jump": true
+      },
+      "physics_dt": 0.002,
+      "control_dt": 0.01,
+      "duration": 4.0,
+      "run_speed": 0.5
+    }
+  ],
+  "initial_failed_jump": {
+    "skill": "jump",
+    "seed": 0,
+    "success": false,
+    "reason": "height/tilt limit",
+    "elapsed": 2.9139999999999007,
+    "displacement": [
+      -0.17008023378236578,
+      -1.2347653591248457e-05
+    ],
+    "distance": 0.17008023423057939,
+    "airtime": 0.0,
+    "longest_airtime": 0.0,
+    "all_feet_airborne": false,
+    "max_height": 0.39014734934958806,
+    "stable_landing": false,
+    "max_torque": 24.0,
+    "max_torque_limit_ratio": 1.0,
+    "collision": false,
+    "fall": true,
+    "min_clearance": 2.396055515015879,
+    "decision_observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09
+      ],
+      "speed": 0.0005648727540125489,
+      "yaw": 1.4088814977795383e-07,
+      "height": 0.26463491581131693,
+      "upright": 0.9999797335292003,
+      "obstacles": []
+    },
+    "eligibility": {
+      "wait": true,
+      "run": true,
+      "jump": true
+    },
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "duration": 4.0,
+    "run_speed": 0.5
+  },
+  "midflight_interruption": {
+    "skill": "jump",
+    "seed": 0,
+    "success": false,
+    "reason": "interrupted",
+    "elapsed": 4.457999999999731,
+    "displacement": [
+      -0.06927917394732455,
+      1.845185086932363e-05
+    ],
+    "distance": 0.06927917640456224,
+    "airtime": 0.1240000000000001,
+    "longest_airtime": 0.1240000000000001,
+    "all_feet_airborne": true,
+    "max_height": 0.34280870926412027,
+    "stable_landing": true,
+    "max_torque": 24.0,
+    "max_torque_limit_ratio": 1.0,
+    "collision": false,
+    "fall": false,
+    "min_clearance": 2.387840978007742,
+    "decision_observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09
+      ],
+      "speed": 0.0005648727540125489,
+      "yaw": 1.4088814977795383e-07,
+      "height": 0.26463491581131693,
+      "upright": 0.9999797335292003,
+      "obstacles": []
+    },
+    "eligibility": {
+      "wait": true,
+      "run": true,
+      "jump": true
+    },
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "duration": 4.0,
+    "run_speed": 0.5
+  },
+  "tuning_attempts": 18,
+  "source_sha256": "e8cf35e65aca92674add93ca204a8603b938ca7f53405f07dde53bbe30704936",
+  "reproduction": "python -m unittest discover -s tests -p test_dynamic_skills.py -v",
+  "test_result": "8 tests passed in 5.038 s"
+}

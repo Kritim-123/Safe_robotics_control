@@ -516,7 +516,10 @@ selector and classical movement skills. Important remaining boundaries are:
   multi-obstacle encounters or hazards that arise while waiting.
 * The training heading range is narrower than some executed maneuvers.
   More diverse held-out scenes and training data are needed.
-* There are no jumping, climbing, stair or rough-terrain policies in this system.
+* At the time of this earlier history, there were no jumping, climbing, stair
+  or rough-terrain policies. The subsequent in-place hop and unsuccessful
+  pretrained gap-transfer experiment are covered in the
+  [October 16 progress summary](docs/project_summary.md).
 * No real Go2, event camera or neuromorphic chip has been used. Spike counts
   and CPU inference timing do not establish an energy saving.
 * Simulation termination and torque limits are not a hardware safety controller.
