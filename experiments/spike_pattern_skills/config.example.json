@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "status": "recording_v1",
+  "experiment": "spike_pattern_skills",
+  "network_seed": 42,
+  "simulation_seed": 100,
+  "observation": {
+    "source": "mujoco_state_initially",
+    "feature_names": [
+      "obstacle_present",
+      "obstacle_forward",
+      "obstacle_left",
+      "obstacle_v_forward",
+      "obstacle_v_left",
+      "obstacle_radius",
+      "obstacle_height",
+      "obstacle_width",
+      "footprint_clearance",
+      "goal_forward",
+      "goal_left",
+      "speed",
+      "base_height",
+      "jump_requested"
+    ],
+    "feature_units": [
+      "binary",
+      "m",
+      "m",
+      "m/s",
+      "m/s",
+      "m",
+      "m",
+      "m",
+      "m",
+      "m",
+      "m",
+      "m/s",
+      "m",
+      "binary"
+    ],
+    "normalization": "divide_fixed_scales_then_clip",
+    "scales": [
+      1.0,
+      3.0,
+      3.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      3.0,
+      3.0,
+      3.0,
+      0.5,
+      0.35,
+      1.0
+    ],
+    "clip": 3.0
+  },
+  "encoder": {
+    "neuron_model": "LIF",
+    "weights": "seeded_random_then_frozen",
+    "initialization_distribution": "normal_weights_std_1_over_sqrt_inputs_biases_std_0.1",
+    "pattern_neurons": 16,
+    "window_steps": 16,
+    "beta_per_step": 0.9,
+    "threshold": 1.0,
+    "reset_between_observations": true,
+    "save_actual_weights_and_biases": true
+  },
+  "recording": {
+    "save_binary_raster": true,
+    "save_spike_counts": true,
+    "pattern": "sorted_unique_active_neuron_ids",
+    "save_encoder_checksum": true
+  },
+  "decoder": {
+    "status": "not_implemented",
+    "learn_encoder_weights": false,
+    "retain_conflicting_associations": true,
+    "allow_abstention": true
+  },
+  "artifact_directory": "output/spike_pattern_skills"
+}

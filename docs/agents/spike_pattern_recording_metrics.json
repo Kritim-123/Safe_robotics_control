@@ -1,0 +1,377 @@
+{
+  "date": "2026-10-16",
+  "summary": {
+    "schema_version": 1,
+    "observations": 6,
+    "encoder_checksum": "b72b9750bffd70ee37bd0aaedb5064b58157d8f5a13f58b5cd356ca281fa70ec",
+    "seed": 42,
+    "unique_active_id_patterns": 5,
+    "shared_patterns": {
+      "2,3,4,8,9,15": [
+        "blocked-100-t2.000",
+        "crossing-100-t2.000"
+      ]
+    },
+    "silent_observations": 0,
+    "repeated_inference_exact": true,
+    "save_load_exact": true,
+    "skills_selected": 0,
+    "skill_labels_assigned": 0,
+    "sources": [
+      "mujoco_state"
+    ],
+    "runtime": {
+      "numpy": "2.5.3",
+      "python": "3.14.7",
+      "mujoco": "3.13.0"
+    },
+    "file_sha256": {
+      "model.npz": "056425ea77a044bc541a10d3e392e6215a46cf5cebf3c240566df1b926b950b6",
+      "records.jsonl": "835733b92a7b3b9ed20da0c02278ab168ff51f742c4e8c882a58f803a9a6e66d",
+      "config.json": "e200b1af6b63155306d9556c9b944e836e17a666859aa1ca904efea462865c29",
+      "observations.json": "eb360c74dabec44b4960fb92b060f2f8fe724605554c54ff293b3f9598f17b87"
+    },
+    "source_sha256": {
+      "controllers/navigation.py": "70a6875ac2e79efd86999099310af330b7248dc3bce2ea9ad8c6708f023ef7f6",
+      "controllers/walking.py": "93d26f513a2671d002013da8c673d2d84fa207f78b53e6c56bc46d184e495d01",
+      "experiments/spike_pattern_skills/__init__.py": "099c66808779f4a6414ce5d5b644dea39f2db3828dcfd41a2b55a6a14eef59fb",
+      "experiments/spike_pattern_skills/encoder.py": "7a39193c50e1d10c1e316352e5568fd225c646ad9203e9abc3f32224fa556155",
+      "experiments/spike_pattern_skills/observations.py": "ba93b88f41dd27ce250f6b83c046b596de1469122551e7581a56ffd37cd40f45",
+      "experiments/spike_pattern_skills/record.py": "8cfc990fe92c0d362c4834197b7436600ddc5eb2a1404ad4a0cd2903ea2d8251",
+      "hybrid/arena.py": "fd3151c5c09dbaed364522211449d51e1b215384a91459abc3fa9cef0e11f840",
+      "hybrid/behavior_dataset.py": "48d2591d9e8f120d8db0644af7ea729b132a765baef3abd693daecd1cad97a16",
+      "skills/avoidance.py": "f7dfccc584750c56a86500cf6f3e863dfd237e9a98607255213d453233a643a4",
+      "skills/dynamic.py": "b4e06c0d0bcdbf8dc66e2e8c95df7bcfbbba301fcd9b0383b132c56545e6cb88"
+    }
+  },
+  "cli_replay_byte_identical": true,
+  "tests": {
+    "command": ".venv-win/Scripts/python.exe -m unittest discover -s tests -p test_spike_pattern_skills.py -v",
+    "passed": 8,
+    "elapsed_s": 0.437
+  },
+  "observations": [
+    {
+      "context_id": "clear-100",
+      "time_s": 2.0000000000000013,
+      "raw_features": {
+        "base_height": 0.2648662030696869,
+        "footprint_clearance": 2.5661606788635254,
+        "goal_forward": 3.0138392448425293,
+        "goal_left": -4.4720653136209876e-07,
+        "jump_requested": 0.0,
+        "obstacle_forward": 0.0,
+        "obstacle_height": 0.0,
+        "obstacle_left": 0.0,
+        "obstacle_present": 0.0,
+        "obstacle_radius": 0.0,
+        "obstacle_v_forward": 0.0,
+        "obstacle_v_left": 0.0,
+        "obstacle_width": 0.0,
+        "speed": 0.0005666894721798599
+      },
+      "active_neuron_ids": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ],
+      "spike_counts": [
+        0,
+        5,
+        1,
+        4,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        6,
+        0,
+        0,
+        0
+      ],
+      "capture_episode": {
+        "capture_only": true,
+        "collision": false,
+        "fall": false,
+        "peak_torque": 7.3458234478989795,
+        "skill_executed": false,
+        "termination": "no eligible skill"
+      }
+    },
+    {
+      "context_id": "far_obstacle-100",
+      "time_s": 2.0000000000000013,
+      "raw_features": {
+        "base_height": 0.26528334617614746,
+        "footprint_clearance": 2.504786968231201,
+        "goal_forward": 3.013768434524536,
+        "goal_left": -4.585182296068524e-07,
+        "jump_requested": 0.0,
+        "obstacle_forward": 3.1582000255584717,
+        "obstacle_height": 0.800000011920929,
+        "obstacle_left": 0.02317248471081257,
+        "obstacle_present": 1.0,
+        "obstacle_radius": 0.23349815607070923,
+        "obstacle_v_forward": 0.0,
+        "obstacle_v_left": 0.0,
+        "obstacle_width": 0.46699631214141846,
+        "speed": 0.0005700410692952573
+      },
+      "active_neuron_ids": [
+        2,
+        3,
+        4,
+        11
+      ],
+      "spike_counts": [
+        0,
+        0,
+        8,
+        5,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "capture_episode": {
+        "capture_only": true,
+        "collision": false,
+        "fall": false,
+        "peak_torque": 7.320567042289945,
+        "skill_executed": false,
+        "termination": "no eligible skill"
+      }
+    },
+    {
+      "context_id": "blocked-100",
+      "time_s": 2.0000000000000013,
+      "raw_features": {
+        "base_height": 0.26528334617614746,
+        "footprint_clearance": 0.14949099719524384,
+        "goal_forward": 3.013768434524536,
+        "goal_left": -4.585182296068524e-07,
+        "jump_requested": 0.0,
+        "obstacle_forward": 0.8026547431945801,
+        "obstacle_height": 0.800000011920929,
+        "obstacle_left": 0.023172853514552116,
+        "obstacle_present": 1.0,
+        "obstacle_radius": 0.23349815607070923,
+        "obstacle_v_forward": 0.0,
+        "obstacle_v_left": 0.0,
+        "obstacle_width": 0.46699631214141846,
+        "speed": 0.0005700410692952573
+      },
+      "active_neuron_ids": [
+        2,
+        3,
+        4,
+        8,
+        9,
+        15
+      ],
+      "spike_counts": [
+        0,
+        0,
+        7,
+        3,
+        5,
+        0,
+        0,
+        0,
+        3,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "capture_episode": {
+        "capture_only": true,
+        "collision": false,
+        "fall": false,
+        "peak_torque": 7.320567042289945,
+        "skill_executed": false,
+        "termination": "no eligible skill"
+      }
+    },
+    {
+      "context_id": "crossing-100",
+      "time_s": 2.0000000000000013,
+      "raw_features": {
+        "base_height": 0.2637624144554138,
+        "footprint_clearance": 0.6641472578048706,
+        "goal_forward": 3.0138943195343018,
+        "goal_left": -4.3711918351618806e-07,
+        "jump_requested": 0.0,
+        "obstacle_forward": 0.9294395446777344,
+        "obstacle_height": 0.800000011920929,
+        "obstacle_left": -0.9339869618415833,
+        "obstacle_present": 1.0,
+        "obstacle_radius": 0.23349815607070923,
+        "obstacle_v_forward": 1.8166204540648323e-08,
+        "obstacle_v_left": 0.13300660252571106,
+        "obstacle_width": 0.46699631214141846,
+        "speed": 0.0005588345229625702
+      },
+      "active_neuron_ids": [
+        2,
+        3,
+        4,
+        8,
+        9,
+        15
+      ],
+      "spike_counts": [
+        0,
+        0,
+        3,
+        4,
+        5,
+        0,
+        0,
+        0,
+        2,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "capture_episode": {
+        "capture_only": true,
+        "collision": false,
+        "fall": false,
+        "peak_torque": 7.392017454465139,
+        "skill_executed": false,
+        "termination": "no eligible skill"
+      }
+    },
+    {
+      "context_id": "jump_clear-100",
+      "time_s": 2.0000000000000013,
+      "raw_features": {
+        "base_height": 0.2648662030696869,
+        "footprint_clearance": 2.5661606788635254,
+        "goal_forward": 3.0138392448425293,
+        "goal_left": -4.4720653136209876e-07,
+        "jump_requested": 1.0,
+        "obstacle_forward": 0.0,
+        "obstacle_height": 0.0,
+        "obstacle_left": 0.0,
+        "obstacle_present": 0.0,
+        "obstacle_radius": 0.0,
+        "obstacle_v_forward": 0.0,
+        "obstacle_v_left": 0.0,
+        "obstacle_width": 0.0,
+        "speed": 0.0005666894721798599
+      },
+      "active_neuron_ids": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        11,
+        12
+      ],
+      "spike_counts": [
+        0,
+        6,
+        4,
+        1,
+        5,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        7,
+        7,
+        0,
+        0,
+        0
+      ],
+      "capture_episode": {
+        "capture_only": true,
+        "collision": false,
+        "fall": false,
+        "peak_torque": 7.3458234478989795,
+        "skill_executed": false,
+        "termination": "no eligible skill"
+      }
+    },
+    {
+      "context_id": "jump_restricted-100",
+      "time_s": 2.0000000000000013,
+      "raw_features": {
+        "base_height": 0.26528334617614746,
+        "footprint_clearance": 0.14949099719524384,
+        "goal_forward": 3.013768434524536,
+        "goal_left": -4.585182296068524e-07,
+        "jump_requested": 1.0,
+        "obstacle_forward": 0.8026547431945801,
+        "obstacle_height": 0.800000011920929,
+        "obstacle_left": 0.023172853514552116,
+        "obstacle_present": 1.0,
+        "obstacle_radius": 0.23349815607070923,
+        "obstacle_v_forward": 0.0,
+        "obstacle_v_left": 0.0,
+        "obstacle_width": 0.46699631214141846,
+        "speed": 0.0005700410692952573
+      },
+      "active_neuron_ids": [
+        1,
+        2,
+        4,
+        8,
+        9
+      ],
+      "spike_counts": [
+        0,
+        1,
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        5,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "capture_episode": {
+        "capture_only": true,
+        "collision": false,
+        "fall": false,
+        "peak_torque": 7.320567042289945,
+        "skill_executed": false,
+        "termination": "no eligible skill"
+      }
+    }
+  ]
+}

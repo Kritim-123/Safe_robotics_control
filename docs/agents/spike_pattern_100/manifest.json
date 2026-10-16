@@ -1,0 +1,129 @@
+{
+  "study": {
+    "date": "2026-10-16",
+    "protocol": "10 families x 10 variants, one settled observation each",
+    "study_seed": 20261016,
+    "families": [
+      "clear",
+      "static_cylinder",
+      "static_box",
+      "low_bar",
+      "crossing_left_to_right",
+      "crossing_right_to_left",
+      "approaching",
+      "receding",
+      "oscillating",
+      "mixed_obstacles"
+    ],
+    "attempted": 100,
+    "recorded": 100,
+    "failed": 0,
+    "encoder_metadata": {
+      "beta_per_step": 0.9,
+      "dtype": "float64",
+      "encoding": "constant_current",
+      "feature_names": [
+        "obstacle_present",
+        "obstacle_forward",
+        "obstacle_left",
+        "obstacle_v_forward",
+        "obstacle_v_left",
+        "obstacle_radius",
+        "obstacle_height",
+        "obstacle_width",
+        "footprint_clearance",
+        "goal_forward",
+        "goal_left",
+        "speed",
+        "base_height",
+        "jump_requested"
+      ],
+      "feature_units": [
+        "binary",
+        "m",
+        "m",
+        "m/s",
+        "m/s",
+        "m",
+        "m",
+        "m",
+        "m",
+        "m",
+        "m",
+        "m/s",
+        "m",
+        "binary"
+      ],
+      "initialization": {
+        "biases_mean": 0.0,
+        "biases_std": 0.1,
+        "distribution": "normal",
+        "draw_order": "all weights row-major, then biases",
+        "weights_mean": 0.0,
+        "weights_std": 0.2672612419124244
+      },
+      "input_clip": 3.0,
+      "learned_weights": false,
+      "neuron_model": "LIF",
+      "pattern_neurons": 16,
+      "reset_between_observations": true,
+      "reset_rule": "subtract_threshold_once_per_step",
+      "rng": "PCG64",
+      "runtime": {
+        "numpy": "2.5.3",
+        "python": "3.14.7"
+      },
+      "schema_version": 1,
+      "seed": 42,
+      "threshold": 1.0,
+      "window_steps": 16
+    },
+    "encoder_checksum": "b72b9750bffd70ee37bd0aaedb5064b58157d8f5a13f58b5cd356ca281fa70ec",
+    "exact_reload_replay": true,
+    "obstacle_contacts": 0,
+    "falls": 0,
+    "max_standing_torque": 7.39926777019253,
+    "unique_feature_vectors": 100,
+    "source_sha256": {
+      "controllers/navigation.py": "70a6875ac2e79efd86999099310af330b7248dc3bce2ea9ad8c6708f023ef7f6",
+      "controllers/walking.py": "93d26f513a2671d002013da8c673d2d84fa207f78b53e6c56bc46d184e495d01",
+      "experiments/spike_pattern_skills/__init__.py": "099c66808779f4a6414ce5d5b644dea39f2db3828dcfd41a2b55a6a14eef59fb",
+      "experiments/spike_pattern_skills/analyze.py": "dc3a7bcda24031e88875592f1ff7103217326e32d75db4ab59b8a4bbd771881c",
+      "experiments/spike_pattern_skills/encoder.py": "7a39193c50e1d10c1e316352e5568fd225c646ad9203e9abc3f32224fa556155",
+      "experiments/spike_pattern_skills/observations.py": "ba93b88f41dd27ce250f6b83c046b596de1469122551e7581a56ffd37cd40f45",
+      "experiments/spike_pattern_skills/record.py": "a4c6c29d3c66866236ff5cbe6a125f959ff30574c26e786489930a3d77455f48",
+      "experiments/spike_pattern_skills/situations.py": "077ee6872f67562ad9df95cd18d0746514143f79f6399fa3ec4431e2a05843b8",
+      "experiments/spike_pattern_skills/study.py": "568f8138354a459396847e9ffefececa04ebba4d57c0e27958215a9fe9c98d97",
+      "hybrid/arena.py": "fd3151c5c09dbaed364522211449d51e1b215384a91459abc3fa9cef0e11f840",
+      "hybrid/behavior_dataset.py": "48d2591d9e8f120d8db0644af7ea729b132a765baef3abd693daecd1cad97a16",
+      "skills/avoidance.py": "f7dfccc584750c56a86500cf6f3e863dfd237e9a98607255213d453233a643a4",
+      "skills/dynamic.py": "b4e06c0d0bcdbf8dc66e2e8c95df7bcfbbba301fcd9b0383b132c56545e6cb88"
+    },
+    "files_sha256": {
+      "analysis.json": "9ed0d3e19b2dc58b352c07f4a2ebeacf7b0e16f76877dad2256f6a3bbff79507",
+      "counts_heatmap.png": "4ad88c542fd63906d36184c33528e0a985809c002de3f65efbdff11b3e563940",
+      "failures.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "model.npz": "056425ea77a044bc541a10d3e392e6215a46cf5cebf3c240566df1b926b950b6",
+      "records.jsonl": "891e354d8c6c485b4719140f921bb32ebbb6253f15e6c357259861f67fa0cf56",
+      "scenarios.json": "2969ba5bcd0f0586f94d442b518b7566a0cc64509630e513298810a8de0da134",
+      "situations.csv": "681fb45ff0064509d20f22e7446e4cf5ec0f6620b2bfb8fa7fde4f775cfdfee4"
+    },
+    "runtime": {
+      "numpy": "2.5.3",
+      "python": "3.14.7",
+      "mujoco": "3.13.0"
+    },
+    "skills_executed": 0,
+    "labels_assigned": 0,
+    "limitations": "Ground-truth nearest-obstacle observations; one frame per scene; no task/skill accuracy measurement."
+  },
+  "raw_records_sha256": "891e354d8c6c485b4719140f921bb32ebbb6253f15e6c357259861f67fa0cf56",
+  "archived_files_sha256": {
+    "analysis.json": "9ed0d3e19b2dc58b352c07f4a2ebeacf7b0e16f76877dad2256f6a3bbff79507",
+    "counts_heatmap.png": "4ad88c542fd63906d36184c33528e0a985809c002de3f65efbdff11b3e563940",
+    "model.npz": "056425ea77a044bc541a10d3e392e6215a46cf5cebf3c240566df1b926b950b6",
+    "records.jsonl.gz": "a5b6660b6e0e2d33cbec60e1112ad58589a36c5216e971ea7003c91f82534962",
+    "scenarios.json": "2969ba5bcd0f0586f94d442b518b7566a0cc64509630e513298810a8de0da134",
+    "situations.csv": "681fb45ff0064509d20f22e7446e4cf5ec0f6620b2bfb8fa7fde4f775cfdfee4"
+  }
+}

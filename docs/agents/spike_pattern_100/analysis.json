@@ -1,0 +1,397 @@
+{
+  "observations": 100,
+  "representations": {
+    "active_ids": {
+      "unique_patterns": 40,
+      "shared_groups": 21,
+      "shared_pairs": 147,
+      "cross_family_shared_pairs": 95,
+      "shared_contexts": [
+        [
+          "clear-00",
+          "clear-02",
+          "clear-04",
+          "clear-06",
+          "clear-08"
+        ],
+        [
+          "clear-01",
+          "clear-03",
+          "clear-05",
+          "crossing_right_to_left-03"
+        ],
+        [
+          "static_cylinder-00",
+          "static_cylinder-06",
+          "receding-00",
+          "receding-02",
+          "receding-08"
+        ],
+        [
+          "static_cylinder-01",
+          "static_cylinder-05",
+          "static_cylinder-07",
+          "static_box-09",
+          "approaching-05",
+          "oscillating-09"
+        ],
+        [
+          "static_cylinder-02",
+          "static_cylinder-04",
+          "crossing_right_to_left-08"
+        ],
+        [
+          "static_cylinder-03",
+          "static_cylinder-09",
+          "approaching-07",
+          "mixed_obstacles-01",
+          "mixed_obstacles-03"
+        ],
+        [
+          "static_cylinder-08",
+          "crossing_right_to_left-04",
+          "approaching-04",
+          "approaching-08",
+          "mixed_obstacles-06"
+        ],
+        [
+          "static_box-00",
+          "static_box-04",
+          "oscillating-04",
+          "oscillating-06"
+        ],
+        [
+          "static_box-01",
+          "static_box-05",
+          "static_box-07",
+          "crossing_right_to_left-01",
+          "crossing_right_to_left-05",
+          "approaching-00",
+          "approaching-06",
+          "oscillating-02",
+          "oscillating-07"
+        ],
+        [
+          "static_box-02",
+          "mixed_obstacles-00",
+          "mixed_obstacles-02"
+        ],
+        [
+          "static_box-03",
+          "crossing_right_to_left-09",
+          "approaching-03",
+          "mixed_obstacles-05",
+          "mixed_obstacles-07",
+          "mixed_obstacles-09"
+        ],
+        [
+          "static_box-06",
+          "static_box-08"
+        ],
+        [
+          "low_bar-01",
+          "low_bar-07",
+          "low_bar-09"
+        ],
+        [
+          "low_bar-02",
+          "low_bar-04",
+          "low_bar-06",
+          "low_bar-08"
+        ],
+        [
+          "crossing_left_to_right-00",
+          "crossing_left_to_right-02",
+          "crossing_left_to_right-04"
+        ],
+        [
+          "crossing_left_to_right-03",
+          "approaching-01",
+          "oscillating-01"
+        ],
+        [
+          "crossing_left_to_right-05",
+          "crossing_left_to_right-09"
+        ],
+        [
+          "crossing_right_to_left-00",
+          "approaching-02"
+        ],
+        [
+          "crossing_right_to_left-06",
+          "mixed_obstacles-04",
+          "mixed_obstacles-08"
+        ],
+        [
+          "receding-03",
+          "oscillating-05"
+        ],
+        [
+          "receding-04",
+          "receding-06"
+        ]
+      ]
+    },
+    "spike_counts": {
+      "unique_patterns": 99,
+      "shared_groups": 1,
+      "shared_pairs": 1,
+      "cross_family_shared_pairs": 0,
+      "shared_contexts": [
+        [
+          "mixed_obstacles-05",
+          "mixed_obstacles-07"
+        ]
+      ]
+    },
+    "raster": {
+      "unique_patterns": 100,
+      "shared_groups": 0,
+      "shared_pairs": 0,
+      "cross_family_shared_pairs": 0,
+      "shared_contexts": []
+    }
+  },
+  "active_id_shared_pairs_resolved_by_counts": 146,
+  "active_id_shared_pairs_still_ambiguous": 1,
+  "silent_observations": 0,
+  "total_spikes": 3203,
+  "mean_spikes_per_observation": 32.03,
+  "neurons": [
+    {
+      "neuron": 0,
+      "active_in_situations": 7,
+      "mean_count": 0.2,
+      "min_count": 0,
+      "max_count": 8,
+      "total_count": 20
+    },
+    {
+      "neuron": 1,
+      "active_in_situations": 61,
+      "mean_count": 1.91,
+      "min_count": 0,
+      "max_count": 8,
+      "total_count": 191
+    },
+    {
+      "neuron": 2,
+      "active_in_situations": 100,
+      "mean_count": 7.86,
+      "min_count": 1,
+      "max_count": 14,
+      "total_count": 786
+    },
+    {
+      "neuron": 3,
+      "active_in_situations": 69,
+      "mean_count": 1.92,
+      "min_count": 0,
+      "max_count": 6,
+      "total_count": 192
+    },
+    {
+      "neuron": 4,
+      "active_in_situations": 100,
+      "mean_count": 7.8,
+      "min_count": 2,
+      "max_count": 16,
+      "total_count": 780
+    },
+    {
+      "neuron": 5,
+      "active_in_situations": 0,
+      "mean_count": 0.0,
+      "min_count": 0,
+      "max_count": 0,
+      "total_count": 0
+    },
+    {
+      "neuron": 6,
+      "active_in_situations": 0,
+      "mean_count": 0.0,
+      "min_count": 0,
+      "max_count": 0,
+      "total_count": 0
+    },
+    {
+      "neuron": 7,
+      "active_in_situations": 0,
+      "mean_count": 0.0,
+      "min_count": 0,
+      "max_count": 0,
+      "total_count": 0
+    },
+    {
+      "neuron": 8,
+      "active_in_situations": 19,
+      "mean_count": 0.31,
+      "min_count": 0,
+      "max_count": 4,
+      "total_count": 31
+    },
+    {
+      "neuron": 9,
+      "active_in_situations": 70,
+      "mean_count": 7.08,
+      "min_count": 0,
+      "max_count": 16,
+      "total_count": 708
+    },
+    {
+      "neuron": 10,
+      "active_in_situations": 0,
+      "mean_count": 0.0,
+      "min_count": 0,
+      "max_count": 0,
+      "total_count": 0
+    },
+    {
+      "neuron": 11,
+      "active_in_situations": 55,
+      "mean_count": 2.42,
+      "min_count": 0,
+      "max_count": 10,
+      "total_count": 242
+    },
+    {
+      "neuron": 12,
+      "active_in_situations": 13,
+      "mean_count": 0.88,
+      "min_count": 0,
+      "max_count": 9,
+      "total_count": 88
+    },
+    {
+      "neuron": 13,
+      "active_in_situations": 8,
+      "mean_count": 0.18,
+      "min_count": 0,
+      "max_count": 3,
+      "total_count": 18
+    },
+    {
+      "neuron": 14,
+      "active_in_situations": 9,
+      "mean_count": 0.33,
+      "min_count": 0,
+      "max_count": 6,
+      "total_count": 33
+    },
+    {
+      "neuron": 15,
+      "active_in_situations": 36,
+      "mean_count": 1.14,
+      "min_count": 0,
+      "max_count": 10,
+      "total_count": 114
+    }
+  ],
+  "family_summary": {
+    "approaching": {
+      "situations": 10,
+      "mean_total_spikes": 31.299999999999997
+    },
+    "clear": {
+      "situations": 10,
+      "mean_total_spikes": 41.9
+    },
+    "crossing_left_to_right": {
+      "situations": 10,
+      "mean_total_spikes": 37.5
+    },
+    "crossing_right_to_left": {
+      "situations": 10,
+      "mean_total_spikes": 26.9
+    },
+    "low_bar": {
+      "situations": 10,
+      "mean_total_spikes": 31.1
+    },
+    "mixed_obstacles": {
+      "situations": 10,
+      "mean_total_spikes": 33.099999999999994
+    },
+    "oscillating": {
+      "situations": 10,
+      "mean_total_spikes": 32.099999999999994
+    },
+    "receding": {
+      "situations": 10,
+      "mean_total_spikes": 30.499999999999996
+    },
+    "static_box": {
+      "situations": 10,
+      "mean_total_spikes": 27.299999999999997
+    },
+    "static_cylinder": {
+      "situations": 10,
+      "mean_total_spikes": 28.6
+    }
+  },
+  "example_cross_family_id_collision": [
+    {
+      "context": "clear-01",
+      "family": "clear",
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        11,
+        12
+      ],
+      "spike_counts": [
+        0,
+        8,
+        4,
+        1,
+        6,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        10,
+        9,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "context": "crossing_right_to_left-03",
+      "family": "crossing_right_to_left",
+      "active_ids": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        11,
+        12
+      ],
+      "spike_counts": [
+        0,
+        4,
+        4,
+        2,
+        8,
+        0,
+        0,
+        0,
+        0,
+        11,
+        0,
+        5,
+        1,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "interpretation": "Representation collisions are not skill-selection errors: no task labels or decoder exist."
+}

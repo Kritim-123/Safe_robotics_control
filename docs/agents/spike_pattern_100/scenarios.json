@@ -1,0 +1,6862 @@
+[
+  {
+    "family": "clear",
+    "variant": 0,
+    "scene_seed": 20261016,
+    "jump_requested": false,
+    "scenario": {
+      "name": "clear-00",
+      "start": [
+        0.02268598567815522,
+        0.050310870440474886
+      ],
+      "goal": [
+        1.3866817616032188,
+        -1.8995668331159101
+      ],
+      "obstacles": [],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.9729834370549106,
+      "timeout": 150.0,
+      "friction": 0.9250130048117033,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "clear",
+    "variant": 1,
+    "scene_seed": 20261017,
+    "jump_requested": true,
+    "scenario": {
+      "name": "clear-01",
+      "start": [
+        0.0029845340690238253,
+        0.18290170439113312
+      ],
+      "goal": [
+        -1.1200714127565263,
+        2.4479578017993697
+      ],
+      "obstacles": [],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.058152619943213,
+      "timeout": 150.0,
+      "friction": 0.7585038637805374,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "clear",
+    "variant": 2,
+    "scene_seed": 20261018,
+    "jump_requested": false,
+    "scenario": {
+      "name": "clear-02",
+      "start": [
+        -0.04555857313428727,
+        -0.18637786204150839
+      ],
+      "goal": [
+        -1.8158581193017052,
+        2.0017055843776634
+      ],
+      "obstacles": [],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.353854051959366,
+      "timeout": 150.0,
+      "friction": 0.6509302144369742,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "clear",
+    "variant": 3,
+    "scene_seed": 20261019,
+    "jump_requested": true,
+    "scenario": {
+      "name": "clear-03",
+      "start": [
+        0.09536290593690361,
+        -0.1407403337339248
+      ],
+      "goal": [
+        0.01938090598659764,
+        -3.1869571512585795
+      ],
+      "obstacles": [],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -1.5536420113824938,
+      "timeout": 150.0,
+      "friction": 0.9650165803905482,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "clear",
+    "variant": 4,
+    "scene_seed": 20261020,
+    "jump_requested": false,
+    "scenario": {
+      "name": "clear-04",
+      "start": [
+        -0.1464066881582733,
+        0.1441721711733533
+      ],
+      "goal": [
+        -1.8887740708170817,
+        1.6380307565641752
+      ],
+      "obstacles": [],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.3240057220752934,
+      "timeout": 150.0,
+      "friction": 0.741595628572913,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "clear",
+    "variant": 5,
+    "scene_seed": 20261021,
+    "jump_requested": true,
+    "scenario": {
+      "name": "clear-05",
+      "start": [
+        -0.18964182689970577,
+        -0.1347792399689131
+      ],
+      "goal": [
+        -0.5884750004063665,
+        -3.0519268400272113
+      ],
+      "obstacles": [],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -1.7899842823379646,
+      "timeout": 150.0,
+      "friction": 0.7379791723439655,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "clear",
+    "variant": 6,
+    "scene_seed": 20261022,
+    "jump_requested": false,
+    "scenario": {
+      "name": "clear-06",
+      "start": [
+        -0.19912660155204798,
+        -0.1342812563578767
+      ],
+      "goal": [
+        -2.010890018458963,
+        -2.361977586905403
+      ],
+      "obstacles": [],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.2449399401825927,
+      "timeout": 150.0,
+      "friction": 0.7126826829351541,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "clear",
+    "variant": 7,
+    "scene_seed": 20261023,
+    "jump_requested": true,
+    "scenario": {
+      "name": "clear-07",
+      "start": [
+        0.03862556427975358,
+        0.18003800500838035
+      ],
+      "goal": [
+        1.1730744500587298,
+        -1.8926649410516265
+      ],
+      "obstacles": [],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -1.1598912419641054,
+      "timeout": 150.0,
+      "friction": 1.0258919586750341,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "clear",
+    "variant": 8,
+    "scene_seed": 20261024,
+    "jump_requested": false,
+    "scenario": {
+      "name": "clear-08",
+      "start": [
+        -0.003549873547558313,
+        -0.06518114632461347
+      ],
+      "goal": [
+        -0.09345113986149611,
+        2.8251433817179112
+      ],
+      "obstacles": [],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.623493859994479,
+      "timeout": 150.0,
+      "friction": 0.775231723275901,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "clear",
+    "variant": 9,
+    "scene_seed": 20261025,
+    "jump_requested": true,
+    "scenario": {
+      "name": "clear-09",
+      "start": [
+        -0.14303939727747386,
+        -0.0750206590049749
+      ],
+      "goal": [
+        -1.4508085245630225,
+        -2.1923837064447977
+      ],
+      "obstacles": [],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.135086413790435,
+      "timeout": 150.0,
+      "friction": 0.9665758721143165,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_cylinder",
+    "variant": 0,
+    "scene_seed": 20261026,
+    "jump_requested": false,
+    "scenario": {
+      "name": "static_cylinder-00",
+      "start": [
+        0.0518236677506968,
+        0.16339693687449092
+      ],
+      "goal": [
+        -0.808054916593543,
+        3.1165257667897115
+      ],
+      "obstacles": [
+        {
+          "name": "cylinder",
+          "center": [
+            -0.17305934834790312,
+            2.576456816660643
+          ],
+          "radius": 0.2108356189385162,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.596127872112562,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.802836144019313,
+      "timeout": 150.0,
+      "friction": 0.793003379831595,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_cylinder",
+    "variant": 1,
+    "scene_seed": 20261027,
+    "jump_requested": true,
+    "scenario": {
+      "name": "static_cylinder-01",
+      "start": [
+        0.18490336017849845,
+        -0.18645290959608093
+      ],
+      "goal": [
+        -2.315246086882445,
+        0.1490803823002537
+      ],
+      "obstacles": [
+        {
+          "name": "cylinder",
+          "center": [
+            -1.213557398771741,
+            0.009175451329590023
+          ],
+          "radius": 0.20760738347451113,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.34222567051709896,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 3.060496317583161,
+      "timeout": 150.0,
+      "friction": 0.731363201393774,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_cylinder",
+    "variant": 2,
+    "scene_seed": 20261028,
+    "jump_requested": false,
+    "scenario": {
+      "name": "static_cylinder-02",
+      "start": [
+        -0.1323502584787754,
+        0.0618098543127123
+      ],
+      "goal": [
+        -2.904783038207719,
+        -0.027025772119663616
+      ],
+      "obstacles": [
+        {
+          "name": "cylinder",
+          "center": [
+            -2.338774354887464,
+            -0.20367709530082367
+          ],
+          "radius": 0.15281471946623107,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.29039116168175266,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -3.0408615023369467,
+      "timeout": 150.0,
+      "friction": 0.7293062917377855,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_cylinder",
+    "variant": 3,
+    "scene_seed": 20261029,
+    "jump_requested": true,
+    "scenario": {
+      "name": "static_cylinder-03",
+      "start": [
+        0.18425482818736677,
+        0.19117942225041729
+      ],
+      "goal": [
+        2.7263594895850205,
+        -1.1991114597030608
+      ],
+      "obstacles": [
+        {
+          "name": "cylinder",
+          "center": [
+            1.476270984997897,
+            -0.22362973906814537
+          ],
+          "radius": 0.26204186633239973,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.571157571063037,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.4679370694011884,
+      "timeout": 150.0,
+      "friction": 0.8233371478762004,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_cylinder",
+    "variant": 4,
+    "scene_seed": 20261030,
+    "jump_requested": false,
+    "scenario": {
+      "name": "static_cylinder-04",
+      "start": [
+        0.04521615328800613,
+        -0.12135499378597472
+      ],
+      "goal": [
+        2.729811992378839,
+        -0.9011855353550893
+      ],
+      "obstacles": [
+        {
+          "name": "cylinder",
+          "center": [
+            2.6851374587903694,
+            -0.35004223448693916
+          ],
+          "radius": 0.21171427898654782,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.41409728373720933,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.2133936310832536,
+      "timeout": 150.0,
+      "friction": 0.7803048756431897,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_cylinder",
+    "variant": 5,
+    "scene_seed": 20261031,
+    "jump_requested": true,
+    "scenario": {
+      "name": "static_cylinder-05",
+      "start": [
+        0.028388950224322584,
+        -0.14925170603105126
+      ],
+      "goal": [
+        1.901449827481612,
+        -2.260488431886898
+      ],
+      "obstacles": [
+        {
+          "name": "cylinder",
+          "center": [
+            1.344384710837735,
+            -1.4092163673442342
+          ],
+          "radius": 0.2394999857983281,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6964171941073372,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.9122411339457841,
+      "timeout": 150.0,
+      "friction": 0.9337571156863251,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_cylinder",
+    "variant": 6,
+    "scene_seed": 20261032,
+    "jump_requested": false,
+    "scenario": {
+      "name": "static_cylinder-06",
+      "start": [
+        0.0432025708320693,
+        0.16313192322828568
+      ],
+      "goal": [
+        -2.270738857684752,
+        1.5121762611990002
+      ],
+      "obstacles": [
+        {
+          "name": "cylinder",
+          "center": [
+            -1.8711004599579308,
+            1.559753455748257
+          ],
+          "radius": 0.20639284019664722,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.5127554234673942,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.519120336452996,
+      "timeout": 150.0,
+      "friction": 0.9383757179974178,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_cylinder",
+    "variant": 7,
+    "scene_seed": 20261033,
+    "jump_requested": true,
+    "scenario": {
+      "name": "static_cylinder-07",
+      "start": [
+        -0.05913720793742569,
+        -0.07483163476694007
+      ],
+      "goal": [
+        -0.5477120763996329,
+        2.888718250208429
+      ],
+      "obstacles": [
+        {
+          "name": "cylinder",
+          "center": [
+            0.010566504294618723,
+            1.132743432985837
+          ],
+          "radius": 0.26896933993606464,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.3616579750134303,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.7389994484681486,
+      "timeout": 150.0,
+      "friction": 1.003894503074102,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_cylinder",
+    "variant": 8,
+    "scene_seed": 20261034,
+    "jump_requested": false,
+    "scenario": {
+      "name": "static_cylinder-08",
+      "start": [
+        -0.1504376726174524,
+        0.007085056764618958
+      ],
+      "goal": [
+        0.6801316677151041,
+        2.6245476207782876
+      ],
+      "obstacles": [
+        {
+          "name": "cylinder",
+          "center": [
+            0.11523912728280766,
+            1.649584272214706
+          ],
+          "radius": 0.17730363025835463,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.4612337594022619,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.3726857238707524,
+      "timeout": 150.0,
+      "friction": 0.9284384424217154,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_cylinder",
+    "variant": 9,
+    "scene_seed": 20261035,
+    "jump_requested": true,
+    "scenario": {
+      "name": "static_cylinder-09",
+      "start": [
+        -0.10027228780811348,
+        -0.04271966270486863
+      ],
+      "goal": [
+        -1.4603952179380495,
+        1.7299553153468206
+      ],
+      "obstacles": [
+        {
+          "name": "cylinder",
+          "center": [
+            -1.1243725702886356,
+            1.1055792360651417
+          ],
+          "radius": 0.21918444324862582,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8314867365465872,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.212771688933924,
+      "timeout": 150.0,
+      "friction": 0.7499310340161178,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_box",
+    "variant": 0,
+    "scene_seed": 20261036,
+    "jump_requested": false,
+    "scenario": {
+      "name": "static_box-00",
+      "start": [
+        0.045303371324029534,
+        -0.15593725659371427
+      ],
+      "goal": [
+        2.4644531664900664,
+        1.3139069247233521
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            1.9981601356040462,
+            1.1154430133687758
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.24576571014387555,
+            0.21362733711106843
+          ],
+          "height": 0.5397333713059684,
+          "yaw": -0.24563783943654094,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.4433778897323628,
+      "timeout": 150.0,
+      "friction": 0.8051343239119554,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_box",
+    "variant": 1,
+    "scene_seed": 20261037,
+    "jump_requested": true,
+    "scenario": {
+      "name": "static_box-01",
+      "start": [
+        -0.05180998693286762,
+        0.05813993264524786
+      ],
+      "goal": [
+        -2.6175641553830964,
+        0.8903466685312424
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            -2.5375664283308947,
+            0.8101198637405634
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.18417790286137925,
+            0.29646497589355203
+          ],
+          "height": 0.35259354565077955,
+          "yaw": 3.1326191439948627,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.8635998165627967,
+      "timeout": 150.0,
+      "friction": 0.8241517333625838,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_box",
+    "variant": 2,
+    "scene_seed": 20261038,
+    "jump_requested": false,
+    "scenario": {
+      "name": "static_box-02",
+      "start": [
+        -0.026918461251102338,
+        0.024777341160575117
+      ],
+      "goal": [
+        -2.32632694209011,
+        1.3344143897332035
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            -1.364878882141086,
+            0.974215826095719
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.2103573228909612,
+            0.16361928366327613
+          ],
+          "height": 0.3934094271600173,
+          "yaw": 2.6582295257758313,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.5950846939040444,
+      "timeout": 150.0,
+      "friction": 0.7506731861139299,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_box",
+    "variant": 3,
+    "scene_seed": 20261039,
+    "jump_requested": true,
+    "scenario": {
+      "name": "static_box-03",
+      "start": [
+        -0.1556863292801034,
+        0.09694594446507565
+      ],
+      "goal": [
+        -0.15972820353032782,
+        2.9031058095590665
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            -0.03558602985409581,
+            1.9899421420158485
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.17941003025011093,
+            0.1763733830015881
+          ],
+          "height": 0.8609582525210842,
+          "yaw": 0.8763927444085299,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.507068231395679,
+      "timeout": 150.0,
+      "friction": 0.6919828769526961,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_box",
+    "variant": 4,
+    "scene_seed": 20261040,
+    "jump_requested": false,
+    "scenario": {
+      "name": "static_box-04",
+      "start": [
+        0.04591510103857299,
+        0.19260172145206245
+      ],
+      "goal": [
+        1.738638137299354,
+        -1.7748641801888443
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            1.7135196663763028,
+            -1.211213741778514
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.15669186350726153,
+            0.22870477928656358
+          ],
+          "height": 0.443707286978651,
+          "yaw": -0.42084542724286567,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.8378547416126341,
+      "timeout": 150.0,
+      "friction": 0.8539087134704636,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_box",
+    "variant": 5,
+    "scene_seed": 20261041,
+    "jump_requested": true,
+    "scenario": {
+      "name": "static_box-05",
+      "start": [
+        -0.18784186823733637,
+        -0.07711884459899761
+      ],
+      "goal": [
+        -2.566973392926143,
+        -1.2430328452771977
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            -2.4047289557026215,
+            -1.4370545902234528
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.2740204099199849,
+            0.14656692708185642
+          ],
+          "height": 0.6254786344389756,
+          "yaw": -3.2293100177916916,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.706422500511916,
+      "timeout": 150.0,
+      "friction": 0.8303423445558213,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_box",
+    "variant": 6,
+    "scene_seed": 20261042,
+    "jump_requested": false,
+    "scenario": {
+      "name": "static_box-06",
+      "start": [
+        -0.19349270402695581,
+        -0.06609733765912945
+      ],
+      "goal": [
+        2.808986937939445,
+        -0.3691093675410165
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            1.8013872235874182,
+            -0.44855462383643085
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.20342148160065787,
+            0.20909332518887075
+          ],
+          "height": 0.5417076261852972,
+          "yaw": -0.7579943932077757,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.13438485422234336,
+      "timeout": 150.0,
+      "friction": 0.9747543135693024,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_box",
+    "variant": 7,
+    "scene_seed": 20261043,
+    "jump_requested": true,
+    "scenario": {
+      "name": "static_box-07",
+      "start": [
+        0.11989898197432874,
+        -0.16455510552786923
+      ],
+      "goal": [
+        0.11168577971497368,
+        2.502717463442605
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            0.4630561291007021,
+            2.353022015808335
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.2698038125179677,
+            0.22973578475570894
+          ],
+          "height": 0.48665464425021776,
+          "yaw": 1.6645159860712466,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.5615328263222752,
+      "timeout": 150.0,
+      "friction": 0.8758694220645133,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_box",
+    "variant": 8,
+    "scene_seed": 20261044,
+    "jump_requested": false,
+    "scenario": {
+      "name": "static_box-08",
+      "start": [
+        0.11760497637266537,
+        -0.18612706758300362
+      ],
+      "goal": [
+        -2.3924430887275,
+        1.0758414913785475
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            -1.8272422673732311,
+            1.000391533260705
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.2577171576124209,
+            0.23363417471024323
+          ],
+          "height": 0.6020706876404542,
+          "yaw": 2.0282546723150228,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.6730642880904307,
+      "timeout": 150.0,
+      "friction": 1.0012052479554079,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "static_box",
+    "variant": 9,
+    "scene_seed": 20261045,
+    "jump_requested": true,
+    "scenario": {
+      "name": "static_box-09",
+      "start": [
+        0.19987281943394608,
+        0.10970855442067723
+      ],
+      "goal": [
+        -1.8404671258170664,
+        1.5570979885450709
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            -0.8693233769697053,
+            1.1191679810737543
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.27358084225859525,
+            0.2248382734480531
+          ],
+          "height": 0.4509834058328778,
+          "yaw": 2.394369270281744,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.4553895426304733,
+      "timeout": 150.0,
+      "friction": 0.93464014785496,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "low_bar",
+    "variant": 0,
+    "scene_seed": 20261046,
+    "jump_requested": false,
+    "scenario": {
+      "name": "low_bar-00",
+      "start": [
+        0.12663736465659264,
+        0.14429135465142834
+      ],
+      "goal": [
+        -0.36590385463794245,
+        3.1408600554567516
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.6372391532570778,
+            2.3681037768435527
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.0726884638527656,
+            0.5240536990471398
+          ],
+          "height": 0.10149062225456822,
+          "yaw": 1.8016029140366392,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.8016029140366392,
+      "timeout": 150.0,
+      "friction": 0.6917592064728812,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "low_bar",
+    "variant": 1,
+    "scene_seed": 20261047,
+    "jump_requested": true,
+    "scenario": {
+      "name": "low_bar-01",
+      "start": [
+        0.17612887606600347,
+        -0.13376348060364796
+      ],
+      "goal": [
+        2.4484754893411225,
+        -1.4372168709775064
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            2.201092165528787,
+            -1.433215701236934
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.11597817623018036,
+            0.7482572895602748
+          ],
+          "height": 0.10563800085935926,
+          "yaw": -0.5738273199830592,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.5738273199830592,
+      "timeout": 150.0,
+      "friction": 0.9809193768124482,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "low_bar",
+    "variant": 2,
+    "scene_seed": 20261048,
+    "jump_requested": false,
+    "scenario": {
+      "name": "low_bar-02",
+      "start": [
+        0.004898679355888558,
+        -0.1149792311606889
+      ],
+      "goal": [
+        -2.4163863655368654,
+        -1.9863533136430278
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -1.4281831364487163,
+            -1.1432457247607775
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.10816308086482924,
+            0.5161300572158705
+          ],
+          "height": 0.05937495923940309,
+          "yaw": -2.4623644853262565,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.4623644853262565,
+      "timeout": 150.0,
+      "friction": 0.9283811645146193,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "low_bar",
+    "variant": 3,
+    "scene_seed": 20261049,
+    "jump_requested": true,
+    "scenario": {
+      "name": "low_bar-03",
+      "start": [
+        -0.1456429717971196,
+        0.008171196221233495
+      ],
+      "goal": [
+        2.7785477949968653,
+        -0.3770205466516897
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            1.749726044062072,
+            -0.30103613329928847
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.13943718717396614,
+            0.5051663929690132
+          ],
+          "height": 0.06829985156860022,
+          "yaw": -0.09138680265859334,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.09138680265859334,
+      "timeout": 150.0,
+      "friction": 0.8009269407251121,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "low_bar",
+    "variant": 4,
+    "scene_seed": 20261050,
+    "jump_requested": false,
+    "scenario": {
+      "name": "low_bar-04",
+      "start": [
+        -0.13977581572071554,
+        -0.010810296947072834
+      ],
+      "goal": [
+        1.9623855811744,
+        -1.7543672253611602
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            1.5837213096368994,
+            -1.1583850669693259
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.1021737255912453,
+            0.6543766356400866
+          ],
+          "height": 0.09640443858088754,
+          "yaw": -0.7035462804869259,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.7035462804869259,
+      "timeout": 150.0,
+      "friction": 0.8906623622919514,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "low_bar",
+    "variant": 5,
+    "scene_seed": 20261051,
+    "jump_requested": true,
+    "scenario": {
+      "name": "low_bar-05",
+      "start": [
+        -0.10757614346888476,
+        0.033060377748696246
+      ],
+      "goal": [
+        -1.4228020090196067,
+        2.6562399173725084
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -1.0488308321455448,
+            1.843173442047913
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.08465573591087645,
+            0.8080083631443021
+          ],
+          "height": 0.07039227609210304,
+          "yaw": 2.0852519867413797,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.0852519867413797,
+      "timeout": 150.0,
+      "friction": 0.8181863208866973,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "low_bar",
+    "variant": 6,
+    "scene_seed": 20261052,
+    "jump_requested": false,
+    "scenario": {
+      "name": "low_bar-06",
+      "start": [
+        0.12016299135533026,
+        -0.0585072890158683
+      ],
+      "goal": [
+        0.17398528018140055,
+        2.254155355300112
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.33830013632147016,
+            1.8846377269489203
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.0887231964868015,
+            0.5775717391304054
+          ],
+          "height": 0.048508778755322016,
+          "yaw": 1.6704781772651023,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.6704781772651023,
+      "timeout": 150.0,
+      "friction": 0.6808125533257551,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "low_bar",
+    "variant": 7,
+    "scene_seed": 20261053,
+    "jump_requested": true,
+    "scenario": {
+      "name": "low_bar-07",
+      "start": [
+        -0.07817843073769573,
+        0.1672853252176349
+      ],
+      "goal": [
+        -2.653446422883901,
+        -0.48556409080415325
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -1.7669472429797728,
+            -0.15163010111890995
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.08709901675256439,
+            0.6255821403276209
+          ],
+          "height": 0.043732530729120686,
+          "yaw": -2.8886402073863056,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.8886402073863056,
+      "timeout": 150.0,
+      "friction": 0.7568642107666661,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "low_bar",
+    "variant": 8,
+    "scene_seed": 20261054,
+    "jump_requested": false,
+    "scenario": {
+      "name": "low_bar-08",
+      "start": [
+        -0.1874193346052788,
+        -0.007436497055990948
+      ],
+      "goal": [
+        0.09610387051475597,
+        2.380883503031435
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.06099050425045324,
+            1.7138784116687664
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.08247405410728487,
+            0.680785521490893
+          ],
+          "height": 0.09972887597829942,
+          "yaw": 1.4567739770673942,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.4567739770673942,
+      "timeout": 150.0,
+      "friction": 0.947581230697047,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "low_bar",
+    "variant": 9,
+    "scene_seed": 20261055,
+    "jump_requested": true,
+    "scenario": {
+      "name": "low_bar-09",
+      "start": [
+        -0.007775239324737809,
+        -0.1282553079694868
+      ],
+      "goal": [
+        1.125614936438697,
+        -2.050944354894078
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            1.0960296732305752,
+            -2.5175380838532506
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.07160051422794532,
+            0.7105973421598191
+          ],
+          "height": 0.10585354288948495,
+          "yaw": -1.1559961537647356,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -1.1559961537647356,
+      "timeout": 150.0,
+      "friction": 0.8197119072387353,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_left_to_right",
+    "variant": 0,
+    "scene_seed": 20261056,
+    "jump_requested": false,
+    "scenario": {
+      "name": "crossing_left_to_right-00",
+      "start": [
+        -0.13768855654731715,
+        -0.1415427225746584
+      ],
+      "goal": [
+        -1.7284025271977195,
+        -1.6929355425379478
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            -0.1809845326141517,
+            -2.431206024828236
+          ],
+          "radius": 0.15670543456166072,
+          "velocity": [
+            -0.17793023488743961,
+            0.1400061807834655
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7708550650588153,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.237473547827489,
+      "timeout": 150.0,
+      "friction": 0.8272801559158998,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_left_to_right",
+    "variant": 1,
+    "scene_seed": 20261057,
+    "jump_requested": true,
+    "scenario": {
+      "name": "crossing_left_to_right-01",
+      "start": [
+        -0.002533032475061203,
+        0.029986649264316906
+      ],
+      "goal": [
+        1.950204892813471,
+        -1.408728911443829
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            2.2278428219660817,
+            0.142554793854426
+          ],
+          "radius": 0.16608492448803153,
+          "velocity": [
+            -0.13995086960612071,
+            -0.18621356586929674
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8395744335731096,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.6444994547788183,
+      "timeout": 150.0,
+      "friction": 0.7179904430523706,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_left_to_right",
+    "variant": 2,
+    "scene_seed": 20261058,
+    "jump_requested": false,
+    "scenario": {
+      "name": "crossing_left_to_right-02",
+      "start": [
+        0.1950822449254861,
+        0.06532091789069044
+      ],
+      "goal": [
+        -0.9031391320772413,
+        -2.6823023022077894
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            0.7472069773846715,
+            -1.9105131679760237
+          ],
+          "radius": 0.20777068745179927,
+          "velocity": [
+            -0.2916898459788232,
+            0.09837093708370036
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.3899631359607735,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -1.8960632247709934,
+      "timeout": 150.0,
+      "friction": 0.8599585317265178,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_left_to_right",
+    "variant": 3,
+    "scene_seed": 20261059,
+    "jump_requested": true,
+    "scenario": {
+      "name": "crossing_left_to_right-03",
+      "start": [
+        0.05152170994317401,
+        -0.19862614113611654
+      ],
+      "goal": [
+        1.283449804316919,
+        2.650439164181465
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            -0.7694837193168298,
+            2.3300243383733497
+          ],
+          "radius": 0.195605889736654,
+          "velocity": [
+            0.16698403681857682,
+            -0.059543779757440664
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.4993943236349766,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.2282684097686696,
+      "timeout": 150.0,
+      "friction": 0.9912887624538685,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_left_to_right",
+    "variant": 4,
+    "scene_seed": 20261060,
+    "jump_requested": false,
+    "scenario": {
+      "name": "crossing_left_to_right-04",
+      "start": [
+        -0.08700553500495758,
+        0.010433754973595916
+      ],
+      "goal": [
+        0.8152493171373183,
+        2.019657345385227
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            -0.2473472077992167,
+            2.710640594019685
+          ],
+          "radius": 0.16247471691457538,
+          "velocity": [
+            0.33499113294166166,
+            -0.1519189843622194
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7502916259982519,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.1450343614050809,
+      "timeout": 150.0,
+      "friction": 0.9467515314145173,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_left_to_right",
+    "variant": 5,
+    "scene_seed": 20261061,
+    "jump_requested": true,
+    "scenario": {
+      "name": "crossing_left_to_right-05",
+      "start": [
+        0.05446797143683463,
+        -0.0167805237915597
+      ],
+      "goal": [
+        -1.4428812203226908,
+        1.7700789935924497
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            -2.4384752860823014,
+            0.4799895624251484
+          ],
+          "radius": 0.168285605740105,
+          "velocity": [
+            0.1925251976290121,
+            0.20299527392903877
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.5493572415468442,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.3826599514080478,
+      "timeout": 150.0,
+      "friction": 0.8101333716188135,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_left_to_right",
+    "variant": 6,
+    "scene_seed": 20261062,
+    "jump_requested": false,
+    "scenario": {
+      "name": "crossing_left_to_right-06",
+      "start": [
+        -0.1880978641980161,
+        0.04680466447567869
+      ],
+      "goal": [
+        -0.13398808055471115,
+        -2.250610955168803
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            1.576542140998217,
+            -1.851857114830274
+          ],
+          "radius": 0.26350253351005104,
+          "velocity": [
+            -0.2569954573518767,
+            -0.01232644056180482
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.2636503342083303,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -1.5228694048942888,
+      "timeout": 150.0,
+      "friction": 0.6862631533256851,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_left_to_right",
+    "variant": 7,
+    "scene_seed": 20261063,
+    "jump_requested": true,
+    "scenario": {
+      "name": "crossing_left_to_right-07",
+      "start": [
+        0.08449441603935615,
+        0.019589310285793
+      ],
+      "goal": [
+        -2.1497580448374083,
+        -1.8563152275272887
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            0.08686000788230834,
+            -1.9431498775103802
+          ],
+          "radius": 0.21324488737719466,
+          "velocity": [
+            -0.238059775524236,
+            0.2584978959337386
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6174300900141031,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.3973308813954657,
+      "timeout": 150.0,
+      "friction": 0.8692359818097677,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_left_to_right",
+    "variant": 8,
+    "scene_seed": 20261064,
+    "jump_requested": false,
+    "scenario": {
+      "name": "crossing_left_to_right-08",
+      "start": [
+        -0.1040077419876882,
+        0.16529439765298498
+      ],
+      "goal": [
+        1.2442399307204852,
+        1.9491388147937652
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            0.029116809955399087,
+            2.118559772098864
+          ],
+          "radius": 0.22113112763230697,
+          "velocity": [
+            0.2684068093425162,
+            -0.26541257959786224
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.32298801605317046,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.7910071734973809,
+      "timeout": 150.0,
+      "friction": 0.9230196693236767,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_left_to_right",
+    "variant": 9,
+    "scene_seed": 20261065,
+    "jump_requested": true,
+    "scenario": {
+      "name": "crossing_left_to_right-09",
+      "start": [
+        0.13548948218044338,
+        -0.18449323920099592
+      ],
+      "goal": [
+        1.2679768025825964,
+        -2.386668614988995
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            2.4708814746093974,
+            -0.9726991806847228
+          ],
+          "radius": 0.2680086570190115,
+          "velocity": [
+            -0.16390444009080862,
+            -0.06290099906813487
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.34397255670819205,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -1.2043623775812753,
+      "timeout": 150.0,
+      "friction": 0.9644698640574904,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_right_to_left",
+    "variant": 0,
+    "scene_seed": 20261066,
+    "jump_requested": false,
+    "scenario": {
+      "name": "crossing_right_to_left-00",
+      "start": [
+        -0.17405584964331694,
+        -0.1965439474702802
+      ],
+      "goal": [
+        1.0408109153632379,
+        1.6715093894572797
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            2.315859811473024,
+            0.8740292589963639
+          ],
+          "radius": 0.27637180155259233,
+          "velocity": [
+            -0.13403761854060584,
+            0.09478569859006343
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.45831426255484264,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.9552828493768288,
+      "timeout": 150.0,
+      "friction": 1.013325532933412,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_right_to_left",
+    "variant": 1,
+    "scene_seed": 20261067,
+    "jump_requested": true,
+    "scenario": {
+      "name": "crossing_right_to_left-01",
+      "start": [
+        0.13437700845008288,
+        0.13539916577428363
+      ],
+      "goal": [
+        0.6851281170111478,
+        2.9935711794655915
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            1.547087344548361,
+            2.184867412108562
+          ],
+          "radius": 0.25484947467450086,
+          "velocity": [
+            -0.31951480249562986,
+            0.045739476026295585
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.509473254563479,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.428609425466198,
+      "timeout": 150.0,
+      "friction": 0.8040457804030536,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_right_to_left",
+    "variant": 2,
+    "scene_seed": 20261068,
+    "jump_requested": false,
+    "scenario": {
+      "name": "crossing_right_to_left-02",
+      "start": [
+        0.10802059775730011,
+        0.1713369158425097
+      ],
+      "goal": [
+        1.0927551710528625,
+        2.7737990687733247
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            2.0780133651699026,
+            1.3548099448332909
+          ],
+          "radius": 0.17257183512070387,
+          "velocity": [
+            -0.25085485247215494,
+            0.09252243693082937
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.516285775156502,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.2174471708776178,
+      "timeout": 150.0,
+      "friction": 0.7243385380933829,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_right_to_left",
+    "variant": 3,
+    "scene_seed": 20261069,
+    "jump_requested": true,
+    "scenario": {
+      "name": "crossing_right_to_left-03",
+      "start": [
+        -0.01594329850633361,
+        0.14950643599736962
+      ],
+      "goal": [
+        2.3656631051808246,
+        -0.8729546107838355
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            1.4920443483399515,
+            -2.4492905595651098
+          ],
+          "radius": 0.2710346635168027,
+          "velocity": [
+            0.08582933761779678,
+            0.19768320222734562
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.326639742397194,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.40961721043232124,
+      "timeout": 150.0,
+      "friction": 0.7041412610706322,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_right_to_left",
+    "variant": 4,
+    "scene_seed": 20261070,
+    "jump_requested": false,
+    "scenario": {
+      "name": "crossing_right_to_left-04",
+      "start": [
+        -0.15595293199412008,
+        -0.08708638646500844
+      ],
+      "goal": [
+        1.2859113797659614,
+        1.9039181950001847
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            2.017770381850009,
+            1.0181286217648537
+          ],
+          "radius": 0.23232983001917967,
+          "velocity": [
+            -0.1626728383715792,
+            0.10236010944153595
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.5767495361630197,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.0091544802350203,
+      "timeout": 150.0,
+      "friction": 0.6510684271783178,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_right_to_left",
+    "variant": 5,
+    "scene_seed": 20261071,
+    "jump_requested": true,
+    "scenario": {
+      "name": "crossing_right_to_left-05",
+      "start": [
+        0.10703743319125497,
+        -0.036413102757895555
+      ],
+      "goal": [
+        0.23622949741096866,
+        -2.688981087424186
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            -1.473229766596581,
+            -1.8934311701587645
+          ],
+          "radius": 0.27521433163846987,
+          "velocity": [
+            0.1741233374742635,
+            0.0011098553546635057
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.3795257506423526,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -1.5644224521554744,
+      "timeout": 150.0,
+      "friction": 0.9405989502051977,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_right_to_left",
+    "variant": 6,
+    "scene_seed": 20261072,
+    "jump_requested": false,
+    "scenario": {
+      "name": "crossing_right_to_left-06",
+      "start": [
+        -0.09075483021327929,
+        -0.1110958567417554
+      ],
+      "goal": [
+        -1.759907932743644,
+        2.3891310078208052
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            0.4469665503455355,
+            1.9223208026581222
+          ],
+          "radius": 0.22751462119682486,
+          "velocity": [
+            -0.17857321488105596,
+            -0.14118656892037998
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.886458601995175,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.2398019147206876,
+      "timeout": 150.0,
+      "friction": 0.7485248760475315,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_right_to_left",
+    "variant": 7,
+    "scene_seed": 20261073,
+    "jump_requested": true,
+    "scenario": {
+      "name": "crossing_right_to_left-07",
+      "start": [
+        0.04863668099779489,
+        -0.0625267922269889
+      ],
+      "goal": [
+        -2.2700983314377914,
+        -1.1393949111579669
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            -2.3292352146763045,
+            0.2272444417673886
+          ],
+          "radius": 0.1693165459800089,
+          "velocity": [
+            0.08134648873742065,
+            -0.1973141788174842
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8734532451735025,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.750554631971824,
+      "timeout": 150.0,
+      "friction": 0.7076884988079966,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_right_to_left",
+    "variant": 8,
+    "scene_seed": 20261074,
+    "jump_requested": false,
+    "scenario": {
+      "name": "crossing_right_to_left-08",
+      "start": [
+        -0.18535037980098076,
+        0.1503189832384943
+      ],
+      "goal": [
+        1.8637018698908971,
+        -1.193749673030793
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            0.7763905666492248,
+            -2.727224056274423
+          ],
+          "radius": 0.27425875395595495,
+          "velocity": [
+            0.1491859249364697,
+            0.17883746503225012
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.5954864431236857,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.6952485827604096,
+      "timeout": 150.0,
+      "friction": 0.9813297866767836,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "crossing_right_to_left",
+    "variant": 9,
+    "scene_seed": 20261075,
+    "jump_requested": true,
+    "scenario": {
+      "name": "crossing_right_to_left-09",
+      "start": [
+        -0.06812983777944259,
+        -0.09421501642887922
+      ],
+      "goal": [
+        1.5938303499269229,
+        1.6091341859368156
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            1.8241032551768324,
+            -0.44845765181567987
+          ],
+          "radius": 0.25205510231446593,
+          "velocity": [
+            -0.19858832263142903,
+            0.21981713440371953
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7981060658193319,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.7347042177032965,
+      "timeout": 150.0,
+      "friction": 1.0324406555121612,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "approaching",
+    "variant": 0,
+    "scene_seed": 20261076,
+    "jump_requested": false,
+    "scenario": {
+      "name": "approaching-00",
+      "start": [
+        -0.059395146340744914,
+        -0.10304336139758173
+      ],
+      "goal": [
+        2.848936921446843,
+        -0.5808296063051789
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            2.602733138309776,
+            -0.6609312514375064
+          ],
+          "radius": 0.15676532112586972,
+          "velocity": [
+            -0.20492602938223703,
+            0.03307525647325849
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.5336518148639797,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.16002094684445822,
+      "timeout": 150.0,
+      "friction": 0.9394822808805041,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "approaching",
+    "variant": 1,
+    "scene_seed": 20261077,
+    "jump_requested": true,
+    "scenario": {
+      "name": "approaching-01",
+      "start": [
+        0.07800471778474127,
+        0.045572385104095225
+      ],
+      "goal": [
+        2.4143579376348767,
+        1.5782119229150617
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            2.4968829724087005,
+            2.0714186176428466
+          ],
+          "radius": 0.16865224445178806,
+          "velocity": [
+            -0.18723402448778062,
+            -0.12608972501274376
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.4098236371231083,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.5926729373936932,
+      "timeout": 150.0,
+      "friction": 0.9064545147267782,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "approaching",
+    "variant": 2,
+    "scene_seed": 20261078,
+    "jump_requested": false,
+    "scenario": {
+      "name": "approaching-02",
+      "start": [
+        0.02167868952338997,
+        0.08863641989163623
+      ],
+      "goal": [
+        0.14047984694063043,
+        2.8092466460403185
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            0.23978601444877795,
+            2.9049517559414677
+          ],
+          "radius": 0.23419344344165188,
+          "velocity": [
+            -0.008118241567738991,
+            -0.14664376069470536
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.4888588124071679,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.515492485338032,
+      "timeout": 150.0,
+      "friction": 0.9774645814185166,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "approaching",
+    "variant": 3,
+    "scene_seed": 20261079,
+    "jump_requested": true,
+    "scenario": {
+      "name": "approaching-03",
+      "start": [
+        -0.17816545896107538,
+        0.14316722814561983
+      ],
+      "goal": [
+        2.544231531186185,
+        -1.3386235093626617
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            1.8927951864557016,
+            -0.45446867171791555
+          ],
+          "radius": 0.16839050864906563,
+          "velocity": [
+            -0.1341728204048061,
+            0.06381408380263376
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7446352238033672,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.4439468277576397,
+      "timeout": 150.0,
+      "friction": 0.8900684197390176,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "approaching",
+    "variant": 4,
+    "scene_seed": 20261080,
+    "jump_requested": false,
+    "scenario": {
+      "name": "approaching-04",
+      "start": [
+        -0.02184195851808432,
+        0.1304058718894036
+      ],
+      "goal": [
+        2.0673988844798186,
+        -1.4078693427758455
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            1.7745045473722971,
+            -1.227112032031522
+          ],
+          "radius": 0.16118104561938326,
+          "velocity": [
+            -0.1611494155269592,
+            0.11071521189531155
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.394861424736271,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.6019711978547022,
+      "timeout": 150.0,
+      "friction": 0.768403287057767,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "approaching",
+    "variant": 5,
+    "scene_seed": 20261081,
+    "jump_requested": true,
+    "scenario": {
+      "name": "approaching-05",
+      "start": [
+        0.018188102928742428,
+        -0.07614656648999443
+      ],
+      "goal": [
+        -2.4829084128264496,
+        1.4420427353848613
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            -2.1263751773588346,
+            1.2502032437546198
+          ],
+          "radius": 0.22551801864280396,
+          "velocity": [
+            0.25898282494809066,
+            -0.161093053441557
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.4410363921119761,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.585137580417439,
+      "timeout": 150.0,
+      "friction": 0.6882456141249891,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "approaching",
+    "variant": 6,
+    "scene_seed": 20261082,
+    "jump_requested": false,
+    "scenario": {
+      "name": "approaching-06",
+      "start": [
+        0.1155223590256399,
+        -0.05140776638892827
+      ],
+      "goal": [
+        2.7966217580739925,
+        0.6269213966398769
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            2.8891537381257235,
+            0.4246096568799318
+          ],
+          "radius": 0.1603784730900192,
+          "velocity": [
+            -0.25226744514537697,
+            -0.04433577296620588
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.5059678941911584,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.17397240102204403,
+      "timeout": 150.0,
+      "friction": 0.9335733450521873,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "approaching",
+    "variant": 7,
+    "scene_seed": 20261083,
+    "jump_requested": true,
+    "scenario": {
+      "name": "approaching-07",
+      "start": [
+        0.1921410052256704,
+        -0.08018330824438241
+      ],
+      "goal": [
+        2.498566640567236,
+        -1.590972420537322
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            1.9828769510396258,
+            -1.4877473631447227
+          ],
+          "radius": 0.1961949565355957,
+          "velocity": [
+            -0.1870214007903409,
+            0.12793953974796293
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7367375044356786,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.5999683682586383,
+      "timeout": 150.0,
+      "friction": 0.9727515272685896,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "approaching",
+    "variant": 8,
+    "scene_seed": 20261084,
+    "jump_requested": false,
+    "scenario": {
+      "name": "approaching-08",
+      "start": [
+        -0.07633484259701834,
+        0.13612407237151208
+      ],
+      "goal": [
+        1.9162828413836492,
+        2.0753312296944526
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            1.7696279296280133,
+            1.8754402949654452
+          ],
+          "radius": 0.271610268010221,
+          "velocity": [
+            -0.10354126855761994,
+            -0.10534801029024715
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.42915301233765024,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.794047227104679,
+      "timeout": 150.0,
+      "friction": 0.6596175106537062,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "approaching",
+    "variant": 9,
+    "scene_seed": 20261085,
+    "jump_requested": true,
+    "scenario": {
+      "name": "approaching-09",
+      "start": [
+        -0.1954800564444828,
+        -0.15514236973615048
+      ],
+      "goal": [
+        -2.2900486002038463,
+        -1.3699679013873216
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            -2.8059626378390576,
+            -1.2472149489926239
+          ],
+          "radius": 0.17204832195031608,
+          "velocity": [
+            0.24095470421567672,
+            0.12609511233175896
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.845382642535396,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.6594678106174485,
+      "timeout": 150.0,
+      "friction": 0.7954693570730884,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "receding",
+    "variant": 0,
+    "scene_seed": 20261086,
+    "jump_requested": false,
+    "scenario": {
+      "name": "receding-00",
+      "start": [
+        0.07547651781410564,
+        0.037009775979453485
+      ],
+      "goal": [
+        -2.52778370716664,
+        -1.4220646615976982
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            -0.8925118981061957,
+            -0.6059381148058172
+          ],
+          "radius": 0.20862062826209193,
+          "velocity": [
+            -0.2845506815400191,
+            -0.1356537695234533
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.701546096191745,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.6967339592977875,
+      "timeout": 150.0,
+      "friction": 0.8785740538286959,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "receding",
+    "variant": 1,
+    "scene_seed": 20261087,
+    "jump_requested": true,
+    "scenario": {
+      "name": "receding-01",
+      "start": [
+        -0.10316355726012541,
+        -0.07601924184297078
+      ],
+      "goal": [
+        -1.3357542905691364,
+        2.43615199189651
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            -0.7485877394200292,
+            1.7739462942752433
+          ],
+          "radius": 0.18411756850271402,
+          "velocity": [
+            -0.11311867836908869,
+            0.21731194137870463
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6079916927078044,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.050737403106475,
+      "timeout": 150.0,
+      "friction": 0.6792500967909246,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "receding",
+    "variant": 2,
+    "scene_seed": 20261088,
+    "jump_requested": false,
+    "scenario": {
+      "name": "receding-02",
+      "start": [
+        -0.1714553673608005,
+        -0.0743071167570129
+      ],
+      "goal": [
+        -2.196873428769602,
+        -1.4693082737312297
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            -1.5474615926873028,
+            -1.1127960490088062
+          ],
+          "radius": 0.21315054890521928,
+          "velocity": [
+            -0.15400779114233656,
+            -0.09496301944991412
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.4572054444227007,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.5890480634784425,
+      "timeout": 150.0,
+      "friction": 0.7336030511176034,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "receding",
+    "variant": 3,
+    "scene_seed": 20261089,
+    "jump_requested": true,
+    "scenario": {
+      "name": "receding-03",
+      "start": [
+        -0.11143353145799934,
+        0.0943392196742262
+      ],
+      "goal": [
+        1.295593162995169,
+        2.005040171358731
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            0.7414742376755545,
+            0.858098050042673
+          ],
+          "radius": 0.22348596676400112,
+          "velocity": [
+            0.10502276644635013,
+            0.12491891870983314
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.33195919616043523,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.8717101364959552,
+      "timeout": 150.0,
+      "friction": 0.8306756202706516,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "receding",
+    "variant": 4,
+    "scene_seed": 20261090,
+    "jump_requested": false,
+    "scenario": {
+      "name": "receding-04",
+      "start": [
+        0.1354237241187995,
+        0.175161669806771
+      ],
+      "goal": [
+        -0.12854396291107095,
+        2.427204607298169
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            -0.40438465440860766,
+            1.6175444584505327
+          ],
+          "radius": 0.21938664751955375,
+          "velocity": [
+            -0.05583077716407316,
+            0.30917311430339933
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.5629664380381494,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.749451933646716,
+      "timeout": 150.0,
+      "friction": 0.9753849763593933,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "receding",
+    "variant": 5,
+    "scene_seed": 20261091,
+    "jump_requested": true,
+    "scenario": {
+      "name": "receding-05",
+      "start": [
+        -0.13017694658402967,
+        0.1711869346598241
+      ],
+      "goal": [
+        2.8391302458641947,
+        -0.3526988726042986
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            1.3427087277699712,
+            -0.26950513448443164
+          ],
+          "radius": 0.20589979503037067,
+          "velocity": [
+            0.16916036590439323,
+            -0.019042908361879912
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6978661745966432,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.11210115742415594,
+      "timeout": 150.0,
+      "friction": 0.7402587089835617,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "receding",
+    "variant": 6,
+    "scene_seed": 20261092,
+    "jump_requested": false,
+    "scenario": {
+      "name": "receding-06",
+      "start": [
+        -0.08566821885955696,
+        -0.14696271863054
+      ],
+      "goal": [
+        -3.110142518380255,
+        0.4669664669647956
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            -1.813868869718891,
+            0.41183807499515024
+          ],
+          "radius": 0.23212432033454125,
+          "velocity": [
+            -0.3025269078292783,
+            0.08445188288802445
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7461453485399003,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.869367739813799,
+      "timeout": 150.0,
+      "friction": 0.7801464536672272,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "receding",
+    "variant": 7,
+    "scene_seed": 20261093,
+    "jump_requested": true,
+    "scenario": {
+      "name": "receding-07",
+      "start": [
+        -0.16717401253682074,
+        -0.16018548879182057
+      ],
+      "goal": [
+        -2.639078168656201,
+        1.31624757813356
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            -1.0077977668566886,
+            0.6897205428424499
+          ],
+          "radius": 0.24940812332190088,
+          "velocity": [
+            -0.12712352771360297,
+            0.0723510165225031
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.3582460741280137,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.624173875163497,
+      "timeout": 150.0,
+      "friction": 0.8442835535803657,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "receding",
+    "variant": 8,
+    "scene_seed": 20261094,
+    "jump_requested": false,
+    "scenario": {
+      "name": "receding-08",
+      "start": [
+        0.18157062215435588,
+        0.1439623467433786
+      ],
+      "goal": [
+        2.9402232131041663,
+        0.7076404253976544
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            2.0175775328390384,
+            0.1897985225400307
+          ],
+          "radius": 0.18881693643137126,
+          "velocity": [
+            0.14256338726491655,
+            0.0161481440262705
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.4952587619527655,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.1127891985887044,
+      "timeout": 150.0,
+      "friction": 0.8875027919758606,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "receding",
+    "variant": 9,
+    "scene_seed": 20261095,
+    "jump_requested": true,
+    "scenario": {
+      "name": "receding-09",
+      "start": [
+        0.0033096255372826455,
+        -0.006623226253593906
+      ],
+      "goal": [
+        -2.605950730312688,
+        -1.5130678145356675
+      ],
+      "obstacles": [
+        {
+          "name": "moving",
+          "center": [
+            -1.5298883899616247,
+            -1.098095733879787
+          ],
+          "radius": 0.1527274267162508,
+          "velocity": [
+            -0.17861433726446582,
+            -0.08696639118749243
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.42225450195337416,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.688484066566514,
+      "timeout": 150.0,
+      "friction": 0.7145816010108607,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "oscillating",
+    "variant": 0,
+    "scene_seed": 20261096,
+    "jump_requested": false,
+    "scenario": {
+      "name": "oscillating-00",
+      "start": [
+        -0.023810324756010776,
+        0.013589918708075632
+      ],
+      "goal": [
+        -2.62144411817488,
+        -1.4147352702455305
+      ],
+      "obstacles": [
+        {
+          "name": "oscillator",
+          "center": [
+            -1.2100719613711974,
+            -0.4272879483202487
+          ],
+          "radius": 0.25526693389394983,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7652271288918363,
+          "yaw": 0.0,
+          "motion": "oscillate",
+          "amplitude": [
+            0.2791961217778649,
+            -0.42050065526392555
+          ],
+          "period": 7.535753703950649,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.5554654014641276,
+      "timeout": 150.0,
+      "friction": 0.8627972602544027,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "oscillating",
+    "variant": 1,
+    "scene_seed": 20261097,
+    "jump_requested": true,
+    "scenario": {
+      "name": "oscillating-01",
+      "start": [
+        0.16311682213690137,
+        0.18631795675511897
+      ],
+      "goal": [
+        -2.1499286766523,
+        -0.3669208148425984
+      ],
+      "obstacles": [
+        {
+          "name": "oscillator",
+          "center": [
+            -1.718274729087618,
+            -0.13454600041377257
+          ],
+          "radius": 0.2738789881455803,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.30569452387887536,
+          "yaw": 0.0,
+          "motion": "oscillate",
+          "amplitude": [
+            0.0903534298853716,
+            -0.4048587903483289
+          ],
+          "period": 9.44547409698503,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.922018139587759,
+      "timeout": 150.0,
+      "friction": 0.7407640083694197,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "oscillating",
+    "variant": 2,
+    "scene_seed": 20261098,
+    "jump_requested": false,
+    "scenario": {
+      "name": "oscillating-02",
+      "start": [
+        -0.16308851911585354,
+        0.075272988385788
+      ],
+      "goal": [
+        -1.3384707363481316,
+        2.375402024583284
+      ],
+      "obstacles": [
+        {
+          "name": "oscillator",
+          "center": [
+            -1.523143666926179,
+            1.8891982802027867
+          ],
+          "radius": 0.15188820450667082,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7236396983520255,
+          "yaw": 0.0,
+          "motion": "oscillate",
+          "amplitude": [
+            -0.6640081114265566,
+            -0.4431066605087127
+          ],
+          "period": 7.5339768245806935,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.1592519014796654,
+      "timeout": 150.0,
+      "friction": 1.0355033138424448,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "oscillating",
+    "variant": 3,
+    "scene_seed": 20261099,
+    "jump_requested": true,
+    "scenario": {
+      "name": "oscillating-03",
+      "start": [
+        -0.04629163035000619,
+        -0.015098247322078956
+      ],
+      "goal": [
+        2.775676838108508,
+        -1.2660491108296146
+      ],
+      "obstacles": [
+        {
+          "name": "oscillator",
+          "center": [
+            1.1568166421932402,
+            -0.9144357636491465
+          ],
+          "radius": 0.25679358708027766,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.41406998689626995,
+          "yaw": 0.0,
+          "motion": "oscillate",
+          "amplitude": [
+            0.33110042104140486,
+            0.6217779245337935
+          ],
+          "period": 5.16141674825956,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.48931291913317576,
+      "timeout": 150.0,
+      "friction": 1.0390599993822198,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "oscillating",
+    "variant": 4,
+    "scene_seed": 20261100,
+    "jump_requested": false,
+    "scenario": {
+      "name": "oscillating-04",
+      "start": [
+        0.03605652055921568,
+        -0.025564596155055602
+      ],
+      "goal": [
+        0.3741472228185373,
+        -2.7220337670474253
+      ],
+      "obstacles": [
+        {
+          "name": "oscillator",
+          "center": [
+            0.4460681055007365,
+            -2.2536715960704754
+          ],
+          "radius": 0.26409964547042614,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.2856912514433989,
+          "yaw": 0.0,
+          "motion": "oscillate",
+          "amplitude": [
+            0.7120507710971326,
+            0.08610091626946932
+          ],
+          "period": 7.528835575459835,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -1.4504609236497668,
+      "timeout": 150.0,
+      "friction": 0.8751746974902626,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "oscillating",
+    "variant": 5,
+    "scene_seed": 20261101,
+    "jump_requested": true,
+    "scenario": {
+      "name": "oscillating-05",
+      "start": [
+        -0.05679342674350987,
+        -0.006428704182102785
+      ],
+      "goal": [
+        2.1982731780013847,
+        1.2772297936250112
+      ],
+      "obstacles": [
+        {
+          "name": "oscillator",
+          "center": [
+            1.6974708200950066,
+            0.8275563608428969
+          ],
+          "radius": 0.27825377637168336,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.2506784253732225,
+          "yaw": 0.0,
+          "motion": "oscillate",
+          "amplitude": [
+            -0.28989665887745486,
+            0.44699143882919246
+          ],
+          "period": 6.595620090263875,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.5753557818151429,
+      "timeout": 150.0,
+      "friction": 0.7703601047819145,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "oscillating",
+    "variant": 6,
+    "scene_seed": 20261102,
+    "jump_requested": false,
+    "scenario": {
+      "name": "oscillating-06",
+      "start": [
+        -0.028312942644969002,
+        0.12762407490250283
+      ],
+      "goal": [
+        1.040423442782852,
+        2.5907437749647286
+      ],
+      "obstacles": [
+        {
+          "name": "oscillator",
+          "center": [
+            0.8718449445275334,
+            1.8442632790410776
+          ],
+          "radius": 0.2579594010799775,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.3698767021847087,
+          "yaw": 0.0,
+          "motion": "oscillate",
+          "amplitude": [
+            -0.7869694442032654,
+            0.37641043211518377
+          ],
+          "period": 6.9013706355611,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.1246558846823929,
+      "timeout": 150.0,
+      "friction": 0.8504362053566412,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "oscillating",
+    "variant": 7,
+    "scene_seed": 20261103,
+    "jump_requested": true,
+    "scenario": {
+      "name": "oscillating-07",
+      "start": [
+        0.1465363377046902,
+        -0.052638396466395204
+      ],
+      "goal": [
+        -1.6476458422850992,
+        2.2573279360332816
+      ],
+      "obstacles": [
+        {
+          "name": "oscillator",
+          "center": [
+            -1.7510103906241605,
+            1.6744273844078414
+          ],
+          "radius": 0.2758927015492739,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.5488154521582937,
+          "yaw": 0.0,
+          "motion": "oscillate",
+          "amplitude": [
+            -0.5568707758894144,
+            -0.4817887296993694
+          ],
+          "period": 9.407266197480203,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.284032559837174,
+      "timeout": 150.0,
+      "friction": 0.8266409832759821,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "oscillating",
+    "variant": 8,
+    "scene_seed": 20261104,
+    "jump_requested": false,
+    "scenario": {
+      "name": "oscillating-08",
+      "start": [
+        0.1856748735804301,
+        0.027948397014878223
+      ],
+      "goal": [
+        0.9582870864445895,
+        2.805417231544259
+      ],
+      "obstacles": [
+        {
+          "name": "oscillator",
+          "center": [
+            0.454736634562901,
+            1.6383557339330446
+          ],
+          "radius": 0.26077778976852095,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.2989265459541255,
+          "yaw": 0.0,
+          "motion": "oscillate",
+          "amplitude": [
+            -0.7708643223818366,
+            0.2034553479086832
+          ],
+          "period": 8.29631231444366,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.3127492835424341,
+      "timeout": 150.0,
+      "friction": 1.0015305640176466,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "oscillating",
+    "variant": 9,
+    "scene_seed": 20261105,
+    "jump_requested": true,
+    "scenario": {
+      "name": "oscillating-09",
+      "start": [
+        0.18396063927442569,
+        0.17603622450757928
+      ],
+      "goal": [
+        0.00829135878514764,
+        3.139271330772117
+      ],
+      "obstacles": [
+        {
+          "name": "oscillator",
+          "center": [
+            0.01648103226913747,
+            1.4411028351325788
+          ],
+          "radius": 0.2204141314287193,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.3685446671801943,
+          "yaw": 0.0,
+          "motion": "oscillate",
+          "amplitude": [
+            -0.513519421781522,
+            -0.03969289011687769
+          ],
+          "period": 8.420062210152615,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.6479387295476409,
+      "timeout": 150.0,
+      "friction": 0.9905389095149829,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "mixed_obstacles",
+    "variant": 0,
+    "scene_seed": 20261106,
+    "jump_requested": false,
+    "scenario": {
+      "name": "mixed_obstacles-00",
+      "start": [
+        0.04870943942621117,
+        -0.10146860737361725
+      ],
+      "goal": [
+        -2.2594009729362963,
+        -1.5766806664364001
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            -1.495099846124066,
+            -0.4458956725575382
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.23,
+            0.18
+          ],
+          "height": 0.60518154150079,
+          "yaw": -2.2504665820282255,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_cylinder",
+          "center": [
+            -0.035767484090633045,
+            -1.9022638898510924
+          ],
+          "radius": 0.22840080071816815,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing_far",
+          "center": [
+            -3.209617453736613,
+            -0.3095692015387926
+          ],
+          "radius": 0.18,
+          "velocity": [
+            0.10926086134677074,
+            -0.18181013190892373
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.6004665820282256,
+      "timeout": 150.0,
+      "friction": 0.8604453643741949,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "mixed_obstacles",
+    "variant": 1,
+    "scene_seed": 20261107,
+    "jump_requested": true,
+    "scenario": {
+      "name": "mixed_obstacles-01",
+      "start": [
+        0.07514030031891683,
+        -0.14133136873953978
+      ],
+      "goal": [
+        -0.43674823115651995,
+        2.0469120438470303
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            0.028301781184119183,
+            2.3226559710753403
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.23,
+            0.18
+          ],
+          "height": 0.26156782069780593,
+          "yaw": 2.1441080742154086,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_cylinder",
+          "center": [
+            -1.6090741123867311,
+            0.5016474894156638
+          ],
+          "radius": 0.26793704970201626,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing_far",
+          "center": [
+            0.8956593624571539,
+            3.018850345761667
+          ],
+          "radius": 0.18,
+          "velocity": [
+            -0.23662000283836698,
+            -0.053736252361282655
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.7941080742154085,
+      "timeout": 150.0,
+      "friction": 1.0129591946181504,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "mixed_obstacles",
+    "variant": 2,
+    "scene_seed": 20261108,
+    "jump_requested": false,
+    "scenario": {
+      "name": "mixed_obstacles-02",
+      "start": [
+        -0.1415391390826839,
+        -0.03245550752993606
+      ],
+      "goal": [
+        -0.8447539446732611,
+        2.154646894846509
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            -0.26290296165050253,
+            1.5865285957708064
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.23,
+            0.18
+          ],
+          "height": 0.7824794831811335,
+          "yaw": 2.3086795392759805,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_cylinder",
+          "center": [
+            -1.908336515723663,
+            0.3259116643685992
+          ],
+          "radius": 0.2021753171461327,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing_far",
+          "center": [
+            0.15016229500648398,
+            3.2194532048035334
+          ],
+          "radius": 0.18,
+          "velocity": [
+            -0.13389547200045113,
+            -0.05470736137826766
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.9586795392759804,
+      "timeout": 150.0,
+      "friction": 0.7573391034555622,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "mixed_obstacles",
+    "variant": 3,
+    "scene_seed": 20261109,
+    "jump_requested": true,
+    "scenario": {
+      "name": "mixed_obstacles-03",
+      "start": [
+        0.10444859550188945,
+        0.19775196590609373
+      ],
+      "goal": [
+        1.0294702888666531,
+        -2.106803786963812
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            0.5428939613752051,
+            -2.183355557538765
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.23,
+            0.18
+          ],
+          "height": 0.766546894112241,
+          "yaw": -0.8306897001852492,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_cylinder",
+          "center": [
+            1.8720384029777797,
+            -0.15668600117325987
+          ],
+          "radius": 0.2001506381540043,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing_far",
+          "center": [
+            -0.180021783745769,
+            -3.0547972809663797
+          ],
+          "radius": 0.18,
+          "velocity": [
+            0.19323975446186142,
+            0.07945623789290968
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -1.1806897001852492,
+      "timeout": 150.0,
+      "friction": 0.6722271536504975,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "mixed_obstacles",
+    "variant": 4,
+    "scene_seed": 20261110,
+    "jump_requested": false,
+    "scenario": {
+      "name": "mixed_obstacles-04",
+      "start": [
+        -0.14315277246533872,
+        0.05509459406346384
+      ],
+      "goal": [
+        1.975962939190658,
+        1.918270167907743
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            1.8774907448621712,
+            1.3913706191969526
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.23,
+            0.18
+          ],
+          "height": 0.6475267734362238,
+          "yaw": 1.1421767549045794,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_cylinder",
+          "center": [
+            -0.5086809186098005,
+            1.8204243576986303
+          ],
+          "radius": 0.2182030142723752,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing_far",
+          "center": [
+            2.961335172849069,
+            1.0661112098505283
+          ],
+          "radius": 0.18,
+          "velocity": [
+            -0.10930464538544253,
+            0.10783273722335618
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.7921767549045793,
+      "timeout": 150.0,
+      "friction": 0.7367284425705111,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "mixed_obstacles",
+    "variant": 5,
+    "scene_seed": 20261111,
+    "jump_requested": true,
+    "scenario": {
+      "name": "mixed_obstacles-05",
+      "start": [
+        0.19481460612444484,
+        0.13706391601571533
+      ],
+      "goal": [
+        2.6269206767118125,
+        -0.1214063480456844
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            1.9877241265265304,
+            -0.452058673419764
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.23,
+            0.18
+          ],
+          "height": 0.8360720062308866,
+          "yaw": 0.300671332762504,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_cylinder",
+          "center": [
+            1.2675611905392288,
+            1.5859306337045491
+          ],
+          "radius": 0.23975004647163453,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing_far",
+          "center": [
+            3.0173240148473024,
+            -1.504106592393129
+          ],
+          "radius": 0.18,
+          "velocity": [
+            0.006843765977649058,
+            0.1386255587591754
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.04932866723749596,
+      "timeout": 150.0,
+      "friction": 0.6677353017208657,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "mixed_obstacles",
+    "variant": 6,
+    "scene_seed": 20261112,
+    "jump_requested": false,
+    "scenario": {
+      "name": "mixed_obstacles-06",
+      "start": [
+        -0.16010916005548342,
+        -0.0624522862962997
+      ],
+      "goal": [
+        -1.7133055532495616,
+        1.6582547276043125
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            -1.0419975229274472,
+            1.5325555273534184
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.23,
+            0.18
+          ],
+          "height": 0.46420593691505485,
+          "yaw": 2.7037678338436097,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_cylinder",
+          "center": [
+            -1.9287288598720873,
+            -0.4117148772227054
+          ],
+          "radius": 0.2651082853786507,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing_far",
+          "center": [
+            -1.1425057636863343,
+            3.0512106551883065
+          ],
+          "radius": 0.18,
+          "velocity": [
+            -0.14499493124457097,
+            -0.14429292764722487
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.3537678338436097,
+      "timeout": 150.0,
+      "friction": 0.6884748255643679,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "mixed_obstacles",
+    "variant": 7,
+    "scene_seed": 20261113,
+    "jump_requested": true,
+    "scenario": {
+      "name": "mixed_obstacles-07",
+      "start": [
+        0.1350465185796043,
+        -0.1157046225143069
+      ],
+      "goal": [
+        -1.0381456054958378,
+        -2.290377415272303
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            -1.1062386265541544,
+            -1.6944823016013126
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.23,
+            0.18
+          ],
+          "height": 0.7115115908353183,
+          "yaw": -1.6354740045444762,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_cylinder",
+          "center": [
+            1.1050209165471578,
+            -1.6352932731982615
+          ],
+          "radius": 0.17256191061282591,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing_far",
+          "center": [
+            -2.4062181730580035,
+            -2.165576268992694
+          ],
+          "radius": 0.18,
+          "velocity": [
+            0.11557224740099985,
+            -0.050875352417616745
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -1.985474004544476,
+      "timeout": 150.0,
+      "friction": 0.9716106193821807,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "mixed_obstacles",
+    "variant": 8,
+    "scene_seed": 20261114,
+    "jump_requested": false,
+    "scenario": {
+      "name": "mixed_obstacles-08",
+      "start": [
+        -0.13348840822006391,
+        -0.04257650589451639
+      ],
+      "goal": [
+        -2.9466219907715216,
+        0.994627984091738
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            -2.271430636702312,
+            1.1801694525402622
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.23,
+            0.18
+          ],
+          "height": 0.859690999055209,
+          "yaw": 3.176504449496052,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_cylinder",
+          "center": [
+            -1.5491079575873745,
+            -1.1588297439409248
+          ],
+          "radius": 0.17549010682035857,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing_far",
+          "center": [
+            -2.425868146577061,
+            2.2822880353573614
+          ],
+          "radius": 0.18,
+          "velocity": [
+            -0.037626895987277885,
+            -0.11543868831117815
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.826504449496052,
+      "timeout": 150.0,
+      "friction": 0.7096175746913853,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "family": "mixed_obstacles",
+    "variant": 9,
+    "scene_seed": 20261115,
+    "jump_requested": true,
+    "scenario": {
+      "name": "mixed_obstacles-09",
+      "start": [
+        -0.07140811633882582,
+        0.03475440329225318
+      ],
+      "goal": [
+        3.000931473874499,
+        -0.03820066284852586
+      ],
+      "obstacles": [
+        {
+          "name": "box",
+          "center": [
+            1.7924997972729992,
+            -0.44317445540934053
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.23,
+            0.18
+          ],
+          "height": 0.5031413564291025,
+          "yaw": 0.361859636147256,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_cylinder",
+          "center": [
+            0.9107325217941906,
+            1.5465082744391643
+          ],
+          "radius": 0.18899114395166655,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.7,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing_far",
+          "center": [
+            2.846176979352218,
+            -1.4307479711177942
+          ],
+          "radius": 0.18,
+          "velocity": [
+            -0.0022752893591460872,
+            0.1918425368207811
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.6,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.011859636147256047,
+      "timeout": 150.0,
+      "friction": 0.8914904187412589,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  }
+]
