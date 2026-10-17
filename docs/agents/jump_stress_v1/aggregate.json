@@ -1,0 +1,233 @@
+{
+  "trials": 120,
+  "outcomes": {
+    "forward_qualified": 49,
+    "completed_short_or_backward": 6,
+    "execution_failure": 38,
+    "refused": 7,
+    "controlled_interruption": 20
+  },
+  "groups": [
+    {
+      "family": "flat",
+      "trials": 10,
+      "initiated": 10,
+      "outcomes": {
+        "forward_qualified": 10
+      },
+      "reasons": {
+        "completed": 10
+      },
+      "collisions": 0,
+      "falls": 0,
+      "forward_min": 0.1747423058808733,
+      "forward_max": 0.18430823196609764,
+      "forward_mean": 0.1782823766814255,
+      "peak_landing_force": 355.9023309319266
+    },
+    {
+      "family": "friction",
+      "trials": 10,
+      "initiated": 10,
+      "outcomes": {
+        "completed_short_or_backward": 6,
+        "forward_qualified": 4
+      },
+      "reasons": {
+        "completed": 10
+      },
+      "collisions": 0,
+      "falls": 0,
+      "forward_min": 0.008950560841179797,
+      "forward_max": 0.21778078603336787,
+      "forward_mean": 0.10822549363997139,
+      "peak_landing_force": 470.31136391236316
+    },
+    {
+      "family": "uphill",
+      "trials": 10,
+      "initiated": 3,
+      "outcomes": {
+        "forward_qualified": 3,
+        "execution_failure": 7
+      },
+      "reasons": {
+        "completed": 3,
+        "obstacle contact": 7
+      },
+      "collisions": 7,
+      "falls": 0,
+      "forward_min": 0.1294764814952468,
+      "forward_max": 0.16267363901005905,
+      "forward_mean": 0.14419416425491868,
+      "peak_landing_force": 331.0540687897425
+    },
+    {
+      "family": "downhill",
+      "trials": 10,
+      "initiated": 3,
+      "outcomes": {
+        "forward_qualified": 3,
+        "execution_failure": 7
+      },
+      "reasons": {
+        "completed": 3,
+        "obstacle contact": 7
+      },
+      "collisions": 7,
+      "falls": 0,
+      "forward_min": 0.1924778933853041,
+      "forward_max": 0.21472069886204184,
+      "forward_mean": 0.2039421565892043,
+      "peak_landing_force": 382.0024128908135
+    },
+    {
+      "family": "cross_slope",
+      "trials": 10,
+      "initiated": 4,
+      "outcomes": {
+        "forward_qualified": 4,
+        "execution_failure": 6
+      },
+      "reasons": {
+        "completed": 4,
+        "obstacle contact": 6
+      },
+      "collisions": 6,
+      "falls": 0,
+      "forward_min": 0.18586450312134659,
+      "forward_max": 0.1879246918825277,
+      "forward_mean": 0.18683901047072074,
+      "peak_landing_force": 342.37660922508996
+    },
+    {
+      "family": "uneven_footing",
+      "trials": 10,
+      "initiated": 6,
+      "outcomes": {
+        "forward_qualified": 5,
+        "execution_failure": 5
+      },
+      "reasons": {
+        "completed": 5,
+        "no verified flight": 1,
+        "obstacle contact": 4
+      },
+      "collisions": 4,
+      "falls": 0,
+      "forward_min": 0.007937638222879516,
+      "forward_max": 0.18790318608611234,
+      "forward_mean": 0.15726131029063586,
+      "peak_landing_force": 334.40842743459615
+    },
+    {
+      "family": "step_up",
+      "trials": 10,
+      "initiated": 10,
+      "outcomes": {
+        "forward_qualified": 10
+      },
+      "reasons": {
+        "completed": 10
+      },
+      "collisions": 0,
+      "falls": 0,
+      "forward_min": 0.14331935979248592,
+      "forward_max": 0.18685690125564436,
+      "forward_mean": 0.1754134450811471,
+      "peak_landing_force": 417.31944479006955
+    },
+    {
+      "family": "step_down",
+      "trials": 10,
+      "initiated": 6,
+      "outcomes": {
+        "forward_qualified": 5,
+        "execution_failure": 5
+      },
+      "reasons": {
+        "completed": 5,
+        "no verified flight": 1,
+        "obstacle contact": 4
+      },
+      "collisions": 4,
+      "falls": 0,
+      "forward_min": -0.0022501135776045312,
+      "forward_max": 0.20633938549246278,
+      "forward_mean": 0.16085795795590832,
+      "peak_landing_force": 340.8998004564762
+    },
+    {
+      "family": "static_obstacle",
+      "trials": 10,
+      "initiated": 3,
+      "outcomes": {
+        "refused": 7,
+        "forward_qualified": 3
+      },
+      "reasons": {
+        "failed initiation": 7,
+        "completed": 3
+      },
+      "collisions": 0,
+      "falls": 0,
+      "forward_min": 0.18685690125564436,
+      "forward_max": 0.18685690125564436,
+      "forward_mean": 0.18685690125564436,
+      "peak_landing_force": 337.51909138784276
+    },
+    {
+      "family": "approaching_obstacle",
+      "trials": 10,
+      "initiated": 10,
+      "outcomes": {
+        "forward_qualified": 2,
+        "execution_failure": 8
+      },
+      "reasons": {
+        "completed": 2,
+        "clearance stop": 8
+      },
+      "collisions": 0,
+      "falls": 0,
+      "forward_min": 0.16651112813312227,
+      "forward_max": 0.18723596755187977,
+      "forward_mean": 0.18214611267535868,
+      "peak_landing_force": 337.51909138784276
+    },
+    {
+      "family": "prepare_interrupt",
+      "trials": 10,
+      "initiated": 10,
+      "outcomes": {
+        "controlled_interruption": 10
+      },
+      "reasons": {
+        "interrupted": 10
+      },
+      "collisions": 0,
+      "falls": 0,
+      "forward_min": 0.0013545446655291566,
+      "forward_max": 0.0013545446655291566,
+      "forward_mean": 0.0013545446655291566,
+      "peak_landing_force": null
+    },
+    {
+      "family": "launched_interrupt",
+      "trials": 10,
+      "initiated": 10,
+      "outcomes": {
+        "controlled_interruption": 10
+      },
+      "reasons": {
+        "interrupted": 10
+      },
+      "collisions": 0,
+      "falls": 0,
+      "forward_min": 0.18565997561087155,
+      "forward_max": 0.18565997561087155,
+      "forward_mean": 0.18565997561087152,
+      "peak_landing_force": 337.51909138784276
+    }
+  ]
+}

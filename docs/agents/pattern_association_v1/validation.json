@@ -1,0 +1,249 @@
+[
+  {
+    "context_id": "clear-04",
+    "oracle_skill": "dynamic/run",
+    "proposal": {
+      "proposed_skill": "dynamic/run",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "clear-00",
+          "skill": "dynamic/run",
+          "distance": 1.0
+        },
+        {
+          "context_id": "clear-02",
+          "skill": "dynamic/run",
+          "distance": 2.449489742783178
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/run",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "agreement": true
+  },
+  {
+    "context_id": "static_cylinder-04",
+    "oracle_skill": "dynamic/wait",
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "conflicting associations",
+      "neighbors": [
+        {
+          "context_id": "receding-02",
+          "skill": "dynamic/wait",
+          "distance": 2.0
+        },
+        {
+          "context_id": "static_cylinder-02",
+          "skill": "dynamic/wait",
+          "distance": 2.6457513110645907
+        },
+        {
+          "context_id": "oscillating-02",
+          "skill": "dynamic/run",
+          "distance": 3.4641016151377544
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "conflicting associations"
+    },
+    "agreement": true
+  },
+  {
+    "context_id": "static_box-04",
+    "oracle_skill": "dynamic/wait",
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_box-00",
+          "skill": "dynamic/wait",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "approaching-02",
+          "skill": "dynamic/wait",
+          "distance": 2.6457513110645907
+        },
+        {
+          "context_id": "receding-02",
+          "skill": "dynamic/wait",
+          "distance": 3.872983346207417
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "agreement": true
+  },
+  {
+    "context_id": "low_bar-04",
+    "oracle_skill": "dynamic/wait",
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "unknown pattern",
+      "neighbors": []
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "unknown pattern"
+    },
+    "agreement": true
+  },
+  {
+    "context_id": "crossing_left_to_right-04",
+    "oracle_skill": "dynamic/wait",
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "unknown pattern",
+      "neighbors": []
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "unknown pattern"
+    },
+    "agreement": true
+  },
+  {
+    "context_id": "crossing_right_to_left-04",
+    "oracle_skill": "dynamic/run",
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "conflicting associations",
+      "neighbors": [
+        {
+          "context_id": "crossing_right_to_left-00",
+          "skill": "dynamic/run",
+          "distance": 2.8284271247461903
+        },
+        {
+          "context_id": "mixed_obstacles-00",
+          "skill": "dynamic/wait",
+          "distance": 3.605551275463989
+        },
+        {
+          "context_id": "crossing_right_to_left-02",
+          "skill": "dynamic/run",
+          "distance": 3.872983346207417
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "conflicting associations"
+    },
+    "agreement": false
+  },
+  {
+    "context_id": "approaching-04",
+    "oracle_skill": "dynamic/wait",
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "approaching-00",
+          "skill": "dynamic/wait",
+          "distance": 3.4641016151377544
+        },
+        {
+          "context_id": "static_box-02",
+          "skill": "dynamic/wait",
+          "distance": 3.605551275463989
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "agreement": true
+  },
+  {
+    "context_id": "receding-04",
+    "oracle_skill": "dynamic/wait",
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "receding-02",
+          "skill": "dynamic/wait",
+          "distance": 2.8284271247461903
+        },
+        {
+          "context_id": "static_cylinder-02",
+          "skill": "dynamic/wait",
+          "distance": 3.872983346207417
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "agreement": true
+  },
+  {
+    "context_id": "oscillating-04",
+    "oracle_skill": "dynamic/run",
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "receding-02",
+          "skill": "dynamic/wait",
+          "distance": 2.8284271247461903
+        },
+        {
+          "context_id": "static_box-00",
+          "skill": "dynamic/wait",
+          "distance": 3.0
+        },
+        {
+          "context_id": "approaching-02",
+          "skill": "dynamic/wait",
+          "distance": 3.1622776601683795
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "agreement": false
+  },
+  {
+    "context_id": "mixed_obstacles-04",
+    "oracle_skill": "dynamic/wait",
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "unknown pattern",
+      "neighbors": []
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "unknown pattern"
+    },
+    "agreement": true
+  }
+]

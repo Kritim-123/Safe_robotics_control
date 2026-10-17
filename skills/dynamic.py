@@ -1,5 +1,6 @@
 """Bounded classical dynamic primitives in torque-driven MuJoCo physics."""
 from contextlib import nullcontext, contextmanager
+from dataclasses import asdict
 import time
 
 import mujoco
@@ -9,6 +10,7 @@ from controllers.navigation import NavigationExperiment
 from controllers.walking import JointPID
 from hybrid.arena import Arena, Scenario, build_model
 from skills.avoidance import clearance, path_clearance
+from skills.jump_profile import JumpConfig, ForwardJumpTrajectory
 
 DYNAMIC_SKILL_NAMES = ('wait', 'run', 'jump')
 
@@ -21,7 +23,7 @@ def _release_torques(data):
         data.ctrl[:] = 0
 
 
-def dynamic_eligibility(robot, obstacles, bounds, *, duration=4.0, run_speed=.5):
+def dynamic_eligibility(robot, obstacles, bounds, *, duration=4.0, run_speed=.5, jump_config=None):
     """Current-state eligibility; caller must keep monitoring moving obstacles."""
     d = robot.data
     position = d.body('base').xpos[:2]
@@ -32,24 +34,34 @@ def dynamic_eligibility(robot, obstacles, bounds, *, duration=4.0, run_speed=.5)
     gap = clearance(position, obstacles, bounds)
     forward = np.array([np.cos(yaw), np.sin(yaw)])
     run_gap = path_clearance(position, [position+forward*run_speed*duration], obstacles, bounds)
+    jump_gap = (path_clearance(position,[position+forward*jump_config.forward_clearance],obstacles,bounds)
+                if jump_config is not None else gap)
     return dict(wait=bool(stable and gap > .08), run=bool(stable and run_gap > .12),
-                jump=bool(stable and gap > .35))
+                jump=bool(stable and jump_gap > .35))
 
 
 class DynamicSkill:
     """Joint-target generator only; simulator state and PID remain caller-owned."""
-    def __init__(self, robot, name, start_time, *, duration=4.0, run_speed=.5):
+    def __init__(self, robot, name, start_time, *, duration=4.0, run_speed=.5, jump_config=None):
         if (name not in DYNAMIC_SKILL_NAMES or not np.all(np.isfinite([duration, start_time, run_speed]))
                 or duration <= 0 or not 0 < run_speed <= .5 or (name == 'jump' and duration < 1.5)):
             raise ValueError('Expected wait/run/jump and positive finite duration')
         self.robot, self.name, self.started, self.duration = robot, name, start_time, duration
         self.run_speed = run_speed
         self.status = 'running'
+        self.forward_jump = ForwardJumpTrajectory(robot,jump_config) if name=='jump' and jump_config is not None else None
+        self.last_elapsed=0.
+        self.analytic_velocity=None
+        self.jump_phase=None
 
     def targets(self, now):
         if not np.isfinite(now) or now < self.started:
             raise ValueError('Target time must be finite and at or after initiation')
         r, elapsed = self.robot, now-self.started
+        self.last_elapsed=elapsed
+        if self.forward_jump is not None:
+            target,self.analytic_velocity,_,self.jump_phase=self.forward_jump.sample(elapsed)
+            return target
         if self.name == 'run' and elapsed < self.duration and self.status == 'running':
             return r.velocity_targets(np.array([self.run_speed, 0., 0.]), .01)
         if self.name == 'jump' and self.status == 'running':
@@ -69,11 +81,13 @@ class DynamicSkill:
 
     def interrupt(self):
         self.status = 'interrupted'
+        if self.forward_jump is not None:
+            self.forward_jump.interrupt(self.last_elapsed)
 
 
 def execute_dynamic_skill(name=None, scenario=None, *, duration=4.0, seed=0, viewer=False,
                           timeout=12.0, interrupt_after=None, selector=None, run_speed=.5,
-                          frame_callback=None):
+                          frame_callback=None, viewer_callback=None, jump_profile='legacy', jump_config=None):
     """Execute one episode; return history and honest measured outcome summary.
 
     Scenario observations use metres/seconds/radians. ``seed`` is recorded for
@@ -82,6 +96,13 @@ def execute_dynamic_skill(name=None, scenario=None, *, duration=4.0, seed=0, vie
     """
     if name not in DYNAMIC_SKILL_NAMES and not (name is None and callable(selector)):
         raise ValueError('Unknown dynamic skill')
+    if jump_profile not in ('legacy','smooth_forward'):
+        raise ValueError('Unknown jump profile')
+    if jump_config is not None and jump_profile!='smooth_forward':
+        raise ValueError('Custom jump config requires smooth_forward profile')
+    profile_config=(jump_config or JumpConfig()) if jump_profile=='smooth_forward' else None
+    if profile_config is not None:
+        profile_config.validate()
     if (not np.all(np.isfinite([duration, timeout, run_speed])) or duration < 1.5 or timeout <= 2
             or not 0 < run_speed <= .5
             or (interrupt_after is not None and (not np.isfinite(interrupt_after) or interrupt_after < 0))):
@@ -111,8 +132,8 @@ def execute_dynamic_skill(name=None, scenario=None, *, duration=4.0, seed=0, vie
         if view is not None:
             view.cam.lookat[:] = [.7, 0, .2]
             view.cam.distance, view.cam.azimuth, view.cam.elevation = 5.5, 120, -35
+        viewer_started, next_view = time.perf_counter(), 0.
         while d.time < timeout:
-            wall = time.perf_counter()
             if view is not None and not view.is_running():
                 reason = 'viewer closed'
                 break
@@ -130,7 +151,8 @@ def execute_dynamic_skill(name=None, scenario=None, *, duration=4.0, seed=0, vie
                                    yaw=yaw, height=float(d.qpos[2]), upright=float(rot[2, 2]),
                                    obstacles=[dict(center=c.tolist(), radius=float(r), velocity=v.tolist())
                                               for c, r, v in obstacles])
-                eligibility = dynamic_eligibility(robot, obstacles, spec.bounds, duration=duration, run_speed=run_speed)
+                eligibility = dynamic_eligibility(robot, obstacles, spec.bounds, duration=duration, run_speed=run_speed,
+                                                  jump_config=profile_config)
                 if selector is not None:
                     name = selector(observation, eligibility.copy())
                     if name is None:
@@ -142,13 +164,27 @@ def execute_dynamic_skill(name=None, scenario=None, *, duration=4.0, seed=0, vie
                     reason = 'failed initiation'
                     break
                 start_position = position.copy()
-                skill = DynamicSkill(robot, name, float(d.time), duration=duration, run_speed=run_speed)
+                skill = DynamicSkill(robot, name, float(d.time), duration=duration, run_speed=run_speed,
+                                     jump_config=profile_config)
+                if name=='jump' and profile_config is not None:
+                    robot.limits=np.full(m.nu,profile_config.torque_limit)
+                    pid.limits=robot.limits.copy()
+                    m.actuator_ctrlrange[:]=np.column_stack((-robot.limits,robot.limits))
+                    m.actuator_forcerange[:]=m.actuator_ctrlrange
+                    if view is not None:
+                        view.cam.lookat[:]=[*spec.start,.22]
+                        view.cam.distance,view.cam.azimuth,view.cam.elevation=2.3,np.rad2deg(spec.start_yaw)+110,-25
             if skill and interrupt_after is not None and d.time-skill.started >= interrupt_after:
                 skill.interrupt()
             if d.time >= next_control-dt/2:
                 previous = target.copy()
                 target = robot.home.copy() if skill is None else skill.targets(float(d.time))
-                target_velocity = (target-previous)/.01
+                target_velocity = (skill.analytic_velocity.copy() if skill is not None and skill.analytic_velocity is not None
+                                   else (target-previous)/.01)
+                if skill is not None and skill.forward_jump is not None:
+                    blend=skill.forward_jump.gain_blend(skill.last_elapsed)
+                    pid.kp=robot.kp+(profile_config.landing_kp-robot.kp)*blend
+                    pid.kd=robot.kd+(profile_config.landing_kd-robot.kd)*blend
                 next_control += .01
             torque = pid.update(target, target_velocity, d.qpos[robot.qa], d.qvel[robot.va], dt)
             d.ctrl[:] = torque
@@ -171,6 +207,8 @@ def execute_dynamic_skill(name=None, scenario=None, *, duration=4.0, seed=0, vie
             upright = float(d.body('base').xmat.reshape(3, 3)[2, 2])
             if frame_callback is not None:
                 frame_callback(m, d, name if skill is not None else 'settling')
+            if view is not None and viewer_callback is not None:
+                viewer_callback(view, m, d, name if skill is not None else 'settling')
             max_height = max(max_height, height)
             if not np.all(np.isfinite(d.qpos)) or not np.all(np.isfinite(d.qvel)):
                 reason = 'nonfinite state'
@@ -199,9 +237,10 @@ def execute_dynamic_skill(name=None, scenario=None, *, duration=4.0, seed=0, vie
                                     foot_contacts=len(contact_feet), min_foot_height=foot_z, airborne=airborne,
                                     peak_torque=float(np.max(np.abs(torque))), clearance=gap))
                 next_log += .02
-            if view is not None:
+            if view is not None and d.time >= next_view:
                 view.sync()
-                time.sleep(max(0, dt-(time.perf_counter()-wall)))
+                next_view = float(d.time)+1/60
+                time.sleep(max(0, float(d.time)-(time.perf_counter()-viewer_started)))
     # Always retain the terminal state, including failed initiation/early stop.
     contact_feet = {g for c in d.contact for g in (c.geom1, c.geom2) if g in foot_geoms}
     foot_z = min(float(d.site_xpos[v['site'], 2]) for v in robot.legs.values())
@@ -222,5 +261,8 @@ def execute_dynamic_skill(name=None, scenario=None, *, duration=4.0, seed=0, vie
                    max_height=max_height, stable_landing=stable_since is not None and d.time-stable_since >= .8,
                    max_torque=peak_torque, max_torque_limit_ratio=limit_ratio, collision=collision, fall=fall,
                    min_clearance=min_clearance, decision_observation=observation, eligibility=eligibility,
-                   physics_dt=dt, control_dt=.01, duration=duration, run_speed=run_speed)
+                   physics_dt=dt, control_dt=.01, duration=duration, run_speed=run_speed,
+                   jump_profile=jump_profile if name=='jump' else None,
+                   jump_configuration=asdict(profile_config) if name=='jump' and profile_config is not None else None,
+                   actuator_limit=float(np.max(robot.limits)))
     return history, summary

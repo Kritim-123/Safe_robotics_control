@@ -1,0 +1,12 @@
+test_actual_full_low_bar_crossing_and_actuator_forces (test_obstacle_jump.ObstacleJumpTests.test_actual_full_low_bar_crossing_and_actuator_forces) ... ok
+test_contact_is_failure_and_airtime_does_not_imply_crossing (test_obstacle_jump.ObstacleJumpTests.test_contact_is_failure_and_airtime_does_not_imply_crossing) ... ok
+test_contract_refuses_unassessed_and_moving_targets (test_obstacle_jump.ObstacleJumpTests.test_contract_refuses_unassessed_and_moving_targets) ... ok
+test_interruptions_and_callback_failure_release_torques (test_obstacle_jump.ObstacleJumpTests.test_interruptions_and_callback_failure_release_torques) ... ok
+test_registry_keeps_jump_separate_from_snn_classes (test_obstacle_jump.ObstacleJumpTests.test_registry_keeps_jump_separate_from_snn_classes) ... ok
+test_unrelated_obstacle_keeps_corridor_guard (test_obstacle_jump.ObstacleJumpTests.test_unrelated_obstacle_keeps_corridor_guard) ... ok
+test_viewer_closed_before_first_step_reports_finite_state (test_obstacle_jump.ObstacleJumpTests.test_viewer_closed_before_first_step_reports_finite_state) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 4.161s
+
+OK

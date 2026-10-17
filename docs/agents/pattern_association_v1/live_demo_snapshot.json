@@ -1,0 +1,17 @@
+{
+  "episodes": 10,
+  "task_fulfilled": 10,
+  "primitive_completed": 10,
+  "contacts": 0,
+  "falls": 0,
+  "fallbacks": 0,
+  "executed_skills": {
+    "run": 5,
+    "jump": 5
+  },
+  "max_torque": 24.0,
+  "max_torque_limit_ratio": 1.0,
+  "encoder_checksum": "b72b9750bffd70ee37bd0aaedb5064b58157d8f5a13f58b5cd356ca281fa70ec",
+  "association_checksum": "af09caff72026bfca7e8ff7b5a20e7011954c9e12cd5e56033b7ca07e3aeed00",
+  "split": "demo"
+}

@@ -1,5 +1,79 @@
 # Project assessment
 
+October 17, 2026 terrain/goal update: the opt-in 64-neuron count selector and
+bounded terrain gait improve the original 60-case course from 0/60 to 44/60,
+matching rule control. A separately confirmed goal-hold readout passes 76/100
+fresh mild-noise and 69/100 severe-noise goals, versus 46/100 and 22/100 for
+the first goal readout. Neuron packets reset; goal commitment persists until
+fresh release evidence. All 194 project tests passed, with motor limits and
+the earlier runtime preserved. Wider-terrain and localization limitations,
+fresh confirmations, actual counts and reproducible commands are in the
+[terrain/goal assessment](agents/terrain_goal_validation.md).
+
+The subsequent V3 request-data refinement passes 83/100 fresh clean and 31/40
+fresh noisy goals versus V2's 78/100 and 30/40 on the same cases, with the
+encoder, goal-hold code and motor profile unchanged. It preserves every prior
+successful request-regression/original-course case. The report keeps these
+140 new geometries separate from V2's earlier confirmations and records the
+three known calf contacts that remain reproducible under V3.
+
+October 17, 2026 continuous SNN selection: a frozen 80-neuron count encoder
+and expanded association bank support repeated decisions with checked braking,
+jump commitment, recovery and fresh count packets. A matched same-model control
+improved from 60/80 to 70/80 fresh stress tasks after targeted association-data
+coverage; regular/noisy confirmation passed 80/80 and 32/32. The original16
+bank also benefits strongly from motion/task-stream data. Terrain/goal transfer
+failed 0/60 for that earlier model, including flat controls; it is an experimental request-stream
+selector, with privileged simulation observations. All 176 tests passed.
+See the [models, evidence, limitations and replay commands](agents/continual_snn_validation.md).
+
+October 16, 2026 low-obstacle jump: a separate 72 N m simulation profile clears
+a 4 cm-high, 2 cm-deep bar in a 64.7 cm standing jump with stable recovery,
+all feet and collision geometry beyond it, and no contact. Fresh assessment:
+19/24 broad-heading crossings, 4/4 boundary cases, 14/16 +X cases; all six
+farther/friction stress cases failed. Both interruptions recovered. This is an
+experimental callable skill outside the SNN schemas. All 141 tests passed; see
+[recordings, measured limits and failures](agents/obstacle_jump_validation.md).
+
+October 16, 2026 jump stress assessment: 120 new fixed conditions, unchanged
+forward-hop profile. Of 100 ordinary cases: 49 qualified forward hops, six short
+completed hops, 28 setup failures, seven refused starts and ten execution
+failures. All 20 interruption cases recovered. Flat heading/start variations
+passed 10/10; low friction reduced travel, raised terrain exposed setup/lost-flight
+problems, and approaching obstacles caused eight clearance stops. All 120 traces
+were audited and eight jump tests passed. See the
+[full condition table, limitations and finite replays](agents/jump_stress_validation.md).
+
+October 16, 2026 smooth jump: after 217 development candidates, a quintic
+forward-hop profile completed all 16 fresh flat-ground tests with 16-20 cm
+forward travel, about 8 cm airborne travel, lower peak base acceleration and
+torque-step RMS. The old 24 N m bound was relaxed; the selected simulation
+profile uses 28 N m after testing bounds up to 48. Landing force is higher than
+the small legacy hop. All 134 tests passed. See the
+[measured tradeoffs, stress failures and replay commands](agents/smooth_forward_jump_validation.md).
+
+October 16, 2026 expanded association learning: 204 new matched skill trials
+and 256 comparison/regression episodes produced 94-example association banks.
+A dense terrain scan resolves the training flat/threshold count conflict.
+Fresh evaluation fulfilled 7/28 tasks versus 0/28 for the original bank;
+the old regression tasks stayed at 6/12. Existing motor limits and SNN random
+weights remain fixed. See [data, models, failures and commands](agents/expanded_association_validation.md).
+
+October 16, 2026 terrain curriculum: ten ordered levels and 60 seeded scene
+configurations now include collidable ramps, thresholds, steps, uneven blocks,
+cross-slopes, friction transitions and mixed obstacle courses. Assessment
+compares frozen pattern associations with direct run, records live outcomes,
+and optionally stops progression at the first failed level. This adds terrain
+and evaluation tools, rather than terrain training. See the
+[actual curriculum results and limits](agents/terrain_curriculum_validation.md).
+
+October 16, 2026 external-policy expansion: imported frozen rl_sar robot_lab
+and HIMLoco networks with source configs, license, checksums and NumPy exports.
+The 36-trial comparison passed 23 tasks without contacts/falls; seven command
+options passed all three contexts and are available through `skills.registry`.
+The SNN schemas and default navigation controller are unchanged. See
+[integration, actual results and remaining handoff work](agents/pretrained_velocity_validation.md).
+
 See the [consolidated progress summary](project_summary.md) for all milestones
 through October 16, 2026, including the new-obstacle generalization failures,
 pretrained-policy transfer results and which artifacts are included in Git.
@@ -47,8 +121,8 @@ continues to provide the standalone walk experiment.
 
 The research in [pretrained policies](pretrained_policies_and_hybrid_control.md)
 identifies published external Go2 weights. The default controller still uses our
-own **skill-selection SNN**; imported motor weights now exist only in the
-experimental pretrained gap-jump adapter described above.
+own **skill-selection SNN**; imported motor weights are used in the experimental
+gap adapter and the separately validated velocity skills described above.
 
 The implementation demonstrates the requested control loop. It does not yet
 establish that an SNN beats the geometric teacher, saves energy, tolerates

@@ -1,0 +1,1136 @@
+{
+  "schema_version": 1,
+  "encoder_checksum": "b72b9750bffd70ee37bd0aaedb5064b58157d8f5a13f58b5cd356ca281fa70ec",
+  "representation": "16_spike_counts",
+  "skills": [
+    "dynamic/wait",
+    "dynamic/run",
+    "dynamic/jump"
+  ],
+  "neighbors": 3,
+  "max_count_distance": 4.0,
+  "examples": [
+    {
+      "context_id": "clear-00",
+      "spike_counts": [
+        0,
+        6,
+        2,
+        4,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        8,
+        3,
+        0,
+        0
+      ],
+      "skill": "dynamic/run",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/clear-00/wait.json",
+        "trials/clear-00/run.json",
+        "trials/clear-00/jump.json"
+      ]
+    },
+    {
+      "context_id": "clear-01",
+      "spike_counts": [
+        0,
+        8,
+        4,
+        1,
+        6,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        10,
+        9,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/clear-01/wait.json",
+        "trials/clear-01/run.json",
+        "trials/clear-01/jump.json"
+      ]
+    },
+    {
+      "context_id": "clear-02",
+      "spike_counts": [
+        0,
+        6,
+        2,
+        5,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        8,
+        3,
+        0,
+        0
+      ],
+      "skill": "dynamic/run",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/clear-02/wait.json",
+        "trials/clear-02/run.json",
+        "trials/clear-02/jump.json"
+      ]
+    },
+    {
+      "context_id": "clear-03",
+      "spike_counts": [
+        0,
+        8,
+        4,
+        2,
+        6,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        9,
+        9,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/clear-03/wait.json",
+        "trials/clear-03/run.json",
+        "trials/clear-03/jump.json"
+      ]
+    },
+    {
+      "context_id": "static_cylinder-00",
+      "spike_counts": [
+        0,
+        0,
+        5,
+        4,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/static_cylinder-00/wait.json",
+        "trials/static_cylinder-00/run.json",
+        "trials/static_cylinder-00/jump.json"
+      ]
+    },
+    {
+      "context_id": "static_cylinder-01",
+      "spike_counts": [
+        0,
+        2,
+        8,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/static_cylinder-01/wait.json",
+        "trials/static_cylinder-01/run.json",
+        "trials/static_cylinder-01/jump.json"
+      ]
+    },
+    {
+      "context_id": "static_cylinder-02",
+      "spike_counts": [
+        0,
+        1,
+        6,
+        3,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/static_cylinder-02/wait.json",
+        "trials/static_cylinder-02/run.json",
+        "trials/static_cylinder-02/jump.json"
+      ]
+    },
+    {
+      "context_id": "static_cylinder-03",
+      "spike_counts": [
+        0,
+        1,
+        10,
+        0,
+        6,
+        0,
+        0,
+        0,
+        1,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/static_cylinder-03/wait.json",
+        "trials/static_cylinder-03/run.json",
+        "trials/static_cylinder-03/jump.json"
+      ]
+    },
+    {
+      "context_id": "static_box-00",
+      "spike_counts": [
+        0,
+        0,
+        7,
+        3,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/static_box-00/wait.json",
+        "trials/static_box-00/run.json",
+        "trials/static_box-00/jump.json"
+      ]
+    },
+    {
+      "context_id": "static_box-01",
+      "spike_counts": [
+        0,
+        2,
+        9,
+        1,
+        10,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/static_box-01/wait.json",
+        "trials/static_box-01/run.json",
+        "trials/static_box-01/jump.json"
+      ]
+    },
+    {
+      "context_id": "static_box-02",
+      "spike_counts": [
+        0,
+        0,
+        5,
+        2,
+        7,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/static_box-02/wait.json",
+        "trials/static_box-02/run.json",
+        "trials/static_box-02/jump.json"
+      ]
+    },
+    {
+      "context_id": "static_box-03",
+      "spike_counts": [
+        0,
+        2,
+        9,
+        1,
+        8,
+        0,
+        0,
+        0,
+        2,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/static_box-03/wait.json",
+        "trials/static_box-03/run.json",
+        "trials/static_box-03/jump.json"
+      ]
+    },
+    {
+      "context_id": "low_bar-00",
+      "spike_counts": [
+        0,
+        0,
+        7,
+        4,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        5
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/low_bar-00/wait.json",
+        "trials/low_bar-00/run.json",
+        "trials/low_bar-00/jump.json"
+      ]
+    },
+    {
+      "context_id": "low_bar-01",
+      "spike_counts": [
+        0,
+        0,
+        10,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        4,
+        6
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/low_bar-01/wait.json",
+        "trials/low_bar-01/run.json",
+        "trials/low_bar-01/jump.json"
+      ]
+    },
+    {
+      "context_id": "low_bar-02",
+      "spike_counts": [
+        0,
+        0,
+        5,
+        3,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        6
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/low_bar-02/wait.json",
+        "trials/low_bar-02/run.json",
+        "trials/low_bar-02/jump.json"
+      ]
+    },
+    {
+      "context_id": "low_bar-03",
+      "spike_counts": [
+        0,
+        0,
+        8,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/low_bar-03/wait.json",
+        "trials/low_bar-03/run.json",
+        "trials/low_bar-03/jump.json"
+      ]
+    },
+    {
+      "context_id": "crossing_left_to_right-00",
+      "spike_counts": [
+        0,
+        0,
+        12,
+        2,
+        10,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2
+      ],
+      "skill": "dynamic/run",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/crossing_left_to_right-00/wait.json",
+        "trials/crossing_left_to_right-00/run.json",
+        "trials/crossing_left_to_right-00/jump.json"
+      ]
+    },
+    {
+      "context_id": "crossing_left_to_right-01",
+      "spike_counts": [
+        3,
+        1,
+        14,
+        0,
+        9,
+        0,
+        0,
+        0,
+        1,
+        16,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/crossing_left_to_right-01/wait.json",
+        "trials/crossing_left_to_right-01/run.json",
+        "trials/crossing_left_to_right-01/jump.json"
+      ]
+    },
+    {
+      "context_id": "crossing_left_to_right-02",
+      "spike_counts": [
+        0,
+        0,
+        9,
+        1,
+        12,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/crossing_left_to_right-02/wait.json",
+        "trials/crossing_left_to_right-02/run.json",
+        "trials/crossing_left_to_right-02/jump.json"
+      ]
+    },
+    {
+      "context_id": "crossing_left_to_right-03",
+      "spike_counts": [
+        0,
+        2,
+        13,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/crossing_left_to_right-03/wait.json",
+        "trials/crossing_left_to_right-03/run.json",
+        "trials/crossing_left_to_right-03/jump.json"
+      ]
+    },
+    {
+      "context_id": "crossing_right_to_left-00",
+      "spike_counts": [
+        0,
+        1,
+        3,
+        4,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "skill": "dynamic/run",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/crossing_right_to_left-00/wait.json",
+        "trials/crossing_right_to_left-00/run.json",
+        "trials/crossing_right_to_left-00/jump.json"
+      ]
+    },
+    {
+      "context_id": "crossing_right_to_left-01",
+      "spike_counts": [
+        0,
+        4,
+        6,
+        4,
+        5,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/crossing_right_to_left-01/wait.json",
+        "trials/crossing_right_to_left-01/run.json",
+        "trials/crossing_right_to_left-01/jump.json"
+      ]
+    },
+    {
+      "context_id": "crossing_right_to_left-02",
+      "spike_counts": [
+        0,
+        2,
+        2,
+        5,
+        5,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/run",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/crossing_right_to_left-02/wait.json",
+        "trials/crossing_right_to_left-02/run.json",
+        "trials/crossing_right_to_left-02/jump.json"
+      ]
+    },
+    {
+      "context_id": "crossing_right_to_left-03",
+      "spike_counts": [
+        0,
+        4,
+        4,
+        2,
+        8,
+        0,
+        0,
+        0,
+        0,
+        11,
+        0,
+        5,
+        1,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/crossing_right_to_left-03/wait.json",
+        "trials/crossing_right_to_left-03/run.json",
+        "trials/crossing_right_to_left-03/jump.json"
+      ]
+    },
+    {
+      "context_id": "approaching-00",
+      "spike_counts": [
+        0,
+        3,
+        7,
+        3,
+        8,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/approaching-00/wait.json",
+        "trials/approaching-00/run.json",
+        "trials/approaching-00/jump.json"
+      ]
+    },
+    {
+      "context_id": "approaching-01",
+      "spike_counts": [
+        0,
+        5,
+        11,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/approaching-01/wait.json",
+        "trials/approaching-01/run.json",
+        "trials/approaching-01/jump.json"
+      ]
+    },
+    {
+      "context_id": "approaching-02",
+      "spike_counts": [
+        0,
+        2,
+        7,
+        3,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/approaching-02/wait.json",
+        "trials/approaching-02/run.json",
+        "trials/approaching-02/jump.json"
+      ]
+    },
+    {
+      "context_id": "approaching-03",
+      "spike_counts": [
+        0,
+        4,
+        11,
+        1,
+        6,
+        0,
+        0,
+        0,
+        1,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/approaching-03/wait.json",
+        "trials/approaching-03/run.json",
+        "trials/approaching-03/jump.json"
+      ]
+    },
+    {
+      "context_id": "receding-00",
+      "spike_counts": [
+        0,
+        0,
+        6,
+        4,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/receding-00/wait.json",
+        "trials/receding-00/run.json",
+        "trials/receding-00/jump.json"
+      ]
+    },
+    {
+      "context_id": "receding-01",
+      "spike_counts": [
+        0,
+        0,
+        8,
+        1,
+        12,
+        0,
+        0,
+        0,
+        0,
+        11,
+        0,
+        7,
+        1,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/receding-01/wait.json",
+        "trials/receding-01/run.json",
+        "trials/receding-01/jump.json"
+      ]
+    },
+    {
+      "context_id": "receding-02",
+      "spike_counts": [
+        0,
+        0,
+        7,
+        3,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/receding-02/wait.json",
+        "trials/receding-02/run.json",
+        "trials/receding-02/jump.json"
+      ]
+    },
+    {
+      "context_id": "receding-03",
+      "spike_counts": [
+        0,
+        0,
+        8,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/receding-03/wait.json",
+        "trials/receding-03/run.json",
+        "trials/receding-03/jump.json"
+      ]
+    },
+    {
+      "context_id": "oscillating-00",
+      "spike_counts": [
+        0,
+        0,
+        8,
+        4,
+        7,
+        0,
+        0,
+        0,
+        1,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/oscillating-00/wait.json",
+        "trials/oscillating-00/run.json",
+        "trials/oscillating-00/jump.json"
+      ]
+    },
+    {
+      "context_id": "oscillating-01",
+      "spike_counts": [
+        0,
+        2,
+        10,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/oscillating-01/wait.json",
+        "trials/oscillating-01/run.json",
+        "trials/oscillating-01/jump.json"
+      ]
+    },
+    {
+      "context_id": "oscillating-02",
+      "spike_counts": [
+        0,
+        1,
+        11,
+        4,
+        9,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/run",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/oscillating-02/wait.json",
+        "trials/oscillating-02/run.json",
+        "trials/oscillating-02/jump.json"
+      ]
+    },
+    {
+      "context_id": "oscillating-03",
+      "spike_counts": [
+        8,
+        0,
+        12,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/oscillating-03/wait.json",
+        "trials/oscillating-03/run.json",
+        "trials/oscillating-03/jump.json"
+      ]
+    },
+    {
+      "context_id": "mixed_obstacles-00",
+      "spike_counts": [
+        0,
+        0,
+        4,
+        3,
+        8,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/mixed_obstacles-00/wait.json",
+        "trials/mixed_obstacles-00/run.json",
+        "trials/mixed_obstacles-00/jump.json"
+      ]
+    },
+    {
+      "context_id": "mixed_obstacles-01",
+      "spike_counts": [
+        0,
+        3,
+        14,
+        0,
+        3,
+        0,
+        0,
+        0,
+        2,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/mixed_obstacles-01/wait.json",
+        "trials/mixed_obstacles-01/run.json",
+        "trials/mixed_obstacles-01/jump.json"
+      ]
+    },
+    {
+      "context_id": "mixed_obstacles-02",
+      "spike_counts": [
+        0,
+        0,
+        5,
+        4,
+        7,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "skill": "dynamic/wait",
+      "label_role": "local_hold_fallback",
+      "evidence": [
+        "trials/mixed_obstacles-02/wait.json",
+        "trials/mixed_obstacles-02/run.json",
+        "trials/mixed_obstacles-02/jump.json"
+      ]
+    },
+    {
+      "context_id": "mixed_obstacles-03",
+      "spike_counts": [
+        0,
+        4,
+        14,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skill": "dynamic/jump",
+      "label_role": "task_fulfilled",
+      "evidence": [
+        "trials/mixed_obstacles-03/wait.json",
+        "trials/mixed_obstacles-03/run.json",
+        "trials/mixed_obstacles-03/jump.json"
+      ]
+    }
+  ],
+  "encoder_frozen": true,
+  "checksum": "af09caff72026bfca7e8ff7b5a20e7011954c9e12cd5e56033b7ca07e3aeed00"
+}

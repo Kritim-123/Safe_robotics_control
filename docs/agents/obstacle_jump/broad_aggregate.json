@@ -1,0 +1,26 @@
+{
+  "held_out": {
+    "trials": 24,
+    "successes": 19,
+    "collisions": 3,
+    "falls": 0
+  },
+  "boundary": {
+    "trials": 4,
+    "successes": 4,
+    "collisions": 0,
+    "falls": 0
+  },
+  "stress": {
+    "trials": 6,
+    "successes": 0,
+    "collisions": 3,
+    "falls": 1
+  },
+  "interrupt": {
+    "trials": 2,
+    "successes": 0,
+    "collisions": 0,
+    "falls": 0
+  }
+}

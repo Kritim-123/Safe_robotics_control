@@ -1,0 +1,158 @@
+{
+  "episodes": 148,
+  "groups": [
+    {
+      "split": "held_out",
+      "model": "original",
+      "episodes": 28,
+      "task_fulfilled": 1,
+      "primitive_completed": 28,
+      "collisions": 0,
+      "falls": 0,
+      "proposals": 3,
+      "fallbacks": 25,
+      "skills": {
+        "wait": 27,
+        "run": 1
+      },
+      "reasons": {
+        "completed": 28
+      },
+      "max_torque": 23.439604816720184,
+      "max_torque_limit_ratio": 0.9766502006966743
+    },
+    {
+      "split": "held_out",
+      "model": "expanded_legacy",
+      "episodes": 28,
+      "task_fulfilled": 5,
+      "primitive_completed": 28,
+      "collisions": 0,
+      "falls": 0,
+      "proposals": 13,
+      "fallbacks": 15,
+      "skills": {
+        "wait": 23,
+        "run": 3,
+        "jump": 2
+      },
+      "reasons": {
+        "completed": 28
+      },
+      "max_torque": 24.0,
+      "max_torque_limit_ratio": 1.0
+    },
+    {
+      "split": "held_out",
+      "model": "terrain",
+      "episodes": 28,
+      "task_fulfilled": 5,
+      "primitive_completed": 28,
+      "collisions": 0,
+      "falls": 0,
+      "proposals": 15,
+      "fallbacks": 13,
+      "skills": {
+        "wait": 23,
+        "run": 3,
+        "jump": 2
+      },
+      "reasons": {
+        "completed": 28
+      },
+      "max_torque": 24.0,
+      "max_torque_limit_ratio": 1.0
+    },
+    {
+      "split": "held_out",
+      "model": "direct_run",
+      "episodes": 28,
+      "task_fulfilled": 8,
+      "primitive_completed": 20,
+      "collisions": 0,
+      "falls": 0,
+      "proposals": 28,
+      "fallbacks": 0,
+      "skills": {
+        "run": 28
+      },
+      "reasons": {
+        "completed": 20,
+        "failed initiation": 6,
+        "clearance stop": 2
+      },
+      "max_torque": 24.0,
+      "max_torque_limit_ratio": 1.0
+    },
+    {
+      "split": "regression",
+      "model": "original",
+      "episodes": 12,
+      "task_fulfilled": 6,
+      "primitive_completed": 12,
+      "collisions": 0,
+      "falls": 0,
+      "proposals": 8,
+      "fallbacks": 4,
+      "skills": {
+        "run": 1,
+        "jump": 5,
+        "wait": 6
+      },
+      "reasons": {
+        "completed": 12
+      },
+      "max_torque": 24.0,
+      "max_torque_limit_ratio": 1.0
+    },
+    {
+      "split": "regression",
+      "model": "expanded_legacy",
+      "episodes": 12,
+      "task_fulfilled": 6,
+      "primitive_completed": 11,
+      "collisions": 0,
+      "falls": 0,
+      "proposals": 10,
+      "fallbacks": 2,
+      "skills": {
+        "run": 2,
+        "jump": 5,
+        "wait": 5
+      },
+      "reasons": {
+        "completed": 11,
+        "clearance stop": 1
+      },
+      "max_torque": 24.0,
+      "max_torque_limit_ratio": 1.0
+    },
+    {
+      "split": "regression",
+      "model": "terrain",
+      "episodes": 12,
+      "task_fulfilled": 6,
+      "primitive_completed": 11,
+      "collisions": 0,
+      "falls": 0,
+      "proposals": 10,
+      "fallbacks": 2,
+      "skills": {
+        "run": 2,
+        "jump": 5,
+        "wait": 5
+      },
+      "reasons": {
+        "completed": 11,
+        "clearance stop": 1
+      },
+      "max_torque": 24.0,
+      "max_torque_limit_ratio": 1.0
+    }
+  ],
+  "promotion_eligible": {
+    "expanded_legacy": true,
+    "terrain": true
+  },
+  "training_files_unchanged": true
+}

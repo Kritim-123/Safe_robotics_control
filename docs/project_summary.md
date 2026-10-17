@@ -5,6 +5,11 @@ Go2 MuJoCo implementation and its recorded experiments. Earlier reports retain
 their original dates and results; experiment totals below are historical evidence,
 not newly rerun evaluations for this summary.
 
+Subsequent same-day milestone: [two external velocity policies](agents/pretrained_velocity_validation.md)
+now provide seven validated command options through a skill registry. The
+36-trial comparison passed 23 tasks; unavailable options and the unchanged SNN
+schemas are documented separately. This extends the earlier snapshot below.
+
 ## What has been built
 
 1. **Simulation and classical motion.** Imported the licensed MuJoCo Menagerie

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "training_records.jsonl.gz": {
+      "source": "output/continual_snn/coverage-v2-fit/training_records.jsonl",
+      "source_sha256": "919e60ff31334ec5c3b20eadddb1369a2a8e515126fa9cd72ee5995656d1a23e",
+      "compressed_sha256": "a6b62c8cbc80f17804c32078e337fb235ae5df50468283fda9eb5f0c2cb7de06",
+      "bytes": 22737415,
+      "compressed_bytes": 2285270
+    },
+    "validation_records.jsonl.gz": {
+      "source": "output/continual_snn/coverage-v2-fit/validation_records.jsonl",
+      "source_sha256": "9ce1e85afb5e80feba9208df86011e6b0c10f0fd87d295f7ae0a266b8869295b",
+      "compressed_sha256": "6905bfc6a1480ec42d87b74e89e88098c150f91c51f808d5fedc966243c60504",
+      "bytes": 5776609,
+      "compressed_bytes": 579343
+    }
+  },
+  "final_evaluation_training_rows": 0,
+  "labels": "94 measured historical contexts plus separate teacher requests; new trajectories qualified by successful whole episodes",
+  "successful_episode_is_not_a_per_packet_counterfactual_outcome": true
+}

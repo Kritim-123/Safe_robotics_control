@@ -1,5 +1,68 @@
 # Go2 MuJoCo Simulation
 
+The [terrain and goal experiment](docs/agents/terrain_goal_validation.md) improves
+the original transfer course from 0/60 to **44/60**, matching its rule control.
+The frozen 64-neuron goal readout adds confirmed stopping and release while
+resetting spike packets independently. Fresh noisy goal tests passed 76/100
+with 2 cm pose noise and 69/100 with 5 cm noise. Terrain and localization
+failures remain documented; all 194 project tests passed. Run the opt-in demo
+with `python -m experiments.terrain_goal.demo --scene steps --viewer --video`.
+
+A subsequent request-readout refinement preserves the encoder and motors while
+improving fresh clean goals from 78/100 to **83/100**, and noisy goals from
+30/40 to **31/40**. It preserves the previous successful regression cases.
+Use `--model docs/agents/terrain_goal_v3/primary.npz` with the terrain/goal demo
+to select this retained experimental revision. Known calf contacts and biased
+goal observations remain unresolved.
+
+Watch V3 change skills within one four-obstacle episode with
+`python -m experiments.terrain_goal.obstacle_demo --viewer --video`.
+It waits for moving obstacles, walks, executes an explicitly requested short
+hop, resumes walking and stops at the goal without resetting physics.
+
+The [continuous SNN update](docs/agents/continual_snn_validation.md) learns
+spike-count-to-skill associations and changes skills within one persistent
+episode. Fresh stress success improved from 60/80 to 70/80 with the encoder
+and decoder unchanged; regular/noisy confirmation passed 80/80 and 32/32.
+That earlier model scored 0/60 on terrain/goal transfer. Watch its validated
+simulation default with `python -m experiments.continual_snn.demo --viewer --video`.
+
+An [experimental low-bar jump](docs/agents/obstacle_jump_validation.md) now clears
+a 4 cm-high obstacle in a recorded 65 cm standing jump. Run
+`python -m experiments.obstacle_jump --output output/obstacle_jump/my-demo --viewer --video`.
+Nearby +X tests passed 14/16; landing contacts remain, and this skill is not an
+SNN action.
+
+The [120-condition jump stress assessment](docs/agents/jump_stress_validation.md)
+records flat, friction, slope, step, obstacle and interruption outcomes with the
+forward-hop profile frozen. It separates setup failures and refused starts from
+executed jumps; slippery ground and moving-obstacle recovery remain weaknesses.
+
+The [smooth forward-jump update](docs/agents/smooth_forward_jump_validation.md)
+adds continuous takeoff/retraction/recovery targets and a short forward hop.
+Watch it with `python -m experiments.smooth_jump --viewer --video`.
+The learned-model demo now uses this profile by default; `--jump-profile legacy`
+replays the earlier in-place hop.
+
+The [expanded outcome-learning experiment](docs/agents/expanded_association_validation.md)
+adds a saved 94-example association bank and a terrain-aware frozen encoder.
+Watch its learned flat run, gentle ramp crossing and requested hop with
+`python -m experiments.spike_pattern_skills.run_learned --viewer`. The finite
+demo records neural activity, actual actions and outcomes.
+
+A [gradual terrain curriculum](docs/agents/terrain_curriculum_validation.md)
+adds 60 configurations across ten levels, from thresholds and ramps to steps,
+uneven surfaces, friction changes and moving obstacles. It records execution
+and enforces optional difficulty gates; these runs assess frozen controllers.
+Launch a diagnostic viewer with `python -m experiments.spike_pattern_skills.run_curriculum --stages 1 2 3 --variants 0 --modes direct_run --viewer`.
+
+Two [imported Go2 velocity policies](docs/agents/pretrained_velocity_validation.md)
+now provide seven validated forward/reverse/lateral/turning command options.
+Discover them with `python -m skills.registry`, or view one with
+`python -m skills.pretrained_velocity --policy himloco --skill forward --viewer`.
+Their 36-trial comparison retains failed options as unavailable; they have not
+been added as new SNN output classes.
+
 For a consolidated account of completed work, recorded results, artifact
 availability and remaining work, see the [project progress summary](docs/project_summary.md)
 (October 16, 2026).

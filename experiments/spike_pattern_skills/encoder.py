@@ -20,11 +20,16 @@ class RandomLIFEncoder:
     meanings. A 16-step window is an internal encoding window, not 16 sensor
     frames or a claimed physical/biological duration.
     """
+    feature_names, feature_units, input_scales = FEATURES, UNITS, SCALES
+
+    def _feature_vector(self, features):
+        return feature_vector(features)
+
     def __init__(self, metadata, weights, biases, scales):
         self.metadata = json.loads(_json(metadata))
         m = self.metadata
         if (m.get('schema_version') != 1 or m.get('neuron_model') != 'LIF'
-                or m.get('feature_names') != list(FEATURES) or m.get('feature_units') != list(UNITS)
+                or m.get('feature_names') != list(self.feature_names) or m.get('feature_units') != list(self.feature_units)
                 or m.get('reset_between_observations') is not True
                 or m.get('encoding') != 'constant_current'
                 or m.get('reset_rule') != 'subtract_threshold_once_per_step'):
@@ -37,8 +42,8 @@ class RandomLIFEncoder:
             raise ValueError('Invalid LIF or normalization parameters')
         self.weights, self.biases, self.scales = [np.array(v, dtype=np.float64, copy=True)
                                                 for v in (weights, biases, scales)]
-        if (self.weights.shape != (m['pattern_neurons'], len(FEATURES))
-                or self.biases.shape != (m['pattern_neurons'],) or self.scales.shape != (len(FEATURES),)
+        if (self.weights.shape != (m['pattern_neurons'], len(self.feature_names))
+                or self.biases.shape != (m['pattern_neurons'],) or self.scales.shape != (len(self.feature_names),)
                 or not all(np.isfinite(v).all() for v in (self.weights, self.biases, self.scales))
                 or np.any(self.scales <= 0)):
             raise ValueError('Invalid encoder array shape, value or input scales')
@@ -53,11 +58,11 @@ class RandomLIFEncoder:
         if type(pattern_neurons) is not int or not 1 <= pattern_neurons <= 4096:
             raise ValueError('Invalid pattern neuron count')
         rng = np.random.Generator(np.random.PCG64(seed))
-        weight_std = 1/np.sqrt(len(FEATURES))
-        weights = rng.normal(0., weight_std, (pattern_neurons, len(FEATURES)))
+        weight_std = 1/np.sqrt(len(cls.feature_names))
+        weights = rng.normal(0., weight_std, (pattern_neurons, len(cls.feature_names)))
         biases = rng.normal(0., .1, pattern_neurons)
         metadata = dict(schema_version=1, neuron_model='LIF', seed=seed, rng='PCG64',
-                        feature_names=list(FEATURES), feature_units=list(UNITS),
+                        feature_names=list(cls.feature_names), feature_units=list(cls.feature_units),
                         pattern_neurons=pattern_neurons, window_steps=window_steps,
                         beta_per_step=beta_per_step, threshold=threshold, input_clip=3.,
                         encoding='constant_current', reset_between_observations=True,
@@ -67,7 +72,7 @@ class RandomLIFEncoder:
                                             draw_order='all weights row-major, then biases'),
                         runtime=dict(python=platform.python_version(), numpy=np.__version__),
                         dtype='float64', learned_weights=False)
-        return cls(metadata, weights, biases, SCALES)
+        return cls(metadata, weights, biases, cls.input_scales)
 
     def _checksum(self):
         digest = hashlib.sha256(_json(self.metadata).encode('utf-8'))
@@ -100,7 +105,7 @@ class RandomLIFEncoder:
     def encode(self, features):
         if self._checksum() != self.checksum:
             raise ValueError('Frozen encoder contents changed')
-        raw = feature_vector(features)
+        raw = self._feature_vector(features)
         x = np.clip(raw/self.scales, -self.metadata['input_clip'], self.metadata['input_clip'])
         current = self.weights @ x + self.biases
         if not np.isfinite(current).all():

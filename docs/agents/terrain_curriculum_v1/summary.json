@@ -1,0 +1,55 @@
+{
+  "association": {
+    "episodes": 60,
+    "traversals": 0,
+    "primitive_completions": 60,
+    "contacts": 0,
+    "falls": 0,
+    "skills": {
+      "wait": 60
+    },
+    "reasons": {
+      "completed": 60
+    },
+    "proposal_reasons": {
+      "unknown pattern": 60
+    },
+    "max_torque": 7.357430937795305,
+    "max_torque_limit_ratio": 0.3065596224081377
+  },
+  "direct_run": {
+    "episodes": 60,
+    "traversals": 18,
+    "primitive_completions": 42,
+    "contacts": 0,
+    "falls": 0,
+    "skills": {
+      "run": 60
+    },
+    "reasons": {
+      "completed": 42,
+      "failed initiation": 12,
+      "clearance stop": 6
+    },
+    "proposal_reasons": {
+      "diagnostic fixed run": 60
+    },
+    "max_torque": 24.0,
+    "max_torque_limit_ratio": 1.0
+  },
+  "audit": {
+    "terminal_trajectories_checked": 120,
+    "portable_configs_checked": 60,
+    "source_hashes_match": true,
+    "geometry_hash_matches": true,
+    "encoder_and_association_checksums_match": true,
+    "python": "3.14.7",
+    "numpy": "2.5.3",
+    "mujoco": "3.13.0",
+    "raw_files_sha256": {
+      "manifest.json": "865d4793e6d11a334c46b38d2953b617982aaf4ae67e497d09489437240dc8be",
+      "results.jsonl": "f88187c2c5b1b3a513c6bbbe3bd83030d8b7bde22e8a7d426a7747fb192980ee",
+      "assessment.json": "373a2739a5e5e83f5037653a11365decce191680fc5a4fe9e32dfebc79f7d5dd"
+    }
+  }
+}

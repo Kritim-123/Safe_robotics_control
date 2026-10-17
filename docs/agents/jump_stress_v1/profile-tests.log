@@ -1,0 +1,13 @@
+test_callback_error_releases_relaxed_torques (test_smooth_jump.SmoothJumpTests.test_callback_error_releases_relaxed_torques) ... ok
+test_explicit_torque_override_updates_model_and_pid (test_smooth_jump.SmoothJumpTests.test_explicit_torque_override_updates_model_and_pid) ... ok
+test_forward_landing_corridor_can_refuse_old_in_place_case (test_smooth_jump.SmoothJumpTests.test_forward_landing_corridor_can_refuse_old_in_place_case) ... ok
+test_invalid_configuration_and_legacy_contract (test_smooth_jump.SmoothJumpTests.test_invalid_configuration_and_legacy_contract) ... ok
+test_learned_proposal_falls_back_when_forward_corridor_is_blocked (test_smooth_jump.SmoothJumpTests.test_learned_proposal_falls_back_when_forward_corridor_is_blocked) ... ok
+test_prepare_and_airborne_interruption_recover (test_smooth_jump.SmoothJumpTests.test_prepare_and_airborne_interruption_recover) ... ok
+test_short_forward_hop_and_measured_smoothness (test_smooth_jump.SmoothJumpTests.test_short_forward_hop_and_measured_smoothness) ... ok
+test_trajectory_position_velocity_acceleration_continuity (test_smooth_jump.SmoothJumpTests.test_trajectory_position_velocity_acceleration_continuity) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 4.408s
+
+OK

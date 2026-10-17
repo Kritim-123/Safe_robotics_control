@@ -1,0 +1,2306 @@
+[
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-00",
+      "start": [
+        -0.0023645716535157235,
+        -0.12439481710524247
+      ],
+      "goal": [
+        -0.49830888437476745,
+        1.2912461114777953
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.07981627928949281,
+            0.09668606739269606
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.009911794222504173,
+            0.6
+          ],
+          "height": 0.03921274140936834,
+          "yaw": 1.9077668807421064,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.9077668807421064,
+      "timeout": 150.0,
+      "friction": 0.8861860510249229,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-01",
+      "start": [
+        0.1214200492793664,
+        0.011029327583227305
+      ],
+      "goal": [
+        -1.3756039867396315,
+        -0.08341131822878373
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.11584068812196421,
+            -0.003938406218564016
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.007733371478762003,
+            0.6
+          ],
+          "height": 0.026859026892572458,
+          "yaw": -3.0785905526499002,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -3.0785905526499002,
+      "timeout": 150.0,
+      "friction": 0.854391879597888,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-02",
+      "start": [
+        -0.13683135941356528,
+        -0.010219670765634514
+      ],
+      "goal": [
+        0.04788324733640262,
+        -1.498803062468365
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.1072985675711395,
+            -0.24821938405715824
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.006313196598807787,
+            0.6
+          ],
+          "height": 0.03188189696805391,
+          "yaw": -1.4473398844489789,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -1.4473398844489789,
+      "timeout": 150.0,
+      "friction": 0.8605681293363379,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-03",
+      "start": [
+        -0.14950218025035233,
+        -0.1964936413788183
+      ],
+      "goal": [
+        1.2349113077663034,
+        -0.7739010315268458
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.06796379952468909,
+            -0.2871937572869491
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.007962003956044184,
+            0.6
+          ],
+          "height": 0.03477549091776102,
+          "yaw": -0.3951409269732058,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.3951409269732058,
+      "timeout": 150.0,
+      "friction": 0.8768477184386871,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-04",
+      "start": [
+        -0.12050687102380211,
+        -0.14394939646948646
+      ],
+      "goal": [
+        1.3423684498181023,
+        0.18770674424208633
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.11233920123177216,
+            -0.09115964152325642
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.00976033251828218,
+            0.6
+          ],
+          "height": 0.023628416490682064,
+          "yaw": 0.22294643885899834,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.22294643885899834,
+      "timeout": 150.0,
+      "friction": 0.8414808706151993,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-05",
+      "start": [
+        -0.13975191779270874,
+        0.11216765411381963
+      ],
+      "goal": [
+        -0.4001329943553276,
+        -1.365060051748784
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.1799037191632919,
+            -0.1156267547884467
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.009598550935687365,
+            0.6
+          ],
+          "height": 0.029734860546014964,
+          "yaw": -1.7452675212038844,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -1.7452675212038844,
+      "timeout": 150.0,
+      "friction": 0.8324487821059735,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-06",
+      "start": [
+        0.031397383208099594,
+        -0.17817231345104534
+      ],
+      "goal": [
+        -0.8876960380053343,
+        1.007267386863646
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.11518712876287446,
+            0.010891274570540788
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.006096038794576819,
+            0.6
+          ],
+          "height": 0.02954993019936559,
+          "yaw": 2.2303053971202926,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.2303053971202926,
+      "timeout": 150.0,
+      "friction": 0.844247569356009,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-07",
+      "start": [
+        -0.047761376844891984,
+        -0.11236404248158252
+      ],
+      "goal": [
+        -0.49585489582165443,
+        1.3191429251057296
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.11828864974587651,
+            0.11294669799339149
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.007022962575054177,
+            0.6
+          ],
+          "height": 0.025339812013802556,
+          "yaw": 1.8741569026674192,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.8741569026674192,
+      "timeout": 150.0,
+      "friction": 0.8822839225107992,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-08",
+      "start": [
+        0.07686652670872152,
+        -0.14005583111812206
+      ],
+      "goal": [
+        -1.1705688697237027,
+        -0.9730653939248651
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.12085724052175098,
+            -0.27209135726096273
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.00847357568973515,
+            0.6
+          ],
+          "height": 0.036447217436733764,
+          "yaw": -2.552821254806342,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.552821254806342,
+      "timeout": 150.0,
+      "friction": 0.8087525884072885,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-09",
+      "start": [
+        -0.031418392554871166,
+        -0.10958641819715696
+      ],
+      "goal": [
+        -1.2076700306266384,
+        0.8212369183890529
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.2158412638918692,
+            0.036356088392780664
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.006655572859111792,
+            0.6
+          ],
+          "height": 0.03956685162235889,
+          "yaw": 2.4721501777170714,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.4721501777170714,
+      "timeout": 150.0,
+      "friction": 0.8718524071609426,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-10",
+      "start": [
+        0.038566836270541666,
+        -0.1755591687468356
+      ],
+      "goal": [
+        -1.3383746639574494,
+        -0.7705651392630056
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.18057690613396882,
+            -0.27025588252178634
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.008791543795631896,
+            0.6
+          ],
+          "height": 0.033395163542718896,
+          "yaw": -2.7337055623747055,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.7337055623747055,
+      "timeout": 150.0,
+      "friction": 0.8301546638776306,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-11",
+      "start": [
+        -0.1465581374509641,
+        0.020530968774374492
+      ],
+      "goal": [
+        -1.1897310797548832,
+        -1.0573327575124805
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.3133919835688793,
+            -0.1518509477372538
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.009665722134678555,
+            0.6
+          ],
+          "height": 0.024257268301141197,
+          "yaw": -2.3398403687979306,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.3398403687979306,
+      "timeout": 150.0,
+      "friction": 0.8116046834436869,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-12",
+      "start": [
+        0.1634746191443241,
+        -0.1991021653310755
+      ],
+      "goal": [
+        -0.8429206543876697,
+        -1.3113829542564543
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.008867359318670692,
+            -0.3699760649360917
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.006677660904795219,
+            0.6
+          ],
+          "height": 0.03361065659599796,
+          "yaw": -2.306258829123804,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.306258829123804,
+      "timeout": 150.0,
+      "friction": 0.879360899853131,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-13",
+      "start": [
+        -0.07282180454830073,
+        -0.003299251756475302
+      ],
+      "goal": [
+        -0.7172547685571877,
+        -1.3578125056224981
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.1727986209546134,
+            -0.2134373583785522
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.00838376376073004,
+            0.6
+          ],
+          "height": 0.03124043347059887,
+          "yaw": -2.0148704348950113,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.0148704348950113,
+      "timeout": 150.0,
+      "friction": 0.8065497866188592,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-14",
+      "start": [
+        -0.16126987337089932,
+        0.09252995169866202
+      ],
+      "goal": [
+        -1.0612075715328246,
+        1.2925766755502859
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.29998528569489674,
+            0.27750384094359093
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.00969143239221459,
+            0.6
+          ],
+          "height": 0.035576931365600195,
+          "yaw": 2.214245518400535,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 2.214245518400535,
+      "timeout": 150.0,
+      "friction": 0.8209852642738257,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-15",
+      "start": [
+        -0.048671087526907575,
+        -0.05184431640394971
+      ],
+      "goal": [
+        -0.13146860664226762,
+        1.4458687972557862
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.06147944361171287,
+            0.17984430274306548
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.006052030543811054,
+            0.6
+          ],
+          "height": 0.0225898617279574,
+          "yaw": 1.6260227416218154,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 1.6260227416218154,
+      "timeout": 150.0,
+      "friction": 0.8548737411807891,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-16",
+      "start": [
+        -0.10339408469276452,
+        -0.08298784531383015
+      ],
+      "goal": [
+        -1.1441729315668328,
+        -1.163163475431213
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.26885982490795773,
+            -0.2547169890570943
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.006898188726035276,
+            0.6
+          ],
+          "height": 0.03609720437763501,
+          "yaw": -2.337621600691981,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.337621600691981,
+      "timeout": 150.0,
+      "friction": 0.8069055835070114,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-17",
+      "start": [
+        -0.017573946333223234,
+        -0.0578870026528128
+      ],
+      "goal": [
+        0.8731760062326421,
+        -1.2647691518305646
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.12314246468907908,
+            -0.24854446389653748
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.007394938289554915,
+            0.6
+          ],
+          "height": 0.034764080151904,
+          "yaw": -0.9349815119872691,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.9349815119872691,
+      "timeout": 150.0,
+      "friction": 0.8314688917693733,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-18",
+      "start": [
+        0.17477375849748628,
+        -0.013180924609726169
+      ],
+      "goal": [
+        1.0958482852986822,
+        1.170720133789139
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.32164428951668056,
+            0.1755987800305669
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.007184472938123264,
+            0.6
+          ],
+          "height": 0.026140398086118472,
+          "yaw": 0.9096149726337623,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.9096149726337623,
+      "timeout": 150.0,
+      "friction": 0.8420661883142416,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-19",
+      "start": [
+        0.12828974667741966,
+        -0.058919715190319216
+      ],
+      "goal": [
+        -1.245296691890792,
+        -0.6616305046917993
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.08442586556055043,
+            -0.15225639280405281
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.009557858984003272,
+            0.6
+          ],
+          "height": 0.029007239496632704,
+          "yaw": -2.7281031478534814,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.7281031478534814,
+      "timeout": 150.0,
+      "friction": 0.810800336165493,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-20",
+      "start": [
+        0.12191993446367816,
+        -0.009271913175623758
+      ],
+      "goal": [
+        -1.3707407719661848,
+        -0.15747452948283436
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.11254148748584972,
+            -0.032551012040052535
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.008912774440071602,
+            0.6
+          ],
+          "height": 0.02807604893174924,
+          "yaw": -3.0426294522332684,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -3.0426294522332684,
+      "timeout": 150.0,
+      "friction": 0.861435518043876,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-21",
+      "start": [
+        0.16009671124047115,
+        0.0875475225061822
+      ],
+      "goal": [
+        1.624026831149792,
+        -0.23942128949624947
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.38558483534732946,
+            0.0371847469493522
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.006221471954857525,
+            0.6
+          ],
+          "height": 0.031012809662640715,
+          "yaw": -0.2197434075700433,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -0.2197434075700433,
+      "timeout": 150.0,
+      "friction": 0.8324865995355142,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-22",
+      "start": [
+        -0.06245565304171971,
+        0.03542011967529865
+      ],
+      "goal": [
+        -0.73846407247828,
+        -1.3036140908103349
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            -0.16942560380254632,
+            -0.17646544187154609
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.007541837628417199,
+            0.6
+          ],
+          "height": 0.032269364804279,
+          "yaw": -2.0383146174077065,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": -2.0383146174077065,
+      "timeout": 150.0,
+      "friction": 0.8954033433218443,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "held_out",
+    "scenario": {
+      "name": "held-23",
+      "start": [
+        0.1946780300044707,
+        -0.19133210524885286
+      ],
+      "goal": [
+        1.6709795982942008,
+        0.07424967022770951
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.42736327753564946,
+            -0.14947279784587789
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.009275449293943243,
+            0.6
+          ],
+          "height": 0.030139934478310558,
+          "yaw": 0.17799287512123385,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.17799287512123385,
+      "timeout": 150.0,
+      "friction": 0.8257290906630387,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "boundary",
+    "scenario": {
+      "name": "boundary-00",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.23,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "boundary",
+    "scenario": {
+      "name": "boundary-01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.24,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "boundary",
+    "scenario": {
+      "name": "boundary-02",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.23,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.9,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "boundary",
+    "scenario": {
+      "name": "boundary-03",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.24,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.9,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "stress",
+    "scenario": {
+      "name": "stress-00",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.25,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "stress",
+    "scenario": {
+      "name": "stress-01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.27,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "stress",
+    "scenario": {
+      "name": "stress-02",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.3,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "stress",
+    "scenario": {
+      "name": "stress-03",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.24,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.5,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "stress",
+    "scenario": {
+      "name": "stress-04",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.24,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.7,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "stress",
+    "scenario": {
+      "name": "stress-05",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.24,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 1.2,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": null
+  },
+  {
+    "split": "interrupt",
+    "scenario": {
+      "name": "interrupt-00",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.24,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": 0.3
+  },
+  {
+    "split": "interrupt",
+    "scenario": {
+      "name": "interrupt-01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.24,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupt_after": 0.75
+  }
+]

@@ -1,0 +1,133 @@
+{
+  "profile": "smooth_forward",
+  "config": {
+    "preparation": 0.55,
+    "thrust": 0.22,
+    "flight": 0.16,
+    "absorption": 0.2,
+    "recovery": 0.6,
+    "crouch_thigh": 1.1,
+    "crouch_calf": -2.2,
+    "extension_calf": -1.2,
+    "forward_lean": 0.4,
+    "flight_calf": -1.55,
+    "flight_lean": -0.1,
+    "absorption_thigh": 1.03,
+    "absorption_calf": -2.06,
+    "torque_limit": 28.0,
+    "landing_kp": 35.0,
+    "landing_kd": 1.5,
+    "forward_clearance": 0.5
+  },
+  "scenario": {
+    "name": "smooth_jump_demo",
+    "start": [
+      0.0,
+      0.0
+    ],
+    "goal": [
+      3.0,
+      0.0
+    ],
+    "obstacles": [],
+    "bounds": [
+      -3.0,
+      6.0,
+      -3.0,
+      3.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  "summary": {
+    "skill": "jump",
+    "seed": 0,
+    "success": true,
+    "reason": "completed",
+    "elapsed": 6.803999999999473,
+    "displacement": [
+      0.18685690126085874,
+      -3.699752873578088e-05
+    ],
+    "distance": 0.1868569049236004,
+    "airtime": 0.17000000000000012,
+    "longest_airtime": 0.17000000000000012,
+    "all_feet_airborne": true,
+    "max_height": 0.4045846591001396,
+    "stable_landing": true,
+    "max_torque": 28.0,
+    "max_torque_limit_ratio": 1.0,
+    "collision": false,
+    "fall": false,
+    "min_clearance": 2.563078071425706,
+    "decision_observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09
+      ],
+      "speed": 0.0005648727540125489,
+      "yaw": 1.4088814977795383e-07,
+      "height": 0.26463491581131693,
+      "upright": 0.9999797335292003,
+      "obstacles": []
+    },
+    "eligibility": {
+      "wait": true,
+      "run": true,
+      "jump": true
+    },
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "duration": 4.0,
+    "run_speed": 0.5,
+    "jump_profile": "smooth_forward",
+    "jump_configuration": {
+      "preparation": 0.55,
+      "thrust": 0.22,
+      "flight": 0.16,
+      "absorption": 0.2,
+      "recovery": 0.6,
+      "crouch_thigh": 1.1,
+      "crouch_calf": -2.2,
+      "extension_calf": -1.2,
+      "forward_lean": 0.4,
+      "flight_calf": -1.55,
+      "flight_lean": -0.1,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 28.0,
+      "landing_kp": 35.0,
+      "landing_kd": 1.5,
+      "forward_clearance": 0.5
+    },
+    "actuator_limit": 28.0
+  },
+  "metrics": {
+    "forward_progress": 0.18685690125564436,
+    "flight_forward_progress": 0.0759222822144561,
+    "measured_flight": 0.16999999999998128,
+    "landing_vertical_velocity": -0.9194322679516678,
+    "peak_landing_normal_force": 337.51909138784276,
+    "peak_base_acceleration": 19.391936665935123,
+    "max_tilt_deg": 7.883169718117958,
+    "torque_step_rms": 0.3688941161541244,
+    "max_torque_step": 7.1985408721964,
+    "max_command_step": 0.08475886520419018,
+    "max_desired_velocity": 8.522727272727275,
+    "max_command_velocity_step": 1.1880941440910036,
+    "qualifies": true
+  }
+}

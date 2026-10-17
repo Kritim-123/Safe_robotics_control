@@ -1,0 +1,962 @@
+[
+  {
+    "name": "axis-00",
+    "start": [
+      0.17258221180007466,
+      -0.08911535054554559
+    ],
+    "goal": [
+      1.6725822118000746,
+      -0.08911535054554559
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.40724258528796237,
+          -0.08911535054554559
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.006786450062140253,
+          0.6
+        ],
+        "height": 0.03226080766440031,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8474725222973445,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-01",
+    "start": [
+      -0.1498052022544853,
+      -0.1456009788557997
+    ],
+    "goal": [
+      1.3501947977455147,
+      -0.1456009788557997
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.08924187043148751,
+          -0.1456009788557997
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.006709302740908079,
+          0.6
+        ],
+        "height": 0.033085648917339575,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8325762189107975,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-02",
+    "start": [
+      0.0936100591452606,
+      -0.14176472092677514
+    ],
+    "goal": [
+      1.5936100591452607,
+      -0.14176472092677514
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.3238354474814891,
+          -0.14176472092677514
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.0068380570473904915,
+          0.6
+        ],
+        "height": 0.03534904258921131,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8393079909772374,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-03",
+    "start": [
+      0.13972504066899605,
+      0.17589013430055384
+    ],
+    "goal": [
+      1.639725040668996,
+      0.17589013430055384
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.37015310101147525,
+          0.17589013430055384
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.0075720488112218706,
+          0.6
+        ],
+        "height": 0.02694889658329655,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.871262555122778,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-04",
+    "start": [
+      -0.1789305322032006,
+      0.008748877067763061
+    ],
+    "goal": [
+      1.3210694677967993,
+      0.008748877067763061
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.05628926888339092,
+          0.008748877067763061
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.007152749527534222,
+          0.6
+        ],
+        "height": 0.025975858379385305,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8932174844817169,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-05",
+    "start": [
+      0.09050386981493735,
+      -0.16345556158316557
+    ],
+    "goal": [
+      1.5905038698149374,
+      -0.16345556158316557
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.326719444331263,
+          -0.16345556158316557
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.007512148285816623,
+          0.6
+        ],
+        "height": 0.03882684086057008,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8219121796525315,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-06",
+    "start": [
+      0.05692558223999608,
+      -0.13730314625377407
+    ],
+    "goal": [
+      1.556925582239996,
+      -0.13730314625377407
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.2904532736266876,
+          -0.13730314625377407
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.009589799508513089,
+          0.6
+        ],
+        "height": 0.034219505890256956,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8184098876311114,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-07",
+    "start": [
+      0.008668036454720751,
+      0.16732220312402002
+    ],
+    "goal": [
+      1.5086680364547207,
+      0.16732220312402002
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.24205417601743448,
+          0.16732220312402002
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.008852783545267421,
+          0.6
+        ],
+        "height": 0.03671348877989788,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8042571988464539,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-08",
+    "start": [
+      0.024647672589218156,
+      0.14933234837348752
+    ],
+    "goal": [
+      1.5246476725892182,
+      0.14933234837348752
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.264161677771181,
+          0.14933234837348752
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.007087459269770592,
+          0.6
+        ],
+        "height": 0.037756775998756764,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8582041386258862,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-09",
+    "start": [
+      0.02727478399933228,
+      0.0607765865351933
+    ],
+    "goal": [
+      1.5272747839993324,
+      0.0607765865351933
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.2648867846648061,
+          0.0607765865351933
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.009814988354978795,
+          0.6
+        ],
+        "height": 0.031197971175547932,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8649720468206961,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-10",
+    "start": [
+      0.0542802744354679,
+      0.024079205079176796
+    ],
+    "goal": [
+      1.554280274435468,
+      0.024079205079176796
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.28471575057758,
+          0.024079205079176796
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.008922617019665402,
+          0.6
+        ],
+        "height": 0.02373248213855092,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8249418239787397,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-11",
+    "start": [
+      -0.13190150427467262,
+      0.15107106585041058
+    ],
+    "goal": [
+      1.3680984957253273,
+      0.15107106585041058
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.10492158680934105,
+          0.15107106585041058
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.007771240169167435,
+          0.6
+        ],
+        "height": 0.02195165944185188,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8505457004858625,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-12",
+    "start": [
+      0.09728097598670143,
+      0.045645888870190554
+    ],
+    "goal": [
+      1.5972809759867015,
+      0.045645888870190554
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.333504259373287,
+          0.045645888870190554
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.008695720755539881,
+          0.6
+        ],
+        "height": 0.027875230902714425,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8613900491952297,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-13",
+    "start": [
+      -0.04359364815619418,
+      0.040607545889231905
+    ],
+    "goal": [
+      1.4564063518438057,
+      0.040607545889231905
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.18777652279506504,
+          0.040607545889231905
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.0066797547309130735,
+          0.6
+        ],
+        "height": 0.027891016449788093,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.837846170356929,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-14",
+    "start": [
+      0.021036927990205928,
+      -0.11427092067624892
+    ],
+    "goal": [
+      1.5210369279902058,
+      -0.11427092067624892
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.2594272264634445,
+          -0.11427092067624892
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.009260515259179553,
+          0.6
+        ],
+        "height": 0.0298261860389719,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.890786915468354,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  {
+    "name": "axis-15",
+    "start": [
+      0.042685260777305,
+      -0.06954100421064398
+    ],
+    "goal": [
+      1.542685260777305,
+      -0.06954100421064398
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.2814814376877997,
+          -0.06954100421064398
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.009090743318346918,
+          0.6
+        ],
+        "height": 0.032943440434591686,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8387574654107688,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  }
+]

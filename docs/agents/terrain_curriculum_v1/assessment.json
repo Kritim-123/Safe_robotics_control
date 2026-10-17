@@ -1,0 +1,413 @@
+{
+  "episodes": 120,
+  "groups": [
+    {
+      "mode": "association",
+      "stage": 0,
+      "family": "flat",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "wait": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": true,
+      "stage_passed": false,
+      "progression_status": "needs_work",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "association",
+      "stage": 1,
+      "family": "thresholds",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "wait": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "association",
+      "stage": 2,
+      "family": "ramps",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "wait": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "association",
+      "stage": 3,
+      "family": "steps",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "wait": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "association",
+      "stage": 4,
+      "family": "uneven_blocks",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "wait": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "association",
+      "stage": 5,
+      "family": "cross_slope",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "wait": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "association",
+      "stage": 6,
+      "family": "friction_changes",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "wait": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "association",
+      "stage": 7,
+      "family": "static_passage",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "wait": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "association",
+      "stage": 8,
+      "family": "moving_crossing",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "wait": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "association",
+      "stage": 9,
+      "family": "mixed_course",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "wait": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "direct_run",
+      "stage": 0,
+      "family": "flat",
+      "episodes": 6,
+      "traversals": 6,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "run": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": true,
+      "stage_passed": true,
+      "progression_status": "passed",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "direct_run",
+      "stage": 1,
+      "family": "thresholds",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "run": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": true,
+      "stage_passed": false,
+      "progression_status": "needs_work",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "direct_run",
+      "stage": 2,
+      "family": "ramps",
+      "episodes": 6,
+      "traversals": 4,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "run": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "direct_run",
+      "stage": 3,
+      "family": "steps",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "run": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "direct_run",
+      "stage": 4,
+      "family": "uneven_blocks",
+      "episodes": 6,
+      "traversals": 2,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "run": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "direct_run",
+      "stage": 5,
+      "family": "cross_slope",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "run": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "direct_run",
+      "stage": 6,
+      "family": "friction_changes",
+      "episodes": 6,
+      "traversals": 6,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "run": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": true,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "direct_run",
+      "stage": 7,
+      "family": "static_passage",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 0,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "run": 6
+      },
+      "reasons": {
+        "failed initiation": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "direct_run",
+      "stage": 8,
+      "family": "moving_crossing",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 0,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "run": 6
+      },
+      "reasons": {
+        "failed initiation": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "direct_run",
+      "stage": 9,
+      "family": "mixed_course",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 0,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "run": 6
+      },
+      "reasons": {
+        "clearance stop": 6
+      },
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": true
+    }
+  ],
+  "passed_stages": {
+    "association": [],
+    "direct_run": [
+      0
+    ]
+  },
+  "note": "Diagnostic sweep may run locked stages; no model or skill updates occur.",
+  "errors": 0
+}

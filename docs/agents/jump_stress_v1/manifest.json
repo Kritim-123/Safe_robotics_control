@@ -1,0 +1,20 @@
+{
+  "seed": 20261026,
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "mujoco": "3.13.0",
+  "numpy": "2.5.3",
+  "profile": "smooth_forward",
+  "sources": {
+    "experiments/jump_stress.py": "7ac167c8fa3947206bb0f8ea902f265cec0492a39b7d2dfb5dc75bebdd41f166",
+    "experiments/smooth_jump.py": "cc3bfe1e9c43c99d63166d054bf2ed8f50816f107d661b5700ed9ba38e7ba30e",
+    "skills/dynamic.py": "44a3e5ae4b78a7fe5a9780ce3e6ac8645d42e9a4a0336faf2245eab2bb2011d3",
+    "skills/jump_profile.py": "19260f0fbfb761e00fb3ff64202dff1e0abfc6682e0f7ce61addaf81b27c924c",
+    "hybrid/arena.py": "a6a243713c2867518d70042f4d63e7db19ceb536f8f0da2ba9e0652d51751acd",
+    "hybrid/terrain.py": "c0d426caf44f01b9bf303668a7651b123db69a28689e181365aa45b402b77829",
+    "docs\\agents\\smooth_forward_jump\\config.json": "103198c87e19348654887a38744917f0fc36e86b553b860e256f2c3cbc7cf3c0"
+  },
+  "frozen_before_execution": true,
+  "tuning": false,
+  "external_forces": false
+}

@@ -1,0 +1,20 @@
+{
+  "created_epoch": 1792267526.7283857,
+  "original_rows": 38824,
+  "added_rows": 16525,
+  "added_groups": 20,
+  "model_checksum": "b2dcc0e47c62a98896bed3e9108f5534988594fc806535c98cf5baa216d01841",
+  "encoder_checksum": "30250b212be6622c9c9bc08bfcab913e446f4594ede1c22d150b9003a97ba727",
+  "previous_encoder_checksum": "30250b212be6622c9c9bc08bfcab913e446f4594ede1c22d150b9003a97ba727",
+  "unchanged_goal_threshold": 92,
+  "unchanged_release_threshold": 25,
+  "alpha": 0.001,
+  "motor_training": false,
+  "neuron_training": false,
+  "training_batches": [
+    "request-refinement-training-v3"
+  ],
+  "no_validation_or_test_rows": true,
+  "fitting_source_sha256": "da72dbd87f44d86556b02858778b1216257c29dd13b843780167da3613db1a02",
+  "purpose": "One new-data candidate after V2 clean passage errors; V2 final scenes are development evidence for this iteration"
+}

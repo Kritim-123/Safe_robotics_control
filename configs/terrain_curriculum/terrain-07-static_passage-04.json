@@ -1,0 +1,87 @@
+{
+  "name": "terrain-07-static_passage-04",
+  "start": [
+    0.0,
+    0.0
+  ],
+  "goal": [
+    1.7,
+    0
+  ],
+  "obstacles": [
+    {
+      "name": "side_0",
+      "center": [
+        0.880922646999953,
+        -0.854
+      ],
+      "radius": 0.16,
+      "velocity": [
+        0.0,
+        0.0
+      ],
+      "stop_after": 40.0,
+      "shape": "box",
+      "half_extents": [
+        0.4,
+        0.12
+      ],
+      "height": 0.5,
+      "yaw": 0.0,
+      "motion": "linear",
+      "amplitude": [
+        0.0,
+        0.8
+      ],
+      "period": 60.0,
+      "start_after": 0.0
+    },
+    {
+      "name": "side_1",
+      "center": [
+        0.880922646999953,
+        0.854
+      ],
+      "radius": 0.16,
+      "velocity": [
+        0.0,
+        0.0
+      ],
+      "stop_after": 40.0,
+      "shape": "box",
+      "half_extents": [
+        0.4,
+        0.12
+      ],
+      "height": 0.5,
+      "yaw": 0.0,
+      "motion": "linear",
+      "amplitude": [
+        0.0,
+        0.8
+      ],
+      "period": 60.0,
+      "start_after": 0.0
+    }
+  ],
+  "bounds": [
+    -1.5,
+    6.0,
+    -2.4,
+    2.4
+  ],
+  "start_yaw": 0.0,
+  "timeout": 18.0,
+  "friction": 0.8,
+  "push_time": -1.0,
+  "push_force": [
+    0.0,
+    0.0
+  ],
+  "push_duration": 0.2,
+  "position_noise": 0.0,
+  "velocity_noise": 0.0,
+  "sensor_delay": 0.0,
+  "sensor_filter_tau": 0.0,
+  "sensing_seed": 0
+}

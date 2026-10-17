@@ -1,0 +1,112 @@
+{
+  "episodes": 108,
+  "groups": [
+    {
+      "split": "held_out",
+      "model": "original",
+      "episodes": 28,
+      "task_fulfilled": 0,
+      "primitive_completed": 28,
+      "collisions": 0,
+      "falls": 0,
+      "proposals": 2,
+      "fallbacks": 26,
+      "skills": {
+        "wait": 28
+      },
+      "reasons": {
+        "completed": 28
+      },
+      "max_torque": 7.384005080531312,
+      "max_torque_limit_ratio": 0.30766687835547135
+    },
+    {
+      "split": "held_out",
+      "model": "dense",
+      "episodes": 28,
+      "task_fulfilled": 7,
+      "primitive_completed": 27,
+      "collisions": 0,
+      "falls": 0,
+      "proposals": 22,
+      "fallbacks": 6,
+      "skills": {
+        "run": 7,
+        "wait": 19,
+        "jump": 2
+      },
+      "reasons": {
+        "completed": 27,
+        "clearance stop": 1
+      },
+      "max_torque": 24.0,
+      "max_torque_limit_ratio": 1.0
+    },
+    {
+      "split": "held_out",
+      "model": "direct_run",
+      "episodes": 28,
+      "task_fulfilled": 7,
+      "primitive_completed": 19,
+      "collisions": 0,
+      "falls": 0,
+      "proposals": 28,
+      "fallbacks": 0,
+      "skills": {
+        "run": 28
+      },
+      "reasons": {
+        "completed": 19,
+        "failed initiation": 6,
+        "clearance stop": 3
+      },
+      "max_torque": 24.0,
+      "max_torque_limit_ratio": 1.0
+    },
+    {
+      "split": "regression",
+      "model": "original",
+      "episodes": 12,
+      "task_fulfilled": 6,
+      "primitive_completed": 12,
+      "collisions": 0,
+      "falls": 0,
+      "proposals": 8,
+      "fallbacks": 4,
+      "skills": {
+        "run": 1,
+        "jump": 5,
+        "wait": 6
+      },
+      "reasons": {
+        "completed": 12
+      },
+      "max_torque": 24.0,
+      "max_torque_limit_ratio": 1.0
+    },
+    {
+      "split": "regression",
+      "model": "dense",
+      "episodes": 12,
+      "task_fulfilled": 6,
+      "primitive_completed": 11,
+      "collisions": 0,
+      "falls": 0,
+      "proposals": 10,
+      "fallbacks": 2,
+      "skills": {
+        "run": 2,
+        "jump": 5,
+        "wait": 5
+      },
+      "reasons": {
+        "completed": 11,
+        "clearance stop": 1
+      },
+      "max_torque": 24.0,
+      "max_torque_limit_ratio": 1.0
+    }
+  ],
+  "promotion_eligible": true,
+  "training_files_unchanged": true
+}

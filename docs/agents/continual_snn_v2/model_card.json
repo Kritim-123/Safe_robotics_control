@@ -1,0 +1,391 @@
+{
+  "status": "validated_for_this_simulation_contract",
+  "selected": "prototype80",
+  "checksum": "b813cad6917dcca2e1511370fcf6406bdfdc1369d928864d52e6f47f31a29660",
+  "encoder_checksum": "b81c6c03ecde4aaba08a57ab14b86bea9cf53340b115e46bacad3622c3f67295",
+  "encoder_weights_trained": false,
+  "new_motor_policy_trained": false,
+  "per_episode_learning": false,
+  "input_features": [
+    "obstacle_present",
+    "obstacle_forward",
+    "obstacle_left",
+    "obstacle_v_forward",
+    "obstacle_v_left",
+    "obstacle_radius",
+    "obstacle_height",
+    "obstacle_width",
+    "footprint_clearance",
+    "goal_forward",
+    "goal_left",
+    "speed",
+    "base_height",
+    "jump_requested",
+    "terrain_present",
+    "surface_rise",
+    "largest_up_step",
+    "largest_down_step",
+    "longitudinal_slope",
+    "cross_slope",
+    "surface_roughness",
+    "friction_loss",
+    "predicted_run_clearance",
+    "predicted_jump_clearance"
+  ],
+  "training": {
+    "training_rows": 23978,
+    "training_groups": 254,
+    "validation_rows": 6026,
+    "validation_groups": 54,
+    "groups_disjoint": true,
+    "added_training_rows": 4598,
+    "added_validation_rows": 1176,
+    "encoder_weights_or_motor_changes": false,
+    "all_additional_rows_qualified_by_successful_episode": true,
+    "per_packet_labels_are_teacher_requests": true,
+    "compact_conflicting_patterns": 59,
+    "prototype_conflicting_patterns": 0
+  },
+  "selector_kind": "count-pattern association memory",
+  "patterns": 10446,
+  "neighbors": 1,
+  "max_count_distance": 12.0,
+  "frozen_utc": "2026-10-17 09:11:08 UTC",
+  "fresh_confirmation_pending": false,
+  "release_criterion": "Zero contacts/falls/bound violations; stress success exceeds all three V1 controls including the same prototype architecture; regular/noise success matches or exceeds them",
+  "torque_bounds_nm": {
+    "wait": 24,
+    "run": 24,
+    "jump": 28
+  },
+  "note": "V1 test failures motivated new training-only coverage; V2 uses separately frozen fresh test seeds",
+  "fresh_confirmation": {
+    "stress": {
+      "v1_readout80": {
+        "arm": "v1_readout80",
+        "trials": 80,
+        "tasks": 58,
+        "completed": 70,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 70,
+          "no eligible fallback": 10
+        },
+        "mean_progress": 0.8247610152392723,
+        "total_switches": 240,
+        "total_hops": 30,
+        "max_torque": 28.0,
+        "hold_violations": 9
+      },
+      "v1_compact16": {
+        "arm": "v1_compact16",
+        "trials": 80,
+        "tasks": 60,
+        "completed": 70,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 70,
+          "no eligible fallback": 10
+        },
+        "mean_progress": 0.7289997048501484,
+        "total_switches": 304,
+        "total_hops": 30,
+        "max_torque": 28.0,
+        "hold_violations": 7
+      },
+      "v2_selected": {
+        "arm": "v2_selected",
+        "trials": 80,
+        "tasks": 70,
+        "completed": 70,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 70,
+          "no eligible fallback": 10
+        },
+        "mean_progress": 0.8413407159497786,
+        "total_switches": 220,
+        "total_hops": 30,
+        "max_torque": 28.0,
+        "hold_violations": 0
+      },
+      "rule": {
+        "arm": "rule",
+        "trials": 80,
+        "tasks": 70,
+        "completed": 70,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 70,
+          "no eligible fallback": 10
+        },
+        "mean_progress": 0.9112678579948368,
+        "total_switches": 240,
+        "total_hops": 30,
+        "max_torque": 28.0,
+        "hold_violations": 0
+      },
+      "v1_prototype80": {
+        "arm": "v1_prototype80",
+        "trials": 80,
+        "tasks": 60,
+        "completed": 70,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 70,
+          "no eligible fallback": 10
+        },
+        "mean_progress": 0.7446389948213934,
+        "total_switches": 256,
+        "total_hops": 30,
+        "max_torque": 28.0,
+        "hold_violations": 1
+      }
+    },
+    "regular": {
+      "v1_readout80": {
+        "arm": "v1_readout80",
+        "trials": 80,
+        "tasks": 80,
+        "completed": 80,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 80
+        },
+        "mean_progress": 0.8350029032074355,
+        "total_switches": 189,
+        "total_hops": 30,
+        "max_torque": 28.0,
+        "hold_violations": 0
+      },
+      "v1_compact16": {
+        "arm": "v1_compact16",
+        "trials": 80,
+        "tasks": 80,
+        "completed": 80,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 80
+        },
+        "mean_progress": 0.8266996036433181,
+        "total_switches": 199,
+        "total_hops": 30,
+        "max_torque": 28.0,
+        "hold_violations": 0
+      },
+      "v2_selected": {
+        "arm": "v2_selected",
+        "trials": 80,
+        "tasks": 80,
+        "completed": 80,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 80
+        },
+        "mean_progress": 0.8339468667224288,
+        "total_switches": 189,
+        "total_hops": 30,
+        "max_torque": 28.0,
+        "hold_violations": 0
+      },
+      "rule": {
+        "arm": "rule",
+        "trials": 80,
+        "tasks": 80,
+        "completed": 80,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 80
+        },
+        "mean_progress": 0.8339468667224288,
+        "total_switches": 189,
+        "total_hops": 30,
+        "max_torque": 28.0,
+        "hold_violations": 0
+      },
+      "v1_prototype80": {
+        "arm": "v1_prototype80",
+        "trials": 80,
+        "tasks": 80,
+        "completed": 80,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 80
+        },
+        "mean_progress": 0.8339468667224288,
+        "total_switches": 189,
+        "total_hops": 30,
+        "max_torque": 28.0,
+        "hold_violations": 0
+      }
+    },
+    "noise": {
+      "v1_readout80": {
+        "arm": "v1_readout80",
+        "trials": 32,
+        "tasks": 32,
+        "completed": 32,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 32
+        },
+        "mean_progress": 0.838562933694414,
+        "total_switches": 73,
+        "total_hops": 12,
+        "max_torque": 28.0,
+        "hold_violations": 0
+      },
+      "v1_compact16": {
+        "arm": "v1_compact16",
+        "trials": 32,
+        "tasks": 32,
+        "completed": 32,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 32
+        },
+        "mean_progress": 0.8274678966639063,
+        "total_switches": 79,
+        "total_hops": 12,
+        "max_torque": 28.0,
+        "hold_violations": 0
+      },
+      "v2_selected": {
+        "arm": "v2_selected",
+        "trials": 32,
+        "tasks": 32,
+        "completed": 32,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 32
+        },
+        "mean_progress": 0.8371562838352313,
+        "total_switches": 73,
+        "total_hops": 12,
+        "max_torque": 28.0,
+        "hold_violations": 0
+      },
+      "rule": {
+        "arm": "rule",
+        "trials": 32,
+        "tasks": 32,
+        "completed": 32,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 32
+        },
+        "mean_progress": 0.8371562838352313,
+        "total_switches": 73,
+        "total_hops": 12,
+        "max_torque": 28.0,
+        "hold_violations": 0
+      },
+      "v1_prototype80": {
+        "arm": "v1_prototype80",
+        "trials": 32,
+        "tasks": 32,
+        "completed": 32,
+        "collisions": 0,
+        "falls": 0,
+        "reasons": {
+          "completed": 32
+        },
+        "mean_progress": 0.8371562838352313,
+        "total_switches": 73,
+        "total_hops": 12,
+        "max_torque": 28.0,
+        "hold_violations": 0
+      }
+    }
+  },
+  "release_criterion_met": true,
+  "bound_violations": [],
+  "posthoc_matched_transfer": {
+    "terrain": {
+      "arm": "v2_selected",
+      "trials": 60,
+      "tasks": 0,
+      "completed": 60,
+      "collisions": 0,
+      "falls": 0,
+      "reasons": {
+        "completed": 60
+      },
+      "mean_progress": 0.18917425660487705,
+      "total_switches": 34,
+      "total_hops": 0,
+      "max_torque": 23.995504591772853,
+      "hold_violations": 0
+    },
+    "heading": {
+      "arm": "v2_selected",
+      "trials": 80,
+      "tasks": 80,
+      "completed": 80,
+      "collisions": 0,
+      "falls": 0,
+      "reasons": {
+        "completed": 80
+      },
+      "mean_progress": 0.835033037774654,
+      "total_switches": 188,
+      "total_hops": 30,
+      "max_torque": 28.0,
+      "hold_violations": 0
+    },
+    "severe_noise": {
+      "arm": "v2_selected",
+      "trials": 80,
+      "tasks": 80,
+      "completed": 80,
+      "collisions": 0,
+      "falls": 0,
+      "reasons": {
+        "completed": 80
+      },
+      "mean_progress": 0.8202133775813781,
+      "total_switches": 200,
+      "total_hops": 30,
+      "max_torque": 28.0,
+      "hold_violations": 0
+    },
+    "stale": {
+      "arm": "v2_selected",
+      "trials": 16,
+      "tasks": 2,
+      "completed": 16,
+      "collisions": 0,
+      "falls": 0,
+      "reasons": {
+        "completed": 16
+      },
+      "mean_progress": 0.006482307507985842,
+      "total_switches": 0,
+      "total_hops": 0,
+      "max_torque": 7.38547222472141,
+      "hold_violations": 0
+    }
+  },
+  "validated_scope": "Specified flat-ground scripted skill-request and moving-obstacle families; goal/room/terrain transfer remains unsuccessful",
+  "known_limitations": [
+    "0/60 terrain and longer-goal transfer tasks, including flat controls",
+    "Head-on approaches need an escape option outside wait/run/jump",
+    "Privileged MuJoCo state/map inputs; camera perception is not implemented here",
+    "Jump selection requires an explicit jump request; the 72 Nm obstacle jump is excluded",
+    "Guard stops terminate simulation trials; no hardware safety qualification"
+  ]
+}

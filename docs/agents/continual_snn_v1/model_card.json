@@ -1,0 +1,52 @@
+{
+  "primary_checksum": "e5174eeadaac3ed13fcd1aa3fea74eb3fe2a824705757d1c0bd9c308c27f347c",
+  "association_checksum": "d9f08a44d7d8f9e2c77380c0d1f8caa58835a1836f7205df399367aa4f22745b",
+  "input_features": [
+    "obstacle_present",
+    "obstacle_forward",
+    "obstacle_left",
+    "obstacle_v_forward",
+    "obstacle_v_left",
+    "obstacle_radius",
+    "obstacle_height",
+    "obstacle_width",
+    "footprint_clearance",
+    "goal_forward",
+    "goal_left",
+    "speed",
+    "base_height",
+    "jump_requested",
+    "terrain_present",
+    "surface_rise",
+    "largest_up_step",
+    "largest_down_step",
+    "longitudinal_slope",
+    "cross_slope",
+    "surface_roughness",
+    "friction_loss",
+    "predicted_run_clearance",
+    "predicted_jump_clearance"
+  ],
+  "encoder_checksum": "b81c6c03ecde4aaba08a57ab14b86bea9cf53340b115e46bacad3622c3f67295",
+  "encoder_weights_trained": false,
+  "readout_trained": true,
+  "evaluation_learning": false,
+  "training_data_sha256": "7e8ca5b2b7b7279e15eb8a7f7b679233b07b7b8aea4709153662a273cc580848",
+  "validation_data_sha256": "f878fa75e02ce65150e9a4bfd4508318c0d72647cd966af001e5cb45600e905d",
+  "training_groups": 222,
+  "training_rows": 19380,
+  "labels": [
+    "wait",
+    "run",
+    "jump"
+  ],
+  "torque_bounds_nm": {
+    "wait": 24,
+    "run": 24,
+    "jump": 28
+  },
+  "primary_ridge_alpha": 0.0001,
+  "association_patterns": 7159,
+  "conflicting_patterns": 0,
+  "selection_frozen_utc": "2026-10-17 08:11:39 UTC"
+}

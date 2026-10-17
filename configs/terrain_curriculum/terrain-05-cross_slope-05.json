@@ -1,0 +1,50 @@
+{
+  "name": "terrain-05-cross_slope-05",
+  "start": [
+    0.0,
+    0.0
+  ],
+  "goal": [
+    1.7,
+    0
+  ],
+  "obstacles": [],
+  "bounds": [
+    -1.5,
+    6.0,
+    -2.4,
+    2.4
+  ],
+  "start_yaw": 0.0,
+  "timeout": 18.0,
+  "friction": 0.8,
+  "push_time": -1.0,
+  "push_force": [
+    0.0,
+    0.0
+  ],
+  "push_duration": 0.2,
+  "position_noise": 0.0,
+  "velocity_noise": 0.0,
+  "sensor_delay": 0.0,
+  "sensor_filter_tau": 0.0,
+  "sensing_seed": 0,
+  "terrain": [
+    {
+      "name": "cross_slope",
+      "center": [
+        0.893293242961944,
+        0.0
+      ],
+      "half_extents": [
+        0.85,
+        0.48
+      ],
+      "height": 0.145,
+      "kind": "ramp",
+      "yaw": 1.5707963267948966,
+      "base_height": 0.0,
+      "friction": 0.8
+    }
+  ]
+}

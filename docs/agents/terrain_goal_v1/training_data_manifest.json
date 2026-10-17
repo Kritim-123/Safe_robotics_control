@@ -1,0 +1,43 @@
+{
+  "files": {
+    "base_training_records.jsonl.gz": {
+      "bytes": 3801254,
+      "sha256": "08d02d7487d2b42689518fa0a0e5ce03463428c94d1434b24978850a88d519f4"
+    },
+    "goal_count_training_records.jsonl.gz": {
+      "bytes": 815036,
+      "sha256": "d52f3ecd4d8fccfad9e226ebfc6349a5128d6d1ec93085cc9dd08cdbde50917b"
+    }
+  },
+  "base_original_manifest": {
+    "rows": 38824,
+    "groups": 220,
+    "labels": {
+      "run": 19729,
+      "wait": 16231,
+      "jump": 2864
+    },
+    "sources": {
+      "causal_geometry_task_teacher_not_outcome": 19286,
+      "episode_qualified_causal_teacher_not_per_window_counterfactual_outcome": 4598,
+      "causal_teacher_request_not_counterfactual_outcome": 14940
+    },
+    "sha256": "2ef85945f464e730a36450b80f332c06ef77bb6de66a6ef6b47a819824822992"
+  },
+  "goal_source_full_manifest": {
+    "rows": 109768,
+    "groups": 394,
+    "labels": {
+      "run": 47720,
+      "wait": 59184,
+      "jump": 2864
+    },
+    "sources": {
+      "causal_geometry_task_teacher_not_outcome": 19286,
+      "episode_qualified_causal_teacher_not_per_window_counterfactual_outcome": 4598,
+      "causal_teacher_request_not_counterfactual_outcome": 85884
+    },
+    "sha256": "e6826813b928e241488d69ae3197183cb1559208797ed740bf78d379962bfd91"
+  },
+  "labels": "Causal task/geometry/arrival teacher preferences. Minimal goal records retain source row indices and exact count sums; no counterfactual motor outcome assertion."
+}

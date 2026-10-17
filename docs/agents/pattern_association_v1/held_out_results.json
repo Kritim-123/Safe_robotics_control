@@ -1,0 +1,1677 @@
+[
+  {
+    "context_id": "clear-05",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.124,
+      "body_forward_progress": -0.07142330713566321,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "clear-01",
+          "skill": "dynamic/jump",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "clear-03",
+          "skill": "dynamic/jump",
+          "distance": 1.7320508075688772
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 3.390358173100294,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "clear-06",
+    "skill": "run",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": true,
+      "utility": 1.9695203176505434,
+      "body_forward_progress": 0.9695203176505434,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/run",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "clear-02",
+          "skill": "dynamic/run",
+          "distance": 1.7320508075688772
+        },
+        {
+          "context_id": "clear-00",
+          "skill": "dynamic/run",
+          "distance": 2.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/run",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 2.692591608635443,
+    "max_torque_limit_ratio": 0.98440050870501
+  },
+  {
+    "context_id": "clear-07",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.114,
+      "body_forward_progress": -0.05819946131964206,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "clear-01",
+          "skill": "dynamic/jump",
+          "distance": 1.7320508075688772
+        },
+        {
+          "context_id": "clear-03",
+          "skill": "dynamic/jump",
+          "distance": 2.8284271247461903
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 3.222274514557704,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "clear-08",
+    "skill": "run",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": true,
+      "utility": 1.8417053889698265,
+      "body_forward_progress": 0.8417053889698265,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/run",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "clear-02",
+          "skill": "dynamic/run",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "clear-00",
+          "skill": "dynamic/run",
+          "distance": 1.7320508075688772
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/run",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 2.8047333344848537,
+    "max_torque_limit_ratio": 0.9729343578701205
+  },
+  {
+    "context_id": "clear-09",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.116,
+      "body_forward_progress": -0.06251470273786353,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "clear-01",
+          "skill": "dynamic/jump",
+          "distance": 1.0
+        },
+        {
+          "context_id": "clear-03",
+          "skill": "dynamic/jump",
+          "distance": 2.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 3.436960602722526,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "static_cylinder-05",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.118,
+      "body_forward_progress": -0.06516675041091105,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_cylinder-03",
+          "skill": "dynamic/jump",
+          "distance": 2.0
+        },
+        {
+          "context_id": "static_cylinder-01",
+          "skill": "dynamic/jump",
+          "distance": 2.449489742783178
+        },
+        {
+          "context_id": "static_box-03",
+          "skill": "dynamic/jump",
+          "distance": 2.8284271247461903
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.1624099432899673,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "static_cylinder-06",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.002554726465588166,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "receding-02",
+          "skill": "dynamic/wait",
+          "distance": 1.0
+        },
+        {
+          "context_id": "static_cylinder-02",
+          "skill": "dynamic/wait",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "static_cylinder-00",
+          "skill": "dynamic/wait",
+          "distance": 2.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.7432290281169904,
+    "max_torque_limit_ratio": 0.30739751504922896
+  },
+  {
+    "context_id": "static_cylinder-07",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.116,
+      "body_forward_progress": -0.05674044778962485,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_cylinder-01",
+          "skill": "dynamic/jump",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "receding-03",
+          "skill": "dynamic/jump",
+          "distance": 2.6457513110645907
+        },
+        {
+          "context_id": "static_cylinder-03",
+          "skill": "dynamic/jump",
+          "distance": 3.1622776601683795
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.5206157756126724,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "static_cylinder-08",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.0025554128992757276,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_box-02",
+          "skill": "dynamic/wait",
+          "distance": 2.8284271247461903
+        },
+        {
+          "context_id": "approaching-00",
+          "skill": "dynamic/wait",
+          "distance": 3.0
+        },
+        {
+          "context_id": "mixed_obstacles-00",
+          "skill": "dynamic/wait",
+          "distance": 3.3166247903554
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.0665436688527732,
+    "max_torque_limit_ratio": 0.30773453629752395
+  },
+  {
+    "context_id": "static_cylinder-09",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.124,
+      "body_forward_progress": -0.07053389011645553,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_cylinder-03",
+          "skill": "dynamic/jump",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "static_box-03",
+          "skill": "dynamic/jump",
+          "distance": 2.449489742783178
+        },
+        {
+          "context_id": "approaching-03",
+          "skill": "dynamic/jump",
+          "distance": 2.6457513110645907
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.8994421357149329,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "static_box-05",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.122,
+      "body_forward_progress": -0.06747086836224214,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_box-01",
+          "skill": "dynamic/jump",
+          "distance": 2.449489742783178
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.8700161198190939,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "static_box-06",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.0025541784294611956,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "conflicting associations",
+      "neighbors": [
+        {
+          "context_id": "static_box-00",
+          "skill": "dynamic/wait",
+          "distance": 2.23606797749979
+        },
+        {
+          "context_id": "static_box-02",
+          "skill": "dynamic/wait",
+          "distance": 3.0
+        },
+        {
+          "context_id": "crossing_right_to_left-00",
+          "skill": "dynamic/run",
+          "distance": 3.3166247903554
+        },
+        {
+          "context_id": "receding-00",
+          "skill": "dynamic/wait",
+          "distance": 3.3166247903554
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "conflicting associations"
+    },
+    "min_clearance": 1.319491750781698,
+    "max_torque_limit_ratio": 0.3080001178903911
+  },
+  {
+    "context_id": "static_box-07",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.122,
+      "body_forward_progress": -0.06463113774234845,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_box-01",
+          "skill": "dynamic/jump",
+          "distance": 1.7320508075688772
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.7664941447405629,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "static_box-08",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.002553252078416677,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_box-00",
+          "skill": "dynamic/wait",
+          "distance": 2.0
+        },
+        {
+          "context_id": "approaching-02",
+          "skill": "dynamic/wait",
+          "distance": 3.3166247903554
+        },
+        {
+          "context_id": "receding-00",
+          "skill": "dynamic/wait",
+          "distance": 3.4641016151377544
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.5103586542282954,
+    "max_torque_limit_ratio": 0.3080662189075867
+  },
+  {
+    "context_id": "static_box-09",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.118,
+      "body_forward_progress": -0.06541845853187907,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_cylinder-01",
+          "skill": "dynamic/jump",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "static_cylinder-03",
+          "skill": "dynamic/jump",
+          "distance": 2.449489742783178
+        },
+        {
+          "context_id": "receding-03",
+          "skill": "dynamic/jump",
+          "distance": 3.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.6963214897602006,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "low_bar-05",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.122,
+      "body_forward_progress": -0.06856210113664207,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "low_bar-01",
+          "skill": "dynamic/jump",
+          "distance": 3.1622776601683795
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.8077821623458679,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "low_bar-06",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.0025632888415781205,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "low_bar-02",
+          "skill": "dynamic/wait",
+          "distance": 3.605551275463989
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.9921506059284719,
+    "max_torque_limit_ratio": 0.30552013600695993
+  },
+  {
+    "context_id": "low_bar-07",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.00256061382319681,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "unknown pattern",
+      "neighbors": []
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "unknown pattern"
+    },
+    "min_clearance": 0.667001421079928,
+    "max_torque_limit_ratio": 0.30655864399383415
+  },
+  {
+    "context_id": "low_bar-08",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.002554931710522913,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "unknown pattern",
+      "neighbors": []
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "unknown pattern"
+    },
+    "min_clearance": 0.6333840477351957,
+    "max_torque_limit_ratio": 0.30782042538146176
+  },
+  {
+    "context_id": "low_bar-09",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.122,
+      "body_forward_progress": -0.06746782745755336,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "low_bar-01",
+          "skill": "dynamic/jump",
+          "distance": 2.449489742783178
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.4977348662899796,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "crossing_left_to_right-05",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.124,
+      "body_forward_progress": -0.06920452371430783,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "crossing_left_to_right-03",
+          "skill": "dynamic/jump",
+          "distance": 4.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.6463868075603894,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "crossing_left_to_right-06",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.0025631188366364373,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "unknown pattern",
+      "neighbors": []
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "unknown pattern"
+    },
+    "min_clearance": 1.3088909725192854,
+    "max_torque_limit_ratio": 0.30544863773970493
+  },
+  {
+    "context_id": "crossing_left_to_right-07",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.124,
+      "body_forward_progress": -0.06741543763575503,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "crossing_left_to_right-01",
+          "skill": "dynamic/jump",
+          "distance": 3.605551275463989
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.7772760944384123,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "crossing_left_to_right-08",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.002555062686609525,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "conflicting associations",
+      "neighbors": [
+        {
+          "context_id": "crossing_left_to_right-02",
+          "skill": "dynamic/wait",
+          "distance": 2.8284271247461903
+        },
+        {
+          "context_id": "crossing_left_to_right-00",
+          "skill": "dynamic/run",
+          "distance": 3.872983346207417
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "conflicting associations"
+    },
+    "min_clearance": 0.8543995290875495,
+    "max_torque_limit_ratio": 0.3070507272654778
+  },
+  {
+    "context_id": "crossing_left_to_right-09",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.116,
+      "body_forward_progress": -0.06027794494427879,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "crossing_left_to_right-03",
+          "skill": "dynamic/jump",
+          "distance": 2.8284271247461903
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.1048739765446798,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "crossing_right_to_left-05",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.002555152516074253,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "unknown pattern",
+      "neighbors": []
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "unknown pattern"
+    },
+    "min_clearance": 1.2072236683136643,
+    "max_torque_limit_ratio": 0.30766956640408777
+  },
+  {
+    "context_id": "crossing_right_to_left-06",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.002560402843679738,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "unknown pattern",
+      "neighbors": []
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "unknown pattern"
+    },
+    "min_clearance": 0.6323540652490909,
+    "max_torque_limit_ratio": 0.3057618572444295
+  },
+  {
+    "context_id": "crossing_right_to_left-07",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.124,
+      "body_forward_progress": -0.07183692135910925,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_cylinder-01",
+          "skill": "dynamic/jump",
+          "distance": 3.7416573867739413
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.5848666090199286,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "crossing_right_to_left-08",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.0025536037079840037,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "conflicting associations",
+      "neighbors": [
+        {
+          "context_id": "crossing_right_to_left-00",
+          "skill": "dynamic/run",
+          "distance": 2.0
+        },
+        {
+          "context_id": "static_cylinder-02",
+          "skill": "dynamic/wait",
+          "distance": 4.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "conflicting associations"
+    },
+    "min_clearance": 1.8988425249412835,
+    "max_torque_limit_ratio": 0.3076477810264342
+  },
+  {
+    "context_id": "crossing_right_to_left-09",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.002552360273369018,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "unknown pattern",
+      "neighbors": []
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "unknown pattern"
+    },
+    "min_clearance": 0.5066660016573334,
+    "max_torque_limit_ratio": 0.30801516223103603
+  },
+  {
+    "context_id": "approaching-05",
+    "skill": "jump",
+    "reason": "clearance stop",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": false,
+      "utility": null,
+      "body_forward_progress": -0.07232583913719076,
+      "primitive_completed": false
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "approaching-03",
+          "skill": "dynamic/jump",
+          "distance": 2.0
+        },
+        {
+          "context_id": "static_cylinder-01",
+          "skill": "dynamic/jump",
+          "distance": 3.0
+        },
+        {
+          "context_id": "static_cylinder-03",
+          "skill": "dynamic/jump",
+          "distance": 3.3166247903554
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.034599385775257174,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "approaching-06",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.0025552868675994046,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "approaching-00",
+          "skill": "dynamic/wait",
+          "distance": 1.0
+        },
+        {
+          "context_id": "approaching-02",
+          "skill": "dynamic/wait",
+          "distance": 3.605551275463989
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.5029458018167898,
+    "max_torque_limit_ratio": 0.30776240631918583
+  },
+  {
+    "context_id": "approaching-07",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.116,
+      "body_forward_progress": -0.06277068289134274,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "approaching-03",
+          "skill": "dynamic/jump",
+          "distance": 1.7320508075688772
+        },
+        {
+          "context_id": "static_cylinder-03",
+          "skill": "dynamic/jump",
+          "distance": 3.1622776601683795
+        },
+        {
+          "context_id": "static_box-03",
+          "skill": "dynamic/jump",
+          "distance": 3.1622776601683795
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.2066312628618418,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "approaching-08",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.002563905396600407,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_box-00",
+          "skill": "dynamic/wait",
+          "distance": 2.23606797749979
+        },
+        {
+          "context_id": "approaching-02",
+          "skill": "dynamic/wait",
+          "distance": 2.8284271247461903
+        },
+        {
+          "context_id": "static_box-02",
+          "skill": "dynamic/wait",
+          "distance": 3.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.8523439345105746,
+    "max_torque_limit_ratio": 0.3048084214009546
+  },
+  {
+    "context_id": "approaching-09",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.122,
+      "body_forward_progress": -0.06870891986466243,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "approaching-03",
+          "skill": "dynamic/jump",
+          "distance": 2.449489742783178
+        },
+        {
+          "context_id": "static_cylinder-01",
+          "skill": "dynamic/jump",
+          "distance": 3.605551275463989
+        },
+        {
+          "context_id": "static_cylinder-03",
+          "skill": "dynamic/jump",
+          "distance": 3.605551275463989
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.48742962986033694,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "receding-05",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.002561284649013086,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "unknown pattern",
+      "neighbors": []
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "unknown pattern"
+    },
+    "min_clearance": 0.9115011642264801,
+    "max_torque_limit_ratio": 0.3062120367112519
+  },
+  {
+    "context_id": "receding-06",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.0025598292641236795,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_cylinder-00",
+          "skill": "dynamic/wait",
+          "distance": 3.1622776601683795
+        },
+        {
+          "context_id": "receding-00",
+          "skill": "dynamic/wait",
+          "distance": 4.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.1641729616618082,
+    "max_torque_limit_ratio": 0.30675103755150807
+  },
+  {
+    "context_id": "receding-07",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.12,
+      "body_forward_progress": -0.0670621308042475,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "receding-03",
+          "skill": "dynamic/jump",
+          "distance": 3.1622776601683795
+        },
+        {
+          "context_id": "static_cylinder-01",
+          "skill": "dynamic/jump",
+          "distance": 3.605551275463989
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.5259949714269554,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "receding-08",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.002556659045942659,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_cylinder-00",
+          "skill": "dynamic/wait",
+          "distance": 1.7320508075688772
+        },
+        {
+          "context_id": "static_cylinder-02",
+          "skill": "dynamic/wait",
+          "distance": 1.7320508075688772
+        },
+        {
+          "context_id": "receding-02",
+          "skill": "dynamic/wait",
+          "distance": 2.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.227762038481925,
+    "max_torque_limit_ratio": 0.3074296649894049
+  },
+  {
+    "context_id": "receding-09",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.122,
+      "body_forward_progress": -0.07196004172144407,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "receding-01",
+          "skill": "dynamic/jump",
+          "distance": 2.6457513110645907
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.3092949933504172,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "oscillating-05",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.122,
+      "body_forward_progress": -0.0700363437751891,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "oscillating-01",
+          "skill": "dynamic/jump",
+          "distance": 3.7416573867739413
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.2416582025294751,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "oscillating-06",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.0025573739210341387,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "crossing_left_to_right-02",
+          "skill": "dynamic/wait",
+          "distance": 3.0
+        },
+        {
+          "context_id": "static_box-00",
+          "skill": "dynamic/wait",
+          "distance": 3.3166247903554
+        },
+        {
+          "context_id": "approaching-02",
+          "skill": "dynamic/wait",
+          "distance": 3.7416573867739413
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.2601501977802103,
+    "max_torque_limit_ratio": 0.3070179123155404
+  },
+  {
+    "context_id": "oscillating-07",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.0025577624777164912,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "unknown pattern",
+      "neighbors": []
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "unknown pattern"
+    },
+    "min_clearance": 1.8636759529162994,
+    "max_torque_limit_ratio": 0.3062623863545382
+  },
+  {
+    "context_id": "oscillating-08",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.002553410559583991,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/wait",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_box-00",
+          "skill": "dynamic/wait",
+          "distance": 4.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.9519518332930712,
+    "max_torque_limit_ratio": 0.30820573833876536
+  },
+  {
+    "context_id": "oscillating-09",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.116,
+      "body_forward_progress": -0.056599212284602476,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "static_cylinder-03",
+          "skill": "dynamic/jump",
+          "distance": 1.7320508075688772
+        },
+        {
+          "context_id": "static_cylinder-01",
+          "skill": "dynamic/jump",
+          "distance": 2.23606797749979
+        },
+        {
+          "context_id": "approaching-03",
+          "skill": "dynamic/jump",
+          "distance": 2.8284271247461903
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 0.6356904677640232,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "mixed_obstacles-05",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.128,
+      "body_forward_progress": -0.0740226698458547,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "mixed_obstacles-03",
+          "skill": "dynamic/jump",
+          "distance": 1.0
+        },
+        {
+          "context_id": "mixed_obstacles-01",
+          "skill": "dynamic/jump",
+          "distance": 1.7320508075688772
+        },
+        {
+          "context_id": "approaching-03",
+          "skill": "dynamic/jump",
+          "distance": 3.7416573867739413
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.1430255912603602,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "mixed_obstacles-06",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.002562757625940864,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "unknown pattern",
+      "neighbors": []
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "unknown pattern"
+    },
+    "min_clearance": 1.110512643782268,
+    "max_torque_limit_ratio": 0.30501019923888534
+  },
+  {
+    "context_id": "mixed_obstacles-07",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.114,
+      "body_forward_progress": -0.06096536404233452,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "mixed_obstacles-03",
+          "skill": "dynamic/jump",
+          "distance": 1.0
+        },
+        {
+          "context_id": "mixed_obstacles-01",
+          "skill": "dynamic/jump",
+          "distance": 1.7320508075688772
+        },
+        {
+          "context_id": "approaching-03",
+          "skill": "dynamic/jump",
+          "distance": 3.7416573867739413
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.2102137271191686,
+    "max_torque_limit_ratio": 1.0
+  },
+  {
+    "context_id": "mixed_obstacles-08",
+    "skill": "wait",
+    "reason": "completed",
+    "outcome": {
+      "task": "forward_progress",
+      "task_fulfilled": false,
+      "utility": 0.0,
+      "body_forward_progress": 0.0025621366005036212,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": null,
+      "reason": "unknown pattern",
+      "neighbors": []
+    },
+    "supervision": {
+      "executed_skill": "dynamic/wait",
+      "fallback": true,
+      "reason": "unknown pattern"
+    },
+    "min_clearance": 1.207285530911636,
+    "max_torque_limit_ratio": 0.30619479307011793
+  },
+  {
+    "context_id": "mixed_obstacles-09",
+    "skill": "jump",
+    "reason": "completed",
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.122,
+      "body_forward_progress": -0.06296541747679538,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "mixed_obstacles-03",
+          "skill": "dynamic/jump",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "mixed_obstacles-01",
+          "skill": "dynamic/jump",
+          "distance": 2.0
+        },
+        {
+          "context_id": "approaching-03",
+          "skill": "dynamic/jump",
+          "distance": 3.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    },
+    "min_clearance": 1.1937844937803284,
+    "max_torque_limit_ratio": 1.0
+  }
+]

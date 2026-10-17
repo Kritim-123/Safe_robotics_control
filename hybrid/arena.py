@@ -7,6 +7,8 @@ import xml.etree.ElementTree as ET
 import mujoco
 import numpy as np
 
+from hybrid.terrain import TerrainPatch, add_terrain
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -63,6 +65,7 @@ class Scenario:
     sensor_delay: float = 0.0
     sensor_filter_tau: float = 0.0
     sensing_seed: int = 0
+    terrain: tuple[TerrainPatch, ...] = ()
 
     def validate(self):
         if (np.shape(self.start) != (2,) or np.shape(self.goal) != (2,)
@@ -83,6 +86,16 @@ class Scenario:
         for label, point in [('start', self.start), ('goal', self.goal)]:
             if not x0 + .42 < point[0] < x1 - .42 or not y0 + .42 < point[1] < y1 - .42:
                 raise ValueError(f'{label} must leave room for the robot inside the arena')
+        if len({p.name for p in self.terrain}) != len(self.terrain):
+            raise ValueError('Terrain patch names must be unique')
+        for patch in self.terrain:
+            patch.validate()
+            cs, sn = abs(np.cos(patch.yaw)), abs(np.sin(patch.yaw))
+            hx, hy = patch.half_extents
+            ex, ey = cs*hx+sn*hy, sn*hx+cs*hy
+            if not (x0 <= patch.center[0]-ex and patch.center[0]+ex <= x1
+                    and y0 <= patch.center[1]-ey and patch.center[1]+ey <= y1):
+                raise ValueError('Terrain footprint must fit inside arena bounds')
         if len(set(o.name for o in self.obstacles)) != len(self.obstacles):
             raise ValueError('Obstacle names must be unique')
         for o in self.obstacles:
@@ -99,13 +112,17 @@ class Scenario:
                 raise ValueError('Invalid obstacle geometry or motion')
 
     def to_dict(self):
-        return asdict(self)
+        values = asdict(self)
+        if not self.terrain:
+            values.pop('terrain')  # Keep archived flat-scene serialization stable.
+        return values
 
     @classmethod
     def load(cls, path):
         """Load an editable JSON scenario, including files saved with each run."""
         values = json.loads(Path(path).read_text(encoding='utf-8'))
         values['obstacles'] = tuple(Obstacle(**o) for o in values.get('obstacles', []))
+        values['terrain'] = tuple(TerrainPatch(**p) for p in values.get('terrain', []))
         result = cls(**values)
         result.validate()
         return result
@@ -209,6 +226,7 @@ def build_model(spec):
     ET.SubElement(world, 'light', pos='1 -1 5', dir='0 0 -1', directional='true')
     ET.SubElement(world, 'geom', name='arena_floor', type='plane', size='8 5 0.1',
                   material='arena_grid_material', friction=f'{spec.friction} 0.02 0.01', condim='3')
+    add_terrain(world, assets, spec.terrain, root.find(".//default[@class='foot']/geom").attrib)
     x0, x1, y0, y1 = spec.bounds
     walls = [('west', (x0 - .08, (y0+y1)/2), (.08, (y1-y0)/2+.16)),
              ('east', (x1 + .08, (y0+y1)/2), (.08, (y1-y0)/2+.16)),
@@ -250,6 +268,9 @@ class Arena:
             if model.body_parentid[i] in robot_bodies:
                 robot_bodies.add(i)
         self.robot_geoms = set(np.flatnonzero(np.isin(model.geom_bodyid, list(robot_bodies))))
+        self.terrain_geoms = {model.geom('terrain_'+p.name).id for p in spec.terrain}
+        feet = {model.geom(name).id for name in ('FL', 'FR', 'RL', 'RR')}
+        self.nonfoot_robot_geoms = self.robot_geoms-feet
 
     def update(self, data):
         for i, obstacle in enumerate(self.spec.obstacles):
@@ -264,4 +285,6 @@ class Arena:
     def collided(self, data):
         return any((c.geom1 in self.hazard_geoms and c.geom2 in self.robot_geoms)
                    or (c.geom2 in self.hazard_geoms and c.geom1 in self.robot_geoms)
+                   or (c.geom1 in self.terrain_geoms and c.geom2 in self.nonfoot_robot_geoms)
+                   or (c.geom2 in self.terrain_geoms and c.geom1 in self.nonfoot_robot_geoms)
                    for c in data.contact)

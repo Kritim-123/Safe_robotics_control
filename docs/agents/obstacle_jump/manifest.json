@@ -1,0 +1,53 @@
+{
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "mujoco": "3.13.0",
+  "numpy": "2.5.3",
+  "selected_candidate": "bar-development-v2/065",
+  "selected_on": "development height/distance probes",
+  "random_development_seed": 20261028,
+  "broad_seed": 20261029,
+  "axis_seed": 20261030,
+  "development_trials": {
+    "flat": 96,
+    "bar": 289
+  },
+  "frozen_evaluation_trials": 52,
+  "profile_sha256": "d21243206f769bf62623892e97e4a822ac0ad54a49ded833da35406606344f07",
+  "sources": {
+    "skills/obstacle_jump.py": "575767e5d50302b8f8ea959d0f7e220a5ecb4668c383d2531d95aefa36d7c895",
+    "skills/jump_profile.py": "19260f0fbfb761e00fb3ff64202dff1e0abfc6682e0f7ce61addaf81b27c924c",
+    "skills/registry.py": "5bc4f2b51ca50bdb2e9df9aae1b16669b84df58a39225109da2970dda8199036",
+    "controllers/walking.py": "93d26f513a2671d002013da8c673d2d84fa207f78b53e6c56bc46d184e495d01",
+    "controllers/navigation.py": "70a6875ac2e79efd86999099310af330b7248dc3bce2ea9ad8c6708f023ef7f6",
+    "hybrid/arena.py": "a6a243713c2867518d70042f4d63e7db19ceb536f8f0da2ba9e0652d51751acd",
+    "experiments/obstacle_jump.py": "171d5408a9e7d628a06069e9230f9eef4293526a91fe7711d9263c21b643d605",
+    "experiments/audit_obstacle_jump.py": "4aae0acf525bc16242f0c1af41e9b54c489744e594191792154faa8a4279b2e2",
+    "tests/test_obstacle_jump.py": "aec3a9833697910aa0ef72c2de56ddf41b86a26f87da740a21708089b46821d3",
+    "docs/agents/obstacle_jump_protocol.md": "127d81fddadd8bf543d8c1259fe7b2a69dd85808cb35958c77ae3d7ee9a00263",
+    "docs/agents/obstacle_jump_validation.md": "e7f2cf3a98237635fad3d08093fd04093407eaf3339bd2ce54d9a93beafbbbdf"
+  },
+  "artifacts": {
+    "audit.json": "69052c5645dca1292be6c50d970d6e375ab6d72a8971878d36f688ed7b698a49",
+    "axis_aggregate.json": "4db00bb58f025a8a94eaba076afadadd810702cb37c799420dc33e146e1993b3",
+    "axis_cases.json": "4bb9c8f09f88b763d8a082c2b0a81c80853cd3a35fb2a364a0b0f7814b6fab83",
+    "axis_results.jsonl": "ca1d77cfc101693ad81384f3400f996f581a383540ecd7f0fd9f167f4f087a90",
+    "bar_development_v1.jsonl": "0a1c5e849e2cf450b8f8b911141d29b6b72e54a00f1994e83bb3f891ae07301c",
+    "bar_development_v2.jsonl": "56ad02063bb47f32309d5e4fcc00ab10ced5e149a60e4ae0eb70c8da238271d3",
+    "broad_aggregate.json": "811af0b2e8eb6ce8a75f739d86e6ec2237f8b6e13194ce8b7f6d495714369274",
+    "broad_cases.json": "35a4f7ce79275996286f9195b9f1596cd624e7bf178daf5895222acca5c93776",
+    "broad_results.jsonl": "dff162c363112083a9bed08f7a0f87cb232836a6479b5fda5017e54711b06f88",
+    "config.json": "d21243206f769bf62623892e97e4a822ac0ad54a49ded833da35406606344f07",
+    "declared_development_configs.json": "235b6e406f3df4743a89b44664ea4112948216aad2652f95e28550e175240378",
+    "demo_sources.json": "c1cceef73f841712d0e4a7af96997b32ec75bae3ee058b1a419641edd457219b",
+    "development_height_probes.json": "3317d6552c2df1401caaa30bfc902f7dd1bc8079591edf4dde6ada146747832a",
+    "development_scripts\\obstacle_jump_axis_validation.py": "bca276f4ea0f4455df9f43b77c3671886fde2fdb688db0275e2dc584735e85f8",
+    "development_scripts\\obstacle_jump_flat_search.py": "3693b6f682573feb594df0d1f9c1e8ee009d3976e85ce43ad3356f1e48ec143d",
+    "development_scripts\\obstacle_jump_search.py": "5ed9a549be5d2dcaf9888a53d96a43dd4f0185b99e40498408d78f1767b59bd4",
+    "failure_replay.json": "b90b73fbccc97856b103de8ce142221b99430a4f4e3884047d26e776f07dd050",
+    "flat_development.jsonl": "66e8a260bc3698ea73ef1bbb0a4a1cc6f3634a1cb2300828324eff1161b9d407",
+    "focused-tests.log": "bb097c976784f19af624be6667baf8aef3f65af8b5666e2de7c17581c0606727",
+    "full-suite.log": "a33d3a674982cecc83df335a90166b7c1f4500deff86a18426a662f80afd3058",
+    "nominal_demo.json": "2e943ed7fc56c3af0915b0f1b714979aaaf931e223973559f6108ac4b0c80a7d"
+  },
+  "limits": "Experimental; broad 19/24, +X 14/16; known thigh contacts; no SNN eligibility"
+}

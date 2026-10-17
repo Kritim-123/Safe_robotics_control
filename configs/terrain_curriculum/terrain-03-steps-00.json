@@ -1,0 +1,82 @@
+{
+  "name": "terrain-03-steps-00",
+  "start": [
+    0.0,
+    0.0
+  ],
+  "goal": [
+    1.7,
+    0
+  ],
+  "obstacles": [],
+  "bounds": [
+    -1.5,
+    6.0,
+    -2.4,
+    2.4
+  ],
+  "start_yaw": 0.0,
+  "timeout": 18.0,
+  "friction": 0.8,
+  "push_time": -1.0,
+  "push_force": [
+    0.0,
+    0.0
+  ],
+  "push_duration": 0.2,
+  "position_noise": 0.0,
+  "velocity_noise": 0.0,
+  "sensor_delay": 0.0,
+  "sensor_filter_tau": 0.0,
+  "sensing_seed": 0,
+  "terrain": [
+    {
+      "name": "step_0",
+      "center": [
+        0.5676086776113818,
+        0.0
+      ],
+      "half_extents": [
+        0.15,
+        0.85
+      ],
+      "height": 0.012,
+      "kind": "box",
+      "yaw": 0.0,
+      "base_height": 0.0,
+      "friction": 0.8
+    },
+    {
+      "name": "step_1",
+      "center": [
+        0.8676086776113818,
+        0.0
+      ],
+      "half_extents": [
+        0.15,
+        0.85
+      ],
+      "height": 0.024,
+      "kind": "box",
+      "yaw": 0.0,
+      "base_height": 0.0,
+      "friction": 0.8
+    },
+    {
+      "name": "step_2",
+      "center": [
+        1.1676086776113817,
+        0.0
+      ],
+      "half_extents": [
+        0.15,
+        0.85
+      ],
+      "height": 0.012,
+      "kind": "box",
+      "yaw": 0.0,
+      "base_height": 0.0,
+      "friction": 0.8
+    }
+  ]
+}

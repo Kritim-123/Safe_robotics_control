@@ -1,0 +1,43 @@
+{
+  "seed": 20261017,
+  "stages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "variants": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "modes": [
+    "association",
+    "direct_run"
+  ],
+  "duration": 8.0,
+  "timeout": 18.0,
+  "encoder_checksum": "b72b9750bffd70ee37bd0aaedb5064b58157d8f5a13f58b5cd356ca281fa70ec",
+  "association_checksum": "af09caff72026bfca7e8ff7b5a20e7011954c9e12cd5e56033b7ca07e3aeed00",
+  "progressive": false,
+  "geometry_sha256": "c476a1750fa3d63c636aa1b496f7e4e10deaab6f52a187a1bf5d4da74cc93ed5",
+  "scenarios": 60,
+  "training": false,
+  "source_sha256": {
+    "hybrid/terrain.py": "c0d426caf44f01b9bf303668a7651b123db69a28689e181365aa45b402b77829",
+    "hybrid/arena.py": "a6a243713c2867518d70042f4d63e7db19ceb536f8f0da2ba9e0652d51751acd",
+    "skills/dynamic.py": "cee4ee6a432b550e697169bb41a6992cad1ed9db860b899468c1c50a44fc18de",
+    "experiments/spike_pattern_skills/curriculum.py": "ca508c452a0d02c9b2aee2eb0383a6aa713dd5ae8ccacf87a4903f7fd553ab14",
+    "experiments/spike_pattern_skills/execute_associations.py": "14e43c560002496fdd344d8257edb173314006a03901136f286c6768675c46b4",
+    "experiments/spike_pattern_skills/run_curriculum.py": "735a2afa860b8c5a21683db3188400e57abfc825bfed9ae23380559ab586b2ca"
+  }
+}

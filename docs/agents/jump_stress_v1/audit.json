@@ -1,0 +1,281 @@
+{
+  "trials": 120,
+  "phases": {
+    "initiated": 85,
+    "setup": 28,
+    "refused": 7
+  },
+  "assessment": {
+    "forward_qualified": 49,
+    "completed_short_or_backward": 6,
+    "setup_failure": 28,
+    "execution_failure": 10,
+    "refused": 7,
+    "controlled_interruption": 20
+  },
+  "groups": [
+    {
+      "family": "flat",
+      "trials": 10,
+      "phases": {
+        "initiated": 10
+      },
+      "assessment": {
+        "forward_qualified": 10
+      }
+    },
+    {
+      "family": "friction",
+      "trials": 10,
+      "phases": {
+        "initiated": 10
+      },
+      "assessment": {
+        "completed_short_or_backward": 6,
+        "forward_qualified": 4
+      }
+    },
+    {
+      "family": "uphill",
+      "trials": 10,
+      "phases": {
+        "initiated": 3,
+        "setup": 7
+      },
+      "assessment": {
+        "forward_qualified": 3,
+        "setup_failure": 7
+      }
+    },
+    {
+      "family": "downhill",
+      "trials": 10,
+      "phases": {
+        "initiated": 3,
+        "setup": 7
+      },
+      "assessment": {
+        "forward_qualified": 3,
+        "setup_failure": 7
+      }
+    },
+    {
+      "family": "cross_slope",
+      "trials": 10,
+      "phases": {
+        "initiated": 4,
+        "setup": 6
+      },
+      "assessment": {
+        "forward_qualified": 4,
+        "setup_failure": 6
+      }
+    },
+    {
+      "family": "uneven_footing",
+      "trials": 10,
+      "phases": {
+        "initiated": 6,
+        "setup": 4
+      },
+      "assessment": {
+        "forward_qualified": 5,
+        "execution_failure": 1,
+        "setup_failure": 4
+      }
+    },
+    {
+      "family": "step_up",
+      "trials": 10,
+      "phases": {
+        "initiated": 10
+      },
+      "assessment": {
+        "forward_qualified": 10
+      }
+    },
+    {
+      "family": "step_down",
+      "trials": 10,
+      "phases": {
+        "initiated": 6,
+        "setup": 4
+      },
+      "assessment": {
+        "forward_qualified": 5,
+        "execution_failure": 1,
+        "setup_failure": 4
+      }
+    },
+    {
+      "family": "static_obstacle",
+      "trials": 10,
+      "phases": {
+        "refused": 7,
+        "initiated": 3
+      },
+      "assessment": {
+        "refused": 7,
+        "forward_qualified": 3
+      }
+    },
+    {
+      "family": "approaching_obstacle",
+      "trials": 10,
+      "phases": {
+        "initiated": 10
+      },
+      "assessment": {
+        "forward_qualified": 2,
+        "execution_failure": 8
+      }
+    },
+    {
+      "family": "prepare_interrupt",
+      "trials": 10,
+      "phases": {
+        "initiated": 10
+      },
+      "assessment": {
+        "controlled_interruption": 10
+      }
+    },
+    {
+      "family": "launched_interrupt",
+      "trials": 10,
+      "phases": {
+        "initiated": 10
+      },
+      "assessment": {
+        "controlled_interruption": 10
+      }
+    }
+  ],
+  "trace_audit": "120 finite traces, frozen sources/config, torque bounds; 85 initiated traces recomputed",
+  "falls": 0,
+  "collisions_by_phase": {
+    "setup": 28
+  },
+  "traces_sha256": {
+    "flat-00\\trace.npz": "95305fedc9eab7707da086931eb64502a4f8cf6f1cf5d15cd87fbbad8397f705",
+    "flat-01\\trace.npz": "dbceb80320da7535210e5e6b5de363d04a5ac8459c3847f5bdd332005d1d434b",
+    "flat-02\\trace.npz": "3e32cd0765a4e39625f9ec3ff0acf7d9f4dc1bbf4b29d0c51b166f6072cb393c",
+    "flat-03\\trace.npz": "7565626086f745dbf5a9b4b28415912f6abfeaaf7cd8df04720d272edd5d9122",
+    "flat-04\\trace.npz": "786c65f08d232655ec0a82aaa9e778b6100dd413594d8a090b2416b5f41a9d05",
+    "flat-05\\trace.npz": "74bc0a5770c284cc4edc096270a61da3382129379d515f1798abc6013c8b8944",
+    "flat-06\\trace.npz": "48e47d97ebda6aaa01c00aae8a71c294906d1bdf8993014886c5854adbcc90d3",
+    "flat-07\\trace.npz": "85e5d2066c88605890321488b92f32845ce24f5994be73739ec883f3f0b7883e",
+    "flat-08\\trace.npz": "1a24ac280987b657e0f838b81eafe41a3663b5170723796ad730d2a4add5246e",
+    "flat-09\\trace.npz": "b7adf9f0d7f8569f65912d79ab0fed39ec4db48d13a066dfca19b73bcff64422",
+    "friction-00\\trace.npz": "910dba9ac7e88c6c6665073ed3808a8b786386ce8b6abd066a08f5272a1c827d",
+    "friction-01\\trace.npz": "c131451beea8ace494d327e33b9afb92fc56c3eb4677ea9a6bafce765dd79eeb",
+    "friction-02\\trace.npz": "a2b3ff93cddcefd2f7668dbaf185ecce775a16b87dead84937386d18ab019516",
+    "friction-03\\trace.npz": "84debb9a98f8ccb36fe345d36f177a9cd134dfdd9dfa0e982fbcf539e3dff995",
+    "friction-04\\trace.npz": "7c4a98d2dd170427b4ef6d054bce146348c30afeda6dcaf7c889692d2fb2a0f5",
+    "friction-05\\trace.npz": "a9f3e685f4525185ee0c285c6bf8d7420ead1e9a5258d4bbab98813e7fa6719f",
+    "friction-06\\trace.npz": "660ba2ca7b12f1878945bf61395af2facb6b9f2c952a04f01a8d7e4abdc63820",
+    "friction-07\\trace.npz": "96410e77333d87d6178e29d99e759286cd3ca9fb24e767dd75edc816e229b4a9",
+    "friction-08\\trace.npz": "3f6c5139c5f12ebf3e8042d4d5172e64d01681924091068030e1982f036a4d37",
+    "friction-09\\trace.npz": "cc5b3f7d9496ce8cf38dd72c41ed038743e352baab22a9794cab207762b714b9",
+    "uphill-00\\trace.npz": "f57d91e9bbf8fc6f1c176eda554ec14fa13eeeb47cce5822229eaee3ffacc8ee",
+    "uphill-01\\trace.npz": "78a2f89926ca99ad1433920c1e95b81c0012fe54d32f35c6a3c099476a583472",
+    "uphill-02\\trace.npz": "28afd6e54b83ef6a9c840b114f35f9ff8167e43b3ff5f8dc9c29a8d57eb4b4d3",
+    "uphill-03\\trace.npz": "8012b483214b4d5d2b7608c0d291a7c4cecd98cb0e5c62f7ab03aea1c42c9180",
+    "uphill-04\\trace.npz": "62b8776814de0c703c80b6ae22e5a773ed85b40cfc7420118b1599f1a81533f1",
+    "uphill-05\\trace.npz": "4940d5f52d48b93f413125d378d8a4b27ad87657d778ee2c168d5b40ddf0e99e",
+    "uphill-06\\trace.npz": "e562064cb8722215cb4cf0a6f2e0bebf50b02226b6837c9b9422bb09947ed756",
+    "uphill-07\\trace.npz": "994a490753960d7ec2a1f28f078231a945c0267beb59d2539dcdc8207f338562",
+    "uphill-08\\trace.npz": "18f237edfd92ad5e051587ed89ae7b15f5254b04797d1d7ea643573e5e5909eb",
+    "uphill-09\\trace.npz": "3b93503267ea1f1704cdf3f30f9a86b96dac7edf4dcec83221aa7254f0f840e2",
+    "downhill-00\\trace.npz": "f69a887e0bdabfc1fe48781df141f93aee6db111701a3e76c1bf2e0900a51760",
+    "downhill-01\\trace.npz": "841f70296b075ef0248a644972956c83e1144a496ad7d4869b70446716cf9d9f",
+    "downhill-02\\trace.npz": "e14cd023282150c6a417ac94715c37f312ef7dda73f8ae6a66cf84cfe74c7327",
+    "downhill-03\\trace.npz": "e406be8268177c3168b3b8eb2a973cd314b4e32b5a4029b79e836bb2314a7d80",
+    "downhill-04\\trace.npz": "f06023f55d6a8ae89c0fd2bfe22b96469fe7c6d4a297e37206e77cbb5a937ea9",
+    "downhill-05\\trace.npz": "ddb31408f31c6ed8019a72811610b3093f13c39152b0195de117481568219465",
+    "downhill-06\\trace.npz": "04bc41b0aee5018caa3f11f3302b4cf4cb8ddff034a09ca6580754a6710c9ff3",
+    "downhill-07\\trace.npz": "2c87cc5a093f6631e932bb455bb61ecd59afa355318ccd74752d6e41b59915ed",
+    "downhill-08\\trace.npz": "32b541ac3a4dd50bd1ea04b472f561aabb41ffef061da40486711dd07aacff45",
+    "downhill-09\\trace.npz": "2978964fa029e35f791aa9c1f7eaefab1ab8aaee8c70236cea34c1d81cc0eee2",
+    "cross_slope-00\\trace.npz": "5628db482adf1ea55c82e143a13af11d9680b7dfa1eb739aa24b7b6253f99582",
+    "cross_slope-01\\trace.npz": "355ed7668cbaa57d6e09adabfab31d2ec946eeb7ccfc0ef4abf7f5610fc7d96d",
+    "cross_slope-02\\trace.npz": "862ff22cd819288eec1feca41bca1cae0bcac694402787a5391637983d2f8093",
+    "cross_slope-03\\trace.npz": "6c1810b8fc612b20b3abdf90d1db0681984d5ce6f6c381f62a2e97e401d8bda0",
+    "cross_slope-04\\trace.npz": "7d8ac2bd25424dba8713944ef5c7c4eb53a564894e3e35c2ca62e32656d6e37d",
+    "cross_slope-05\\trace.npz": "14154aa5af9b18f0e7339a4be534cfd3ade8e8c595904d9a620e8b418bc1dc69",
+    "cross_slope-06\\trace.npz": "a150916d1e1df3b2521d9e504774648a90a2447bcf31f8f0cc84719e29d40a87",
+    "cross_slope-07\\trace.npz": "75c93ff8225b831da66c1a93c2f670a77127542d499399b98fe8ccdeea74452c",
+    "cross_slope-08\\trace.npz": "c5e111e9b2cc6d9a48446b8a114611680606193bcb5cbfe08dcf87b1e6c35aa8",
+    "cross_slope-09\\trace.npz": "412a809f9e5491c15eaeb2ad831da4842ff2f1ace6e4de9053b87fa4cad9ba5b",
+    "uneven_footing-00\\trace.npz": "97ab954b6a303703d84e4f175fb3a7bcb639162462483debcf961e68f93c4a06",
+    "uneven_footing-01\\trace.npz": "fd6d470ba609b52dfffd1268dbc935ebef8143ad91c7704f7358d9149111909a",
+    "uneven_footing-02\\trace.npz": "2ea179231a33c9c26b88914696c2fb501450654d312c5ca83768078d7fdb4eb6",
+    "uneven_footing-03\\trace.npz": "cc6b5af615804cd70912bf5c6105539fc18d4a7471138954b0d05497e1270305",
+    "uneven_footing-04\\trace.npz": "92fb24f7c7a3da475b099f8a831df511726bf945ce25417ad76055d663391411",
+    "uneven_footing-05\\trace.npz": "32ac61dba3a1c2010c56fea8ee36dc37079457c7a0102b8d602cdd1b8c909dcd",
+    "uneven_footing-06\\trace.npz": "7c0b7de40789cd13275340e440778c8f88420c2548a6705310b7370eecdd3e79",
+    "uneven_footing-07\\trace.npz": "58ddc94c10bb2af3c26cb98be93f132f41a79f35e5313a343ccc583c8b67c074",
+    "uneven_footing-08\\trace.npz": "dc56860333c1c657c4a68fe77db4cac1eacd611177be4830172c6c011223e826",
+    "uneven_footing-09\\trace.npz": "a374718ff24f326e584263ced3ece5769cf3e62293ab667304469e692571f457",
+    "step_up-00\\trace.npz": "816d444837cef08e3f4f1555f637fa9b8a73352a2b06f2e3570f0d3374e439ec",
+    "step_up-01\\trace.npz": "97bf1b5755797250663deb5faee584101f8417e7e1d892568b39b729eab09585",
+    "step_up-02\\trace.npz": "653f8058b4a3be079d7c38db7f639ab5a3b00bd61b2dd42f61a343195064cf49",
+    "step_up-03\\trace.npz": "97bf1b5755797250663deb5faee584101f8417e7e1d892568b39b729eab09585",
+    "step_up-04\\trace.npz": "a7b3366f4ca7bbd6fcb310504de0b9e4c8c61143cb5cca77097ff47ee76a5cdf",
+    "step_up-05\\trace.npz": "97bf1b5755797250663deb5faee584101f8417e7e1d892568b39b729eab09585",
+    "step_up-06\\trace.npz": "f7645b9fc42da7681515b860b7f0da18d7cee88f723f20fa4046619832869093",
+    "step_up-07\\trace.npz": "97bf1b5755797250663deb5faee584101f8417e7e1d892568b39b729eab09585",
+    "step_up-08\\trace.npz": "75af2749b4946efd60a65488e2c9895a6aabf1f517b7f684c35833dc2ceb7910",
+    "step_up-09\\trace.npz": "97bf1b5755797250663deb5faee584101f8417e7e1d892568b39b729eab09585",
+    "step_down-00\\trace.npz": "414913259a7e90ceeff662018dcbab0ce8604fe159112a1210c4c5c970cd0889",
+    "step_down-01\\trace.npz": "aa6344b09b45fba653673bd7d3abd3526cd4e09fd6e1e8fffc92202c197c2bfb",
+    "step_down-02\\trace.npz": "4089cc48affb986ed9efa4d10a454ef9853dfe91e3a0fe9b9b87279a88bff5d7",
+    "step_down-03\\trace.npz": "31d7a68a57428fc7486ca37c19c2d31c458b6d8ea012b1ec4d2b037f6999cf87",
+    "step_down-04\\trace.npz": "bfd7d1e4fe23c10af0ebbfb62dcb139096f5cecc9dc1881d1659672b50606d4c",
+    "step_down-05\\trace.npz": "f52922b6347ba820a5b59435c343a53bbc37f8485fabc86eecb5329ce5887c99",
+    "step_down-06\\trace.npz": "e11c31740b1361f0ea7243001c4a10361c6080d76d2685c19f5d8f1443b3f06f",
+    "step_down-07\\trace.npz": "3df0b3e333f1a71440d29027021a84096a1a88897e3696996b1fbdae972fa85a",
+    "step_down-08\\trace.npz": "fa006def666fcdb7a08ddf1c776949594d6ee0434db8a485b0d1f2a8074be776",
+    "step_down-09\\trace.npz": "0b5e4a75c2b91aebae22a8950eeadfb3ab8b0384e2af6d2f4bda88b51b409c37",
+    "static_obstacle-00\\trace.npz": "341966c66dad3648f9386c2e8067067956a1c93c614de4039b08dbdd1f40cf3e",
+    "static_obstacle-01\\trace.npz": "341966c66dad3648f9386c2e8067067956a1c93c614de4039b08dbdd1f40cf3e",
+    "static_obstacle-02\\trace.npz": "341966c66dad3648f9386c2e8067067956a1c93c614de4039b08dbdd1f40cf3e",
+    "static_obstacle-03\\trace.npz": "341966c66dad3648f9386c2e8067067956a1c93c614de4039b08dbdd1f40cf3e",
+    "static_obstacle-04\\trace.npz": "341966c66dad3648f9386c2e8067067956a1c93c614de4039b08dbdd1f40cf3e",
+    "static_obstacle-05\\trace.npz": "341966c66dad3648f9386c2e8067067956a1c93c614de4039b08dbdd1f40cf3e",
+    "static_obstacle-06\\trace.npz": "341966c66dad3648f9386c2e8067067956a1c93c614de4039b08dbdd1f40cf3e",
+    "static_obstacle-07\\trace.npz": "97bf1b5755797250663deb5faee584101f8417e7e1d892568b39b729eab09585",
+    "static_obstacle-08\\trace.npz": "97bf1b5755797250663deb5faee584101f8417e7e1d892568b39b729eab09585",
+    "static_obstacle-09\\trace.npz": "97bf1b5755797250663deb5faee584101f8417e7e1d892568b39b729eab09585",
+    "approaching_obstacle-00\\trace.npz": "97bf1b5755797250663deb5faee584101f8417e7e1d892568b39b729eab09585",
+    "approaching_obstacle-01\\trace.npz": "97bf1b5755797250663deb5faee584101f8417e7e1d892568b39b729eab09585",
+    "approaching_obstacle-02\\trace.npz": "4393fc79a6dd2ccd52e355d7151fd3205147a73b48b040d8706299799cd87850",
+    "approaching_obstacle-03\\trace.npz": "cb1770cb7cbf182df0bec0b600a3d16be17cb2d3e022921c0642ae02d9805d3c",
+    "approaching_obstacle-04\\trace.npz": "b4a67376b96eea93c22c65da52382360ad9c6916710ab1fb6d1696c929e90522",
+    "approaching_obstacle-05\\trace.npz": "a9a711c94503a250dd607f8a345731aad90836a4e6155dfca55990bd892cd75a",
+    "approaching_obstacle-06\\trace.npz": "d36aa4a0ece44e74bd022da20ab9e07a8eba674e9444c704c6ce33385f51cb2d",
+    "approaching_obstacle-07\\trace.npz": "202efb737bcc7a604956a33e8d3bd7bd16d02d4b43446969710b9fb0664de4cc",
+    "approaching_obstacle-08\\trace.npz": "80ad53768a3a3a7b39ff6953c22eec70e85ff0d480365fcedf8458b18828f7f8",
+    "approaching_obstacle-09\\trace.npz": "471005ea0d4a83cf58421630f102912b4c96fb7185fcf5f7773f45870a864eb7",
+    "prepare_interrupt-00\\trace.npz": "e9899c991a05cdcabc1ef66db8b659c1fe1b06042dcccdb1c409c0c0a1ce2025",
+    "prepare_interrupt-01\\trace.npz": "e9899c991a05cdcabc1ef66db8b659c1fe1b06042dcccdb1c409c0c0a1ce2025",
+    "prepare_interrupt-02\\trace.npz": "e9899c991a05cdcabc1ef66db8b659c1fe1b06042dcccdb1c409c0c0a1ce2025",
+    "prepare_interrupt-03\\trace.npz": "e9899c991a05cdcabc1ef66db8b659c1fe1b06042dcccdb1c409c0c0a1ce2025",
+    "prepare_interrupt-04\\trace.npz": "e9899c991a05cdcabc1ef66db8b659c1fe1b06042dcccdb1c409c0c0a1ce2025",
+    "prepare_interrupt-05\\trace.npz": "e9899c991a05cdcabc1ef66db8b659c1fe1b06042dcccdb1c409c0c0a1ce2025",
+    "prepare_interrupt-06\\trace.npz": "e9899c991a05cdcabc1ef66db8b659c1fe1b06042dcccdb1c409c0c0a1ce2025",
+    "prepare_interrupt-07\\trace.npz": "e9899c991a05cdcabc1ef66db8b659c1fe1b06042dcccdb1c409c0c0a1ce2025",
+    "prepare_interrupt-08\\trace.npz": "e9899c991a05cdcabc1ef66db8b659c1fe1b06042dcccdb1c409c0c0a1ce2025",
+    "prepare_interrupt-09\\trace.npz": "e9899c991a05cdcabc1ef66db8b659c1fe1b06042dcccdb1c409c0c0a1ce2025",
+    "launched_interrupt-00\\trace.npz": "116060e8dcc28dbc501ebfdd20358906355cc734c3be01815877f27ea425c528",
+    "launched_interrupt-01\\trace.npz": "116060e8dcc28dbc501ebfdd20358906355cc734c3be01815877f27ea425c528",
+    "launched_interrupt-02\\trace.npz": "116060e8dcc28dbc501ebfdd20358906355cc734c3be01815877f27ea425c528",
+    "launched_interrupt-03\\trace.npz": "116060e8dcc28dbc501ebfdd20358906355cc734c3be01815877f27ea425c528",
+    "launched_interrupt-04\\trace.npz": "116060e8dcc28dbc501ebfdd20358906355cc734c3be01815877f27ea425c528",
+    "launched_interrupt-05\\trace.npz": "116060e8dcc28dbc501ebfdd20358906355cc734c3be01815877f27ea425c528",
+    "launched_interrupt-06\\trace.npz": "116060e8dcc28dbc501ebfdd20358906355cc734c3be01815877f27ea425c528",
+    "launched_interrupt-07\\trace.npz": "116060e8dcc28dbc501ebfdd20358906355cc734c3be01815877f27ea425c528",
+    "launched_interrupt-08\\trace.npz": "116060e8dcc28dbc501ebfdd20358906355cc734c3be01815877f27ea425c528",
+    "launched_interrupt-09\\trace.npz": "116060e8dcc28dbc501ebfdd20358906355cc734c3be01815877f27ea425c528"
+  }
+}

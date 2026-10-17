@@ -1,0 +1,25 @@
+{
+  "episodes": 7751,
+  "trace_archives": 7751,
+  "checked_handoffs": 19246,
+  "exact_replayed_predictions": 895972,
+  "integrity_or_pairing_problem_batches": [],
+  "unfinished_episode_folders": {
+    "final-main-launch-error-v1": [
+      "test-clear_stop-6100\\old_once"
+    ]
+  },
+  "historical_artifacts_unchanged": {
+    "docs\\agents\\expanded_association_v2\\dense_encoder.npz": true,
+    "docs\\agents\\expanded_association_v2\\dense.json": true,
+    "docs\\agents\\expanded_association_v2\\legacy_encoder.npz": true,
+    "docs\\agents\\expanded_association_v2\\original.json": true
+  },
+  "earlier_hash_only_cohorts": [
+    "old-baseline-development-v1",
+    "teacher-train-v1",
+    "teacher-validation-v1"
+  ],
+  "maximum_handoff_linear_speed": 0.014705432832160848,
+  "maximum_handoff_angular_speed": 0.02234339208912642
+}

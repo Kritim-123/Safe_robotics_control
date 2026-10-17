@@ -1,0 +1,13 @@
+{
+  "all_episodes": 7751,
+  "final_episodes": 3564,
+  "all_cases": 2466,
+  "final_unique_scene_cases": 460,
+  "all_contacts": 0,
+  "all_falls": 0,
+  "final_contacts": 0,
+  "final_falls": 0,
+  "v2_fresh_confirmation_episodes": 768,
+  "v2_unique_named_confirmation_cases": 160,
+  "counts_are_episodes_not_independent_frames": true
+}

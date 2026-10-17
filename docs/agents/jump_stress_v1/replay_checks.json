@@ -1,0 +1,22 @@
+[
+  {
+    "case": "flat-00",
+    "frames": 205,
+    "trace_identical": true
+  },
+  {
+    "case": "uneven_footing-05",
+    "frames": 205,
+    "trace_identical": true
+  },
+  {
+    "case": "approaching_obstacle-09",
+    "frames": 102,
+    "trace_identical": true
+  },
+  {
+    "case": "uphill-03",
+    "frames": 57,
+    "trace_identical": true
+  }
+]

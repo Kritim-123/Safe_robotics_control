@@ -1,0 +1,14 @@
+{
+  "training_rows": 23978,
+  "training_groups": 254,
+  "validation_rows": 6026,
+  "validation_groups": 54,
+  "groups_disjoint": true,
+  "added_training_rows": 4598,
+  "added_validation_rows": 1176,
+  "encoder_weights_or_motor_changes": false,
+  "all_additional_rows_qualified_by_successful_episode": true,
+  "per_packet_labels_are_teacher_requests": true,
+  "compact_conflicting_patterns": 59,
+  "prototype_conflicting_patterns": 0
+}

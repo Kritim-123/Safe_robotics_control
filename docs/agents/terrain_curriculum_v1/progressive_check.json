@@ -1,0 +1,62 @@
+{
+  "episodes": 6,
+  "groups": [
+    {
+      "mode": "association",
+      "stage": 0,
+      "family": "flat",
+      "episodes": 6,
+      "traversals": 0,
+      "primitive_completions": 6,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {
+        "wait": 6
+      },
+      "reasons": {
+        "completed": 6
+      },
+      "eligible_for_progression": true,
+      "stage_passed": false,
+      "progression_status": "needs_work",
+      "complete_six_variant_assessment": true
+    },
+    {
+      "mode": "association",
+      "stage": 1,
+      "family": "thresholds",
+      "episodes": 0,
+      "traversals": 0,
+      "primitive_completions": 0,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {},
+      "reasons": {},
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": false
+    },
+    {
+      "mode": "association",
+      "stage": 2,
+      "family": "ramps",
+      "episodes": 0,
+      "traversals": 0,
+      "primitive_completions": 0,
+      "contacts": 0,
+      "falls": 0,
+      "skills": {},
+      "reasons": {},
+      "eligible_for_progression": false,
+      "stage_passed": false,
+      "progression_status": "locked",
+      "complete_six_variant_assessment": false
+    }
+  ],
+  "passed_stages": {
+    "association": []
+  },
+  "note": "Diagnostic sweep may run locked stages; no model or skill updates occur.",
+  "errors": 0
+}

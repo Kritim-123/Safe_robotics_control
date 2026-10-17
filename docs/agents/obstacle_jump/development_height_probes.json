@@ -1,0 +1,2160 @@
+[
+  {
+    "success": false,
+    "reason": "not cleared",
+    "elapsed": 4.805999999999693,
+    "initiated": true,
+    "observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09,
+        0.26463491581131693
+      ],
+      "foot_positions": [
+        [
+          0.18978122949887305,
+          0.14870098405167595,
+          0.012505420230918246
+        ],
+        [
+          0.18978128211811823,
+          -0.1487009238442066,
+          0.01250543970797767
+        ],
+        [
+          -0.1955652545013554,
+          0.1501366189580993,
+          0.012323981048080149
+        ],
+        [
+          -0.1955652244950117,
+          -0.15013664572116125,
+          0.012323964809481433
+        ]
+      ],
+      "stable": true,
+      "corridor": 3.393864251201755
+    },
+    "config": {
+      "preparation": 0.5054132357423261,
+      "thrust": 0.07594032575484311,
+      "flight": 0.21801825409789358,
+      "absorption": 0.1713583354209832,
+      "recovery": 0.6,
+      "crouch_thigh": 1.0981662315674272,
+      "crouch_calf": -2.1963324631348544,
+      "extension_calf": -1.0703750336300368,
+      "forward_lean": 0.9852317156544526,
+      "flight_calf": -2.2924970768761423,
+      "flight_lean": -0.15472037447730128,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 60.0,
+      "landing_kp": 30.702015455035497,
+      "landing_kd": 1.8395831817617847,
+      "forward_clearance": 0.5
+    },
+    "target": "bar",
+    "scenario": {
+      "name": "h0.03-d0.26",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.26,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.03,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupted": false,
+    "stable_landing": true,
+    "collision": false,
+    "fall": false,
+    "target_contacts": [],
+    "longest_airtime": 0.4100000000000003,
+    "foot_crossed": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "foot_overlap_seen": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "min_foot_bar_clearance": [
+      0.17147413367522377,
+      0.17150348704529358,
+      0.07325538232756845,
+      0.07336906867204211
+    ],
+    "final_feet_beyond": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_collision_geometry_margin": -0.09535086094726997,
+    "stayed_in_lane": true,
+    "max_torque": 60.0,
+    "actuator_limit": 60.0,
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "final_position": [
+      0.5461359646294164,
+      -0.00012663491681218128,
+      0.2661999503857662
+    ],
+    "interrupt_after": null
+  },
+  {
+    "success": false,
+    "reason": "not cleared",
+    "elapsed": 4.805999999999693,
+    "initiated": true,
+    "observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09,
+        0.26463491581131693
+      ],
+      "foot_positions": [
+        [
+          0.18978122949887305,
+          0.14870098405167595,
+          0.012505420230918246
+        ],
+        [
+          0.18978128211811823,
+          -0.1487009238442066,
+          0.01250543970797767
+        ],
+        [
+          -0.1955652545013554,
+          0.1501366189580993,
+          0.012323981048080149
+        ],
+        [
+          -0.1955652244950117,
+          -0.15013664572116125,
+          0.012323964809481433
+        ]
+      ],
+      "stable": true,
+      "corridor": 3.393864251201755
+    },
+    "config": {
+      "preparation": 0.5054132357423261,
+      "thrust": 0.07594032575484311,
+      "flight": 0.21801825409789358,
+      "absorption": 0.1713583354209832,
+      "recovery": 0.6,
+      "crouch_thigh": 1.0981662315674272,
+      "crouch_calf": -2.1963324631348544,
+      "extension_calf": -1.0703750336300368,
+      "forward_lean": 0.9852317156544526,
+      "flight_calf": -2.2924970768761423,
+      "flight_lean": -0.15472037447730128,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 60.0,
+      "landing_kp": 30.702015455035497,
+      "landing_kd": 1.8395831817617847,
+      "forward_clearance": 0.5
+    },
+    "target": "bar",
+    "scenario": {
+      "name": "h0.03-d0.27",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.27,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.03,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupted": false,
+    "stable_landing": true,
+    "collision": false,
+    "fall": false,
+    "target_contacts": [],
+    "longest_airtime": 0.4100000000000003,
+    "foot_crossed": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "foot_overlap_seen": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "min_foot_bar_clearance": [
+      0.17750348265179208,
+      0.17753472612373986,
+      0.055821371660455935,
+      0.055937523661395275
+    ],
+    "final_feet_beyond": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_collision_geometry_margin": -0.10535086094726998,
+    "stayed_in_lane": true,
+    "max_torque": 60.0,
+    "actuator_limit": 60.0,
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "final_position": [
+      0.5461359646294164,
+      -0.00012663491681218128,
+      0.2661999503857662
+    ],
+    "interrupt_after": null
+  },
+  {
+    "success": false,
+    "reason": "obstacle contact",
+    "elapsed": 3.0259999999998883,
+    "initiated": true,
+    "observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09,
+        0.26463491581131693
+      ],
+      "foot_positions": [
+        [
+          0.18978122949887305,
+          0.14870098405167595,
+          0.012505420230918246
+        ],
+        [
+          0.18978128211811823,
+          -0.1487009238442066,
+          0.01250543970797767
+        ],
+        [
+          -0.1955652545013554,
+          0.1501366189580993,
+          0.012323981048080149
+        ],
+        [
+          -0.1955652244950117,
+          -0.15013664572116125,
+          0.012323964809481433
+        ]
+      ],
+      "stable": true,
+      "corridor": 3.393864251201755
+    },
+    "config": {
+      "preparation": 0.5054132357423261,
+      "thrust": 0.07594032575484311,
+      "flight": 0.21801825409789358,
+      "absorption": 0.1713583354209832,
+      "recovery": 0.6,
+      "crouch_thigh": 1.0981662315674272,
+      "crouch_calf": -2.1963324631348544,
+      "extension_calf": -1.0703750336300368,
+      "forward_lean": 0.9852317156544526,
+      "flight_calf": -2.2924970768761423,
+      "flight_lean": -0.15472037447730128,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 60.0,
+      "landing_kp": 30.702015455035497,
+      "landing_kd": 1.8395831817617847,
+      "forward_clearance": 0.5
+    },
+    "target": "bar",
+    "scenario": {
+      "name": "h0.03-d0.28",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.28,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.03,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupted": false,
+    "stable_landing": false,
+    "collision": true,
+    "fall": false,
+    "target_contacts": [
+      {
+        "time": 3.0259999999998883,
+        "geom1": "",
+        "geom2": "obstacle_geom_0",
+        "distance": 0.0003795185503045386
+      },
+      {
+        "time": 3.0259999999998883,
+        "geom1": "",
+        "geom2": "obstacle_geom_0",
+        "distance": 0.0004900993446056018
+      }
+    ],
+    "longest_airtime": 0.4100000000000003,
+    "foot_crossed": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "foot_overlap_seen": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "min_foot_bar_clearance": [
+      0.18062433168280992,
+      0.18065651849605643,
+      0.04126776261734974,
+      0.04138588707899031
+    ],
+    "final_feet_beyond": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_collision_geometry_margin": -0.16543014719573873,
+    "stayed_in_lane": true,
+    "max_torque": 60.0,
+    "actuator_limit": 60.0,
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "final_position": [
+      0.4520550560163617,
+      -1.9349096584595015e-05,
+      0.28636120973447626
+    ],
+    "interrupt_after": null
+  },
+  {
+    "success": false,
+    "reason": "not cleared",
+    "elapsed": 4.805999999999693,
+    "initiated": true,
+    "observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09,
+        0.26463491581131693
+      ],
+      "foot_positions": [
+        [
+          0.18978122949887305,
+          0.14870098405167595,
+          0.012505420230918246
+        ],
+        [
+          0.18978128211811823,
+          -0.1487009238442066,
+          0.01250543970797767
+        ],
+        [
+          -0.1955652545013554,
+          0.1501366189580993,
+          0.012323981048080149
+        ],
+        [
+          -0.1955652244950117,
+          -0.15013664572116125,
+          0.012323964809481433
+        ]
+      ],
+      "stable": true,
+      "corridor": 3.393864251201755
+    },
+    "config": {
+      "preparation": 0.5054132357423261,
+      "thrust": 0.07594032575484311,
+      "flight": 0.21801825409789358,
+      "absorption": 0.1713583354209832,
+      "recovery": 0.6,
+      "crouch_thigh": 1.0981662315674272,
+      "crouch_calf": -2.1963324631348544,
+      "extension_calf": -1.0703750336300368,
+      "forward_lean": 0.9852317156544526,
+      "flight_calf": -2.2924970768761423,
+      "flight_lean": -0.15472037447730128,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 60.0,
+      "landing_kp": 30.702015455035497,
+      "landing_kd": 1.8395831817617847,
+      "forward_clearance": 0.5
+    },
+    "target": "bar",
+    "scenario": {
+      "name": "h0.04-d0.26",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.26,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupted": false,
+    "stable_landing": true,
+    "collision": false,
+    "fall": false,
+    "target_contacts": [],
+    "longest_airtime": 0.4100000000000003,
+    "foot_crossed": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "foot_overlap_seen": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "min_foot_bar_clearance": [
+      0.16147413367522376,
+      0.16150348704529358,
+      0.06325538232756844,
+      0.06336906867204212
+    ],
+    "final_feet_beyond": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_collision_geometry_margin": -0.09535086094726997,
+    "stayed_in_lane": true,
+    "max_torque": 60.0,
+    "actuator_limit": 60.0,
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "final_position": [
+      0.5461359646294164,
+      -0.00012663491681218128,
+      0.2661999503857662
+    ],
+    "interrupt_after": null
+  },
+  {
+    "success": false,
+    "reason": "obstacle contact",
+    "elapsed": 3.0219999999998888,
+    "initiated": true,
+    "observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09,
+        0.26463491581131693
+      ],
+      "foot_positions": [
+        [
+          0.18978122949887305,
+          0.14870098405167595,
+          0.012505420230918246
+        ],
+        [
+          0.18978128211811823,
+          -0.1487009238442066,
+          0.01250543970797767
+        ],
+        [
+          -0.1955652545013554,
+          0.1501366189580993,
+          0.012323981048080149
+        ],
+        [
+          -0.1955652244950117,
+          -0.15013664572116125,
+          0.012323964809481433
+        ]
+      ],
+      "stable": true,
+      "corridor": 3.393864251201755
+    },
+    "config": {
+      "preparation": 0.5054132357423261,
+      "thrust": 0.07594032575484311,
+      "flight": 0.21801825409789358,
+      "absorption": 0.1713583354209832,
+      "recovery": 0.6,
+      "crouch_thigh": 1.0981662315674272,
+      "crouch_calf": -2.1963324631348544,
+      "extension_calf": -1.0703750336300368,
+      "forward_lean": 0.9852317156544526,
+      "flight_calf": -2.2924970768761423,
+      "flight_lean": -0.15472037447730128,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 60.0,
+      "landing_kp": 30.702015455035497,
+      "landing_kd": 1.8395831817617847,
+      "forward_clearance": 0.5
+    },
+    "target": "bar",
+    "scenario": {
+      "name": "h0.04-d0.27",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.27,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupted": false,
+    "stable_landing": false,
+    "collision": true,
+    "fall": false,
+    "target_contacts": [
+      {
+        "time": 3.0219999999998888,
+        "geom1": "",
+        "geom2": "obstacle_geom_0",
+        "distance": 0.0007082866224995613
+      },
+      {
+        "time": 3.0219999999998888,
+        "geom1": "",
+        "geom2": "obstacle_geom_0",
+        "distance": 0.000759421896775166
+      }
+    ],
+    "longest_airtime": 0.4100000000000003,
+    "foot_crossed": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "foot_overlap_seen": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "min_foot_bar_clearance": [
+      0.16750348265179207,
+      0.16753472612373985,
+      0.04582137166045593,
+      0.04593752366139527
+    ],
+    "final_feet_beyond": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_collision_geometry_margin": -0.15935738288112383,
+    "stayed_in_lane": true,
+    "max_torque": 60.0,
+    "actuator_limit": 60.0,
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "final_position": [
+      0.44817751927016164,
+      -1.907610059850976e-05,
+      0.2947407454621968
+    ],
+    "interrupt_after": null
+  },
+  {
+    "success": false,
+    "reason": "obstacle contact",
+    "elapsed": 3.0219999999998888,
+    "initiated": true,
+    "observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09,
+        0.26463491581131693
+      ],
+      "foot_positions": [
+        [
+          0.18978122949887305,
+          0.14870098405167595,
+          0.012505420230918246
+        ],
+        [
+          0.18978128211811823,
+          -0.1487009238442066,
+          0.01250543970797767
+        ],
+        [
+          -0.1955652545013554,
+          0.1501366189580993,
+          0.012323981048080149
+        ],
+        [
+          -0.1955652244950117,
+          -0.15013664572116125,
+          0.012323964809481433
+        ]
+      ],
+      "stable": true,
+      "corridor": 3.393864251201755
+    },
+    "config": {
+      "preparation": 0.5054132357423261,
+      "thrust": 0.07594032575484311,
+      "flight": 0.21801825409789358,
+      "absorption": 0.1713583354209832,
+      "recovery": 0.6,
+      "crouch_thigh": 1.0981662315674272,
+      "crouch_calf": -2.1963324631348544,
+      "extension_calf": -1.0703750336300368,
+      "forward_lean": 0.9852317156544526,
+      "flight_calf": -2.2924970768761423,
+      "flight_lean": -0.15472037447730128,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 60.0,
+      "landing_kp": 30.702015455035497,
+      "landing_kd": 1.8395831817617847,
+      "forward_clearance": 0.5
+    },
+    "target": "bar",
+    "scenario": {
+      "name": "h0.04-d0.28",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.28,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupted": false,
+    "stable_landing": false,
+    "collision": true,
+    "fall": false,
+    "target_contacts": [
+      {
+        "time": 3.0219999999998888,
+        "geom1": "",
+        "geom2": "obstacle_geom_0",
+        "distance": -0.0026066664920296294
+      },
+      {
+        "time": 3.0219999999998888,
+        "geom1": "",
+        "geom2": "obstacle_geom_0",
+        "distance": -0.002479485486699847
+      }
+    ],
+    "longest_airtime": 0.4100000000000003,
+    "foot_crossed": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "foot_overlap_seen": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "min_foot_bar_clearance": [
+      0.1706243316828099,
+      0.17065651849605643,
+      0.03126776261734974,
+      0.03138588707899031
+    ],
+    "final_feet_beyond": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_collision_geometry_margin": -0.16935738288112384,
+    "stayed_in_lane": true,
+    "max_torque": 60.0,
+    "actuator_limit": 60.0,
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "final_position": [
+      0.44817751927016164,
+      -1.907610059850976e-05,
+      0.2947407454621968
+    ],
+    "interrupt_after": null
+  },
+  {
+    "success": true,
+    "reason": "completed",
+    "elapsed": 4.805999999999693,
+    "initiated": true,
+    "observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09,
+        0.26463491581131693
+      ],
+      "foot_positions": [
+        [
+          0.18978122949887305,
+          0.14870098405167595,
+          0.012505420230918246
+        ],
+        [
+          0.18978128211811823,
+          -0.1487009238442066,
+          0.01250543970797767
+        ],
+        [
+          -0.1955652545013554,
+          0.1501366189580993,
+          0.012323981048080149
+        ],
+        [
+          -0.1955652244950117,
+          -0.15013664572116125,
+          0.012323964809481433
+        ]
+      ],
+      "stable": true,
+      "corridor": 3.393864251201755
+    },
+    "config": {
+      "preparation": 0.5613990308283466,
+      "thrust": 0.10697901805911886,
+      "flight": 0.20524861828533056,
+      "absorption": 0.19990199390732843,
+      "recovery": 0.6,
+      "crouch_thigh": 1.0995402618802197,
+      "crouch_calf": -2.1990805237604394,
+      "extension_calf": -0.9692037240973742,
+      "forward_lean": 1.1161029381302021,
+      "flight_calf": -2.520064769027069,
+      "flight_lean": -0.14232852578791116,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 72.0,
+      "landing_kp": 44.68241315046006,
+      "landing_kd": 1.681895864153737,
+      "forward_clearance": 0.5
+    },
+    "target": "bar",
+    "scenario": {
+      "name": "profile65-h04-d0.24",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.24,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupted": false,
+    "stable_landing": true,
+    "collision": false,
+    "fall": false,
+    "target_contacts": [],
+    "longest_airtime": 0.4820000000000004,
+    "foot_crossed": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "foot_overlap_seen": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "min_foot_bar_clearance": [
+      0.22213776603831278,
+      0.222183789963692,
+      0.24897033414023864,
+      0.24913596546938935
+    ],
+    "final_feet_beyond": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_collision_geometry_margin": 0.012118471117627339,
+    "stayed_in_lane": true,
+    "max_torque": 72.0,
+    "actuator_limit": 72.0,
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "final_position": [
+      0.6335253909075496,
+      -0.0001958184273200533,
+      0.2661216928285541
+    ],
+    "interrupt_after": null
+  },
+  {
+    "success": false,
+    "reason": "not cleared",
+    "elapsed": 4.805999999999693,
+    "initiated": true,
+    "observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09,
+        0.26463491581131693
+      ],
+      "foot_positions": [
+        [
+          0.18978122949887305,
+          0.14870098405167595,
+          0.012505420230918246
+        ],
+        [
+          0.18978128211811823,
+          -0.1487009238442066,
+          0.01250543970797767
+        ],
+        [
+          -0.1955652545013554,
+          0.1501366189580993,
+          0.012323981048080149
+        ],
+        [
+          -0.1955652244950117,
+          -0.15013664572116125,
+          0.012323964809481433
+        ]
+      ],
+      "stable": true,
+      "corridor": 3.393864251201755
+    },
+    "config": {
+      "preparation": 0.5613990308283466,
+      "thrust": 0.10697901805911886,
+      "flight": 0.20524861828533056,
+      "absorption": 0.19990199390732843,
+      "recovery": 0.6,
+      "crouch_thigh": 1.0995402618802197,
+      "crouch_calf": -2.1990805237604394,
+      "extension_calf": -0.9692037240973742,
+      "forward_lean": 1.1161029381302021,
+      "flight_calf": -2.520064769027069,
+      "flight_lean": -0.14232852578791116,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 72.0,
+      "landing_kp": 44.68241315046006,
+      "landing_kd": 1.681895864153737,
+      "forward_clearance": 0.5
+    },
+    "target": "bar",
+    "scenario": {
+      "name": "profile65-h04-d0.25",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.25,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupted": false,
+    "stable_landing": true,
+    "collision": false,
+    "fall": false,
+    "target_contacts": [],
+    "longest_airtime": 0.4820000000000004,
+    "foot_crossed": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "foot_overlap_seen": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "min_foot_bar_clearance": [
+      0.2249656666415081,
+      0.22501303273605475,
+      0.23573152317450205,
+      0.23590068445770299
+    ],
+    "final_feet_beyond": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_collision_geometry_margin": 0.00211847111762733,
+    "stayed_in_lane": true,
+    "max_torque": 72.0,
+    "actuator_limit": 72.0,
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "final_position": [
+      0.6335253909075496,
+      -0.0001958184273200533,
+      0.2661216928285541
+    ],
+    "interrupt_after": null
+  },
+  {
+    "success": false,
+    "reason": "not cleared",
+    "elapsed": 4.805999999999693,
+    "initiated": true,
+    "observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09,
+        0.26463491581131693
+      ],
+      "foot_positions": [
+        [
+          0.18978122949887305,
+          0.14870098405167595,
+          0.012505420230918246
+        ],
+        [
+          0.18978128211811823,
+          -0.1487009238442066,
+          0.01250543970797767
+        ],
+        [
+          -0.1955652545013554,
+          0.1501366189580993,
+          0.012323981048080149
+        ],
+        [
+          -0.1955652244950117,
+          -0.15013664572116125,
+          0.012323964809481433
+        ]
+      ],
+      "stable": true,
+      "corridor": 3.393864251201755
+    },
+    "config": {
+      "preparation": 0.5613990308283466,
+      "thrust": 0.10697901805911886,
+      "flight": 0.20524861828533056,
+      "absorption": 0.19990199390732843,
+      "recovery": 0.6,
+      "crouch_thigh": 1.0995402618802197,
+      "crouch_calf": -2.1990805237604394,
+      "extension_calf": -0.9692037240973742,
+      "forward_lean": 1.1161029381302021,
+      "flight_calf": -2.520064769027069,
+      "flight_lean": -0.14232852578791116,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 72.0,
+      "landing_kp": 44.68241315046006,
+      "landing_kd": 1.681895864153737,
+      "forward_clearance": 0.5
+    },
+    "target": "bar",
+    "scenario": {
+      "name": "profile65-h04-d0.26",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.26,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupted": false,
+    "stable_landing": true,
+    "collision": false,
+    "fall": false,
+    "target_contacts": [],
+    "longest_airtime": 0.4820000000000004,
+    "foot_crossed": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "foot_overlap_seen": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "min_foot_bar_clearance": [
+      0.230810462177063,
+      0.2308604752199024,
+      0.21852805111274595,
+      0.21870156188475368
+    ],
+    "final_feet_beyond": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_collision_geometry_margin": -0.007881528882372679,
+    "stayed_in_lane": true,
+    "max_torque": 72.0,
+    "actuator_limit": 72.0,
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "final_position": [
+      0.6335253909075496,
+      -0.0001958184273200533,
+      0.2661216928285541
+    ],
+    "interrupt_after": null
+  },
+  {
+    "success": false,
+    "reason": "not cleared",
+    "elapsed": 4.805999999999693,
+    "initiated": true,
+    "observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09,
+        0.26463491581131693
+      ],
+      "foot_positions": [
+        [
+          0.18978122949887305,
+          0.14870098405167595,
+          0.012505420230918246
+        ],
+        [
+          0.18978128211811823,
+          -0.1487009238442066,
+          0.01250543970797767
+        ],
+        [
+          -0.1955652545013554,
+          0.1501366189580993,
+          0.012323981048080149
+        ],
+        [
+          -0.1955652244950117,
+          -0.15013664572116125,
+          0.012323964809481433
+        ]
+      ],
+      "stable": true,
+      "corridor": 3.393864251201755
+    },
+    "config": {
+      "preparation": 0.5613990308283466,
+      "thrust": 0.10697901805911886,
+      "flight": 0.20524861828533056,
+      "absorption": 0.19990199390732843,
+      "recovery": 0.6,
+      "crouch_thigh": 1.0995402618802197,
+      "crouch_calf": -2.1990805237604394,
+      "extension_calf": -0.9692037240973742,
+      "forward_lean": 1.1161029381302021,
+      "flight_calf": -2.520064769027069,
+      "flight_lean": -0.14232852578791116,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 72.0,
+      "landing_kp": 44.68241315046006,
+      "landing_kd": 1.681895864153737,
+      "forward_clearance": 0.5
+    },
+    "target": "bar",
+    "scenario": {
+      "name": "profile65-h04-d0.27",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.27,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupted": false,
+    "stable_landing": true,
+    "collision": false,
+    "fall": false,
+    "target_contacts": [],
+    "longest_airtime": 0.4820000000000004,
+    "foot_crossed": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "foot_overlap_seen": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "min_foot_bar_clearance": [
+      0.2339292472638341,
+      0.23398057343071813,
+      0.20435667455400794,
+      0.20453361682788238
+    ],
+    "final_feet_beyond": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_collision_geometry_margin": -0.01788152888237269,
+    "stayed_in_lane": true,
+    "max_torque": 72.0,
+    "actuator_limit": 72.0,
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "final_position": [
+      0.6335253909075496,
+      -0.0001958184273200533,
+      0.2661216928285541
+    ],
+    "interrupt_after": null
+  },
+  {
+    "success": false,
+    "reason": "obstacle contact",
+    "elapsed": 3.155999999999874,
+    "initiated": true,
+    "observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09,
+        0.26463491581131693
+      ],
+      "foot_positions": [
+        [
+          0.18978122949887305,
+          0.14870098405167595,
+          0.012505420230918246
+        ],
+        [
+          0.18978128211811823,
+          -0.1487009238442066,
+          0.01250543970797767
+        ],
+        [
+          -0.1955652545013554,
+          0.1501366189580993,
+          0.012323981048080149
+        ],
+        [
+          -0.1955652244950117,
+          -0.15013664572116125,
+          0.012323964809481433
+        ]
+      ],
+      "stable": true,
+      "corridor": 3.393864251201755
+    },
+    "config": {
+      "preparation": 0.5613990308283466,
+      "thrust": 0.10697901805911886,
+      "flight": 0.20524861828533056,
+      "absorption": 0.19990199390732843,
+      "recovery": 0.6,
+      "crouch_thigh": 1.0995402618802197,
+      "crouch_calf": -2.1990805237604394,
+      "extension_calf": -0.9692037240973742,
+      "forward_lean": 1.1161029381302021,
+      "flight_calf": -2.520064769027069,
+      "flight_lean": -0.14232852578791116,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 72.0,
+      "landing_kp": 44.68241315046006,
+      "landing_kd": 1.681895864153737,
+      "forward_clearance": 0.5
+    },
+    "target": "bar",
+    "scenario": {
+      "name": "profile65-h04-d0.28",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.28,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupted": false,
+    "stable_landing": false,
+    "collision": true,
+    "fall": false,
+    "target_contacts": [
+      {
+        "time": 3.155999999999874,
+        "geom1": "",
+        "geom2": "obstacle_geom_0",
+        "distance": -0.0010132768168649303
+      },
+      {
+        "time": 3.155999999999874,
+        "geom1": "",
+        "geom2": "obstacle_geom_0",
+        "distance": -0.0008353370804662415
+      }
+    ],
+    "longest_airtime": 0.4820000000000004,
+    "foot_crossed": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "foot_overlap_seen": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "min_foot_bar_clearance": [
+      0.23716370424067887,
+      0.23721633870033385,
+      0.18989850009923395,
+      0.19007883611405965
+    ],
+    "final_feet_beyond": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_collision_geometry_margin": -0.07258236605284868,
+    "stayed_in_lane": true,
+    "max_torque": 72.0,
+    "actuator_limit": 72.0,
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "final_position": [
+      0.567132531053084,
+      -1.4015397651441193e-05,
+      0.26212674392699403
+    ],
+    "interrupt_after": null
+  },
+  {
+    "success": false,
+    "reason": "obstacle contact",
+    "elapsed": 3.155999999999874,
+    "initiated": true,
+    "observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09,
+        0.26463491581131693
+      ],
+      "foot_positions": [
+        [
+          0.18978122949887305,
+          0.14870098405167595,
+          0.012505420230918246
+        ],
+        [
+          0.18978128211811823,
+          -0.1487009238442066,
+          0.01250543970797767
+        ],
+        [
+          -0.1955652545013554,
+          0.1501366189580993,
+          0.012323981048080149
+        ],
+        [
+          -0.1955652244950117,
+          -0.15013664572116125,
+          0.012323964809481433
+        ]
+      ],
+      "stable": true,
+      "corridor": 3.393864251201755
+    },
+    "config": {
+      "preparation": 0.5613990308283466,
+      "thrust": 0.10697901805911886,
+      "flight": 0.20524861828533056,
+      "absorption": 0.19990199390732843,
+      "recovery": 0.6,
+      "crouch_thigh": 1.0995402618802197,
+      "crouch_calf": -2.1990805237604394,
+      "extension_calf": -0.9692037240973742,
+      "forward_lean": 1.1161029381302021,
+      "flight_calf": -2.520064769027069,
+      "flight_lean": -0.14232852578791116,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 72.0,
+      "landing_kp": 44.68241315046006,
+      "landing_kd": 1.681895864153737,
+      "forward_clearance": 0.5
+    },
+    "target": "bar",
+    "scenario": {
+      "name": "profile65-h04-d0.29",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.29,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupted": false,
+    "stable_landing": false,
+    "collision": true,
+    "fall": false,
+    "target_contacts": [
+      {
+        "time": 3.155999999999874,
+        "geom1": "",
+        "geom2": "obstacle_geom_0",
+        "distance": -0.001598752893708073
+      },
+      {
+        "time": 3.155999999999874,
+        "geom1": "",
+        "geom2": "obstacle_geom_0",
+        "distance": -0.0014090670548871625
+      }
+    ],
+    "longest_airtime": 0.4820000000000004,
+    "foot_crossed": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "foot_overlap_seen": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "min_foot_bar_clearance": [
+      0.24048456923519076,
+      0.2405385029967638,
+      0.17150457547296724,
+      0.17168910718475236
+    ],
+    "final_feet_beyond": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_collision_geometry_margin": -0.08258236605284863,
+    "stayed_in_lane": true,
+    "max_torque": 72.0,
+    "actuator_limit": 72.0,
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "final_position": [
+      0.567132531053084,
+      -1.4015397651441193e-05,
+      0.26212674392699403
+    ],
+    "interrupt_after": null
+  },
+  {
+    "success": false,
+    "reason": "obstacle contact",
+    "elapsed": 3.155999999999874,
+    "initiated": true,
+    "observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09,
+        0.26463491581131693
+      ],
+      "foot_positions": [
+        [
+          0.18978122949887305,
+          0.14870098405167595,
+          0.012505420230918246
+        ],
+        [
+          0.18978128211811823,
+          -0.1487009238442066,
+          0.01250543970797767
+        ],
+        [
+          -0.1955652545013554,
+          0.1501366189580993,
+          0.012323981048080149
+        ],
+        [
+          -0.1955652244950117,
+          -0.15013664572116125,
+          0.012323964809481433
+        ]
+      ],
+      "stable": true,
+      "corridor": 3.393864251201755
+    },
+    "config": {
+      "preparation": 0.5613990308283466,
+      "thrust": 0.10697901805911886,
+      "flight": 0.20524861828533056,
+      "absorption": 0.19990199390732843,
+      "recovery": 0.6,
+      "crouch_thigh": 1.0995402618802197,
+      "crouch_calf": -2.1990805237604394,
+      "extension_calf": -0.9692037240973742,
+      "forward_lean": 1.1161029381302021,
+      "flight_calf": -2.520064769027069,
+      "flight_lean": -0.14232852578791116,
+      "absorption_thigh": 1.03,
+      "absorption_calf": -2.06,
+      "torque_limit": 72.0,
+      "landing_kp": 44.68241315046006,
+      "landing_kd": 1.681895864153737,
+      "forward_clearance": 0.5
+    },
+    "target": "bar",
+    "scenario": {
+      "name": "profile65-h04-d0.30",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.5,
+        0.0
+      ],
+      "obstacles": [
+        {
+          "name": "bar",
+          "center": [
+            0.3,
+            0.0
+          ],
+          "radius": 0.23,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.01,
+            0.6
+          ],
+          "height": 0.04,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -4.0,
+        5.0,
+        -4.0,
+        4.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    },
+    "interrupted": false,
+    "stable_landing": false,
+    "collision": true,
+    "fall": false,
+    "target_contacts": [
+      {
+        "time": 3.155999999999874,
+        "geom1": "",
+        "geom2": "obstacle_geom_0",
+        "distance": -0.001598752893708073
+      },
+      {
+        "time": 3.155999999999874,
+        "geom1": "",
+        "geom2": "obstacle_geom_0",
+        "distance": -0.0014090670548871625
+      }
+    ],
+    "longest_airtime": 0.4820000000000004,
+    "foot_crossed": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "foot_overlap_seen": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "min_foot_bar_clearance": [
+      0.24731871184824591,
+      0.2473752017660916,
+      0.15656395293446093,
+      0.15675181107935057
+    ],
+    "final_feet_beyond": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_collision_geometry_margin": -0.09258236605284864,
+    "stayed_in_lane": true,
+    "max_torque": 72.0,
+    "actuator_limit": 72.0,
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "final_position": [
+      0.567132531053084,
+      -1.4015397651441193e-05,
+      0.26212674392699403
+    ],
+    "interrupt_after": null
+  }
+]

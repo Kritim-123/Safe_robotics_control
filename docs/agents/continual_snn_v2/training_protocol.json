@@ -1,0 +1,3951 @@
+{
+  "started_utc": "2026-10-17 09:03:43 UTC",
+  "rationale": "V1 stress failures motivate fresh training-only coverage; V1 tests are development evidence for V2",
+  "training_cases": [
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11000",
+        "start": [
+          0.027191523547593077,
+          0.08830110796251364
+        ],
+        "goal": [
+          1.9975512824440553,
+          2.3505306322419304
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              0.9466927443659421,
+              1.144008219292908
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              -1.0557071113303944,
+              0.9195012208183491
+            ],
+            "period": 7.8830110796251365,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 0.8542469061703226,
+        "timeout": 150.0,
+        "friction": 0.7670227854055421,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11000,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.330875082657414,
+          "task": "progress"
+        },
+        {
+          "start": 11.330875082657414,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.330875082657414,
+      "timeout": 21.330875082657414,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11000",
+        "start": [
+          0.027191523547593077,
+          0.08830110796251364
+        ],
+        "goal": [
+          1.9975512824440553,
+          2.3505306322419304
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              -0.9421668014809853,
+              0.2695314522699419
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              2.0023998556963365,
+              0.2245069984745589
+            ],
+            "radius": 0.18,
+            "velocity": [
+              -0.3167121333991183,
+              0.27585036624550474
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 0.8542469061703226,
+        "timeout": 150.0,
+        "friction": 0.7670227854055421,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11000,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.330875082657414,
+          "task": "progress"
+        },
+        {
+          "start": 11.330875082657414,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.330875082657414,
+      "timeout": 21.330875082657414,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11001",
+        "start": [
+          0.08403937278834855,
+          -0.010066374002978135
+        ],
+        "goal": [
+          -2.5466663462727213,
+          1.4319417465356619
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              -1.1436232961068171,
+              0.6628707489150537
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              -0.6729371229180319,
+              -1.2276626688951657
+            ],
+            "period": 6.899336259970219,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 2.6401747616416973,
+        "timeout": 150.0,
+        "friction": 0.9097360023990069,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11001,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.41558645049451,
+          "task": "progress"
+        },
+        {
+          "start": 11.41558645049451,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.41558645049451,
+      "timeout": 21.41558645049451,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11001",
+        "start": [
+          0.08403937278834855,
+          -0.010066374002978135
+        ],
+        "goal": [
+          -2.5466663462727213,
+          1.4319417465356619
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              0.11392135847924556,
+              -0.9957676811600545
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              -0.47068617318878525,
+              1.8905334178102193
+            ],
+            "radius": 0.18,
+            "velocity": [
+              -0.20188113687540957,
+              -0.36829880066854975
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 2.6401747616416973,
+        "timeout": 150.0,
+        "friction": 0.9097360023990069,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11001,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.41558645049451,
+          "task": "progress"
+        },
+        {
+          "start": 11.41558645049451,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.41558645049451,
+      "timeout": 21.41558645049451,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11002",
+        "start": [
+          0.011076489684748475,
+          -0.07254329983736894
+        ],
+        "goal": [
+          2.83126869350274,
+          0.9504503137908993
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              1.3271661847998109,
+              0.4048537198558228
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              -0.47739701969319176,
+              1.3160896951150625
+            ],
+            "period": 6.274567001626311,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 0.3479781862116895,
+        "timeout": 150.0,
+        "friction": 0.8748467432785636,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11002,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.44529978550118,
+          "task": "progress"
+        },
+        {
+          "start": 11.44529978550118,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.44529978550118,
+      "timeout": 21.44529978550118,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11002",
+        "start": [
+          0.011076489684748475,
+          -0.07254329983736894
+        ],
+        "goal": [
+          2.83126869350274,
+          0.9504503137908993
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              -0.748803734812926,
+              0.5560122223063506
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              1.8045632044930027,
+              -0.9112359752592396
+            ],
+            "radius": 0.18,
+            "velocity": [
+              -0.14321910590795753,
+              0.39482690853451874
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 0.3479781862116895,
+        "timeout": 150.0,
+        "friction": 0.8748467432785636,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11002,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.44529978550118,
+          "task": "progress"
+        },
+        {
+          "start": 11.44529978550118,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.44529978550118,
+      "timeout": 21.44529978550118,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11003",
+        "start": [
+          0.053681168513088406,
+          -0.06348697894936306
+        ],
+        "goal": [
+          -0.2924879560751289,
+          2.9164739162943696
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              -0.10786442296141299,
+              1.3271614388310453
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              -1.3906484177804084,
+              -0.1615455914745014
+            ],
+            "period": 6.365130210506369,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 1.6864436463683425,
+        "timeout": 150.0,
+        "friction": 0.927998932302341,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11003,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.270121325283714,
+          "task": "progress"
+        },
+        {
+          "start": 11.270121325283714,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.270121325283714,
+      "timeout": 21.270121325283714,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11003",
+        "start": [
+          0.053681168513088406,
+          -0.06348697894936306
+        ],
+        "goal": [
+          -0.2924879560751289,
+          2.9164739162943696
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              -0.7329462310412662,
+              -0.6582283801233133
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              1.2827839948189954,
+              1.4887070303055467
+            ],
+            "radius": 0.18,
+            "velocity": [
+              -0.41719452533412255,
+              -0.04846367744235042
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 1.6864436463683425,
+        "timeout": 150.0,
+        "friction": 0.927998932302341,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11003,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.270121325283714,
+          "task": "progress"
+        },
+        {
+          "start": 11.270121325283714,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.270121325283714,
+      "timeout": 21.270121325283714,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11004",
+        "start": [
+          0.08536160173329119,
+          -0.07436817006150478
+        ],
+        "goal": [
+          -2.6029572313114797,
+          1.2571504561307099
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              -1.169187187020935,
+              0.5470071888281954
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              -0.6213753588897002,
+              -1.2545487887542262
+            ],
+            "period": 6.256318299384953,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 2.6817138090396533,
+        "timeout": 150.0,
+        "friction": 0.9389385468728326,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11004,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.339023457217305,
+          "task": "progress"
+        },
+        {
+          "start": 11.339023457217305,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.339023457217305,
+      "timeout": 21.339023457217305,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11004",
+        "start": [
+          0.08536160173329119,
+          -0.07436817006150478
+        ],
+        "goal": [
+          -2.6029572313114797,
+          1.2571504561307099
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              0.15615112981962553,
+              -1.0579782771228923
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              -0.5478118281312347,
+              1.8015559775824217
+            ],
+            "radius": 0.18,
+            "velocity": [
+              -0.18641260766691004,
+              -0.3763646366262679
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 2.6817138090396533,
+        "timeout": 150.0,
+        "friction": 0.9389385468728326,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11004,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.339023457217305,
+          "task": "progress"
+        },
+        {
+          "start": 11.339023457217305,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.339023457217305,
+      "timeout": 21.339023457217305,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11005",
+        "start": [
+          0.06495695091897316,
+          -0.0678426923152867
+        ],
+        "goal": [
+          -1.2933982406207505,
+          2.607016401845952
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              -0.5689421384662312,
+              1.180424884959958
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              -1.2482675772752445,
+              -0.6338990893852043
+            ],
+            "period": 6.321573076847133,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 2.0406827980663884,
+        "timeout": 150.0,
+        "friction": 0.814466295732621,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11005,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.795403207817213,
+          "task": "progress"
+        },
+        {
+          "start": 11.795403207817213,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.795403207817213,
+      "timeout": 21.795403207817213,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11005",
+        "start": [
+          0.06495695091897316,
+          -0.0678426923152867
+        ],
+        "goal": [
+          -1.2933982406207505,
+          2.607016401845952
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              -0.46652726050342364,
+              -0.8985198456117481
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              0.6793254388090133,
+              1.8143239743451622
+            ],
+            "radius": 0.18,
+            "velocity": [
+              -0.3744802731825733,
+              -0.19016972681556132
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 2.0406827980663884,
+        "timeout": 150.0,
+        "friction": 0.814466295732621,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11005,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.795403207817213,
+          "task": "progress"
+        },
+        {
+          "start": 11.795403207817213,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.795403207817213,
+      "timeout": 21.795403207817213,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11006",
+        "start": [
+          -0.09961358257683046,
+          0.03795133394193553
+        ],
+        "goal": [
+          -3.099392528224031,
+          0.0015332443192034584
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              -1.4995104238788572,
+              0.020956225451327234
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              0.0169951084906083,
+              -1.3998968413020267
+            ],
+            "period": 7.379513339419355,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -3.129452992211308,
+        "timeout": 150.0,
+        "friction": 0.7785130001336006,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11006,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.988321766783573,
+          "task": "progress"
+        },
+        {
+          "start": 11.988321766783573,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.988321766783573,
+      "timeout": 21.98832176678357,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11006",
+        "start": [
+          -0.09961358257683046,
+          0.03795133394193553
+        ],
+        "goal": [
+          -3.099392528224031,
+          0.0015332443192034584
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              0.41066803375747707,
+              -0.8059163523876492
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              -1.5165055323694656,
+              1.4208530667533539
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0050985325471824905,
+              -0.41996905239060806
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -3.129452992211308,
+        "timeout": 150.0,
+        "friction": 0.7785130001336006,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11006,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.988321766783573,
+          "task": "progress"
+        },
+        {
+          "start": 11.988321766783573,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.988321766783573,
+      "timeout": 21.98832176678357,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11007",
+        "start": [
+          -0.09754603163840812,
+          -0.01056461506710045
+        ],
+        "goal": [
+          -3.088635290815798,
+          -0.24161665170311858
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              -1.4933876859211899,
+              -0.11838889883057556
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              0.10782428376347511,
+              -1.3958416542827818
+            ],
+            "period": 6.894353849328995,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -3.0644989638206046,
+        "timeout": 150.0,
+        "friction": 0.8234534768750759,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11007,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.004515158746619,
+          "task": "progress"
+        },
+        {
+          "start": 11.004515158746619,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.004515158746619,
+      "timeout": 21.00451515874662,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11007",
+        "start": [
+          -0.09754603163840812,
+          -0.01056461506710045
+        ],
+        "goal": [
+          -3.088635290815798,
+          -0.24161665170311858
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              0.4664335886046953,
+              -0.8195312323946913
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              -1.601211969684665,
+              1.2774527554522064
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.03234728512904254,
+              -0.4187524962848346
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -3.0644989638206046,
+        "timeout": 150.0,
+        "friction": 0.8234534768750759,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11007,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.004515158746619,
+          "task": "progress"
+        },
+        {
+          "start": 11.004515158746619,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.004515158746619,
+      "timeout": 21.00451515874662,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11008",
+        "start": [
+          0.09100104838401243,
+          -0.052834819303194225
+        ],
+        "goal": [
+          -2.7899075735998937,
+          0.7840436137913576
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              -1.253422975208477,
+              0.3377084494742632
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              -0.39054326877745743,
+              -1.3444240235924894
+            ],
+            "period": 6.471651806968058,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 2.8588822507218277,
+        "timeout": 150.0,
+        "friction": 0.8822557450181737,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11008,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.373328621781432,
+          "task": "progress"
+        },
+        {
+          "start": 11.373328621781432,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.373328621781432,
+      "timeout": 21.373328621781432,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11008",
+        "start": [
+          0.09100104838401243,
+          -0.052834819303194225
+        ],
+        "goal": [
+          -2.7899075735998937,
+          0.7840436137913576
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              0.33403692933787377,
+              -1.0085720010477262
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              -0.8628797064310194,
+              1.6821324730667526
+            ],
+            "radius": 0.18,
+            "velocity": [
+              -0.11716298063323724,
+              -0.40332720707774683
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 2.8588822507218277,
+        "timeout": 150.0,
+        "friction": 0.8822557450181737,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11008,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.373328621781432,
+          "task": "progress"
+        },
+        {
+          "start": 11.373328621781432,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.373328621781432,
+      "timeout": 21.373328621781432,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11009",
+        "start": [
+          -0.061174775674901954,
+          -0.09054948858415002
+        ],
+        "goal": [
+          -1.092871534405891,
+          -2.907569509461526
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              -0.5426332630826969,
+              -1.4051588316602586
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              1.3146093430761085,
+              -0.4814584874077949
+            ],
+            "period": 6.094505114158499,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -1.9218622584527554,
+        "timeout": 150.0,
+        "friction": 0.8770004150179135,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11009,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.885123510687762,
+          "task": "progress"
+        },
+        {
+          "start": 11.885123510687762,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.885123510687762,
+      "timeout": 21.885123510687762,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11009",
+        "start": [
+          -0.061174775674901954,
+          -0.09054948858415002
+        ],
+        "goal": [
+          -1.092871534405891,
+          -2.907569509461526
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              0.9089303566955194,
+              0.08663976658829903
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              -1.8572426061588054,
+              -0.9237003442524636
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.3943828029228326,
+              -0.14443754622233848
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -1.9218622584527554,
+        "timeout": 150.0,
+        "friction": 0.8770004150179135,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11009,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.885123510687762,
+          "task": "progress"
+        },
+        {
+          "start": 11.885123510687762,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.885123510687762,
+      "timeout": 21.885123510687762,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11010",
+        "start": [
+          0.032231835125826364,
+          -0.06764780076740062
+        ],
+        "goal": [
+          1.6212212281593548,
+          2.4769764757863975
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              0.7737602185414729,
+              1.1198435282910382
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              -1.1874913290584388,
+              0.7415283834156465
+            ],
+            "period": 6.323521992325993,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 1.0125929644301355,
+        "timeout": 150.0,
+        "friction": 0.8474175882011856,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11010,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 12.107753951264662,
+          "task": "progress"
+        },
+        {
+          "start": 12.107753951264662,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 16.107753951264662,
+      "timeout": 22.107753951264662,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11010",
+        "start": [
+          0.032231835125826364,
+          -0.06764780076740062
+        ],
+        "goal": [
+          1.6212212281593548,
+          2.4769764757863975
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              -0.953576608736671,
+              -0.04153818550020055
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              1.9612515475999117,
+              0.37831514487539164
+            ],
+            "radius": 0.18,
+            "velocity": [
+              -0.3562473987175317,
+              0.22245851502469396
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 1.0125929644301355,
+        "timeout": 150.0,
+        "friction": 0.8474175882011856,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11010,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 12.107753951264662,
+          "task": "progress"
+        },
+        {
+          "start": 12.107753951264662,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 16.107753951264662,
+      "timeout": 22.107753951264662,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11011",
+        "start": [
+          -0.09528755681592936,
+          0.04570857206919435
+        ],
+        "goal": [
+          -3.0624712358135495,
+          -0.3968081113339812
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              -1.4799732736814855,
+              -0.1607992135189542
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              0.20650778558814856,
+              -1.3846857168655562
+            ],
+            "period": 7.457085720691944,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -2.9935468847144366,
+        "timeout": 150.0,
+        "friction": 0.8554638832411756,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11011,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.183278579546919,
+          "task": "progress"
+        },
+        {
+          "start": 11.183278579546919,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.183278579546919,
+      "timeout": 21.18327857954692,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11011",
+        "start": [
+          -0.09528755681592936,
+          0.04570857206919435
+        ],
+        "goal": [
+          -3.0624712358135495,
+          -0.3968081113339812
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              0.5246227833145738,
+              -0.7212406897462689
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              -1.686481059269634,
+              1.223886503346602
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.06195233567644457,
+              -0.41540571505966684
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -2.9935468847144366,
+        "timeout": 150.0,
+        "friction": 0.8554638832411756,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11011,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.183278579546919,
+          "task": "progress"
+        },
+        {
+          "start": 11.183278579546919,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.183278579546919,
+      "timeout": 21.18327857954692,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11012",
+        "start": [
+          0.0773784592653666,
+          -0.04415624971065351
+        ],
+        "goal": [
+          -2.196383434826604,
+          1.9128840791981032
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              -0.9837104246442194,
+              0.8691292371134329
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              -0.9132854868240864,
+              -1.061088883909586
+            ],
+            "period": 6.558437502893465,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 2.4309159917417276,
+        "timeout": 150.0,
+        "friction": 0.7884627295831435,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11012,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.475960109749634,
+          "task": "progress"
+        },
+        {
+          "start": 11.475960109749634,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.475960109749634,
+      "timeout": 21.475960109749636,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11012",
+        "start": [
+          0.0773784592653666,
+          -0.04415624971065351
+        ],
+        "goal": [
+          -2.196383434826604,
+          1.9128840791981032
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              -0.09815598491011945,
+              -1.0145621745215045
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              -0.07042493782013304,
+              1.930218121023019
+            ],
+            "radius": 0.18,
+            "velocity": [
+              -0.2739856460472259,
+              -0.31832666517287583
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 2.4309159917417276,
+        "timeout": 150.0,
+        "friction": 0.7884627295831435,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11012,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.475960109749634,
+          "task": "progress"
+        },
+        {
+          "start": 11.475960109749634,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.475960109749634,
+      "timeout": 21.475960109749636,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11013",
+        "start": [
+          0.027574034412289727,
+          -0.06140472063804519
+        ],
+        "goal": [
+          1.9706071216087315,
+          2.224338576860575
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              0.9343228084372959,
+              1.0052754848613108
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              -1.066680205499356,
+              0.9067487740250061
+            ],
+            "period": 6.385952793619548,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 0.8662638393948159,
+        "timeout": 150.0,
+        "friction": 0.8224724455201999,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11013,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.135401778382048,
+          "task": "progress"
+        },
+        {
+          "start": 11.135401778382048,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.135401778382048,
+      "timeout": 21.135401778382047,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11013",
+        "start": [
+          0.027574034412289727,
+          -0.06140472063804519
+        ],
+        "goal": [
+          1.9706071216087315,
+          2.224338576860575
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              -0.9438920810783928,
+              0.10816410448450997
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              2.0010030139366517,
+              0.09852671083630471
+            ],
+            "radius": 0.18,
+            "velocity": [
+              -0.3200040616498068,
+              0.27202463220750184
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 0.8662638393948159,
+        "timeout": 150.0,
+        "friction": 0.8224724455201999,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11013,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.135401778382048,
+          "task": "progress"
+        },
+        {
+          "start": 11.135401778382048,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.135401778382048,
+      "timeout": 21.135401778382047,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11014",
+        "start": [
+          -0.06035129748241728,
+          0.01084754087965685
+        ],
+        "goal": [
+          -1.0188337217499137,
+          -2.831917212379097
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              -0.5076430954739156,
+              -1.3157760106410947
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              1.3266235515207516,
+              -0.4472917979914983
+            ],
+            "period": 7.1084754087965685,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -1.895991928053743,
+        "timeout": 150.0,
+        "friction": 0.8699871328284711,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11014,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.909076700445869,
+          "task": "progress"
+        },
+        {
+          "start": 11.909076700445869,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.909076700445869,
+      "timeout": 21.90907670044587,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11014",
+        "start": [
+          -0.06035129748241728,
+          0.01084754087965685
+        ],
+        "goal": [
+          -1.0188337217499137,
+          -2.831917212379097
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              0.9048457866521458,
+              0.21307164621365843
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              -1.8342666469946671,
+              -0.8684842126495964
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.3979870654562255,
+              -0.1341875393974495
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -1.895991928053743,
+        "timeout": 150.0,
+        "friction": 0.8699871328284711,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11014,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.909076700445869,
+          "task": "progress"
+        },
+        {
+          "start": 11.909076700445869,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.909076700445869,
+      "timeout": 21.90907670044587,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-oscillating_gate-11015",
+        "start": [
+          -0.02918988262408427,
+          0.008889417197639513
+        ],
+        "goal": [
+          1.7953580200971777,
+          -2.3725019724473815
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              0.8222658053125046,
+              -1.1024265646367037
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              1.1113159818343432,
+              0.8514556879365889
+            ],
+            "period": 7.088894171976396,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -0.9170272081097148,
+        "timeout": 150.0,
+        "friction": 0.8989497163679762,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11015,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.608267790955558,
+          "task": "progress"
+        },
+        {
+          "start": 11.608267790955558,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.608267790955558,
+      "timeout": 21.60826779095556,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_train-multiple_obstacles-11015",
+        "start": [
+          -0.02918988262408427,
+          0.008889417197639513
+        ],
+        "goal": [
+          1.7953580200971777,
+          -2.3725019724473815
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              0.341446360655128,
+              0.9227432212428339
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              -0.2890501765218386,
+              -1.9538822525732926
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.33339479455030296,
+              0.25543670638097665
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -0.9170272081097148,
+        "timeout": 150.0,
+        "friction": 0.8989497163679762,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11015,
+      "split": "coverage_train",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.608267790955558,
+          "task": "progress"
+        },
+        {
+          "start": 11.608267790955558,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.608267790955558,
+      "timeout": 21.60826779095556,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    }
+  ],
+  "validation_cases": [
+    {
+      "scenario": {
+        "name": "coverage_validation-oscillating_gate-11100",
+        "start": [
+          -0.03874270439919845,
+          -0.004315319050645264
+        ],
+        "goal": [
+          1.0002535344534076,
+          -2.818651264820115
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              0.44612220706535094,
+              -1.3176720937430646
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              1.3133567746924193,
+              0.4848649114645494
+            ],
+            "period": 6.956846809493547,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -1.217137955207228,
+        "timeout": 150.0,
+        "friction": 0.8311703056589979,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11100,
+      "split": "coverage_validation",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 12.020502269781797,
+          "task": "progress"
+        },
+        {
+          "start": 12.020502269781797,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 16.020502269781797,
+      "timeout": 22.020502269781797,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_validation-multiple_obstacles-11100",
+        "start": [
+          -0.03874270439919845,
+          -0.004315319050645264
+        ],
+        "goal": [
+          1.0002535344534076,
+          -2.818651264820115
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              0.585486440426717,
+              0.7591229395858381
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              -0.8672345676270683,
+              -1.802537005207614
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.3940070324077258,
+              0.14545947343936483
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -1.217137955207228,
+        "timeout": 150.0,
+        "friction": 0.8311703056589979,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11100,
+      "split": "coverage_validation",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 12.020502269781797,
+          "task": "progress"
+        },
+        {
+          "start": 12.020502269781797,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 16.020502269781797,
+      "timeout": 22.020502269781797,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_validation-oscillating_gate-11101",
+        "start": [
+          -0.022590142812580677,
+          0.07080705133925064
+        ],
+        "goal": [
+          2.253101059238473,
+          -1.8839894989205024
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              1.0393990848112442,
+              -0.8414313387819674
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              0.912238390121218,
+              1.061989227623825
+            ],
+            "period": 7.7080705133925065,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -0.709690267035477,
+        "timeout": 150.0,
+        "friction": 0.9238871477790569,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11101,
+      "split": "coverage_validation",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.2307416214654,
+          "task": "progress"
+        },
+        {
+          "start": 11.2307416214654,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.2307416214654,
+      "timeout": 21.2307416214654,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_validation-multiple_obstacles-11101",
+        "start": [
+          -0.022590142812580677,
+          0.07080705133925064
+        ],
+        "goal": [
+          2.253101059238473,
+          -1.8839894989205024
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              0.15198701275250703,
+              1.041385650297008
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              0.12716069469002622,
+              -1.9034205664057924
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.27367151703636544,
+              0.31859676828714745
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -0.709690267035477,
+        "timeout": 150.0,
+        "friction": 0.9238871477790569,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11101,
+      "split": "coverage_validation",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.2307416214654,
+          "task": "progress"
+        },
+        {
+          "start": 11.2307416214654,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.2307416214654,
+      "timeout": 21.2307416214654,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_validation-oscillating_gate-11102",
+        "start": [
+          0.04282077244171756,
+          -0.047596664112076525
+        ],
+        "goal": [
+          0.7137250258324221,
+          2.8764223992290403
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              0.3559094240240463,
+              1.3169455654471114
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              -1.3645422295591878,
+              0.31308865158232874
+            ],
+            "period": 6.524033358879235,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 1.3452542412394015,
+        "timeout": 150.0,
+        "friction": 0.7952928526598946,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11102,
+      "split": "coverage_validation",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 12.320156127906838,
+          "task": "progress"
+        },
+        {
+          "start": 12.320156127906838,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 16.320156127906838,
+      "timeout": 22.320156127906838,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_validation-multiple_obstacles-11102",
+        "start": [
+          0.04282077244171756,
+          -0.047596664112076525
+        ],
+        "goal": [
+          0.7137250258324221,
+          2.8764223992290403
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              -0.8974686710700496,
+              -0.34484363620822966
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              1.7204516535832342,
+              1.0038569138647826
+            ],
+            "radius": 0.18,
+            "velocity": [
+              -0.40936266886775635,
+              0.09392659547469863
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": 1.3452542412394015,
+        "timeout": 150.0,
+        "friction": 0.7952928526598946,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11102,
+      "split": "coverage_validation",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 12.320156127906838,
+          "task": "progress"
+        },
+        {
+          "start": 12.320156127906838,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 16.320156127906838,
+      "timeout": 22.320156127906838,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_validation-oscillating_gate-11103",
+        "start": [
+          -0.09224885321383423,
+          -0.07849133006635559
+        ],
+        "goal": [
+          -3.0037422158432023,
+          -0.8018214064250918
+        ],
+        "obstacles": [
+          {
+            "name": "oscillator",
+            "center": [
+              -1.4509457557742058,
+              -0.4160453657004325
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "oscillate",
+            "amplitude": [
+              0.33755403563407693,
+              -1.3586969025603717
+            ],
+            "period": 6.215086699336444,
+            "start_after": 0.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -2.898083195586648,
+        "timeout": 150.0,
+        "friction": 0.7621781998274743,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "oscillating_gate",
+      "seed": 11103,
+      "split": "coverage_validation",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.723391222828255,
+          "task": "progress"
+        },
+        {
+          "start": 11.723391222828255,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.723391222828255,
+      "timeout": 21.723391222828255,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    },
+    {
+      "scenario": {
+        "name": "coverage_validation-multiple_obstacles-11103",
+        "start": [
+          -0.09224885321383423,
+          -0.07849133006635559
+        ],
+        "goal": [
+          -3.0037422158432023,
+          -0.8018214064250918
+        ],
+        "obstacles": [
+          {
+            "name": "near_side",
+            "center": [
+              0.5979435621927024,
+              -0.7828594367515538
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.0,
+              0.0
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 0.0
+          },
+          {
+            "name": "crossing",
+            "center": [
+              -1.7884997914082827,
+              0.9426515368599392
+            ],
+            "radius": 0.18,
+            "velocity": [
+              0.10126621069022308,
+              -0.4076090707681115
+            ],
+            "stop_after": 40.0,
+            "shape": "cylinder",
+            "half_extents": [
+              0.2,
+              0.2
+            ],
+            "height": 0.8,
+            "yaw": 0.0,
+            "motion": "linear",
+            "amplitude": [
+              0.0,
+              0.8
+            ],
+            "period": 60.0,
+            "start_after": 4.0
+          }
+        ],
+        "bounds": [
+          -5.0,
+          6.0,
+          -5.0,
+          5.0
+        ],
+        "start_yaw": -2.898083195586648,
+        "timeout": 150.0,
+        "friction": 0.7621781998274743,
+        "push_time": -1.0,
+        "push_force": [
+          0.0,
+          0.0
+        ],
+        "push_duration": 0.2,
+        "position_noise": 0.0,
+        "velocity_noise": 0.0,
+        "sensor_delay": 0.0,
+        "sensor_filter_tau": 0.0,
+        "sensing_seed": 0,
+        "terrain": []
+      },
+      "family": "multiple_obstacles",
+      "seed": 11103,
+      "split": "coverage_validation",
+      "requests": [
+        {
+          "start": 2.0,
+          "end": 11.723391222828255,
+          "task": "progress"
+        },
+        {
+          "start": 11.723391222828255,
+          "end": 35.0,
+          "task": "hold"
+        }
+      ],
+      "finish_after": 15.723391222828255,
+      "timeout": 21.723391222828255,
+      "required_progress": 0.4,
+      "required_jumps": 0,
+      "hold_grace": 2.5,
+      "maximum_jumps": 0
+    }
+  ],
+  "qualification": "Include teacher rows only from fully task-fulfilled training/validation episodes; retain failures in raw cohorts",
+  "labels": "Successful episode qualifies the trajectory; per-packet requests remain teacher labels, not counterfactual outcomes",
+  "candidates": "Same frozen 80-neuron encoder/readout or prototype, and same original16 k3/r4 bank with new data",
+  "selection": "Zero contacts/falls/bound violations; most physical validation tasks; ties prefer fewer neurons then smaller artifact",
+  "fresh_test_seeds": {
+    "stress": [
+      11200,
+      11201,
+      11202,
+      11203,
+      11204,
+      11205,
+      11206,
+      11207,
+      11208,
+      11209
+    ],
+    "regular": [
+      11300,
+      11301,
+      11302,
+      11303,
+      11304,
+      11305,
+      11306,
+      11307,
+      11308,
+      11309
+    ],
+    "noise": [
+      11300,
+      11301,
+      11302,
+      11303
+    ]
+  },
+  "old_primary_models_and_runtime_unchanged": true,
+  "source_sha256": {
+    "experiments/continual_snn/coverage_study.py": "306acd35855df8bb522e48dcbc201651f51f040cf9c70f65be2d39bfcc4a3f5e",
+    "experiments/continual_snn/loading.py": "dc8d6c35832790f3c195b27ce7633f438de13ac9dd10ebd7a33a865ed5c77919",
+    "experiments/continual_snn/compact_bank.py": "5e59c6bdd603db4d5c6bb5f34a73258df233f29b39db479de04737ec637bf66f"
+  },
+  "deadline_epoch": 1792230900
+}

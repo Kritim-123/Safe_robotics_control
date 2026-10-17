@@ -1,0 +1,11 @@
+{
+  "mujoco": "3.13.0",
+  "numpy": "2.5.3",
+  "sources": {
+    "skills/obstacle_jump.py": "575767e5d50302b8f8ea959d0f7e220a5ecb4668c383d2531d95aefa36d7c895",
+    "skills/jump_profile.py": "19260f0fbfb761e00fb3ff64202dff1e0abfc6682e0f7ce61addaf81b27c924c",
+    "controllers/walking.py": "93d26f513a2671d002013da8c673d2d84fa207f78b53e6c56bc46d184e495d01",
+    "hybrid/arena.py": "a6a243713c2867518d70042f4d63e7db19ceb536f8f0da2ba9e0652d51751acd",
+    "experiments/obstacle_jump.py": "51fd9549edb5f708636a208d8d9e72d95bb3af4e4bc40b3b89242a3415487dce"
+  }
+}

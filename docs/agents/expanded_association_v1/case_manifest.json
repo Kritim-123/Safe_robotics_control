@@ -1,0 +1,7820 @@
+[
+  {
+    "context_id": "new-terrain-00-flat-00",
+    "family": "flat",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261019,
+    "stage": 0,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-00-flat-00",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-00-flat-01",
+    "family": "flat",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261020,
+    "stage": 0,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-00-flat-01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-00-flat-02",
+    "family": "flat",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261021,
+    "stage": 0,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-00-flat-02",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-00-flat-03",
+    "family": "flat",
+    "variant": 3,
+    "split": "validation",
+    "seed": 20261022,
+    "stage": 0,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-00-flat-03",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-00-flat-04",
+    "family": "flat",
+    "variant": 4,
+    "split": "held_out",
+    "seed": 20261023,
+    "stage": 0,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-00-flat-04",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-00-flat-05",
+    "family": "flat",
+    "variant": 5,
+    "split": "held_out",
+    "seed": 20261024,
+    "stage": 0,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-00-flat-05",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-01-thresholds-00",
+    "family": "thresholds",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261025,
+    "stage": 1,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-01-thresholds-00",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "threshold",
+          "center": [
+            0.7030095221658452,
+            0.0
+          ],
+          "half_extents": [
+            0.055,
+            0.85
+          ],
+          "height": 0.008,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-01-thresholds-01",
+    "family": "thresholds",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261026,
+    "stage": 1,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-01-thresholds-01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "threshold",
+          "center": [
+            0.7343465141952703,
+            0.0
+          ],
+          "half_extents": [
+            0.055,
+            0.85
+          ],
+          "height": 0.0104,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-01-thresholds-02",
+    "family": "thresholds",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261027,
+    "stage": 1,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-01-thresholds-02",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "threshold",
+          "center": [
+            0.7443546558628952,
+            0.0
+          ],
+          "half_extents": [
+            0.055,
+            0.85
+          ],
+          "height": 0.0128,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-01-thresholds-03",
+    "family": "thresholds",
+    "variant": 3,
+    "split": "validation",
+    "seed": 20261028,
+    "stage": 1,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-01-thresholds-03",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "threshold",
+          "center": [
+            0.6958015930322614,
+            0.0
+          ],
+          "half_extents": [
+            0.055,
+            0.85
+          ],
+          "height": 0.0152,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-01-thresholds-04",
+    "family": "thresholds",
+    "variant": 4,
+    "split": "held_out",
+    "seed": 20261029,
+    "stage": 1,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-01-thresholds-04",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "threshold",
+          "center": [
+            0.7162762751174433,
+            0.0
+          ],
+          "half_extents": [
+            0.055,
+            0.85
+          ],
+          "height": 0.0176,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-01-thresholds-05",
+    "family": "thresholds",
+    "variant": 5,
+    "split": "held_out",
+    "seed": 20261030,
+    "stage": 1,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-01-thresholds-05",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "threshold",
+          "center": [
+            0.7183018674394386,
+            0.0
+          ],
+          "half_extents": [
+            0.055,
+            0.85
+          ],
+          "height": 0.02,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-02-ramps-00",
+    "family": "ramps",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261031,
+    "stage": 2,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-02-ramps-00",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "ramp_up",
+          "center": [
+            0.6427406157120387,
+            0.0
+          ],
+          "half_extents": [
+            0.25,
+            0.85
+          ],
+          "height": 0.025,
+          "kind": "ramp",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "ramp_down",
+          "center": [
+            1.1427406157120386,
+            0.0
+          ],
+          "half_extents": [
+            0.25,
+            0.85
+          ],
+          "height": 0.025,
+          "kind": "ramp",
+          "yaw": 3.141592653589793,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-02-ramps-01",
+    "family": "ramps",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261032,
+    "stage": 2,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-02-ramps-01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "ramp_up",
+          "center": [
+            0.6700465226894907,
+            0.0
+          ],
+          "half_extents": [
+            0.25,
+            0.85
+          ],
+          "height": 0.033,
+          "kind": "ramp",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "ramp_down",
+          "center": [
+            1.1700465226894905,
+            0.0
+          ],
+          "half_extents": [
+            0.25,
+            0.85
+          ],
+          "height": 0.033,
+          "kind": "ramp",
+          "yaw": 3.141592653589793,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-02-ramps-02",
+    "family": "ramps",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261033,
+    "stage": 2,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-02-ramps-02",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "ramp_up",
+          "center": [
+            0.6638385179128893,
+            0.0
+          ],
+          "half_extents": [
+            0.25,
+            0.85
+          ],
+          "height": 0.041,
+          "kind": "ramp",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "ramp_down",
+          "center": [
+            1.1638385179128892,
+            0.0
+          ],
+          "half_extents": [
+            0.25,
+            0.85
+          ],
+          "height": 0.041,
+          "kind": "ramp",
+          "yaw": 3.141592653589793,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-02-ramps-03",
+    "family": "ramps",
+    "variant": 3,
+    "split": "validation",
+    "seed": 20261034,
+    "stage": 2,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-02-ramps-03",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "ramp_up",
+          "center": [
+            0.6609234859132853,
+            0.0
+          ],
+          "half_extents": [
+            0.25,
+            0.85
+          ],
+          "height": 0.049,
+          "kind": "ramp",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "ramp_down",
+          "center": [
+            1.1609234859132853,
+            0.0
+          ],
+          "half_extents": [
+            0.25,
+            0.85
+          ],
+          "height": 0.049,
+          "kind": "ramp",
+          "yaw": 3.141592653589793,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-02-ramps-04",
+    "family": "ramps",
+    "variant": 4,
+    "split": "held_out",
+    "seed": 20261035,
+    "stage": 2,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-02-ramps-04",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "ramp_up",
+          "center": [
+            0.6676086776113818,
+            0.0
+          ],
+          "half_extents": [
+            0.25,
+            0.85
+          ],
+          "height": 0.057,
+          "kind": "ramp",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "ramp_down",
+          "center": [
+            1.1676086776113817,
+            0.0
+          ],
+          "half_extents": [
+            0.25,
+            0.85
+          ],
+          "height": 0.057,
+          "kind": "ramp",
+          "yaw": 3.141592653589793,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-02-ramps-05",
+    "family": "ramps",
+    "variant": 5,
+    "split": "held_out",
+    "seed": 20261036,
+    "stage": 2,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-02-ramps-05",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "ramp_up",
+          "center": [
+            0.6535282891404279,
+            0.0
+          ],
+          "half_extents": [
+            0.25,
+            0.85
+          ],
+          "height": 0.065,
+          "kind": "ramp",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "ramp_down",
+          "center": [
+            1.153528289140428,
+            0.0
+          ],
+          "half_extents": [
+            0.25,
+            0.85
+          ],
+          "height": 0.065,
+          "kind": "ramp",
+          "yaw": 3.141592653589793,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-03-steps-00",
+    "family": "steps",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261037,
+    "stage": 3,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-03-steps-00",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "step_0",
+          "center": [
+            0.5727878032921507,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.012,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "step_1",
+          "center": [
+            0.8727878032921508,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.024,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "step_2",
+          "center": [
+            1.1727878032921506,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.012,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-03-steps-01",
+    "family": "steps",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261038,
+    "stage": 3,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-03-steps-01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "step_0",
+          "center": [
+            0.5706510278388474,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.0156,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "step_1",
+          "center": [
+            0.8706510278388474,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.0312,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "step_2",
+          "center": [
+            1.1706510278388473,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.0156,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-03-steps-02",
+    "family": "steps",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261039,
+    "stage": 3,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-03-steps-02",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "step_0",
+          "center": [
+            0.5619928679301692,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.019200000000000002,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "step_1",
+          "center": [
+            0.8619928679301693,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.038400000000000004,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "step_2",
+          "center": [
+            1.161992867930169,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.019200000000000002,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-03-steps-03",
+    "family": "steps",
+    "variant": 3,
+    "split": "validation",
+    "seed": 20261040,
+    "stage": 3,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-03-steps-03",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "step_0",
+          "center": [
+            0.5433325638139683,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.0228,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "step_1",
+          "center": [
+            0.8433325638139684,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.0456,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "step_2",
+          "center": [
+            1.1433325638139682,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.0228,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-03-steps-04",
+    "family": "steps",
+    "variant": 4,
+    "split": "held_out",
+    "seed": 20261041,
+    "stage": 3,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-03-steps-04",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "step_0",
+          "center": [
+            0.52846297404742,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.0264,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "step_1",
+          "center": [
+            0.8284629740474201,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.0528,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "step_2",
+          "center": [
+            1.12846297404742,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.0264,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-03-steps-05",
+    "family": "steps",
+    "variant": 5,
+    "split": "held_out",
+    "seed": 20261042,
+    "stage": 3,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-03-steps-05",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "step_0",
+          "center": [
+            0.5489305993086916,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.03,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "step_1",
+          "center": [
+            0.8489305993086916,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.06,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "step_2",
+          "center": [
+            1.1489305993086913,
+            0.0
+          ],
+          "half_extents": [
+            0.15,
+            0.85
+          ],
+          "height": 0.03,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-04-uneven_blocks-00",
+    "family": "uneven_blocks",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261043,
+    "stage": 4,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-04-uneven_blocks-00",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "block_0_right",
+          "center": [
+            0.4924262834054724,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.010598232184550752,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_0_left",
+          "center": [
+            0.4924262834054724,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.005620285653262289,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_1_right",
+          "center": [
+            0.6724262834054723,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.007002602962492733,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_1_left",
+          "center": [
+            0.6724262834054723,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.005301788196524436,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_2_right",
+          "center": [
+            0.8524262834054723,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.007548588476540807,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_2_left",
+          "center": [
+            0.8524262834054723,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.010696356835495132,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_3_right",
+          "center": [
+            1.0324262834054725,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.009193133438128871,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_3_left",
+          "center": [
+            1.0324262834054725,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.009267502740499794,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_4_right",
+          "center": [
+            1.2124262834054724,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.009014915798744857,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_4_left",
+          "center": [
+            1.2124262834054724,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.008632860352247756,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-04-uneven_blocks-01",
+    "family": "uneven_blocks",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261044,
+    "stage": 4,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-04-uneven_blocks-01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "block_0_right",
+          "center": [
+            0.5012715697326005,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.014210544314807293,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_0_left",
+          "center": [
+            0.5012715697326005,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.0054023150400928956,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_1_right",
+          "center": [
+            0.6812715697326004,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.01617591941203211,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_1_left",
+          "center": [
+            0.6812715697326004,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.007810347294113897,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_2_right",
+          "center": [
+            0.8612715697326004,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.01128310765635272,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_2_left",
+          "center": [
+            0.8612715697326004,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.012509523638647694,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_3_right",
+          "center": [
+            1.0412715697326005,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.011247595141520413,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_3_left",
+          "center": [
+            1.0412715697326005,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.012323091259104562,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_4_right",
+          "center": [
+            1.2212715697326004,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.005457291755003763,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_4_left",
+          "center": [
+            1.2212715697326004,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.012854767162516111,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-04-uneven_blocks-02",
+    "family": "uneven_blocks",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261045,
+    "stage": 4,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-04-uneven_blocks-02",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "block_0_right",
+          "center": [
+            0.4995393691462894,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.021194849187074816,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_0_left",
+          "center": [
+            0.4995393691462894,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.017543196454037426,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_1_right",
+          "center": [
+            0.6795393691462893,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.005932558306900218,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_1_left",
+          "center": [
+            0.6795393691462893,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.01070405714626967,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_2_right",
+          "center": [
+            0.8595393691462894,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.010009124883834802,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_2_left",
+          "center": [
+            0.8595393691462894,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.006801323929428912,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_3_right",
+          "center": [
+            1.0395393691462893,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.015010048222946219,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_3_left",
+          "center": [
+            1.0395393691462893,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.014435444610324779,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_4_right",
+          "center": [
+            1.2195393691462892,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.012393908277107561,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_4_left",
+          "center": [
+            1.2195393691462892,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.010320728624942998,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-04-uneven_blocks-03",
+    "family": "uneven_blocks",
+    "variant": 3,
+    "split": "validation",
+    "seed": 20261046,
+    "stage": 4,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-04-uneven_blocks-03",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "block_0_right",
+          "center": [
+            0.4943367004628847,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.021985142962142816,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_0_left",
+          "center": [
+            0.4943367004628847,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.02290315044187427,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_1_right",
+          "center": [
+            0.6743367004628846,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.018032257614128275,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_1_left",
+          "center": [
+            0.6743367004628846,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.022379726479230193,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_2_right",
+          "center": [
+            0.8543367004628847,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.011043898274637393,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_2_left",
+          "center": [
+            0.8543367004628847,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.018433413202766265,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_3_right",
+          "center": [
+            1.0343367004628847,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.00793244497930583,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_3_left",
+          "center": [
+            1.0343367004628847,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.006429476971944313,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_4_right",
+          "center": [
+            1.2143367004628847,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.020987561786187738,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_4_left",
+          "center": [
+            1.2143367004628847,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.024177169705895965,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-04-uneven_blocks-04",
+    "family": "uneven_blocks",
+    "variant": 4,
+    "split": "held_out",
+    "seed": 20261047,
+    "stage": 4,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-04-uneven_blocks-04",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "block_0_right",
+          "center": [
+            0.47543362727717603,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.02888418363019122,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_0_left",
+          "center": [
+            0.47543362727717603,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.009206018981668356,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_1_right",
+          "center": [
+            0.655433627277176,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.021578520719302073,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_1_left",
+          "center": [
+            0.655433627277176,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.017987879475506542,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_2_right",
+          "center": [
+            0.8354336272771761,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.015017819053745989,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_2_left",
+          "center": [
+            0.8354336272771761,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.022702469228502057,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_3_right",
+          "center": [
+            1.015433627277176,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.020798285291628683,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_3_left",
+          "center": [
+            1.015433627277176,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.02301638615665995,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_4_right",
+          "center": [
+            1.195433627277176,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.025840065272846567,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_4_left",
+          "center": [
+            1.195433627277176,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.01673942086623406,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-04-uneven_blocks-05",
+    "family": "uneven_blocks",
+    "variant": 5,
+    "split": "held_out",
+    "seed": 20261048,
+    "stage": 4,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-04-uneven_blocks-05",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "block_0_right",
+          "center": [
+            0.46040512602331973,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.020367400951691643,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_0_left",
+          "center": [
+            0.46040512602331973,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.011376557662948334,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_1_right",
+          "center": [
+            0.6404051260233197,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.03423222967202707,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_1_left",
+          "center": [
+            0.6404051260233197,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.015705682869001668,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_2_right",
+          "center": [
+            0.8204051260233197,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.03474281224279191,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_2_left",
+          "center": [
+            0.8204051260233197,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.011022384253993048,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_3_right",
+          "center": [
+            1.0004051260233198,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.021054360288276418,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_3_left",
+          "center": [
+            1.0004051260233198,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.006382576332788898,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_4_right",
+          "center": [
+            1.1804051260233197,
+            -0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.01226560971477616,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "block_4_left",
+          "center": [
+            1.1804051260233197,
+            0.3
+          ],
+          "half_extents": [
+            0.088,
+            0.3
+          ],
+          "height": 0.033649441371601856,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-05-cross_slope-00",
+    "family": "cross_slope",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261049,
+    "stage": 5,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-05-cross_slope-00",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "cross_slope",
+          "center": [
+            0.8792727669311761,
+            0.0
+          ],
+          "half_extents": [
+            0.85,
+            0.48
+          ],
+          "height": 0.055,
+          "kind": "ramp",
+          "yaw": 1.5707963267948966,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-05-cross_slope-01",
+    "family": "cross_slope",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261050,
+    "stage": 5,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-05-cross_slope-01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "cross_slope",
+          "center": [
+            0.8744013565883294,
+            0.0
+          ],
+          "half_extents": [
+            0.85,
+            0.48
+          ],
+          "height": 0.073,
+          "kind": "ramp",
+          "yaw": 1.5707963267948966,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-05-cross_slope-02",
+    "family": "cross_slope",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261051,
+    "stage": 5,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-05-cross_slope-02",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "cross_slope",
+          "center": [
+            0.8965939080641043,
+            0.0
+          ],
+          "half_extents": [
+            0.85,
+            0.48
+          ],
+          "height": 0.091,
+          "kind": "ramp",
+          "yaw": 1.5707963267948966,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-05-cross_slope-03",
+    "family": "cross_slope",
+    "variant": 3,
+    "split": "validation",
+    "seed": 20261052,
+    "stage": 5,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-05-cross_slope-03",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "cross_slope",
+          "center": [
+            0.893293242961944,
+            0.0
+          ],
+          "half_extents": [
+            0.85,
+            0.48
+          ],
+          "height": 0.109,
+          "kind": "ramp",
+          "yaw": 1.5707963267948966,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-05-cross_slope-04",
+    "family": "cross_slope",
+    "variant": 4,
+    "split": "held_out",
+    "seed": 20261053,
+    "stage": 5,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-05-cross_slope-04",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "cross_slope",
+          "center": [
+            0.8570129316090236,
+            0.0
+          ],
+          "half_extents": [
+            0.85,
+            0.48
+          ],
+          "height": 0.127,
+          "kind": "ramp",
+          "yaw": 1.5707963267948966,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-05-cross_slope-05",
+    "family": "cross_slope",
+    "variant": 5,
+    "split": "held_out",
+    "seed": 20261054,
+    "stage": 5,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-05-cross_slope-05",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "cross_slope",
+          "center": [
+            0.8915926389708958,
+            0.0
+          ],
+          "half_extents": [
+            0.85,
+            0.48
+          ],
+          "height": 0.145,
+          "kind": "ramp",
+          "yaw": 1.5707963267948966,
+          "base_height": 0.0,
+          "friction": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-06-friction_changes-00",
+    "family": "friction_changes",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261055,
+    "stage": 6,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-06-friction_changes-00",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "reduced_friction",
+          "center": [
+            0.8108008748966561,
+            0.0
+          ],
+          "half_extents": [
+            0.4,
+            0.85
+          ],
+          "height": 0.008,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.6
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-06-friction_changes-01",
+    "family": "friction_changes",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261056,
+    "stage": 6,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-06-friction_changes-01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "reduced_friction",
+          "center": [
+            0.8021947512412947,
+            0.0
+          ],
+          "half_extents": [
+            0.4,
+            0.85
+          ],
+          "height": 0.008,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.5499999999999999
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-06-friction_changes-02",
+    "family": "friction_changes",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261057,
+    "stage": 6,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-06-friction_changes-02",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "reduced_friction",
+          "center": [
+            0.814871236297596,
+            0.0
+          ],
+          "half_extents": [
+            0.4,
+            0.85
+          ],
+          "height": 0.008,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-06-friction_changes-03",
+    "family": "friction_changes",
+    "variant": 3,
+    "split": "validation",
+    "seed": 20261058,
+    "stage": 6,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-06-friction_changes-03",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "reduced_friction",
+          "center": [
+            0.8049116082681468,
+            0.0
+          ],
+          "half_extents": [
+            0.4,
+            0.85
+          ],
+          "height": 0.008,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.44999999999999996
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-06-friction_changes-04",
+    "family": "friction_changes",
+    "variant": 4,
+    "split": "held_out",
+    "seed": 20261059,
+    "stage": 6,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-06-friction_changes-04",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "reduced_friction",
+          "center": [
+            0.8297742494429152,
+            0.0
+          ],
+          "half_extents": [
+            0.4,
+            0.85
+          ],
+          "height": 0.008,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.39999999999999997
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-06-friction_changes-05",
+    "family": "friction_changes",
+    "variant": 5,
+    "split": "held_out",
+    "seed": 20261060,
+    "stage": 6,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-06-friction_changes-05",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "reduced_friction",
+          "center": [
+            0.8291118939313845,
+            0.0
+          ],
+          "half_extents": [
+            0.4,
+            0.85
+          ],
+          "height": 0.008,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.35
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-07-static_passage-00",
+    "family": "static_passage",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261061,
+    "stage": 7,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-07-static_passage-00",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "side_0",
+          "center": [
+            0.9189606054486843,
+            -0.95
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_1",
+          "center": [
+            0.9189606054486843,
+            0.95
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-07-static_passage-01",
+    "family": "static_passage",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261062,
+    "stage": 7,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-07-static_passage-01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "side_0",
+          "center": [
+            0.887881390326383,
+            -0.9259999999999999
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_1",
+          "center": [
+            0.887881390326383,
+            0.9259999999999999
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-07-static_passage-02",
+    "family": "static_passage",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261063,
+    "stage": 7,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-07-static_passage-02",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "side_0",
+          "center": [
+            0.880922646999953,
+            -0.9019999999999999
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_1",
+          "center": [
+            0.880922646999953,
+            0.9019999999999999
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-07-static_passage-03",
+    "family": "static_passage",
+    "variant": 3,
+    "split": "validation",
+    "seed": 20261064,
+    "stage": 7,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-07-static_passage-03",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "side_0",
+          "center": [
+            0.9062946350841629,
+            -0.878
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_1",
+          "center": [
+            0.9062946350841629,
+            0.878
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-07-static_passage-04",
+    "family": "static_passage",
+    "variant": 4,
+    "split": "held_out",
+    "seed": 20261065,
+    "stage": 7,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-07-static_passage-04",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "side_0",
+          "center": [
+            0.8904159887167017,
+            -0.854
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_1",
+          "center": [
+            0.8904159887167017,
+            0.854
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-07-static_passage-05",
+    "family": "static_passage",
+    "variant": 5,
+    "split": "held_out",
+    "seed": 20261066,
+    "stage": 7,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-07-static_passage-05",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "side_0",
+          "center": [
+            0.9076018993764616,
+            -0.83
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_1",
+          "center": [
+            0.9076018993764616,
+            0.83
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-08-moving_crossing-00",
+    "family": "moving_crossing",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261067,
+    "stage": 8,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-08-moving_crossing-00",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "side_0",
+          "center": [
+            0.9113685125905309,
+            -0.95
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_1",
+          "center": [
+            0.9113685125905309,
+            0.95
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing",
+          "center": [
+            1.111368512590531,
+            -1.2
+          ],
+          "radius": 0.17,
+          "velocity": [
+            0.0,
+            0.12
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 2.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-08-moving_crossing-01",
+    "family": "moving_crossing",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261068,
+    "stage": 8,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-08-moving_crossing-01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "side_0",
+          "center": [
+            0.9096881367599209,
+            -0.9259999999999999
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_1",
+          "center": [
+            0.9096881367599209,
+            0.9259999999999999
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing",
+          "center": [
+            1.109688136759921,
+            -1.2
+          ],
+          "radius": 0.17,
+          "velocity": [
+            0.0,
+            0.132
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 2.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-08-moving_crossing-02",
+    "family": "moving_crossing",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261069,
+    "stage": 8,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-08-moving_crossing-02",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "side_0",
+          "center": [
+            0.8967403698092091,
+            -0.9019999999999999
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_1",
+          "center": [
+            0.8967403698092091,
+            0.9019999999999999
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing",
+          "center": [
+            1.0967403698092093,
+            -1.2
+          ],
+          "radius": 0.17,
+          "velocity": [
+            0.0,
+            0.144
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 2.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-08-moving_crossing-03",
+    "family": "moving_crossing",
+    "variant": 3,
+    "split": "validation",
+    "seed": 20261070,
+    "stage": 8,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-08-moving_crossing-03",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "side_0",
+          "center": [
+            0.9080305961936368,
+            -0.878
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_1",
+          "center": [
+            0.9080305961936368,
+            0.878
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing",
+          "center": [
+            1.108030596193637,
+            -1.2
+          ],
+          "radius": 0.17,
+          "velocity": [
+            0.0,
+            0.156
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 2.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-08-moving_crossing-04",
+    "family": "moving_crossing",
+    "variant": 4,
+    "split": "held_out",
+    "seed": 20261071,
+    "stage": 8,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-08-moving_crossing-04",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "side_0",
+          "center": [
+            0.8875507216827756,
+            -0.854
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_1",
+          "center": [
+            0.8875507216827756,
+            0.854
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing",
+          "center": [
+            1.0875507216827758,
+            -1.2
+          ],
+          "radius": 0.17,
+          "velocity": [
+            0.0,
+            0.16799999999999998
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 2.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-08-moving_crossing-05",
+    "family": "moving_crossing",
+    "variant": 5,
+    "split": "held_out",
+    "seed": 20261072,
+    "stage": 8,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-08-moving_crossing-05",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "side_0",
+          "center": [
+            0.9178237773137244,
+            -0.83
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "side_1",
+          "center": [
+            0.9178237773137244,
+            0.83
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "box",
+          "half_extents": [
+            0.4,
+            0.12
+          ],
+          "height": 0.5,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        },
+        {
+          "name": "crossing",
+          "center": [
+            1.1178237773137245,
+            -1.2
+          ],
+          "radius": 0.17,
+          "velocity": [
+            0.0,
+            0.18
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 2.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-terrain-09-mixed_course-00",
+    "family": "mixed_course",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261073,
+    "stage": 9,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-09-mixed_course-00",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            1.0781117817038688,
+            -1.3
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.13
+          ],
+          "stop_after": 18.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 2.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "ramp_up",
+          "center": [
+            0.5781117817038688,
+            0.0
+          ],
+          "half_extents": [
+            0.2,
+            0.85
+          ],
+          "height": 0.02,
+          "kind": "ramp",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "ramp_down",
+          "center": [
+            0.9781117817038688,
+            0.0
+          ],
+          "half_extents": [
+            0.2,
+            0.85
+          ],
+          "height": 0.02,
+          "kind": "ramp",
+          "yaw": 3.141592653589793,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "finish_threshold",
+          "center": [
+            1.2881117817038688,
+            0.0
+          ],
+          "half_extents": [
+            0.05,
+            0.85
+          ],
+          "height": 0.01,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.55
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-09-mixed_course-01",
+    "family": "mixed_course",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261074,
+    "stage": 9,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-09-mixed_course-01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            1.0944673875688025,
+            -1.3
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.138
+          ],
+          "stop_after": 18.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 2.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "ramp_up",
+          "center": [
+            0.5944673875688022,
+            0.0
+          ],
+          "half_extents": [
+            0.2,
+            0.85
+          ],
+          "height": 0.025,
+          "kind": "ramp",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "ramp_down",
+          "center": [
+            0.9944673875688023,
+            0.0
+          ],
+          "half_extents": [
+            0.2,
+            0.85
+          ],
+          "height": 0.025,
+          "kind": "ramp",
+          "yaw": 3.141592653589793,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "finish_threshold",
+          "center": [
+            1.3044673875688024,
+            0.0
+          ],
+          "half_extents": [
+            0.05,
+            0.85
+          ],
+          "height": 0.012,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.55
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-09-mixed_course-02",
+    "family": "mixed_course",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261075,
+    "stage": 9,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-09-mixed_course-02",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            1.1058465903978973,
+            -1.3
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.14600000000000002
+          ],
+          "stop_after": 18.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 2.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "ramp_up",
+          "center": [
+            0.6058465903978971,
+            0.0
+          ],
+          "half_extents": [
+            0.2,
+            0.85
+          ],
+          "height": 0.030000000000000002,
+          "kind": "ramp",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "ramp_down",
+          "center": [
+            1.0058465903978973,
+            0.0
+          ],
+          "half_extents": [
+            0.2,
+            0.85
+          ],
+          "height": 0.030000000000000002,
+          "kind": "ramp",
+          "yaw": 3.141592653589793,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "finish_threshold",
+          "center": [
+            1.3158465903978973,
+            0.0
+          ],
+          "half_extents": [
+            0.05,
+            0.85
+          ],
+          "height": 0.014,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.55
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-09-mixed_course-03",
+    "family": "mixed_course",
+    "variant": 3,
+    "split": "validation",
+    "seed": 20261076,
+    "stage": 9,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-09-mixed_course-03",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            1.098726593765573,
+            -1.3
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.154
+          ],
+          "stop_after": 18.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 2.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "ramp_up",
+          "center": [
+            0.5987265937655729,
+            0.0
+          ],
+          "half_extents": [
+            0.2,
+            0.85
+          ],
+          "height": 0.035,
+          "kind": "ramp",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "ramp_down",
+          "center": [
+            0.9987265937655729,
+            0.0
+          ],
+          "half_extents": [
+            0.2,
+            0.85
+          ],
+          "height": 0.035,
+          "kind": "ramp",
+          "yaw": 3.141592653589793,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "finish_threshold",
+          "center": [
+            1.308726593765573,
+            0.0
+          ],
+          "half_extents": [
+            0.05,
+            0.85
+          ],
+          "height": 0.016,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.55
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-09-mixed_course-04",
+    "family": "mixed_course",
+    "variant": 4,
+    "split": "held_out",
+    "seed": 20261077,
+    "stage": 9,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-09-mixed_course-04",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            1.10471634138115,
+            -1.3
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.162
+          ],
+          "stop_after": 18.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 2.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "ramp_up",
+          "center": [
+            0.6047163413811499,
+            0.0
+          ],
+          "half_extents": [
+            0.2,
+            0.85
+          ],
+          "height": 0.04000000000000001,
+          "kind": "ramp",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "ramp_down",
+          "center": [
+            1.00471634138115,
+            0.0
+          ],
+          "half_extents": [
+            0.2,
+            0.85
+          ],
+          "height": 0.04000000000000001,
+          "kind": "ramp",
+          "yaw": 3.141592653589793,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "finish_threshold",
+          "center": [
+            1.31471634138115,
+            0.0
+          ],
+          "half_extents": [
+            0.05,
+            0.85
+          ],
+          "height": 0.018000000000000002,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.55
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-terrain-09-mixed_course-05",
+    "family": "mixed_course",
+    "variant": 5,
+    "split": "held_out",
+    "seed": 20261078,
+    "stage": 9,
+    "jump_requested": false,
+    "duration": 8.0,
+    "timeout": 18.0,
+    "traversal_x": 1.55,
+    "scenario": {
+      "name": "new-terrain-09-mixed_course-05",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "goal": [
+        1.7,
+        0
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            1.1120599060130085,
+            -1.3
+          ],
+          "radius": 0.16,
+          "velocity": [
+            0.0,
+            0.17
+          ],
+          "stop_after": 18.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 2.0
+        }
+      ],
+      "bounds": [
+        -1.5,
+        6.0,
+        -2.4,
+        2.4
+      ],
+      "start_yaw": 0.0,
+      "timeout": 18.0,
+      "friction": 0.8,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0,
+      "terrain": [
+        {
+          "name": "ramp_up",
+          "center": [
+            0.6120599060130084,
+            0.0
+          ],
+          "half_extents": [
+            0.2,
+            0.85
+          ],
+          "height": 0.045,
+          "kind": "ramp",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "ramp_down",
+          "center": [
+            1.0120599060130084,
+            0.0
+          ],
+          "half_extents": [
+            0.2,
+            0.85
+          ],
+          "height": 0.045,
+          "kind": "ramp",
+          "yaw": 3.141592653589793,
+          "base_height": 0.0,
+          "friction": 0.8
+        },
+        {
+          "name": "finish_threshold",
+          "center": [
+            1.3220599060130085,
+            0.0
+          ],
+          "half_extents": [
+            0.05,
+            0.85
+          ],
+          "height": 0.02,
+          "kind": "box",
+          "yaw": 0.0,
+          "base_height": 0.0,
+          "friction": 0.55
+        }
+      ]
+    }
+  },
+  {
+    "context_id": "new-flat_forward-00",
+    "family": "flat_forward",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261020,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-flat_forward-00",
+      "start": [
+        0.11096309953263975,
+        -0.10980501611870497
+      ],
+      "goal": [
+        1.4109630995326399,
+        -0.10980501611870497
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.9151076069833457,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-flat_forward-01",
+    "family": "flat_forward",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261021,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-flat_forward-01",
+      "start": [
+        -0.08546545397726575,
+        -0.14223137017477933
+      ],
+      "goal": [
+        1.6145345460227343,
+        -0.14223137017477933
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.7407629750194292,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-flat_forward-02",
+    "family": "flat_forward",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261022,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-flat_forward-02",
+      "start": [
+        -0.10718798652734504,
+        -0.14934495116403596
+      ],
+      "goal": [
+        1.5754648254985297,
+        -1.5666238630869562
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": -0.7,
+      "timeout": 150.0,
+      "friction": 0.7410742147763271,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-flat_forward-03",
+    "family": "flat_forward",
+    "variant": 3,
+    "split": "train",
+    "seed": 20261023,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-flat_forward-03",
+      "start": [
+        -0.05538072738227551,
+        0.02896917320981518
+      ],
+      "goal": [
+        2.2391458344711896,
+        1.9616222349228882
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.7,
+      "timeout": 150.0,
+      "friction": 0.9375237531302376,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-flat_forward-04",
+    "family": "flat_forward",
+    "variant": 4,
+    "split": "train",
+    "seed": 20261024,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-flat_forward-04",
+      "start": [
+        0.07751612186923881,
+        -0.002662405160668735
+      ],
+      "goal": [
+        -3.5224838781307612,
+        -0.002662405160668294
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 3.141592653589793,
+      "timeout": 150.0,
+      "friction": 0.7842617835471165,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-flat_forward-05",
+    "family": "flat_forward",
+    "variant": 5,
+    "split": "train",
+    "seed": 20261025,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-flat_forward-05",
+      "start": [
+        -0.10194286700492869,
+        -0.10727954795810539
+      ],
+      "goal": [
+        -0.10194286700492858,
+        -1.8072795479581054
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": -1.5707963267948966,
+      "timeout": 150.0,
+      "friction": 0.7781120881218906,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-flat_forward-06",
+    "family": "flat_forward",
+    "variant": 6,
+    "split": "validation",
+    "seed": 20261026,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-flat_forward-06",
+      "start": [
+        0.08607908517162172,
+        0.03886775081302257
+      ],
+      "goal": [
+        1.6360790851716218,
+        0.03886775081302257
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.9271230855465568,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-flat_forward-07",
+    "family": "flat_forward",
+    "variant": 7,
+    "split": "held_out",
+    "seed": 20261027,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-flat_forward-07",
+      "start": [
+        0.14612793517737097,
+        0.13867752013387383
+      ],
+      "goal": [
+        1.325477850883872,
+        -2.1784616160258583
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": -1.1,
+      "timeout": 150.0,
+      "friction": 0.7084669315024494,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-flat_forward-08",
+    "family": "flat_forward",
+    "variant": 8,
+    "split": "held_out",
+    "seed": 20261028,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-flat_forward-08",
+      "start": [
+        -0.14519044180643162,
+        -0.09926269385908157
+      ],
+      "goal": [
+        1.3516767588979735,
+        2.841721594343655
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 1.1,
+      "timeout": 150.0,
+      "friction": 0.8636311589454452,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-requested_hop-00",
+    "family": "requested_hop",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261029,
+    "stage": -1,
+    "jump_requested": true,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-requested_hop-00",
+      "start": [
+        -0.022342349295340347,
+        0.13819112114052504
+      ],
+      "goal": [
+        1.2776576507046598,
+        0.13819112114052504
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.9444871389065108,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-requested_hop-01",
+    "family": "requested_hop",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261030,
+    "stage": -1,
+    "jump_requested": true,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-requested_hop-01",
+      "start": [
+        -0.01018879536336842,
+        0.0339121149660046
+      ],
+      "goal": [
+        1.6898112046366316,
+        0.0339121149660046
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.7491531288837657,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-requested_hop-02",
+    "family": "requested_hop",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261031,
+    "stage": -1,
+    "jump_requested": true,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-requested_hop-02",
+      "start": [
+        -0.04355630572776821,
+        0.021291712668241952
+      ],
+      "goal": [
+        1.6390965062981067,
+        -1.3959871992546784
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": -0.7,
+      "timeout": 150.0,
+      "friction": 0.731717683730593,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-requested_hop-03",
+    "family": "requested_hop",
+    "variant": 3,
+    "split": "train",
+    "seed": 20261032,
+    "stage": -1,
+    "jump_requested": true,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-requested_hop-03",
+      "start": [
+        0.12027913613694383,
+        0.03240192812405199
+      ],
+      "goal": [
+        2.4148056979904093,
+        1.965054989837125
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.7,
+      "timeout": 150.0,
+      "friction": 0.9269574520176784,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-requested_hop-04",
+    "family": "requested_hop",
+    "variant": 4,
+    "split": "train",
+    "seed": 20261033,
+    "stage": -1,
+    "jump_requested": true,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-requested_hop-04",
+      "start": [
+        0.08303110747733569,
+        -0.04435290595306925
+      ],
+      "goal": [
+        -3.5169688925226645,
+        -0.0443529059530688
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 3.141592653589793,
+      "timeout": 150.0,
+      "friction": 0.7782302282706623,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-requested_hop-05",
+    "family": "requested_hop",
+    "variant": 5,
+    "split": "train",
+    "seed": 20261034,
+    "stage": -1,
+    "jump_requested": true,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-requested_hop-05",
+      "start": [
+        0.06554091547971205,
+        -0.11282825446308928
+      ],
+      "goal": [
+        0.06554091547971216,
+        -1.8128282544630892
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": -1.5707963267948966,
+      "timeout": 150.0,
+      "friction": 0.8294281604778868,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-requested_hop-06",
+    "family": "requested_hop",
+    "variant": 6,
+    "split": "validation",
+    "seed": 20261035,
+    "stage": -1,
+    "jump_requested": true,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-requested_hop-06",
+      "start": [
+        0.10565206566829075,
+        -0.07520421585608511
+      ],
+      "goal": [
+        1.6556520656682907,
+        -0.07520421585608511
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.798300210809457,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-requested_hop-07",
+    "family": "requested_hop",
+    "variant": 7,
+    "split": "held_out",
+    "seed": 20261036,
+    "stage": -1,
+    "jump_requested": true,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-requested_hop-07",
+      "start": [
+        0.02116973484256765,
+        0.03397752849302216
+      ],
+      "goal": [
+        1.2005196505490687,
+        -2.2831616076667096
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": -1.1,
+      "timeout": 150.0,
+      "friction": 0.7275392146289286,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-requested_hop-08",
+    "family": "requested_hop",
+    "variant": 8,
+    "split": "held_out",
+    "seed": 20261037,
+    "stage": -1,
+    "jump_requested": true,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-requested_hop-08",
+      "start": [
+        0.13672681975290416,
+        -0.03885749019965069
+      ],
+      "goal": [
+        1.6335940204573092,
+        2.902126798003086
+      ],
+      "obstacles": [],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 1.1,
+      "timeout": 150.0,
+      "friction": 0.8613374579032799,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-static_blocker-00",
+    "family": "static_blocker",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261038,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-static_blocker-00",
+      "start": [
+        0.12390616703308402,
+        -0.02018884593832676
+      ],
+      "goal": [
+        1.4239061670330841,
+        -0.02018884593832676
+      ],
+      "obstacles": [
+        {
+          "name": "blocker",
+          "center": [
+            2.2230155316753843,
+            0.03615906704265473
+          ],
+          "radius": 0.20345711203462769,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.755157471984622,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-static_blocker-01",
+    "family": "static_blocker",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261039,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-static_blocker-01",
+      "start": [
+        0.07195720758101479,
+        -0.11676474696007755
+      ],
+      "goal": [
+        1.7719572075810148,
+        -0.11676474696007755
+      ],
+      "obstacles": [
+        {
+          "name": "blocker",
+          "center": [
+            2.459740985441317,
+            0.014820437935021719
+          ],
+          "radius": 0.2200998428816487,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.93498394327734,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-static_blocker-02",
+    "family": "static_blocker",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261040,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-static_blocker-02",
+      "start": [
+        -0.040004617116190036,
+        0.034436325778929744
+      ],
+      "goal": [
+        1.6426481949096847,
+        -1.3828425861439906
+      ],
+      "obstacles": [
+        {
+          "name": "blocker",
+          "center": [
+            2.1467943785608123,
+            -1.6697248305385073
+          ],
+          "radius": 0.2628777992754052,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": -0.7,
+      "timeout": 150.0,
+      "friction": 0.7745028026840965,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-static_blocker-03",
+    "family": "static_blocker",
+    "variant": 3,
+    "split": "train",
+    "seed": 20261041,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-static_blocker-03",
+      "start": [
+        -0.1292221557154797,
+        -0.14088140117800227
+      ],
+      "goal": [
+        2.165304406137986,
+        1.7917716605350709
+      ],
+      "obstacles": [
+        {
+          "name": "blocker",
+          "center": [
+            1.119461868648942,
+            1.0023321674215138
+          ],
+          "radius": 0.2626608731020442,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.7,
+      "timeout": 150.0,
+      "friction": 0.8444148593996059,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-static_blocker-04",
+    "family": "static_blocker",
+    "variant": 4,
+    "split": "train",
+    "seed": 20261042,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-static_blocker-04",
+      "start": [
+        -0.006416404147850913,
+        -0.14511952802021685
+      ],
+      "goal": [
+        -3.606416404147851,
+        -0.1451195280202164
+      ],
+      "obstacles": [
+        {
+          "name": "blocker",
+          "center": [
+            -1.7420270535113331,
+            -0.09150392127106902
+          ],
+          "radius": 0.20403806508544003,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 3.141592653589793,
+      "timeout": 150.0,
+      "friction": 0.8121952408404989,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-static_blocker-05",
+    "family": "static_blocker",
+    "variant": 5,
+    "split": "train",
+    "seed": 20261043,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-static_blocker-05",
+      "start": [
+        0.07455770043283447,
+        0.08992423648074652
+      ],
+      "goal": [
+        0.07455770043283458,
+        -1.6100757635192535
+      ],
+      "obstacles": [
+        {
+          "name": "blocker",
+          "center": [
+            0.010383541682523104,
+            -1.2518553414077767
+          ],
+          "radius": 0.1743112599503491,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": -1.5707963267948966,
+      "timeout": 150.0,
+      "friction": 0.7910210170193145,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-static_blocker-06",
+    "family": "static_blocker",
+    "variant": 6,
+    "split": "validation",
+    "seed": 20261044,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-static_blocker-06",
+      "start": [
+        0.12762941839560307,
+        0.08820373227949899
+      ],
+      "goal": [
+        1.677629418395603,
+        0.08820373227949899
+      ],
+      "obstacles": [
+        {
+          "name": "blocker",
+          "center": [
+            1.3831211480635885,
+            0.22723613086653632
+          ],
+          "radius": 0.19422713184580948,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.8354118029386361,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-static_blocker-07",
+    "family": "static_blocker",
+    "variant": 7,
+    "split": "held_out",
+    "seed": 20261045,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-static_blocker-07",
+      "start": [
+        0.11723621487773636,
+        0.14990461457545953
+      ],
+      "goal": [
+        1.2965861305842374,
+        -2.1672345215842723
+      ],
+      "obstacles": [
+        {
+          "name": "blocker",
+          "center": [
+            1.105191645898193,
+            -2.08380838561034
+          ],
+          "radius": 0.20521022929796096,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": -1.1,
+      "timeout": 150.0,
+      "friction": 0.7773013099357222,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-static_blocker-08",
+    "family": "static_blocker",
+    "variant": 8,
+    "split": "held_out",
+    "seed": 20261046,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-static_blocker-08",
+      "start": [
+        0.08602020277730824,
+        0.09497802349244447
+      ],
+      "goal": [
+        1.5828874034817133,
+        3.0359623116951813
+      ],
+      "obstacles": [
+        {
+          "name": "blocker",
+          "center": [
+            1.221177527093087,
+            2.40898770463565
+          ],
+          "radius": 0.25355637730399133,
+          "velocity": [
+            0.0,
+            0.0
+          ],
+          "stop_after": 40.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 1.1,
+      "timeout": 150.0,
+      "friction": 0.7726430081086224,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-moving_crossing-00",
+    "family": "moving_crossing",
+    "variant": 0,
+    "split": "train",
+    "seed": 20261047,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-moving_crossing-00",
+      "start": [
+        -0.027398236336943577,
+        0.1320966570495026
+      ],
+      "goal": [
+        1.2726017636630564,
+        0.1320966570495026
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            1.5547521920030245,
+            -1.2679033429504973
+          ],
+          "radius": 0.2,
+          "velocity": [
+            -0.0,
+            0.2409586032394233
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.827833459404592,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-moving_crossing-01",
+    "family": "moving_crossing",
+    "variant": 1,
+    "split": "train",
+    "seed": 20261048,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-moving_crossing-01",
+      "start": [
+        -0.11756924386008136,
+        0.0036740095169164044
+      ],
+      "goal": [
+        1.5824307561399187,
+        0.0036740095169164044
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            1.5162378704480242,
+            -1.3963259904830836
+          ],
+          "radius": 0.2,
+          "velocity": [
+            -0.0,
+            0.29564930147482005
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.7892140239083472,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-moving_crossing-02",
+    "family": "moving_crossing",
+    "variant": 2,
+    "split": "train",
+    "seed": 20261049,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-moving_crossing-02",
+      "start": [
+        -0.004363398412943614,
+        -0.10923222884783967
+      ],
+      "goal": [
+        1.6782894136129312,
+        -1.52651114077076
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            0.6023607125331336,
+            -2.450711861271544
+          ],
+          "radius": 0.2,
+          "velocity": [
+            0.16559357312262296,
+            0.19659961714250615
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": -0.7,
+      "timeout": 150.0,
+      "friction": 0.7768048818655219,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-moving_crossing-03",
+    "family": "moving_crossing",
+    "variant": 3,
+    "split": "train",
+    "seed": 20261050,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-moving_crossing-03",
+      "start": [
+        -0.03359186047002341,
+        -0.10483186179053665
+      ],
+      "goal": [
+        2.2609347013834418,
+        1.8278211999225364
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            2.337017696171463,
+            0.061462058756288185
+          ],
+          "radius": 0.2,
+          "velocity": [
+            -0.13346678271237117,
+            0.158457347635489
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.7,
+      "timeout": 150.0,
+      "friction": 0.9106745350681498,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-moving_crossing-04",
+    "family": "moving_crossing",
+    "variant": 4,
+    "split": "train",
+    "seed": 20261051,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-moving_crossing-04",
+      "start": [
+        0.0995634483846258,
+        -0.08068210760166357
+      ],
+      "goal": [
+        -3.5004365516153744,
+        -0.08068210760166313
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            -1.9413525904242885,
+            1.3193178923983366
+          ],
+          "radius": 0.2,
+          "velocity": [
+            -1.9846030876322387e-17,
+            -0.16205514022606327
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 3.141592653589793,
+      "timeout": 150.0,
+      "friction": 0.799547579246372,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-moving_crossing-05",
+    "family": "moving_crossing",
+    "variant": 5,
+    "split": "train",
+    "seed": 20261052,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-moving_crossing-05",
+      "start": [
+        0.07975945777166413,
+        0.09012224351649767
+      ],
+      "goal": [
+        0.07975945777166424,
+        -1.6098777564835023
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            -1.3202405422283356,
+            -1.6989827116898644
+          ],
+          "radius": 0.2,
+          "velocity": [
+            0.26130593822721243,
+            1.6000374042407585e-17
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": -1.5707963267948966,
+      "timeout": 150.0,
+      "friction": 0.9188612808146744,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-moving_crossing-06",
+    "family": "moving_crossing",
+    "variant": 6,
+    "split": "validation",
+    "seed": 20261053,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-moving_crossing-06",
+      "start": [
+        -0.13792241034585848,
+        -0.05863382305327179
+      ],
+      "goal": [
+        1.4120775896541415,
+        -0.05863382305327179
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            2.2721122340026376,
+            -1.4586338230532716
+          ],
+          "radius": 0.2,
+          "velocity": [
+            -0.0,
+            0.24178665092178012
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 0.0,
+      "timeout": 150.0,
+      "friction": 0.7843319864345659,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-moving_crossing-07",
+    "family": "moving_crossing",
+    "variant": 7,
+    "split": "held_out",
+    "seed": 20261054,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-moving_crossing-07",
+      "start": [
+        0.06955583382537456,
+        -0.1405645009539591
+      ],
+      "goal": [
+        1.2489057495318756,
+        -2.457703637113691
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            -0.30289824059013226,
+            -2.495227905568787
+          ],
+          "radius": 0.2,
+          "velocity": [
+            0.16211230508120653,
+            0.08250999275311882
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": -1.1,
+      "timeout": 150.0,
+      "friction": 0.8068023483532748,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  },
+  {
+    "context_id": "new-moving_crossing-08",
+    "family": "moving_crossing",
+    "variant": 8,
+    "split": "held_out",
+    "seed": 20261055,
+    "stage": -1,
+    "jump_requested": false,
+    "duration": 4.0,
+    "timeout": 12.0,
+    "traversal_x": null,
+    "scenario": {
+      "name": "new-moving_crossing-08",
+      "start": [
+        -0.05519475062006292,
+        -0.005831429493553364
+      ],
+      "goal": [
+        1.441672450084342,
+        2.9351528587091833
+      ],
+      "obstacles": [
+        {
+          "name": "crossing",
+          "center": [
+            1.9170236870660164,
+            0.7826576479497174
+          ],
+          "radius": 0.2,
+          "velocity": [
+            -0.26318545984596625,
+            0.13395300482427328
+          ],
+          "stop_after": 16.0,
+          "shape": "cylinder",
+          "half_extents": [
+            0.2,
+            0.2
+          ],
+          "height": 0.8,
+          "yaw": 0.0,
+          "motion": "linear",
+          "amplitude": [
+            0.0,
+            0.8
+          ],
+          "period": 60.0,
+          "start_after": 0.0
+        }
+      ],
+      "bounds": [
+        -6.0,
+        6.0,
+        -6.0,
+        6.0
+      ],
+      "start_yaw": 1.1,
+      "timeout": 150.0,
+      "friction": 0.8418932073965139,
+      "push_time": -1.0,
+      "push_force": [
+        0.0,
+        0.0
+      ],
+      "push_duration": 0.2,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "sensor_delay": 0.0,
+      "sensor_filter_tau": 0.0,
+      "sensing_seed": 0
+    }
+  }
+]

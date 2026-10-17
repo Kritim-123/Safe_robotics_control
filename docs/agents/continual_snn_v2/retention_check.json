@@ -1,0 +1,8 @@
+{
+  "encoder_weights_identical": true,
+  "encoder_biases_identical": true,
+  "all_old_exact_patterns_and_labels_retained": true,
+  "old_patterns": 7159,
+  "new_patterns": 10446,
+  "new_unique_patterns": 3287
+}

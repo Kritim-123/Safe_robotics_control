@@ -6,7 +6,9 @@ Research date: October 1, 2026. Target: this project's MuJoCo simulation first, 
 controller and a trained spiking skill selector. See [hybrid system](hybrid_system.md)
 and [validation](hybrid_validation.md). The repository inspection below records
 the earlier research state; it is not the current implementation status.
-No external locomotion checkpoint has been downloaded or integrated.
+The historical research below predates the subsequent imports. The project
+now includes the [experimental gap adapter](agents/pretrained_jump.md) and
+[two validated velocity-policy adapters](agents/pretrained_velocity_validation.md).
 
 ## Recommendation
 

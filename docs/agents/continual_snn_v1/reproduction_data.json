@@ -1,0 +1,28 @@
+{
+  "files": {
+    "training_records.jsonl.gz": {
+      "source": "output\\continual_snn\\predictive-comparison-v1\\training_records.jsonl",
+      "source_sha256": "7e8ca5b2b7b7279e15eb8a7f7b679233b07b7b8aea4709153662a273cc580848",
+      "compressed_sha256": "895cbfcbf1b163bf91c883bb2d8596abc0d9be47033cde44ded5cb30c0fd52d0",
+      "bytes": 17585276,
+      "compressed_bytes": 1748884
+    },
+    "validation_records.jsonl.gz": {
+      "source": "output\\continual_snn\\predictive-comparison-v1\\validation_records.jsonl",
+      "source_sha256": "f878fa75e02ce65150e9a4bfd4508318c0d72647cd966af001e5cb45600e905d",
+      "compressed_sha256": "05e04b36961d9aa31ec540aa22f7955c1aa5c474fcb72732e74a57b9a57be2ab",
+      "bytes": 4447103,
+      "compressed_bytes": 441561
+    },
+    "association_sources.json.gz": {
+      "source": "output\\continual_snn\\data-ablation-v1\\models\\motion_data_same_decoder_associations.json",
+      "source_sha256": "0f5c4a33720edc678a982dbfb7a4945cdb3bdd2bd3f8b52f30975d0776ab5263",
+      "compressed_sha256": "837c59dbbe97237a2b2544381c597f3d466dcc4e791ac29ded7a68cfc3cd9482",
+      "bytes": 9913847,
+      "compressed_bytes": 238046
+    }
+  },
+  "training_labels": "Historical measured context outcomes and separate causal task/geometry teacher requests; source fields preserved",
+  "counts_are_not_uninterrupted_episode_spike_accumulations": true,
+  "final_evaluation_rows_used_for_training": 0
+}

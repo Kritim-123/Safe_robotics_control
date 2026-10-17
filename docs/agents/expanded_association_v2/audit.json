@@ -1,0 +1,28 @@
+{
+  "candidate_trials_checked": 204,
+  "evaluation_episodes_checked": 256,
+  "core_simulation_episodes": 460,
+  "all_pattern_replays_match": true,
+  "training_only_examples_verified": true,
+  "task_scores_recomputed_from_terminal_trajectories": true,
+  "models_unchanged_through_evaluation": true,
+  "post_fit_source_validation_changes": [
+    {
+      "fit": "expanded-associations-v1",
+      "path": "experiments/spike_pattern_skills/terrain_encoding.py",
+      "reason": "Post-fit model-loading schema validation; encoding arithmetic unchanged"
+    },
+    {
+      "fit": "dense-associations-v1",
+      "path": "experiments/spike_pattern_skills/dense_terrain_encoding.py",
+      "reason": "Post-fit model-loading schema validation; encoding arithmetic unchanged"
+    }
+  ],
+  "all_recorded_collisions": 0,
+  "all_recorded_falls": 0,
+  "max_torque": 24.0,
+  "checkpoint_checksums": {
+    "encoder": "de418f7e9ecfb78c1965558b39da2cfadf8a553bc73165794123a61d60fc2d2d",
+    "association": "3968645384fc5a9aee6322a0f2fcda919236de65da38765749c78164d3d10709"
+  }
+}

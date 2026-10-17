@@ -1,0 +1,51 @@
+{
+  "reason": "Training-set audit: a narrow threshold fell between coarse scan samples.",
+  "source_collection": "C:\\Users\\Raged Rhombus\\Desktop\\Projects\\Go2-Learning\\output\\spike_pattern_skills\\expanded-associations-v1",
+  "source_manifest_sha256": "95fdf14da1133f7f8b446caf677558720d2777f5481f3b64d1db49e27d8aac73",
+  "source_files_sha256": {
+    "original.json": "01859379342ca03a9024b685b927d95ac16a6b8c94da1971ea496571920697b5",
+    "expanded_legacy.json": "999a4276c2bae28a1c6724e79ed088977f40e409b3b9b9197e51f19e5783f7b9",
+    "terrain.json": "d967cbfc9da04a5fb8c0b20ba891d6ef610c22d43001bda2221c533f5dac4206",
+    "legacy_encoder.npz": "056425ea77a044bc541a10d3e392e6215a46cf5cebf3c240566df1b926b950b6",
+    "terrain_encoder.npz": "5390f144b0ab3685176ad30dc2dca2a371658a5bf0d7e31b6b3309baed3187d6",
+    "case_manifest.json": "a5a294593e45207b70bf08824c281e3ef375ebeebe4d3627db1a2a3f709d9cd7",
+    "attempts.jsonl": "dcb23b8816fd7ab9851a45801141c71506aadc1713df4c4dd286941485f5182e",
+    "labels.jsonl": "f8c22318418defaedf200b90cae367440163c1706c6063acb33254bb42fba7c6",
+    "reused_training.jsonl": "4e2274f176ef9e723a513feb3fcc2e287fe903950178fc6b726da9281741a836",
+    "validation.json": "90fca49ecc3da441e275dbf8f853ceb71d5f97f6c5bca1dffac2fdc49e87e743",
+    "collection_errors.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  },
+  "encoder_checksum": "de418f7e9ecfb78c1965558b39da2cfadf8a553bc73165794123a61d60fc2d2d",
+  "association_checksum": "3968645384fc5a9aee6322a0f2fcda919236de65da38765749c78164d3d10709",
+  "examples": 94,
+  "unique_counts": 85,
+  "conflicting_vectors": 0,
+  "conflicting_examples": 0,
+  "conflicts": [],
+  "labels": {
+    "dynamic/run": 27,
+    "dynamic/jump": 26,
+    "dynamic/wait": 41
+  },
+  "new_physical_training_trials": 0,
+  "candidate_outcomes_reused": 204,
+  "validation_agreement": 13,
+  "validation_proposals": 13,
+  "fresh_evaluation_seeds": {
+    "terrain": 20261023,
+    "flat": 20261024
+  },
+  "source_sha256": {
+    "experiments/spike_pattern_skills/dense_terrain_encoding.py": "68032052148826da87f35c9f1320025f111643331f2d32302252e4d60cd2bf6f",
+    "experiments/spike_pattern_skills/refine_associations.py": "0e5fe97f78969df8b9f62f64245461d7e7a30477ef8ea87f0af9f0014df0e01b",
+    "experiments/spike_pattern_skills/execute_associations.py": "68ca6eb9a9eab2cb4d41e6db5a07c595aaa30a1721ccdf090ac567759dbfc092"
+  },
+  "files_sha256": {
+    "dense_encoder.npz": "fe8a1b08d6a0c043cf7f94f6842bbbf6b9e3b3c288e4bae81d7fc59eb1d3bdc7",
+    "dense.json": "d3e99aadd5a42a05aecd24eb922d89294c2c6548c8cf4e692900f70ec53116db",
+    "legacy_encoder.npz": "056425ea77a044bc541a10d3e392e6215a46cf5cebf3c240566df1b926b950b6",
+    "original.json": "01859379342ca03a9024b685b927d95ac16a6b8c94da1971ea496571920697b5",
+    "reencoded_labels.jsonl": "357ee74b3bcffcd533e30df6a8f8b73bd4e50c39bc2d880f3bf00de571a6de51",
+    "validation.json": "59cbf45ebec1fe6dfc508045a710bb6391afcb4b7fe490142d3d1260dbe7330b"
+  }
+}

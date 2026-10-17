@@ -1,0 +1,19 @@
+{
+  "preparation": 0.55,
+  "thrust": 0.22,
+  "flight": 0.16,
+  "absorption": 0.2,
+  "recovery": 0.6,
+  "crouch_thigh": 1.1,
+  "crouch_calf": -2.2,
+  "extension_calf": -1.2,
+  "forward_lean": 0.4,
+  "flight_calf": -1.55,
+  "flight_lean": -0.1,
+  "absorption_thigh": 1.03,
+  "absorption_calf": -2.06,
+  "torque_limit": 28.0,
+  "landing_kp": 35.0,
+  "landing_kd": 1.5,
+  "forward_clearance": 0.5
+}

@@ -1,0 +1,200 @@
+{
+  "protocol": "docs/agents/expanded_association_protocol.md",
+  "source_sha256": {
+    "skills/dynamic.py": "cee4ee6a432b550e697169bb41a6992cad1ed9db860b899468c1c50a44fc18de",
+    "hybrid/arena.py": "a6a243713c2867518d70042f4d63e7db19ceb536f8f0da2ba9e0652d51751acd",
+    "hybrid/terrain.py": "c0d426caf44f01b9bf303668a7651b123db69a28689e181365aa45b402b77829",
+    "controllers/navigation.py": "70a6875ac2e79efd86999099310af330b7248dc3bce2ea9ad8c6708f023ef7f6",
+    "controllers/walking.py": "93d26f513a2671d002013da8c673d2d84fa207f78b53e6c56bc46d184e495d01",
+    "experiments/spike_pattern_skills/encoder.py": "04c3c9fb804a6dae1967a12f8d33752b805f9ce40412f335ec5c3ffbabcd332a",
+    "experiments/spike_pattern_skills/terrain_encoding.py": "f6f6652023c2dff3d7cc7b2fea09c0276c2a4d365eaf2a29c183eddfe692cfa8",
+    "experiments/spike_pattern_skills/observations.py": "ba93b88f41dd27ce250f6b83c046b596de1469122551e7581a56ffd37cd40f45",
+    "experiments/spike_pattern_skills/associations.py": "e70a48da46aa5e0eaa22b8706d83de329e5f5217a67de5965997fb018286e596",
+    "experiments/spike_pattern_skills/outcome_cases.py": "47f7ce511390b3df30b813e58d873fe9a7a440eee763d8a695e15575f27fcd5e",
+    "experiments/spike_pattern_skills/curriculum.py": "ca508c452a0d02c9b2aee2eb0383a6aa713dd5ae8ccacf87a4903f7fd553ab14",
+    "experiments/spike_pattern_skills/execute_associations.py": "68ca6eb9a9eab2cb4d41e6db5a07c595aaa30a1721ccdf090ac567759dbfc092",
+    "experiments/spike_pattern_skills/learn_expanded.py": "ee2c3b95eb85394aa2d0833051eeaa3573f2c6d2c25e512ec4e9adf841ac8722"
+  },
+  "legacy_checksum": "b72b9750bffd70ee37bd0aaedb5064b58157d8f5a13f58b5cd356ca281fa70ec",
+  "terrain_encoder_checksum": "1e87dccec42e998039e1f44d23b30ba6495110c98553ed14ecd8a8d0569d5528",
+  "original_association_checksum": "af09caff72026bfca7e8ff7b5a20e7011954c9e12cd5e56033b7ca07e3aeed00",
+  "terrain_seed": 20261019,
+  "flat_seed": 20261020,
+  "python": "3.14.7",
+  "numpy": "2.5.3",
+  "mujoco": "3.13.0",
+  "parameters": {
+    "neighbors": 3,
+    "max_distance": 4.0,
+    "terrain_extension_seed": 4242
+  },
+  "attempts": 204,
+  "new_train_contexts": 54,
+  "validation_contexts": 14,
+  "held_out_contexts": 28,
+  "reused_training_contexts": 40,
+  "candidate_failed_or_rejected": 19,
+  "contacts": 0,
+  "falls": 0,
+  "max_torque": 24.0,
+  "banks": {
+    "original": {
+      "checksum": "af09caff72026bfca7e8ff7b5a20e7011954c9e12cd5e56033b7ca07e3aeed00",
+      "labels": {
+        "dynamic/run": 6,
+        "dynamic/jump": 20,
+        "dynamic/wait": 14
+      },
+      "examples": 40,
+      "unique_counts": 40,
+      "conflicting_vectors": 0,
+      "conflicting_examples": 0,
+      "conflicts": []
+    },
+    "expanded_legacy": {
+      "checksum": "b169375c983fa7787681ea335649c89dcf02306659e5477453a4e052a41aeb87",
+      "labels": {
+        "dynamic/run": 27,
+        "dynamic/jump": 26,
+        "dynamic/wait": 41
+      },
+      "examples": 94,
+      "unique_counts": 66,
+      "conflicting_vectors": 1,
+      "conflicting_examples": 21,
+      "conflicts": [
+        [
+          {
+            "context_id": "new-terrain-00-flat-00",
+            "skill": "dynamic/run"
+          },
+          {
+            "context_id": "new-terrain-00-flat-01",
+            "skill": "dynamic/run"
+          },
+          {
+            "context_id": "new-terrain-00-flat-02",
+            "skill": "dynamic/run"
+          },
+          {
+            "context_id": "new-terrain-01-thresholds-00",
+            "skill": "dynamic/wait"
+          },
+          {
+            "context_id": "new-terrain-01-thresholds-01",
+            "skill": "dynamic/wait"
+          },
+          {
+            "context_id": "new-terrain-01-thresholds-02",
+            "skill": "dynamic/wait"
+          },
+          {
+            "context_id": "new-terrain-02-ramps-00",
+            "skill": "dynamic/run"
+          },
+          {
+            "context_id": "new-terrain-02-ramps-01",
+            "skill": "dynamic/run"
+          },
+          {
+            "context_id": "new-terrain-02-ramps-02",
+            "skill": "dynamic/run"
+          },
+          {
+            "context_id": "new-terrain-03-steps-00",
+            "skill": "dynamic/wait"
+          },
+          {
+            "context_id": "new-terrain-03-steps-01",
+            "skill": "dynamic/wait"
+          },
+          {
+            "context_id": "new-terrain-03-steps-02",
+            "skill": "dynamic/wait"
+          },
+          {
+            "context_id": "new-terrain-04-uneven_blocks-00",
+            "skill": "dynamic/wait"
+          },
+          {
+            "context_id": "new-terrain-04-uneven_blocks-01",
+            "skill": "dynamic/wait"
+          },
+          {
+            "context_id": "new-terrain-04-uneven_blocks-02",
+            "skill": "dynamic/wait"
+          },
+          {
+            "context_id": "new-terrain-05-cross_slope-00",
+            "skill": "dynamic/wait"
+          },
+          {
+            "context_id": "new-terrain-05-cross_slope-01",
+            "skill": "dynamic/wait"
+          },
+          {
+            "context_id": "new-terrain-05-cross_slope-02",
+            "skill": "dynamic/wait"
+          },
+          {
+            "context_id": "new-terrain-06-friction_changes-00",
+            "skill": "dynamic/run"
+          },
+          {
+            "context_id": "new-terrain-06-friction_changes-01",
+            "skill": "dynamic/run"
+          },
+          {
+            "context_id": "new-terrain-06-friction_changes-02",
+            "skill": "dynamic/run"
+          }
+        ]
+      ]
+    },
+    "terrain": {
+      "checksum": "ffe43c4040baf844262c9b0a5929ce886c64ddfa98881a6d207667235358e683",
+      "labels": {
+        "dynamic/run": 27,
+        "dynamic/jump": 26,
+        "dynamic/wait": 41
+      },
+      "examples": 94,
+      "unique_counts": 85,
+      "conflicting_vectors": 1,
+      "conflicting_examples": 4,
+      "conflicts": [
+        [
+          {
+            "context_id": "new-terrain-00-flat-00",
+            "skill": "dynamic/run"
+          },
+          {
+            "context_id": "new-terrain-00-flat-01",
+            "skill": "dynamic/run"
+          },
+          {
+            "context_id": "new-terrain-00-flat-02",
+            "skill": "dynamic/run"
+          },
+          {
+            "context_id": "new-terrain-01-thresholds-00",
+            "skill": "dynamic/wait"
+          }
+        ]
+      ]
+    }
+  },
+  "files_sha256": {
+    "original.json": "01859379342ca03a9024b685b927d95ac16a6b8c94da1971ea496571920697b5",
+    "expanded_legacy.json": "999a4276c2bae28a1c6724e79ed088977f40e409b3b9b9197e51f19e5783f7b9",
+    "terrain.json": "d967cbfc9da04a5fb8c0b20ba891d6ef610c22d43001bda2221c533f5dac4206",
+    "legacy_encoder.npz": "056425ea77a044bc541a10d3e392e6215a46cf5cebf3c240566df1b926b950b6",
+    "terrain_encoder.npz": "5390f144b0ab3685176ad30dc2dca2a371658a5bf0d7e31b6b3309baed3187d6",
+    "case_manifest.json": "a5a294593e45207b70bf08824c281e3ef375ebeebe4d3627db1a2a3f709d9cd7",
+    "attempts.jsonl": "dcb23b8816fd7ab9851a45801141c71506aadc1713df4c4dd286941485f5182e",
+    "labels.jsonl": "f8c22318418defaedf200b90cae367440163c1706c6063acb33254bb42fba7c6",
+    "reused_training.jsonl": "4e2274f176ef9e723a513feb3fcc2e287fe903950178fc6b726da9281741a836",
+    "validation.json": "90fca49ecc3da441e275dbf8f853ceb71d5f97f6c5bca1dffac2fdc49e87e743",
+    "collection_errors.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  }
+}

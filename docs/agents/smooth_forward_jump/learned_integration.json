@@ -1,0 +1,587 @@
+[
+  {
+    "context_id": "new-requested_hop-00",
+    "summary": {
+      "skill": "jump",
+      "seed": 20261029,
+      "success": true,
+      "reason": "completed",
+      "elapsed": 6.803999999999473,
+      "displacement": [
+        0.19938537592051406,
+        -3.0035087349361556e-05
+      ],
+      "distance": 0.1993853781827323,
+      "airtime": 0.1580000000000001,
+      "longest_airtime": 0.1580000000000001,
+      "all_feet_airborne": true,
+      "max_height": 0.40395925988685344,
+      "stable_landing": true,
+      "max_torque": 28.0,
+      "max_torque_limit_ratio": 1.0,
+      "collision": false,
+      "fall": false,
+      "min_clearance": 5.415083915418116,
+      "decision_observation": {
+        "time": 2.0000000000000013,
+        "position": [
+          -0.03623670790281713,
+          0.1381911460011789
+        ],
+        "speed": 0.0005600838321126009,
+        "yaw": 1.3140001924690477e-07,
+        "height": 0.26397031346778216,
+        "upright": 0.9999794987241911,
+        "obstacles": []
+      },
+      "eligibility": {
+        "wait": true,
+        "run": true,
+        "jump": true
+      },
+      "physics_dt": 0.002,
+      "control_dt": 0.01,
+      "duration": 4.0,
+      "run_speed": 0.5,
+      "jump_profile": "smooth_forward",
+      "jump_configuration": {
+        "preparation": 0.55,
+        "thrust": 0.22,
+        "flight": 0.16,
+        "absorption": 0.2,
+        "recovery": 0.6,
+        "crouch_thigh": 1.1,
+        "crouch_calf": -2.2,
+        "extension_calf": -1.2,
+        "forward_lean": 0.4,
+        "flight_calf": -1.55,
+        "flight_lean": -0.1,
+        "absorption_thigh": 1.03,
+        "absorption_calf": -2.06,
+        "torque_limit": 28.0,
+        "landing_kp": 35.0,
+        "landing_kd": 1.5,
+        "forward_clearance": 0.5
+      },
+      "actuator_limit": 28.0
+    },
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.158,
+      "body_forward_progress": 0.19938537591656572,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "exact association",
+      "neighbors": [
+        {
+          "context_id": "new-requested_hop-00",
+          "skill": "dynamic/jump",
+          "distance": 0.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "exact association"
+    }
+  },
+  {
+    "context_id": "new-requested_hop-05",
+    "summary": {
+      "skill": "jump",
+      "seed": 20261034,
+      "success": true,
+      "reason": "completed",
+      "elapsed": 6.803999999999473,
+      "displacement": [
+        0.0007297478569268656,
+        -0.19069766966495155
+      ],
+      "distance": 0.19069906593263028,
+      "airtime": 0.16800000000000012,
+      "longest_airtime": 0.16800000000000012,
+      "all_feet_airborne": true,
+      "max_height": 0.4047571887612208,
+      "stable_landing": true,
+      "max_torque": 28.0,
+      "max_torque_limit_ratio": 1.0,
+      "collision": false,
+      "fall": false,
+      "min_clearance": 5.288654450767452,
+      "decision_observation": {
+        "time": 2.0000000000000013,
+        "position": [
+          0.06554092843931626,
+          -0.0989531330224895
+        ],
+        "speed": 0.0005638195825964327,
+        "yaw": -1.570796189827577,
+        "height": 0.2644974149841079,
+        "upright": 0.999979685238515,
+        "obstacles": []
+      },
+      "eligibility": {
+        "wait": true,
+        "run": true,
+        "jump": true
+      },
+      "physics_dt": 0.002,
+      "control_dt": 0.01,
+      "duration": 4.0,
+      "run_speed": 0.5,
+      "jump_profile": "smooth_forward",
+      "jump_configuration": {
+        "preparation": 0.55,
+        "thrust": 0.22,
+        "flight": 0.16,
+        "absorption": 0.2,
+        "recovery": 0.6,
+        "crouch_thigh": 1.1,
+        "crouch_calf": -2.2,
+        "extension_calf": -1.2,
+        "forward_lean": 0.4,
+        "flight_calf": -1.55,
+        "flight_lean": -0.1,
+        "absorption_thigh": 1.03,
+        "absorption_calf": -2.06,
+        "torque_limit": 28.0,
+        "landing_kp": 35.0,
+        "landing_kd": 1.5,
+        "forward_clearance": 0.5
+      },
+      "actuator_limit": 28.0
+    },
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.168,
+      "body_forward_progress": 0.19069766976490138,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "exact association",
+      "neighbors": [
+        {
+          "context_id": "new-requested_hop-01",
+          "skill": "dynamic/jump",
+          "distance": 0.0
+        },
+        {
+          "context_id": "new-requested_hop-05",
+          "skill": "dynamic/jump",
+          "distance": 0.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "exact association"
+    }
+  },
+  {
+    "context_id": "new-requested_hop-07",
+    "summary": {
+      "skill": "jump",
+      "seed": 20261036,
+      "success": true,
+      "reason": "completed",
+      "elapsed": 6.803999999999473,
+      "displacement": [
+        0.07189516828158543,
+        -0.14985761432687078
+      ],
+      "distance": 0.16621137083237908,
+      "airtime": 0.18800000000000014,
+      "longest_airtime": 0.18800000000000014,
+      "all_feet_airborne": true,
+      "max_height": 0.4053087864264433,
+      "stable_landing": true,
+      "max_torque": 28.0,
+      "max_torque_limit_ratio": 1.0,
+      "collision": false,
+      "fall": false,
+      "min_clearance": 5.4747608596397335,
+      "decision_observation": {
+        "time": 2.0000000000000013,
+        "position": [
+          0.014906814547045717,
+          0.04626334477241712
+        ],
+        "speed": 0.0005658313868998631,
+        "yaw": -1.10047046492926,
+        "height": 0.2649783021384624,
+        "upright": 0.9999798416919897,
+        "obstacles": []
+      },
+      "eligibility": {
+        "wait": true,
+        "run": true,
+        "jump": true
+      },
+      "physics_dt": 0.002,
+      "control_dt": 0.01,
+      "duration": 4.0,
+      "run_speed": 0.5,
+      "jump_profile": "smooth_forward",
+      "jump_configuration": {
+        "preparation": 0.55,
+        "thrust": 0.22,
+        "flight": 0.16,
+        "absorption": 0.2,
+        "recovery": 0.6,
+        "crouch_thigh": 1.1,
+        "crouch_calf": -2.2,
+        "extension_calf": -1.2,
+        "forward_lean": 0.4,
+        "flight_calf": -1.55,
+        "flight_lean": -0.1,
+        "absorption_thigh": 1.03,
+        "absorption_calf": -2.06,
+        "torque_limit": 28.0,
+        "landing_kp": 35.0,
+        "landing_kd": 1.5,
+        "forward_clearance": 0.5
+      },
+      "actuator_limit": 28.0
+    },
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.188,
+      "body_forward_progress": 0.1661673953804451,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "new-requested_hop-02",
+          "skill": "dynamic/jump",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "new-requested_hop-03",
+          "skill": "dynamic/jump",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "new-requested_hop-04",
+          "skill": "dynamic/jump",
+          "distance": 2.8284271247461903
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    }
+  },
+  {
+    "context_id": "new-requested_hop-08",
+    "summary": {
+      "skill": "jump",
+      "seed": 20261037,
+      "success": true,
+      "reason": "completed",
+      "elapsed": 6.803999999999473,
+      "displacement": [
+        0.08138951266443373,
+        0.16619118741903466
+      ],
+      "distance": 0.1850507053418136,
+      "airtime": 0.17600000000000013,
+      "longest_airtime": 0.17600000000000013,
+      "all_feet_airborne": true,
+      "max_height": 0.4054759286958901,
+      "stable_landing": true,
+      "max_torque": 28.0,
+      "max_torque_limit_ratio": 1.0,
+      "collision": false,
+      "fall": false,
+      "min_clearance": 5.367120296139169,
+      "decision_observation": {
+        "time": 2.0000000000000013,
+        "position": [
+          0.1305374690186874,
+          -0.0512079005128906
+        ],
+        "speed": 0.0005612491090332404,
+        "yaw": 1.1000430064430502,
+        "height": 0.26434914534396253,
+        "upright": 0.9999796287168117,
+        "obstacles": []
+      },
+      "eligibility": {
+        "wait": true,
+        "run": true,
+        "jump": true
+      },
+      "physics_dt": 0.002,
+      "control_dt": 0.01,
+      "duration": 4.0,
+      "run_speed": 0.5,
+      "jump_profile": "smooth_forward",
+      "jump_configuration": {
+        "preparation": 0.55,
+        "thrust": 0.22,
+        "flight": 0.16,
+        "absorption": 0.2,
+        "recovery": 0.6,
+        "crouch_thigh": 1.1,
+        "crouch_calf": -2.2,
+        "extension_calf": -1.2,
+        "forward_lean": 0.4,
+        "flight_calf": -1.55,
+        "flight_lean": -0.1,
+        "absorption_thigh": 1.03,
+        "absorption_calf": -2.06,
+        "torque_limit": 28.0,
+        "landing_kp": 35.0,
+        "landing_kd": 1.5,
+        "forward_clearance": 0.5
+      },
+      "actuator_limit": 28.0
+    },
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.176,
+      "body_forward_progress": 0.18502889901779068,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "new-requested_hop-04",
+          "skill": "dynamic/jump",
+          "distance": 1.0
+        },
+        {
+          "context_id": "new-requested_hop-03",
+          "skill": "dynamic/jump",
+          "distance": 1.7320508075688772
+        },
+        {
+          "context_id": "new-requested_hop-02",
+          "skill": "dynamic/jump",
+          "distance": 3.0
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    }
+  },
+  {
+    "context_id": "fresh-new-requested_hop-07",
+    "summary": {
+      "skill": "jump",
+      "seed": 20261040,
+      "success": true,
+      "reason": "completed",
+      "elapsed": 6.803999999999473,
+      "displacement": [
+        0.08538405146323622,
+        -0.1735595588897291
+      ],
+      "distance": 0.1934253259691551,
+      "airtime": 0.16800000000000012,
+      "longest_airtime": 0.16800000000000012,
+      "all_feet_airborne": true,
+      "max_height": 0.4052525810886903,
+      "stable_landing": true,
+      "max_torque": 28.0,
+      "max_torque_limit_ratio": 1.0,
+      "collision": false,
+      "fall": false,
+      "min_clearance": 5.451557386637947,
+      "decision_observation": {
+        "time": 2.0000000000000013,
+        "position": [
+          -0.04622870410742414,
+          0.04680095649686653
+        ],
+        "speed": 0.0005591373799664332,
+        "yaw": -1.09995233688999,
+        "height": 0.2639660904943351,
+        "upright": 0.999979496495154,
+        "obstacles": []
+      },
+      "eligibility": {
+        "wait": true,
+        "run": true,
+        "jump": true
+      },
+      "physics_dt": 0.002,
+      "control_dt": 0.01,
+      "duration": 4.0,
+      "run_speed": 0.5,
+      "jump_profile": "smooth_forward",
+      "jump_configuration": {
+        "preparation": 0.55,
+        "thrust": 0.22,
+        "flight": 0.16,
+        "absorption": 0.2,
+        "recovery": 0.6,
+        "crouch_thigh": 1.1,
+        "crouch_calf": -2.2,
+        "extension_calf": -1.2,
+        "forward_lean": 0.4,
+        "flight_calf": -1.55,
+        "flight_lean": -0.1,
+        "absorption_thigh": 1.03,
+        "absorption_calf": -2.06,
+        "torque_limit": 28.0,
+        "landing_kp": 35.0,
+        "landing_kd": 1.5,
+        "forward_clearance": 0.5
+      },
+      "actuator_limit": 28.0
+    },
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.168,
+      "body_forward_progress": 0.19340730524326608,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "new-requested_hop-02",
+          "skill": "dynamic/jump",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "new-requested_hop-03",
+          "skill": "dynamic/jump",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "new-requested_hop-04",
+          "skill": "dynamic/jump",
+          "distance": 2.8284271247461903
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    }
+  },
+  {
+    "context_id": "fresh-new-requested_hop-08",
+    "summary": {
+      "skill": "jump",
+      "seed": 20261041,
+      "success": true,
+      "reason": "completed",
+      "elapsed": 6.803999999999473,
+      "displacement": [
+        0.07574092147430982,
+        0.15719992802572672
+      ],
+      "distance": 0.17449499865919144,
+      "airtime": 0.18200000000000013,
+      "longest_airtime": 0.18200000000000013,
+      "all_feet_airborne": true,
+      "max_height": 0.4055880161220248,
+      "stable_landing": true,
+      "max_torque": 28.0,
+      "max_torque_limit_ratio": 1.0,
+      "collision": false,
+      "fall": false,
+      "min_clearance": 5.4241283111842735,
+      "decision_observation": {
+        "time": 2.0000000000000013,
+        "position": [
+          -0.13544990978658245,
+          -0.15319803714336283
+        ],
+        "speed": 0.0005639567784806188,
+        "yaw": 1.10027616450355,
+        "height": 0.2647435401222365,
+        "upright": 0.9999797629696809,
+        "obstacles": []
+      },
+      "eligibility": {
+        "wait": true,
+        "run": true,
+        "jump": true
+      },
+      "physics_dt": 0.002,
+      "control_dt": 0.01,
+      "duration": 4.0,
+      "run_speed": 0.5,
+      "jump_profile": "smooth_forward",
+      "jump_configuration": {
+        "preparation": 0.55,
+        "thrust": 0.22,
+        "flight": 0.16,
+        "absorption": 0.2,
+        "recovery": 0.6,
+        "crouch_thigh": 1.1,
+        "crouch_calf": -2.2,
+        "extension_calf": -1.2,
+        "forward_lean": 0.4,
+        "flight_calf": -1.55,
+        "flight_lean": -0.1,
+        "absorption_thigh": 1.03,
+        "absorption_calf": -2.06,
+        "torque_limit": 28.0,
+        "landing_kp": 35.0,
+        "landing_kd": 1.5,
+        "forward_clearance": 0.5
+      },
+      "actuator_limit": 28.0
+    },
+    "outcome": {
+      "task": "in_place_jump",
+      "task_fulfilled": true,
+      "utility": 10.182,
+      "body_forward_progress": 0.1744545650623451,
+      "primitive_completed": true
+    },
+    "proposal": {
+      "proposed_skill": "dynamic/jump",
+      "reason": "neighbor agreement",
+      "neighbors": [
+        {
+          "context_id": "new-requested_hop-03",
+          "skill": "dynamic/jump",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "new-requested_hop-04",
+          "skill": "dynamic/jump",
+          "distance": 1.4142135623730951
+        },
+        {
+          "context_id": "new-requested_hop-02",
+          "skill": "dynamic/jump",
+          "distance": 2.449489742783178
+        }
+      ]
+    },
+    "supervision": {
+      "executed_skill": "dynamic/jump",
+      "fallback": false,
+      "reason": "neighbor agreement"
+    }
+  }
+]

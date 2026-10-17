@@ -1,0 +1,41 @@
+{
+  "episode": "demo-run_jump_run-11300",
+  "model_checksum": "b813cad6917dcca2e1511370fcf6406bdfdc1369d928864d52e6f47f31a29660",
+  "steps": 9351,
+  "physics_dt": 0.002,
+  "maximum_absolute_qpos_error": 0.0,
+  "maximum_absolute_qvel_error": 0.0,
+  "method": "Initial placement once; replay recorded motor commands and obstacle mocap only; no PID, SNN, state correction or external force",
+  "supported_handoffs": [
+    {
+      "time": 2.509999999999945,
+      "previous": "wait",
+      "next": "run",
+      "loaded_feet": 4,
+      "total_normal_force": 149.1752053569004
+    },
+    {
+      "time": 6.879999999999464,
+      "previous": "run",
+      "next": "jump",
+      "loaded_feet": 4,
+      "total_normal_force": 149.11314311533323
+    },
+    {
+      "time": 9.449999999999825,
+      "previous": "jump",
+      "next": "run",
+      "loaded_feet": 4,
+      "total_normal_force": 149.16365737944983
+    },
+    {
+      "time": 16.18000000000191,
+      "previous": "run",
+      "next": "wait",
+      "loaded_feet": 4,
+      "total_normal_force": 149.12612618069215
+    }
+  ],
+  "expected_handoffs": 4,
+  "all_handoffs_four_loaded_feet": true
+}

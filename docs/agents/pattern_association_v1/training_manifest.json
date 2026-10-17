@@ -1,0 +1,41 @@
+{
+  "protocol": "docs/agents/pattern_association_protocol.md",
+  "encoder_checksum": "b72b9750bffd70ee37bd0aaedb5064b58157d8f5a13f58b5cd356ca281fa70ec",
+  "association_checksum": "af09caff72026bfca7e8ff7b5a20e7011954c9e12cd5e56033b7ca07e3aeed00",
+  "train_contexts": 40,
+  "validation_contexts": 10,
+  "held_out_contexts": 50,
+  "attempts": 150,
+  "failed_or_rejected_attempts": 36,
+  "contacts": 0,
+  "falls": 0,
+  "max_torque": 24.0,
+  "training_associations": 40,
+  "labels": {
+    "dynamic/run": 6,
+    "dynamic/jump": 20,
+    "dynamic/wait": 14
+  },
+  "validation_agreement": 8,
+  "validation_labeled": 10,
+  "validation_proposals": 5,
+  "source_sha256": {
+    "skills/dynamic.py": "5260e9581e5663965363e44850e176b529611af401590932daa82f2b462a20a5",
+    "controllers/walking.py": "93d26f513a2671d002013da8c673d2d84fa207f78b53e6c56bc46d184e495d01",
+    "controllers/navigation.py": "70a6875ac2e79efd86999099310af330b7248dc3bce2ea9ad8c6708f023ef7f6",
+    "experiments/spike_pattern_skills/associations.py": "e70a48da46aa5e0eaa22b8706d83de329e5f5217a67de5965997fb018286e596",
+    "experiments/spike_pattern_skills/learn_associations.py": "2f99b7499c415a0157cb45758868d692150fa7da4a6285e097ebfdcd552fd024",
+    "experiments/spike_pattern_skills/encoder.py": "7a39193c50e1d10c1e316352e5568fd225c646ad9203e9abc3f32224fa556155",
+    "experiments/spike_pattern_skills/observations.py": "ba93b88f41dd27ce250f6b83c046b596de1469122551e7581a56ffd37cd40f45",
+    "experiments/spike_pattern_skills/situations.py": "077ee6872f67562ad9df95cd18d0746514143f79f6399fa3ec4431e2a05843b8"
+  },
+  "files_sha256": {
+    "encoder.npz": "056425ea77a044bc541a10d3e392e6215a46cf5cebf3c240566df1b926b950b6",
+    "association.json": "01859379342ca03a9024b685b927d95ac16a6b8c94da1971ea496571920697b5",
+    "attempts.jsonl": "1c91fa2c2e216fc48c205225f5905f491fd5402df5f132652f8c4ea336c60f25",
+    "labels.jsonl": "5935e9b475a47663b462e24c59c13ac37bb31829ee89f834b8560a5e0e0e402c",
+    "validation.json": "e46e599763d1e1afc888af7d7bd2b44934f5c551686edbc4ed36f3e93c3b93d2",
+    "collection_errors.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  },
+  "note": "Encoder frozen; decoder parameters fixed before collection; validation does not update associations."
+}

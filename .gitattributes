@@ -1,0 +1,2 @@
+# Preserve pinned upstream bytes used by pretrained-policy checksums.
+skills/policies/rl_sar/** -text

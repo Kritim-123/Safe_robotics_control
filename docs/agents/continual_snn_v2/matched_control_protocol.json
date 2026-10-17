@@ -1,0 +1,16 @@
+{
+  "status": "Additional matched model-family control; same frozen V2 cases, not additional independent scenes",
+  "reason": "Isolate association-data expansion from readout-versus-prototype and neuron-count changes",
+  "encoder_checksum": "b81c6c03ecde4aaba08a57ab14b86bea9cf53340b115e46bacad3622c3f67295",
+  "neighbors": 1,
+  "max_distance": 12.0,
+  "old_model_checksum": "d9f08a44d7d8f9e2c77380c0d1f8caa58835a1836f7205df399367aa4f22745b",
+  "new_model_checksum": "b813cad6917dcca2e1511370fcf6406bdfdc1369d928864d52e6f47f31a29660",
+  "old_training_rows": 19380,
+  "new_training_rows": 23978,
+  "old_patterns": 7159,
+  "new_patterns": 10446,
+  "old_checkpoint_sha256": "3e970a1ab27bc344ead52a52dff6183d17f0d101cddb37b54b1cd0c45f778cb0",
+  "source_sha256": "0c761880ce271926fe170dbf8d98773de9e0afcd624aa72bac2f50f535049896",
+  "source_recorded_before_control_outcomes": true
+}

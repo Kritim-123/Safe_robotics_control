@@ -1,0 +1,194 @@
+{
+  "name": "terrain-04-uneven_blocks-02",
+  "start": [
+    0.0,
+    0.0
+  ],
+  "goal": [
+    1.7,
+    0
+  ],
+  "obstacles": [],
+  "bounds": [
+    -1.5,
+    6.0,
+    -2.4,
+    2.4
+  ],
+  "start_yaw": 0.0,
+  "timeout": 18.0,
+  "friction": 0.8,
+  "push_time": -1.0,
+  "push_force": [
+    0.0,
+    0.0
+  ],
+  "push_duration": 0.2,
+  "position_noise": 0.0,
+  "velocity_noise": 0.0,
+  "sensor_delay": 0.0,
+  "sensor_filter_tau": 0.0,
+  "sensing_seed": 0,
+  "terrain": [
+    {
+      "name": "block_0_right",
+      "center": [
+        0.4924262834054724,
+        -0.3
+      ],
+      "half_extents": [
+        0.088,
+        0.3
+      ],
+      "height": 0.017955908769960314,
+      "kind": "box",
+      "yaw": 0.0,
+      "base_height": 0.0,
+      "friction": 0.8
+    },
+    {
+      "name": "block_0_left",
+      "center": [
+        0.4924262834054724,
+        0.3
+      ],
+      "half_extents": [
+        0.088,
+        0.3
+      ],
+      "height": 0.006435518226121297,
+      "kind": "box",
+      "yaw": 0.0,
+      "base_height": 0.0,
+      "friction": 0.8
+    },
+    {
+      "name": "block_1_right",
+      "center": [
+        0.6724262834054723,
+        -0.3
+      ],
+      "half_extents": [
+        0.088,
+        0.3
+      ],
+      "height": 0.009634595427483182,
+      "kind": "box",
+      "yaw": 0.0,
+      "base_height": 0.0,
+      "friction": 0.8
+    },
+    {
+      "name": "block_1_left",
+      "center": [
+        0.6724262834054723,
+        0.3
+      ],
+      "half_extents": [
+        0.088,
+        0.3
+      ],
+      "height": 0.0056984241119565505,
+      "kind": "box",
+      "yaw": 0.0,
+      "base_height": 0.0,
+      "friction": 0.8
+    },
+    {
+      "name": "block_2_right",
+      "center": [
+        0.8524262834054723,
+        -0.3
+      ],
+      "half_extents": [
+        0.088,
+        0.3
+      ],
+      "height": 0.010898161902851582,
+      "kind": "box",
+      "yaw": 0.0,
+      "base_height": 0.0,
+      "friction": 0.8
+    },
+    {
+      "name": "block_2_left",
+      "center": [
+        0.8524262834054723,
+        0.3
+      ],
+      "half_extents": [
+        0.088,
+        0.3
+      ],
+      "height": 0.01818299724786016,
+      "kind": "box",
+      "yaw": 0.0,
+      "base_height": 0.0,
+      "friction": 0.8
+    },
+    {
+      "name": "block_3_right",
+      "center": [
+        1.0324262834054725,
+        -0.3
+      ],
+      "half_extents": [
+        0.088,
+        0.3
+      ],
+      "height": 0.014704108813955386,
+      "kind": "box",
+      "yaw": 0.0,
+      "base_height": 0.0,
+      "friction": 0.8
+    },
+    {
+      "name": "block_3_left",
+      "center": [
+        1.0324262834054725,
+        0.3
+      ],
+      "half_extents": [
+        0.088,
+        0.3
+      ],
+      "height": 0.014876220628013803,
+      "kind": "box",
+      "yaw": 0.0,
+      "base_height": 0.0,
+      "friction": 0.8
+    },
+    {
+      "name": "block_4_right",
+      "center": [
+        1.2124262834054724,
+        -0.3
+      ],
+      "half_extents": [
+        0.088,
+        0.3
+      ],
+      "height": 0.014291662277095243,
+      "kind": "box",
+      "yaw": 0.0,
+      "base_height": 0.0,
+      "friction": 0.8
+    },
+    {
+      "name": "block_4_left",
+      "center": [
+        1.2124262834054724,
+        0.3
+      ],
+      "half_extents": [
+        0.088,
+        0.3
+      ],
+      "height": 0.013407476815201949,
+      "kind": "box",
+      "yaw": 0.0,
+      "base_height": 0.0,
+      "friction": 0.8
+    }
+  ]
+}

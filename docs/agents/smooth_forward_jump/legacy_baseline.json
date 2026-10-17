@@ -1,0 +1,96 @@
+{
+  "profile": "legacy",
+  "config": null,
+  "scenario": {
+    "name": "jump_tuning_flat",
+    "start": [
+      0.0,
+      0.0
+    ],
+    "goal": [
+      3.0,
+      0.0
+    ],
+    "obstacles": [],
+    "bounds": [
+      -3.0,
+      6.0,
+      -3.0,
+      3.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  "summary": {
+    "skill": "jump",
+    "seed": 0,
+    "success": true,
+    "reason": "completed",
+    "elapsed": 6.803999999999473,
+    "displacement": [
+      -0.06780632825097353,
+      1.8370940547918786e-05
+    ],
+    "distance": 0.06780633073961626,
+    "airtime": 0.1240000000000001,
+    "longest_airtime": 0.1240000000000001,
+    "all_feet_airborne": true,
+    "max_height": 0.34280870926412027,
+    "stable_landing": true,
+    "max_torque": 24.0,
+    "max_torque_limit_ratio": 1.0,
+    "collision": false,
+    "fall": false,
+    "min_clearance": 2.387840978007742,
+    "decision_observation": {
+      "time": 2.0000000000000013,
+      "position": [
+        -0.013864251201755272,
+        8.669859778763285e-09
+      ],
+      "speed": 0.0005648727540125489,
+      "yaw": 1.4088814977795383e-07,
+      "height": 0.26463491581131693,
+      "upright": 0.9999797335292003,
+      "obstacles": []
+    },
+    "eligibility": {
+      "wait": true,
+      "run": true,
+      "jump": true
+    },
+    "physics_dt": 0.002,
+    "control_dt": 0.01,
+    "duration": 4.0,
+    "run_speed": 0.5,
+    "jump_profile": "legacy",
+    "actuator_limit": 24.0
+  },
+  "metrics": {
+    "forward_progress": -0.06780632824838462,
+    "flight_forward_progress": -0.049026739077393036,
+    "measured_flight": 0.12399999999998634,
+    "landing_vertical_velocity": -0.3982372584222307,
+    "peak_landing_normal_force": 205.14887828217763,
+    "peak_base_acceleration": 42.836573473614685,
+    "max_tilt_deg": 19.697082611689638,
+    "torque_step_rms": 1.3036155465977755,
+    "max_torque_step": 39.33664541750425,
+    "max_command_step": 1.2995264000000004,
+    "max_desired_velocity": 129.95264000000003,
+    "max_command_velocity_step": 130.09216000000004,
+    "qualifies": false
+  }
+}

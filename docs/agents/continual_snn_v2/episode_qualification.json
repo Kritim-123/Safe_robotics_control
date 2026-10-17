@@ -1,0 +1,246 @@
+{
+  "train": [
+    {
+      "case": "coverage_train-multiple_obstacles-11000",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "4e207027e61739de4b45da1316165298aca424f4d3517a1701a1deb240f25586"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11001",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "0083a005eb567b0a3ddb1bfd54d139d261c86eabc393dc7fb4e3b552f52386ee"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11002",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "a1b11793e59d37979dbeaf827d552d7ff0a68f2bee21bf89cc0746d19c61b843"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11003",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "dfbd89640c5bcdf70e5eb173d73b766e7b7ea90965fb81dd6ac35e0aabf2c121"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11004",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "f111e63470524f0b18bb5fa8d30d5453d3b45444cfb8683a08f8cd6f8f0429f3"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11005",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "26481571d01409254993f4f1463b184d96d7528a9aab88a86e234f3b1bbc8940"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11006",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "8271c2aa3affa4bfadf58f7c300502d32caae87dac7c977ec46b7b7b949c655e"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11007",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "d946391bec17d0b882768cea5824063f33a05a69b0190dc91fd396b3efc2dfcb"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11008",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "5e5ebfb74c1b82084d8b731daee49e4495b59447dc08b0777a512a4e425ad6d1"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11009",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "eb48eb35251c9c0671efe583b8de53434b5033c23b075dbb3cc658628f0abfda"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11010",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "89d0acfca11dcb7c8f4013a4302e315b31f64980859eb2b4398de5b9fbe1a31b"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11011",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "22b016751a420a3846a9e4fe723c9f1d3acb8678d675448c483607603409545a"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11012",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "5e395211798d013e6e3b979bd8e05a4bbd43a238daa155d7a84d59eb5773456f"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11013",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "705dd33ec443c967ef5eb10af6e5c6f4e71f6f88a7458e8a5ecfd550286d6ccc"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11014",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "89eac45ec3b1786eeef069adbc51ea5cd7ca9de865c464db5e7b7d37b84c241d"
+    },
+    {
+      "case": "coverage_train-multiple_obstacles-11015",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "53b14f436e9ddf99e4daf555f50f75bae3b1b0a191a50027ef7b9f7e702f5ea4"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11000",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "fe83ee6284ba26e391241b44ab4c4b2f93eea51dcaee29d7062a8588ea2537bb"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11001",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "43761941a78f603707fd951368155c4afe51e7406c4a206e3b14ef1a635171f7"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11002",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "3e3ff37b387ea5e4b5a76a18e7bbb680162378041046572543cc9b2ea2db8d8b"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11003",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "d42affbf02f6af89cbc2e3178b6343a564e006b011395c26989d7d4a3832de8c"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11004",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "9fd27007ca6d0923d53738203318f42e672b736384f77773ac607a19cabc4c33"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11005",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "b7d49b12a68357d25997abe34dda9562fb012e505089fc28d6395f8570e0406a"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11006",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "e3373baab2f80b90159080f29b6b5cc0e9df160066f7ff3a9a42aef249ce072f"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11007",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "42783851fb866a3a513feafc714535d7ff3e41fd6379b84e0d7bee0a9a3bbfe7"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11008",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "6b370f08e97b7681ce1a52cca663ed4aa3eafb8cb232e886f2a3f8ec99488fe3"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11009",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "4674fee8180b05b4817396dafbfee72782361777f0be370ba76277ce02e8eb60"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11010",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "58314d0155178a5b62d6adab935493b5a56c9494b9713006cf9b83f1143d88b5"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11011",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "83bf4bd755c7431035fe4926f8427fd28a8e949ae3ecfdfa717c4892a22077ad"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11012",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "e9242364730394c9477fcb34fed3c38d563c4271d5b5b31e648d4b5b4d7df230"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11013",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "674eb94411ba8c0e2fa6fdabe9e921fdfa0c208e1abfbd6c69207d563c445782"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11014",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "f840a765b175c2aa18c15b600292e5697799e37666ce02ae980713dae553f02f"
+    },
+    {
+      "case": "coverage_train-oscillating_gate-11015",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "867e91588170c48fabe49e1f0cd4ee46b40a2a6487c99e0c940dc1b1e2efb9c4"
+    }
+  ],
+  "validation": [
+    {
+      "case": "coverage_validation-multiple_obstacles-11100",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "ff8080de9b574e9a60a48e137e42e274bf21aee24cc49f1a958bd4b27cd55bc5"
+    },
+    {
+      "case": "coverage_validation-multiple_obstacles-11101",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "29cbd6630a74baf32377f61b17b83b2505df1da24ef6e9b53f54ac774a7e0284"
+    },
+    {
+      "case": "coverage_validation-multiple_obstacles-11102",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "7234c4b9fe4ae17bd89c2eb59d72b4d1360bdb29e01a67e3cd47e09296814bb9"
+    },
+    {
+      "case": "coverage_validation-multiple_obstacles-11103",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "e36572c3da3af3cdf5bdc5081b1ce4dad7633730e5510435d8a22628ecbe6174"
+    },
+    {
+      "case": "coverage_validation-oscillating_gate-11100",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "1510298c96da285b32d657680e05ba55fd29d49a5cb2cacd57f241d22438ee9d"
+    },
+    {
+      "case": "coverage_validation-oscillating_gate-11101",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "2ef6317e261a35d8985964a94fbe0f7a939990fca68f4ae3d0930456bbabf992"
+    },
+    {
+      "case": "coverage_validation-oscillating_gate-11102",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "1a92bd625edddddf5dc934cff845605e1e1ecd5742bbacb0204b9776305ff866"
+    },
+    {
+      "case": "coverage_validation-oscillating_gate-11103",
+      "task_fulfilled": true,
+      "reason": "completed",
+      "summary_sha256": "ec0a42a1a00c3be4b13af6d8545fa0d6d5217810f7ada46af4e0bfde59cfbb79"
+    }
+  ]
+}

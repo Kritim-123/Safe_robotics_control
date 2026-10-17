@@ -1,0 +1,26 @@
+{
+  "development_candidates": 217,
+  "development_failures": 52,
+  "development_forward_qualified": 122,
+  "validation_traces_checked": 44,
+  "validation_seed": 20261025,
+  "configuration_matches_frozen_validation": true,
+  "metrics_recomputed_from_physics_traces": true,
+  "applied_torques_within_reported_bounds": true,
+  "source_sha256": {
+    "skills/jump_profile.py": "19260f0fbfb761e00fb3ff64202dff1e0abfc6682e0f7ce61addaf81b27c924c",
+    "skills/dynamic.py": "44a3e5ae4b78a7fe5a9780ce3e6ac8645d42e9a4a0336faf2245eab2bb2011d3",
+    "experiments/smooth_jump.py": "cc3bfe1e9c43c99d63166d054bf2ed8f50816f107d661b5700ed9ba38e7ba30e",
+    "experiments/spike_pattern_skills/execute_associations.py": "66c0a8f03ecff0d19bc94cd7625a2d3e1fcc42cc6f61af3fa6d8af427cad567d",
+    "experiments/spike_pattern_skills/run_learned.py": "83536ac1275f23bb7018e2f70ccaea07ba86a046cd7f77144711109927861bc3"
+  },
+  "files_sha256": {
+    "aggregate.json": "3743adb81845bf773bddda6a090c0a9ed9124f02dfdeef07f651b060ff9236bf",
+    "config.json": "103198c87e19348654887a38744917f0fc36e86b553b860e256f2c3cbc7cf3c0",
+    "development_candidates.jsonl": "65c10030c677e4da8cafc54dcf161107e5b0e41421287d60ea2d0d7f088b4462",
+    "learned_integration.json": "f5f819a4d1b11d97222afbd698917e8c2b78deecc750b8c763ed190a821b3f1a",
+    "legacy_baseline.json": "13d57b8bf330c27faff382d6ae7b4de86fc76bcbc8ebdecdea79f7404faf6100",
+    "paired_results.jsonl": "69342479fed67dbc7142f84e1ba1393aeb7abaeaf6cdaa213fd99f0cb17329f4",
+    "release_demo.json": "8c1d9513d224c3f156a0e8cc94a6f54a236bb3647c4b02fd9196e072fa53b67e"
+  }
+}
