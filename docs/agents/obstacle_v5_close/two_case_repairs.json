@@ -1,0 +1,32 @@
+[
+  {
+    "spacing": 1.8,
+    "old_landing_gap_m": -0.16574597196333013,
+    "new_conservative_gap_m": 0.40558712519106277,
+    "threshold_m": 0.15,
+    "result": "completed",
+    "jumps": 3,
+    "elapsed": 67.11400000002499,
+    "head_checksum": "a0780f10704a79c2b8ed6e871902e2caa9875224d1f09bab2e1c62e1240977d8",
+    "pre_first_jump_max_state_torque_difference": 0.0,
+    "old_proposal_at_new_launch": "low_bar_jump",
+    "new_proposal_at_launch": "low_bar_jump",
+    "old_veto_at_new_launch": "landing corridor blocked",
+    "changed_count_cells_at_launch": 21
+  },
+  {
+    "spacing": 2.0,
+    "old_landing_gap_m": 0.0342539843328758,
+    "new_conservative_gap_m": 0.6055871251910625,
+    "threshold_m": 0.15,
+    "result": "completed",
+    "jumps": 3,
+    "elapsed": 71.64600000001442,
+    "head_checksum": "a0780f10704a79c2b8ed6e871902e2caa9875224d1f09bab2e1c62e1240977d8",
+    "pre_first_jump_max_state_torque_difference": 0.0,
+    "old_proposal_at_new_launch": "low_bar_jump",
+    "new_proposal_at_launch": "low_bar_jump",
+    "old_veto_at_new_launch": "landing corridor blocked",
+    "changed_count_cells_at_launch": 21
+  }
+]

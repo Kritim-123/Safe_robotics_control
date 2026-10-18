@@ -1,5 +1,21 @@
 # Go2 MuJoCo Simulation
 
+The [V5 close-spacing repair](docs/agents/v5_close_validation.md) completes both
+previously refused 1.8 m and 2.0 m three-bar courses using the same frozen
+model and jump profile. Shape-aware landing clearance also passed 12/12 fresh
+close courses with 36 verified jumps and no contact/fall. Run
+`python -m experiments.obstacle_v5_close.run --viewer --viewer-speed .5`.
+The 0.15 m landing margin and physical collision checks remain enforced.
+
+The [V5 multi-obstacle extension](docs/agents/v5_multi_validation.md) performs
+repeated observed-count jumps and goal stopping in one persistent episode.
+It completed 9/9 held-out two-, three- and four-bar courses (27 jumps), plus
+the three-bar demo, without contacts/falls. Two closer-spacing courses were
+refused by the landing guard. Run
+`python -m experiments.obstacle_v5_multi.run --viewer --viewer-speed .65`.
+The viewer shows the skill and cleared-bar count. A separate association bank
+extends V5; its encoder, motor profile and original packages remain unchanged.
+
 The [V5 reliability refinement](docs/agents/v5_refinement_validation.md) fixes
 the four refusals and rear-thigh contact, and completes 40/40 fresh paired
 courses versus original V5's 31/40, with no refined contact/fall or lost

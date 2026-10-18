@@ -1,0 +1,4590 @@
+[
+  {
+    "case": "case-00",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.9138809579647308
+      },
+      {
+        "time": 7.199999999999429,
+        "event": "precision_approach",
+        "front": 0.549913238088653,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 13.740000000001258,
+        "event": "approach_braking",
+        "front": 0.2545236058377056,
+        "speed": 0.0999808682956993,
+        "stopping_range": 0.255,
+        "closing_speed": 0.0992365289607059
+      },
+      {
+        "time": 14.390000000001475,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25407202199163825,
+        "position": [
+          0.6459279780083618,
+          -0.0011665471212174029
+        ]
+      },
+      {
+        "time": 14.900000000001645,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 17.704000000001066,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07941637719463149,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 17.704000000001066,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 17.800000000001013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.3392700354834841
+      },
+      {
+        "time": 28.099999999995305,
+        "event": "precision_approach",
+        "front": 0.5474783148005978,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 34.44999999999614,
+        "event": "approach_braking",
+        "front": 0.25483191367206715,
+        "speed": 0.06981816892896933,
+        "stopping_range": 0.255,
+        "closing_speed": 0.0674380890281854
+      },
+      {
+        "time": 35.09999999999693,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25823121772207314,
+        "position": [
+          2.441768782277927,
+          0.0009573546079266646
+        ]
+      },
+      {
+        "time": 35.699999999997665,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 38.50000000000109,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07320394204033334,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 38.50000000000109,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 38.50000000000109,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.34470386280034
+      },
+      {
+        "time": 49.00000000001392,
+        "event": "precision_approach",
+        "front": 0.5403061431123675,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 55.34000000002167,
+        "event": "approach_braking",
+        "front": 0.2542436687393934,
+        "speed": 0.09355585587979565,
+        "stopping_range": 0.255,
+        "closing_speed": 0.0929315481226313
+      },
+      {
+        "time": 55.99000000002246,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2529040224033059,
+        "position": [
+          4.247095977596694,
+          0.0012887307903936024
+        ]
+      },
+      {
+        "time": 56.500000000023086,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 59.30000000002651,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07970520522922189,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 59.30000000002651,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 59.30000000002651,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 65.50000000002875,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 66.31200000002686,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-01",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.9138809579647308
+      },
+      {
+        "time": 7.199999999999429,
+        "event": "precision_approach",
+        "front": 0.549913238088653,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 13.740000000001258,
+        "event": "approach_braking",
+        "front": 0.2545236058377056,
+        "speed": 0.0999808682956993,
+        "stopping_range": 0.255,
+        "closing_speed": 0.0992365289607059
+      },
+      {
+        "time": 14.390000000001475,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25407202199163825,
+        "position": [
+          0.6459279780083618,
+          -0.0011665471212174029
+        ]
+      },
+      {
+        "time": 14.900000000001645,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 17.704000000001066,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07941637719463149,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 17.704000000001066,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 17.800000000001013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.5392686426575344
+      },
+      {
+        "time": 30.499999999993975,
+        "event": "precision_approach",
+        "front": 0.5460708200264546,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 36.79999999999901,
+        "event": "approach_braking",
+        "front": 0.25484216054485787,
+        "speed": 0.11857787087361274,
+        "stopping_range": 0.255,
+        "closing_speed": 0.11795664625056955
+      },
+      {
+        "time": 37.449999999999804,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.26067325088184656,
+        "position": [
+          2.6393267491181533,
+          0.0009486733993199476
+        ]
+      },
+      {
+        "time": 38.000000000000476,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 40.8000000000039,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.0721085669241616,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 40.8000000000039,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 40.8000000000039,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.546613267931108
+      },
+      {
+        "time": 53.700000000019664,
+        "event": "precision_approach",
+        "front": 0.5445725321351613,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 59.790000000027106,
+        "event": "approach_braking",
+        "front": 0.25446514951525856,
+        "speed": 0.07953415986001927,
+        "stopping_range": 0.255,
+        "closing_speed": 0.07785280868167754
+      },
+      {
+        "time": 60.4400000000279,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2591689787577618,
+        "position": [
+          4.640831021242239,
+          -0.0010824310851602979
+        ]
+      },
+      {
+        "time": 61.000000000028585,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 63.80000000003201,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07237287837883968,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 63.80000000003201,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 63.80000000003201,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 70.00000000001826,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 70.8440000000163,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-02",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.0183690443061235
+      },
+      {
+        "time": 8.499999999999508,
+        "event": "precision_approach",
+        "front": 0.5496675817534059,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 14.950000000001662,
+        "event": "approach_braking",
+        "front": 0.2549674805033526,
+        "speed": 0.10757996463503033,
+        "stopping_range": 0.255,
+        "closing_speed": 0.1067537208004433
+      },
+      {
+        "time": 15.600000000001879,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25580875614920484,
+        "position": [
+          0.7486838397836917,
+          0.0011764587374609359
+        ]
+      },
+      {
+        "time": 16.2000000000019,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 19.004000000000346,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.06084506412810966,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 19.004000000000346,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 19.100000000000293,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.563066306037732
+      },
+      {
+        "time": 32.099999999993265,
+        "event": "precision_approach",
+        "front": 0.5458370229329738,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 38.42000000000099,
+        "event": "approach_braking",
+        "front": 0.2543918684123381,
+        "speed": 0.08505891882669384,
+        "stopping_range": 0.255,
+        "closing_speed": 0.08450937965829186
+      },
+      {
+        "time": 39.070000000001784,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2519131991247363,
+        "position": [
+          2.7578319547078554,
+          0.0012743432496498568
+        ]
+      },
+      {
+        "time": 39.60000000000243,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 42.40000000000585,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.06424995759777033,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 42.40000000000585,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 42.40000000000585,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 48.70000000001355,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 49.54200000001458,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-03",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.8404046097591888
+      },
+      {
+        "time": 6.299999999999528,
+        "event": "precision_approach",
+        "front": 0.5404911835996322,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 12.600000000000877,
+        "event": "approach_braking",
+        "front": 0.25429033653918975,
+        "speed": 0.11199700688602617,
+        "stopping_range": 0.255,
+        "closing_speed": 0.11142488719263204
+      },
+      {
+        "time": 13.250000000001094,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2604656091820797,
+        "position": [
+          0.5660488441703799,
+          0.0006599487106871076
+        ]
+      },
+      {
+        "time": 13.800000000001278,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 16.602000000001677,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.16268069274670038,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 16.602000000001677,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 16.700000000001623,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.3245703634122399
+      },
+      {
+        "time": 26.799999999996025,
+        "event": "precision_approach",
+        "front": 0.5464275605261506,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 33.15999999999456,
+        "event": "approach_braking",
+        "front": 0.2549772867410516,
+        "speed": 0.0753630216471791,
+        "stopping_range": 0.255,
+        "closing_speed": 0.07472243340052173
+      },
+      {
+        "time": 33.809999999995355,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2513112429576152,
+        "position": [
+          2.4433558375589,
+          -0.001309384163457259
+        ]
+      },
+      {
+        "time": 34.399999999996076,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 37.1999999999995,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.1701934079607913,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 37.1999999999995,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 37.1999999999995,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.3162519635849421
+      },
+      {
+        "time": 47.20000000001172,
+        "event": "precision_approach",
+        "front": 0.5428712609488624,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 53.47000000001938,
+        "event": "approach_braking",
+        "front": 0.2544455526156,
+        "speed": 0.07955246995425325,
+        "stopping_range": 0.255,
+        "closing_speed": 0.07779260847363757
+      },
+      {
+        "time": 54.12000000002018,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2594388202643483,
+        "position": [
+          4.303380887416222,
+          -0.0010273920705933114
+        ]
+      },
+      {
+        "time": 54.700000000020886,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 57.50000000002431,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.16131954092145062,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 57.50000000002431,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 57.50000000002431,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 63.200000000031274,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 64.01200000003222,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-04",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.9803060671866545
+      },
+      {
+        "time": 7.999999999999341,
+        "event": "precision_approach",
+        "front": 0.5496760061063081,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 14.540000000001525,
+        "event": "approach_braking",
+        "front": 0.25482671248376365,
+        "speed": 0.09970072876550301,
+        "stopping_range": 0.255,
+        "closing_speed": 0.09890828277970214
+      },
+      {
+        "time": 15.190000000001742,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2543928992739096,
+        "position": [
+          0.7120342222673723,
+          -0.001180333740820565
+        ]
+      },
+      {
+        "time": 15.700000000001912,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 18.504000000000623,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07334528654198416,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 18.504000000000623,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 18.60000000000057,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.3375146145065087
+      },
+      {
+        "time": 28.89999999999486,
+        "event": "precision_approach",
+        "front": 0.5459318650569052,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 35.26999999999714,
+        "event": "approach_braking",
+        "front": 0.25480952533861334,
+        "speed": 0.05476003703963692,
+        "stopping_range": 0.255,
+        "closing_speed": 0.04993012074983941
+      },
+      {
+        "time": 35.919999999997934,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25560254423286155,
+        "position": [
+          2.5029846991038043,
+          0.0008476211146180841
+        ]
+      },
+      {
+        "time": 36.49999999999864,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 39.300000000002065,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07075669401845378,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 39.300000000002065,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 39.300000000002065,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.339253407032044
+      },
+      {
+        "time": 49.700000000014775,
+        "event": "precision_approach",
+        "front": 0.5481488396128182,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 56.090000000022584,
+        "event": "approach_braking",
+        "front": 0.25491820665684806,
+        "speed": 0.06785163902712645,
+        "stopping_range": 0.255,
+        "closing_speed": 0.06757902160728595
+      },
+      {
+        "time": 56.74000000002338,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2503426702749625,
+        "position": [
+          4.300404694857087,
+          0.0012658730824636447
+        ]
+      },
+      {
+        "time": 57.30000000002406,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 60.100000000027485,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07681317639015908,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 60.100000000027485,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 60.100000000027485,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.3337596816946313
+      },
+      {
+        "time": 70.40000000001733,
+        "event": "precision_approach",
+        "front": 0.5441865407117721,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 76.75000000000253,
+        "event": "approach_braking",
+        "front": 0.25496917081746684,
+        "speed": 0.11016159651216753,
+        "stopping_range": 0.255,
+        "closing_speed": 0.10953530775819686
+      },
+      {
+        "time": 77.40200000000101,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.26119160328383817,
+        "position": [
+          6.081715883643596,
+          -0.0005638024887095819
+        ]
+      },
+      {
+        "time": 77.99999999999962,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_4"
+      },
+      {
+        "time": 80.80399999999308,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.06609117775766485,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 80.80399999999308,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 4
+      },
+      {
+        "time": 80.89999999999286,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 87.09999999997841,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 87.93799999997646,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-05",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.0089433810337245
+      },
+      {
+        "time": 8.199999999999408,
+        "event": "precision_approach",
+        "front": 0.5494915263204757,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 14.590000000001542,
+        "event": "approach_braking",
+        "front": 0.2545987929229834,
+        "speed": 0.11975944872706855,
+        "stopping_range": 0.255,
+        "closing_speed": 0.11919379582781167
+      },
+      {
+        "time": 15.240000000001759,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2602917267677468,
+        "position": [
+          0.7347649411471612,
+          -0.0009911865747389498
+        ]
+      },
+      {
+        "time": 15.800000000001946,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 18.604000000000568,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.14395183946179324,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 18.604000000000568,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 18.700000000000514,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.4636438863781407
+      },
+      {
+        "time": 30.499999999993975,
+        "event": "precision_approach",
+        "front": 0.5411305731940722,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 36.80999999999902,
+        "event": "approach_braking",
+        "front": 0.2541585466548173,
+        "speed": 0.10958387077257399,
+        "stopping_range": 0.255,
+        "closing_speed": 0.10873525279388009
+      },
+      {
+        "time": 37.459999999999816,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25525318339006375,
+        "position": [
+          2.728363350567653,
+          0.0012954454915535547
+        ]
+      },
+      {
+        "time": 38.000000000000476,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 40.8000000000039,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.1483196056373265,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 40.8000000000039,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 40.8000000000039,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 46.600000000010986,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 47.41200000001198,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-06",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.8250866366098184
+      },
+      {
+        "time": 6.199999999999539,
+        "event": "precision_approach",
+        "front": 0.5395147256068837,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 12.560000000000864,
+        "event": "approach_braking",
+        "front": 0.25389238490161026,
+        "speed": 0.11651016198336199,
+        "stopping_range": 0.255,
+        "closing_speed": 0.11586976392813661
+      },
+      {
+        "time": 13.21000000000108,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25612108906493936,
+        "position": [
+          0.5550921547456998,
+          0.0012169956491872409
+        ]
+      },
+      {
+        "time": 13.800000000001278,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 16.602000000001677,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.05465670796992075,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 16.602000000001677,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 16.700000000001623,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.6529477957551102
+      },
+      {
+        "time": 30.899999999993753,
+        "event": "precision_approach",
+        "front": 0.5459239585619252,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 37.319999999999645,
+        "event": "approach_braking",
+        "front": 0.25428377653502965,
+        "speed": 0.07818362769635027,
+        "stopping_range": 0.255,
+        "closing_speed": 0.07629069389904827
+      },
+      {
+        "time": 37.97000000000044,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2586402562551089,
+        "position": [
+          2.641613844700995,
+          -0.0009648790343773826
+        ]
+      },
+      {
+        "time": 38.50000000000109,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 41.30000000000451,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.04961787422930821,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 41.30000000000451,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 41.30000000000451,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.6575714878749677
+      },
+      {
+        "time": 55.600000000021986,
+        "event": "precision_approach",
+        "front": 0.5454923225088095,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 62.130000000029966,
+        "event": "approach_braking",
+        "front": 0.25435320668618466,
+        "speed": 0.07364174629467385,
+        "stopping_range": 0.255,
+        "closing_speed": 0.0729608176833534
+      },
+      {
+        "time": 62.78000000003076,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2507872688057162,
+        "position": [
+          4.738507689295853,
+          -0.0012738012253046026
+        ]
+      },
+      {
+        "time": 63.300000000031396,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 66.10400000002734,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.05843207214492998,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 66.10400000002734,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 66.20000000002712,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 72.50000000001243,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 73.33800000001048,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-07",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.817523411930356
+      },
+      {
+        "time": 5.899999999999572,
+        "event": "precision_approach",
+        "front": 0.5499183321830049,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 12.320000000000784,
+        "event": "approach_braking",
+        "front": 0.2549955997991378,
+        "speed": 0.03618244850252229,
+        "stopping_range": 0.255,
+        "closing_speed": 0.026482096519465266
+      },
+      {
+        "time": 12.970000000001,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.24542362539021279,
+        "position": [
+          0.5582126022175998,
+          -0.001440969880840658
+        ]
+      },
+      {
+        "time": 13.500000000001178,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 16.302000000001843,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.15999453185043477,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 16.302000000001843,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 16.40000000000179,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.2843913616820346
+      },
+      {
+        "time": 25.99999999999647,
+        "event": "precision_approach",
+        "front": 0.5477105119228404,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 32.369999999993595,
+        "event": "approach_braking",
+        "front": 0.254241597129234,
+        "speed": 0.10182093363488398,
+        "stopping_range": 0.255,
+        "closing_speed": 0.10103559392521327
+      },
+      {
+        "time": 33.01999999999439,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2540895447093865,
+        "position": [
+          2.3758038756760813,
+          -0.0013873360149267659
+        ]
+      },
+      {
+        "time": 33.5999999999951,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 36.39999999999852,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.15024260171207937,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 36.39999999999852,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 36.39999999999852,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.294369584362432
+      },
+      {
+        "time": 46.2000000000105,
+        "event": "precision_approach",
+        "front": 0.5430461714305006,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 52.540000000018246,
+        "event": "approach_braking",
+        "front": 0.2546933947170791,
+        "speed": 0.09288423903415308,
+        "stopping_range": 0.255,
+        "closing_speed": 0.09214590316340994
+      },
+      {
+        "time": 53.19000000001904,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25328418718439405,
+        "position": [
+          4.202866425978729,
+          -0.0012792960618058398
+        ]
+      },
+      {
+        "time": 53.700000000019664,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 56.500000000023086,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.1510784051160129,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 56.500000000023086,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 56.500000000023086,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.2936283439386864
+      },
+      {
+        "time": 66.30000000002688,
+        "event": "precision_approach",
+        "front": 0.5434083920932945,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 72.64000000001211,
+        "event": "approach_braking",
+        "front": 0.2547786318337586,
+        "speed": 0.0842696592371212,
+        "stopping_range": 0.255,
+        "closing_speed": 0.08361269626506275
+      },
+      {
+        "time": 73.29200000001059,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25225131537562717,
+        "position": [
+          6.03015649056515,
+          -0.001262120798401928
+        ]
+      },
+      {
+        "time": 73.8000000000094,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_4"
+      },
+      {
+        "time": 76.60400000000287,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.15212437760531394,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 76.60400000000287,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 4
+      },
+      {
+        "time": 76.70000000000265,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 82.49999999998913,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 83.31199999998724,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-08",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.8788361426127524
+      },
+      {
+        "time": 6.699999999999484,
+        "event": "precision_approach",
+        "front": 0.5439938980325951,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 13.040000000001024,
+        "event": "approach_braking",
+        "front": 0.2547563226140631,
+        "speed": 0.07021792931172989,
+        "stopping_range": 0.255,
+        "closing_speed": 0.06809117649953962
+      },
+      {
+        "time": 13.690000000001241,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.258296176728558,
+        "position": [
+          0.6066522030429871,
+          -0.001169721701600418
+        ]
+      },
+      {
+        "time": 14.200000000001411,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 17.002000000001456,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.149015039076263,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 17.002000000001456,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 17.1000000000014,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.3549095591864582
+      },
+      {
+        "time": 27.599999999995582,
+        "event": "precision_approach",
+        "front": 0.5374483780776435,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 33.679999999995196,
+        "event": "approach_braking",
+        "front": 0.2549568527368762,
+        "speed": 0.05000128890663404,
+        "stopping_range": 0.255,
+        "closing_speed": 0.043127095967986306
+      },
+      {
+        "time": 34.32999999999599,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25453842040998964,
+        "position": [
+          2.4961804881739424,
+          0.0008240031905373102
+        ]
+      },
+      {
+        "time": 34.89999999999669,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 37.70000000000011,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.1521833248320249,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 37.70000000000011,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 37.70000000000011,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 43.400000000007076,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 44.21200000000807,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-09",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.1571292804516387
+      },
+      {
+        "time": 10.200000000000076,
+        "event": "precision_approach",
+        "front": 0.5405045129956852,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 16.570000000001695,
+        "event": "approach_braking",
+        "front": 0.25482707803395754,
+        "speed": 0.1189417048077614,
+        "stopping_range": 0.255,
+        "closing_speed": 0.11819569809620094
+      },
+      {
+        "time": 17.222000000001334,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25839069985608154,
+        "position": [
+          0.8848716889104161,
+          0.0011997476453337063
+        ]
+      },
+      {
+        "time": 17.800000000001013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 20.60399999999946,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.04652848938690126,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 20.60399999999946,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 20.699999999999406,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.3381152047007878
+      },
+      {
+        "time": 30.999999999993697,
+        "event": "precision_approach",
+        "front": 0.5470718683933226,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 37.59999999999999,
+        "event": "approach_braking",
+        "front": 0.2541493403090942,
+        "speed": 0.09065767250923315,
+        "stopping_range": 0.255,
+        "closing_speed": 0.08996745534418123
+      },
+      {
+        "time": 38.25000000000078,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2527930599479431,
+        "position": [
+          2.657416056427276,
+          0.0012117421123138711
+        ]
+      },
+      {
+        "time": 38.800000000001454,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 41.600000000004876,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.051909099731019336,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 41.600000000004876,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 41.600000000004876,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.3323545097908287
+      },
+      {
+        "time": 51.900000000017464,
+        "event": "precision_approach",
+        "front": 0.5404184428037953,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 58.27000000002525,
+        "event": "approach_braking",
+        "front": 0.2544014538113606,
+        "speed": 0.060034272933931605,
+        "stopping_range": 0.255,
+        "closing_speed": 0.0565563261396508
+      },
+      {
+        "time": 58.92000000002604,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2560448234515853,
+        "position": [
+          4.421111020532356,
+          -0.0007975468267231966
+        ]
+      },
+      {
+        "time": 59.50000000002675,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 62.300000000030174,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.04757932471962802,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 62.300000000030174,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 62.300000000030174,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 68.70000000002129,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 69.5120000000194,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-10",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.1567882435092118
+      },
+      {
+        "time": 10.200000000000076,
+        "event": "precision_approach",
+        "front": 0.5403311821472331,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 16.58000000000169,
+        "event": "approach_braking",
+        "front": 0.25409652566526275,
+        "speed": 0.12066758437000834,
+        "stopping_range": 0.255,
+        "closing_speed": 0.11999216044012632
+      },
+      {
+        "time": 17.232000000001328,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25881913987823435,
+        "position": [
+          0.8841017750734358,
+          0.0011667320912583303
+        ]
+      },
+      {
+        "time": 17.800000000001013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 20.60399999999946,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.04095290019925115,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 20.60399999999946,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 20.699999999999406,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.4558214275281836
+      },
+      {
+        "time": 32.499999999993754,
+        "event": "precision_approach",
+        "front": 0.5427443819371514,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 38.88000000000155,
+        "event": "approach_braking",
+        "front": 0.25465506644186897,
+        "speed": 0.08797705122654112,
+        "stopping_range": 0.255,
+        "closing_speed": 0.08676760528917656
+      },
+      {
+        "time": 39.530000000002346,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2601376951422085,
+        "position": [
+          2.760661489981714,
+          -0.0007172339867082281
+        ]
+      },
+      {
+        "time": 40.10000000000304,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 42.900000000006465,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.03880487206779839,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 42.900000000006465,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 42.900000000006465,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.4577171393400952
+      },
+      {
+        "time": 54.700000000020886,
+        "event": "precision_approach",
+        "front": 0.5445883672437795,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 61.11000000002872,
+        "event": "approach_braking",
+        "front": 0.25490894531655517,
+        "speed": 0.04478939274331639,
+        "stopping_range": 0.255,
+        "closing_speed": 0.036662062032578206
+      },
+      {
+        "time": 61.760000000029514,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25257245795324224,
+        "position": [
+          4.646104997342933,
+          0.0009824599881209674
+        ]
+      },
+      {
+        "time": 62.300000000030174,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 65.10200000002968,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.04631441761532087,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 65.10200000002968,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 65.20000000002945,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.4498734884682107
+      },
+      {
+        "time": 76.90000000000218,
+        "event": "precision_approach",
+        "front": 0.5459129052814697,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 83.29999999998726,
+        "event": "approach_braking",
+        "front": 0.2549775380776209,
+        "speed": 0.07773266092420283,
+        "stopping_range": 0.255,
+        "closing_speed": 0.07603053849262408
+      },
+      {
+        "time": 83.95199999998574,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2591684192766541,
+        "position": [
+          6.517387306191773,
+          -0.0009444326654309219
+        ]
+      },
+      {
+        "time": 84.49999999998447,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_4"
+      },
+      {
+        "time": 87.30399999997793,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.03927929277844391,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 87.30399999997793,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 4
+      },
+      {
+        "time": 87.39999999997771,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 93.89999999996256,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 94.71199999996067,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-11",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.0311867196281075
+      },
+      {
+        "time": 8.599999999999541,
+        "event": "precision_approach",
+        "front": 0.5385359925659013,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 14.920000000001652,
+        "event": "approach_braking",
+        "front": 0.2544998128675763,
+        "speed": 0.08488637701362141,
+        "stopping_range": 0.255,
+        "closing_speed": 0.08430167105729841
+      },
+      {
+        "time": 15.570000000001869,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25173317230489767,
+        "position": [
+          0.765566857288493,
+          0.001210947576909001
+        ]
+      },
+      {
+        "time": 16.100000000001955,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 18.9040000000004,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.15202745063819145,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 18.9040000000004,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 19.000000000000348,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.2608936281752248
+      },
+      {
+        "time": 28.39999999999514,
+        "event": "precision_approach",
+        "front": 0.5440491180076723,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 34.72999999999648,
+        "event": "approach_braking",
+        "front": 0.254861827951284,
+        "speed": 0.06728408158741249,
+        "stopping_range": 0.255,
+        "closing_speed": 0.0668857353504789
+      },
+      {
+        "time": 35.379999999997274,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2502594046397948,
+        "position": [
+          2.561259151587054,
+          -0.0013661396158366403
+        ]
+      },
+      {
+        "time": 35.89999999999791,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 38.70000000000133,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.15305267875249895,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 38.70000000000133,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 38.70000000000133,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 44.50000000000842,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 45.31200000000941,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-12",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.8683902527888641
+      },
+      {
+        "time": 6.599999999999495,
+        "event": "precision_approach",
+        "front": 0.5457037140583305,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 12.970000000001,
+        "event": "approach_braking",
+        "front": 0.2540893447123267,
+        "speed": 0.12308265965887825,
+        "stopping_range": 0.255,
+        "closing_speed": 0.12244206977688066
+      },
+      {
+        "time": 13.620000000001218,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25750592492246593,
+        "position": [
+          0.5969949293415785,
+          -0.0011971937425465618
+        ]
+      },
+      {
+        "time": 14.200000000001411,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 17.002000000001456,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.15956746198305993,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 17.002000000001456,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 17.1000000000014,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.2150511277276796
+      },
+      {
+        "time": 25.79999999999658,
+        "event": "precision_approach",
+        "front": 0.5457497026095812,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 32.10999999999328,
+        "event": "approach_braking",
+        "front": 0.25488567343641133,
+        "speed": 0.07999569250988224,
+        "stopping_range": 0.255,
+        "closing_speed": 0.07827297283503433
+      },
+      {
+        "time": 32.75999999999407,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2597321469428304,
+        "position": [
+          2.350791834118471,
+          0.0011606852846876815
+        ]
+      },
+      {
+        "time": 33.29999999999473,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 36.099999999998154,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.15513183133607555,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 36.099999999998154,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 36.099999999998154,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.2190319246824761
+      },
+      {
+        "time": 45.00000000000903,
+        "event": "precision_approach",
+        "front": 0.5395531766065158,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 51.140000000016535,
+        "event": "approach_braking",
+        "front": 0.2547647824689756,
+        "speed": 0.03928810070362905,
+        "stopping_range": 0.255,
+        "closing_speed": 0.029092118107352384
+      },
+      {
+        "time": 51.79000000001733,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.24513482366150097,
+        "position": [
+          4.121412284197056,
+          -0.0009598448183225887
+        ]
+      },
+      {
+        "time": 52.30000000001795,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 55.100000000021375,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.17060430215259725,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 55.100000000021375,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 55.100000000021375,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 60.70000000002822,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 61.51200000002921,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-13",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.132103241936192
+      },
+      {
+        "time": 9.799999999999942,
+        "event": "precision_approach",
+        "front": 0.5462884665732687,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 16.190000000001906,
+        "event": "approach_braking",
+        "front": 0.254024873258603,
+        "speed": 0.11845278929231272,
+        "stopping_range": 0.255,
+        "closing_speed": 0.11787464313862232
+      },
+      {
+        "time": 16.842000000001544,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25991412114247636,
+        "position": [
+          0.8583081480959412,
+          -0.0009496892246870817
+        ]
+      },
+      {
+        "time": 17.400000000001235,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 20.20399999999968,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07307208699312864,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 20.20399999999968,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 20.299999999999628,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.4775079226767471
+      },
+      {
+        "time": 32.39999999999363,
+        "event": "precision_approach",
+        "front": 0.5431766165216917,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 38.48000000000106,
+        "event": "approach_braking",
+        "front": 0.2548075928668645,
+        "speed": 0.07946434383502031,
+        "stopping_range": 0.255,
+        "closing_speed": 0.07780981678104246
+      },
+      {
+        "time": 39.13000000000186,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25951431885318454,
+        "position": [
+          2.7901635771885815,
+          0.0010901629324850705
+        ]
+      },
+      {
+        "time": 39.700000000002554,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 42.500000000005976,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07210716657239416,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 42.500000000005976,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 42.500000000005976,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.4775202457407082
+      },
+      {
+        "time": 54.60000000002076,
+        "event": "precision_approach",
+        "front": 0.5396426315712339,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 60.66000000002817,
+        "event": "approach_braking",
+        "front": 0.2546978741356707,
+        "speed": 0.06996075822631567,
+        "stopping_range": 0.255,
+        "closing_speed": 0.06753440575183624
+      },
+      {
+        "time": 61.310000000028964,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25807640396990106,
+        "position": [
+          4.7230571188752135,
+          -0.0008919076305815537
+        ]
+      },
+      {
+        "time": 61.900000000029685,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 64.70200000003061,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.0733584531131061,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 64.70200000003061,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 64.80000000003038,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.4764660556197888
+      },
+      {
+        "time": 76.90000000000218,
+        "event": "precision_approach",
+        "front": 0.5370218334932443,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 82.95999999998806,
+        "event": "approach_braking",
+        "front": 0.25439252646690136,
+        "speed": 0.06170290512946299,
+        "stopping_range": 0.255,
+        "closing_speed": 0.05816987263773222
+      },
+      {
+        "time": 83.61199999998654,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25647830703639407,
+        "position": [
+          6.65611084261207,
+          0.0007604618016177179
+        ]
+      },
+      {
+        "time": 84.19999999998517,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_4"
+      },
+      {
+        "time": 87.00399999997863,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07502824489382057,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 87.00399999997863,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 4
+      },
+      {
+        "time": 87.09999999997841,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 93.19999999996419,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 94.0119999999623,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-14",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.0188420560069547
+      },
+      {
+        "time": 8.299999999999441,
+        "event": "precision_approach",
+        "front": 0.5490501923765457,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 14.620000000001552,
+        "event": "approach_braking",
+        "front": 0.2544463783876584,
+        "speed": 0.09056201439158001,
+        "stopping_range": 0.255,
+        "closing_speed": 0.08945349524894834
+      },
+      {
+        "time": 15.270000000001769,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2604137719138362,
+        "position": [
+          0.744540122091002,
+          -0.0009898290784790373
+        ]
+      },
+      {
+        "time": 15.800000000001946,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 18.604000000000568,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.1493471608126341,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 18.604000000000568,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 18.700000000000514,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.7378075209038277
+      },
+      {
+        "time": 33.69999999999522,
+        "event": "precision_approach",
+        "front": 0.5413484389663347,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 40.00000000000292,
+        "event": "approach_braking",
+        "front": 0.25400636543512345,
+        "speed": 0.121579725824204,
+        "stopping_range": 0.255,
+        "closing_speed": 0.12069798751437981
+      },
+      {
+        "time": 40.650000000003715,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2575685629372355,
+        "position": [
+          3.0155869599723966,
+          0.0013091204438201182
+        ]
+      },
+      {
+        "time": 41.20000000000439,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 44.00000000000781,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.1522562198332854,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 44.00000000000781,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 44.00000000000781,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 49.8000000000149,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 50.61200000001589,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-15",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.8848702996413185
+      },
+      {
+        "time": 6.899999999999462,
+        "event": "precision_approach",
+        "front": 0.5491271156122522,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 13.340000000001124,
+        "event": "approach_braking",
+        "front": 0.2541059570554931,
+        "speed": 0.09995773589495202,
+        "stopping_range": 0.255,
+        "closing_speed": 0.09927285616508566
+      },
+      {
+        "time": 13.990000000001341,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2536792577403102,
+        "position": [
+          0.6173127143979302,
+          0.00119193368143976
+        ]
+      },
+      {
+        "time": 14.500000000001512,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 17.30200000000129,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07346836729365394,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 17.30200000000129,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 17.400000000001235,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 2.037331202913185
+      },
+      {
+        "time": 35.99999999999803,
+        "event": "precision_approach",
+        "front": 0.5476060122457543,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 42.13000000000552,
+        "event": "approach_braking",
+        "front": 0.2549288454395455,
+        "speed": 0.040596460929739064,
+        "stopping_range": 0.255,
+        "closing_speed": 0.03030424945283885
+      },
+      {
+        "time": 42.78000000000632,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.24527030595125687,
+        "position": [
+          3.117908978826164,
+          -0.0009697496716853922
+        ]
+      },
+      {
+        "time": 43.30000000000695,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 46.100000000010375,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.0810711159383454,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 46.100000000010375,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 46.100000000010375,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 2.029323569487163
+      },
+      {
+        "time": 64.60000000003085,
+        "event": "precision_approach",
+        "front": 0.5448611396954615,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 70.88000000001621,
+        "event": "approach_braking",
+        "front": 0.25449264545642425,
+        "speed": 0.10993257033669454,
+        "stopping_range": 0.255,
+        "closing_speed": 0.1090181531337154
+      },
+      {
+        "time": 71.53200000001469,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25565919822078165,
+        "position": [
+          5.59970739919582,
+          -0.001296361807895664
+        ]
+      },
+      {
+        "time": 72.10000000001337,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 74.90400000000683,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07084956051239569,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 74.90400000000683,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 75.00000000000661,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 81.19999999999216,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 82.01199999999027,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-16",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.056872954094459
+      },
+      {
+        "time": 8.899999999999642,
+        "event": "precision_approach",
+        "front": 0.5475637940099165,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 15.050000000001695,
+        "event": "approach_braking",
+        "front": 0.25497076939647056,
+        "speed": 0.06202193460984752,
+        "stopping_range": 0.255,
+        "closing_speed": 0.05847534996673978
+      },
+      {
+        "time": 15.700000000001912,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25710490645235096,
+        "position": [
+          0.7858781898366676,
+          0.0008081146721576558
+        ]
+      },
+      {
+        "time": 16.300000000001845,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 19.10400000000029,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.1612030421915588,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 19.10400000000029,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 19.200000000000237,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.9229167949152615
+      },
+      {
+        "time": 36.49999999999864,
+        "event": "precision_approach",
+        "front": 0.5401543286524398,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 42.630000000006135,
+        "event": "approach_braking",
+        "front": 0.2547118004794222,
+        "speed": 0.04069001602044213,
+        "stopping_range": 0.255,
+        "closing_speed": 0.031037236715775844
+      },
+      {
+        "time": 43.28000000000693,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2428131749812148,
+        "position": [
+          3.2661756518581258,
+          0.0008444151691579935
+        ]
+      },
+      {
+        "time": 43.800000000007564,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 46.600000000010986,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.17639078176351675,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 46.600000000010986,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 46.600000000010986,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.9082443658944823
+      },
+      {
+        "time": 63.80000000003201,
+        "event": "precision_approach",
+        "front": 0.537722215485925,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 69.87000000001856,
+        "event": "approach_braking",
+        "front": 0.2547964670285445,
+        "speed": 0.06286816740768057,
+        "stopping_range": 0.255,
+        "closing_speed": 0.05868730795368281
+      },
+      {
+        "time": 70.52200000001704,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.257136154987716,
+        "position": [
+          5.717858402401946,
+          0.0007809506742658736
+        ]
+      },
+      {
+        "time": 71.1000000000157,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 73.90400000000916,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.16044750849103384,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 73.90400000000916,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 74.00000000000894,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.9235647729362846
+      },
+      {
+        "time": 91.29999999996862,
+        "event": "precision_approach",
+        "front": 0.540311346298874,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 97.43999999995431,
+        "event": "approach_braking",
+        "front": 0.2549467909312675,
+        "speed": 0.02129377408540566,
+        "stopping_range": 0.255,
+        "closing_speed": 0.0
+      },
+      {
+        "time": 98.09199999995279,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.24150128464079224,
+        "position": [
+          8.199499003299193,
+          0.0005436571715959127
+        ]
+      },
+      {
+        "time": 98.5999999999516,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_4"
+      },
+      {
+        "time": 101.40399999994507,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.17758954413246564,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 101.40399999994507,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 4
+      },
+      {
+        "time": 101.49999999994485,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 107.0999999999318,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 107.9119999999299,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-17",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.9040307591015316
+      },
+      {
+        "time": 6.999999999999451,
+        "event": "precision_approach",
+        "front": 0.547669894073261,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 13.360000000001131,
+        "event": "approach_braking",
+        "front": 0.2546872303187482,
+        "speed": 0.11868526440992878,
+        "stopping_range": 0.255,
+        "closing_speed": 0.11798585763757573
+      },
+      {
+        "time": 14.010000000001348,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25694354634022387,
+        "position": [
+          0.6331979848476622,
+          0.0012486299218186323
+        ]
+      },
+      {
+        "time": 14.600000000001545,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 17.402000000001234,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.15875197007843078,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 17.402000000001234,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 17.50000000000118,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.923257348754789
+      },
+      {
+        "time": 34.799999999996565,
+        "event": "precision_approach",
+        "front": 0.5449016587810709,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 40.91000000000403,
+        "event": "approach_braking",
+        "front": 0.25470008218889406,
+        "speed": 0.09048522915212472,
+        "stopping_range": 0.255,
+        "closing_speed": 0.089042196502389
+      },
+      {
+        "time": 41.56000000000483,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2607625970626617,
+        "position": [
+          3.0926924113912677,
+          0.0008872919041178227
+        ]
+      },
+      {
+        "time": 42.10000000000549,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 44.90000000000891,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.15298727047059846,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 44.90000000000891,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 44.90000000000891,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 50.700000000016,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 51.542000000017026,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-18",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.04981890975345
+      },
+      {
+        "time": 8.699999999999575,
+        "event": "precision_approach",
+        "front": 0.5475355215257802,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 15.020000000001685,
+        "event": "approach_braking",
+        "front": 0.2544062401108075,
+        "speed": 0.09040023187385937,
+        "stopping_range": 0.255,
+        "closing_speed": 0.08927089509405364
+      },
+      {
+        "time": 15.670000000001902,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2603118259747994,
+        "position": [
+          0.7756180960065531,
+          0.0008838331492688132
+        ]
+      },
+      {
+        "time": 16.2000000000019,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 19.004000000000346,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.1529392746474144,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 19.004000000000346,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 19.100000000000293,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.968165302064428
+      },
+      {
+        "time": 36.89999999999913,
+        "event": "precision_approach",
+        "front": 0.5384776399119137,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 43.170000000006794,
+        "event": "approach_braking",
+        "front": 0.254458918566411,
+        "speed": 0.10162297263105384,
+        "stopping_range": 0.255,
+        "closing_speed": 0.10052960317037576
+      },
+      {
+        "time": 43.82000000000759,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.254205333202584,
+        "position": [
+          3.2837322276431644,
+          0.0013402492591376852
+        ]
+      },
+      {
+        "time": 44.4000000000083,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 47.20000000001172,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.1589175347083046,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 47.20000000001172,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 47.20000000001172,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.961415644869142
+      },
+      {
+        "time": 65.00000000002991,
+        "event": "precision_approach",
+        "front": 0.5370674367384192,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 71.07000000001577,
+        "event": "approach_braking",
+        "front": 0.2546132071414391,
+        "speed": 0.05632975092533814,
+        "stopping_range": 0.255,
+        "closing_speed": 0.050548795563762794
+      },
+      {
+        "time": 71.72200000001425,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2555433248783423,
+        "position": [
+          5.7844018748318025,
+          -0.0007390416460853055
+        ]
+      },
+      {
+        "time": 72.3000000000129,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 75.10400000000637,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.15636501825431381,
+        "longest_airtime": 0.4820000000000004
+      },
+      {
+        "time": 75.10400000000637,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 75.20000000000614,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 80.89999999999286,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 81.71199999999097,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-19",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.1514804155401752
+      },
+      {
+        "time": 10.100000000000042,
+        "event": "precision_approach",
+        "front": 0.5468409068943223,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 16.31000000000184,
+        "event": "approach_braking",
+        "front": 0.25480211849239776,
+        "speed": 0.04006536198525694,
+        "stopping_range": 0.255,
+        "closing_speed": 0.02943028136229506
+      },
+      {
+        "time": 16.962000000001478,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.24776186203251593,
+        "position": [
+          0.8898354823376684,
+          -0.0010091146909693815
+        ]
+      },
+      {
+        "time": 17.50000000000118,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 20.303999999999625,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.11395357971884415,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 20.303999999999625,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 20.399999999999572,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.9602057961260873
+      },
+      {
+        "time": 38.1000000000006,
+        "event": "precision_approach",
+        "front": 0.5410434014137255,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 44.36000000000825,
+        "event": "approach_braking",
+        "front": 0.25448342058986917,
+        "speed": 0.09346775215052977,
+        "stopping_range": 0.255,
+        "closing_speed": 0.09255337581565799
+      },
+      {
+        "time": 45.01000000000904,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25307329865654626,
+        "position": [
+          3.3402372823523114,
+          -0.0013165570176476079
+        ]
+      },
+      {
+        "time": 45.600000000009764,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 48.400000000013186,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.10861908998544903,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 48.400000000013186,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 48.400000000013186,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.965471016854819
+      },
+      {
+        "time": 66.20000000002712,
+        "event": "precision_approach",
+        "front": 0.5435864196081189,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 72.29000000001292,
+        "event": "approach_braking",
+        "front": 0.25463157659103075,
+        "speed": 0.051107027330494055,
+        "stopping_range": 0.255,
+        "closing_speed": 0.04384399296954966
+      },
+      {
+        "time": 72.9420000000114,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2540923157483501,
+        "position": [
+          5.794931501899181,
+          0.0008906568836149042
+        ]
+      },
+      {
+        "time": 73.5000000000101,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 76.30400000000357,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.10680094407155952,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 76.30400000000357,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 76.40000000000335,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.9671288571547931
+      },
+      {
+        "time": 94.0999999999621,
+        "event": "precision_approach",
+        "front": 0.5493348012802743,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 100.41999999994736,
+        "event": "approach_braking",
+        "front": 0.25480191887540826,
+        "speed": 0.10994139084822885,
+        "stopping_range": 0.255,
+        "closing_speed": 0.1089726655735854
+      },
+      {
+        "time": 101.07199999994585,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25593560071235544,
+        "position": [
+          8.248801453573849,
+          0.0013091843594711142
+        ]
+      },
+      {
+        "time": 101.59999999994461,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_4"
+      },
+      {
+        "time": 104.40399999993808,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.10583531808743554,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 104.40399999993808,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 4
+      },
+      {
+        "time": 104.49999999993786,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 110.59999999992364,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 111.41199999992175,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-20",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.005387166657857
+      },
+      {
+        "time": 8.199999999999408,
+        "event": "precision_approach",
+        "front": 0.5446926605713605,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 14.570000000001535,
+        "event": "approach_braking",
+        "front": 0.25384893147828325,
+        "speed": 0.12247981395500152,
+        "stopping_range": 0.255,
+        "closing_speed": 0.12181888497846205
+      },
+      {
+        "time": 15.220000000001752,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25730302867738264,
+        "position": [
+          0.7341995823719315,
+          -0.0012131265643252286
+        ]
+      },
+      {
+        "time": 15.800000000001946,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 18.604000000000568,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.11443336007174723,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 18.604000000000568,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 18.700000000000514,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 2.042220951214048
+      },
+      {
+        "time": 37.29999999999962,
+        "event": "precision_approach",
+        "front": 0.5478841831186032,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 43.620000000007344,
+        "event": "approach_braking",
+        "front": 0.2543185652272588,
+        "speed": 0.10168033384423779,
+        "stopping_range": 0.255,
+        "closing_speed": 0.10067661065780842
+      },
+      {
+        "time": 44.27000000000814,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25411571905999253,
+        "position": [
+          3.2751513647243042,
+          -0.0013163841169185329
+        ]
+      },
+      {
+        "time": 44.80000000000879,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 47.60000000001221,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.11666067586014174,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 47.60000000001221,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 47.60000000001221,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 53.50000000001942,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 54.34600000002045,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-21",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.8272193585231796
+      },
+      {
+        "time": 6.199999999999539,
+        "event": "precision_approach",
+        "front": 0.5417880729104342,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 12.570000000000867,
+        "event": "approach_braking",
+        "front": 0.25421604842569157,
+        "speed": 0.1205673049738437,
+        "stopping_range": 0.255,
+        "closing_speed": 0.11992782814709999
+      },
+      {
+        "time": 13.220000000001084,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2575653877181142,
+        "position": [
+          0.5557795456688445,
+          0.0012205558417699358
+        ]
+      },
+      {
+        "time": 13.800000000001278,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 16.602000000001677,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.055487164155401246,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 16.602000000001677,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 16.700000000001623,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 2.0511462009408277
+      },
+      {
+        "time": 35.699999999997665,
+        "event": "precision_approach",
+        "front": 0.5353422478476827,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 42.04000000000541,
+        "event": "approach_braking",
+        "front": 0.25405058271459424,
+        "speed": 0.11509814789782286,
+        "stopping_range": 0.255,
+        "closing_speed": 0.11398762128523193
+      },
+      {
+        "time": 42.69000000000621,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2563731308329964,
+        "position": [
+          3.0450358760924057,
+          -0.0012570364348290875
+        ]
+      },
+      {
+        "time": 43.20000000000683,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 46.00000000001025,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.05498541002014758,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 46.00000000001025,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 46.00000000001025,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 2.051359773557073
+      },
+      {
+        "time": 65.00000000002991,
+        "event": "precision_approach",
+        "front": 0.5372880494794091,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 71.35000000001511,
+        "event": "approach_braking",
+        "front": 0.2546388469205203,
+        "speed": 0.11509704465391088,
+        "stopping_range": 0.255,
+        "closing_speed": 0.11398755690966948
+      },
+      {
+        "time": 72.0020000000136,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2570050235479844,
+        "position": [
+          5.532468056915861,
+          0.0012460027689284645
+        ]
+      },
+      {
+        "time": 72.6000000000122,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 75.40400000000567,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.054444162455970745,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 75.40400000000567,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 75.50000000000544,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 81.699999999991,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 82.5119999999891,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-22",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.0305679389781417
+      },
+      {
+        "time": 8.599999999999541,
+        "event": "precision_approach",
+        "front": 0.5464258298229226,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 15.000000000001679,
+        "event": "approach_braking",
+        "front": 0.2548916594074344,
+        "speed": 0.10876695207215528,
+        "stopping_range": 0.255,
+        "closing_speed": 0.10812957081146474
+      },
+      {
+        "time": 15.650000000001896,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2605819276215695,
+        "position": [
+          0.7561181792978011,
+          0.0004042667525326132
+        ]
+      },
+      {
+        "time": 16.2000000000019,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 19.004000000000346,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.04013099267056388,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 19.004000000000346,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      },
+      {
+        "time": 19.100000000000293,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.9109963812540112
+      },
+      {
+        "time": 36.49999999999864,
+        "event": "precision_approach",
+        "front": 0.5373594810935459,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 42.83000000000638,
+        "event": "approach_braking",
+        "front": 0.2541838675872934,
+        "speed": 0.12086479115568985,
+        "stopping_range": 0.255,
+        "closing_speed": 0.12000475194635571
+      },
+      {
+        "time": 43.48000000000717,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2588039466368981,
+        "position": [
+          3.089774325942054,
+          -0.0012005760853977564
+        ]
+      },
+      {
+        "time": 44.00000000000781,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_2"
+      },
+      {
+        "time": 46.80000000001123,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.041430351385479146,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 46.80000000001123,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 2
+      },
+      {
+        "time": 46.80000000001123,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.908926655299861
+      },
+      {
+        "time": 64.20000000003178,
+        "event": "precision_approach",
+        "front": 0.536858600358577,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 70.53000000001703,
+        "event": "approach_braking",
+        "front": 0.25484544880961835,
+        "speed": 0.11522498447952964,
+        "stopping_range": 0.255,
+        "closing_speed": 0.11422481261065846
+      },
+      {
+        "time": 71.1820000000155,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2572478669877123,
+        "position": [
+          5.423208571250821,
+          0.0012329775207455033
+        ]
+      },
+      {
+        "time": 71.7000000000143,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_3"
+      },
+      {
+        "time": 74.50400000000776,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.04295984263163546,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 74.50400000000776,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 3
+      },
+      {
+        "time": 74.60000000000754,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 1.9076636963397748
+      },
+      {
+        "time": 91.89999999996722,
+        "event": "precision_approach",
+        "front": 0.5480154490400715,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 98.30999999995228,
+        "event": "approach_braking",
+        "front": 0.25491148772261507,
+        "speed": 0.09076626193363373,
+        "stopping_range": 0.255,
+        "closing_speed": 0.08979573117926712
+      },
+      {
+        "time": 98.96199999995076,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.2535319790588515,
+        "position": [
+          7.758802624839263,
+          -0.0012260290306635353
+        ]
+      },
+      {
+        "time": 99.49999999994951,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_4"
+      },
+      {
+        "time": 102.30399999994297,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.04657788638391227,
+        "longest_airtime": 0.47600000000000037
+      },
+      {
+        "time": 102.30399999994297,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 4
+      },
+      {
+        "time": 102.39999999994275,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "run",
+        "source": "V3"
+      },
+      {
+        "time": 108.69999999992807,
+        "event": "braking",
+        "source": "V3_or_eligibility"
+      },
+      {
+        "time": 109.5459999999261,
+        "event": "handoff",
+        "previous": "run",
+        "next": "wait"
+      }
+    ]
+  },
+  {
+    "case": "case-23",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.9138809579647308
+      },
+      {
+        "time": 7.199999999999429,
+        "event": "precision_approach",
+        "front": 0.549913238088653,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 13.740000000001258,
+        "event": "approach_braking",
+        "front": 0.2545236058377056,
+        "speed": 0.0999808682956993,
+        "stopping_range": 0.255,
+        "closing_speed": 0.0992365289607059
+      },
+      {
+        "time": 14.390000000001475,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25407202199163825,
+        "position": [
+          0.6459279780083618,
+          -0.0011665471212174029
+        ]
+      }
+    ]
+  },
+  {
+    "case": "case-24",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.9138809579647308
+      },
+      {
+        "time": 7.199999999999429,
+        "event": "precision_approach",
+        "front": 0.549913238088653,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 13.740000000001258,
+        "event": "approach_braking",
+        "front": 0.2545236058377056,
+        "speed": 0.0999808682956993,
+        "stopping_range": 0.255,
+        "closing_speed": 0.0992365289607059
+      },
+      {
+        "time": 14.390000000001475,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25407202199163825,
+        "position": [
+          0.6459279780083618,
+          -0.0011665471212174029
+        ]
+      }
+    ]
+  },
+  {
+    "case": "case-25",
+    "events": [
+      {
+        "time": 2.0000000000000013,
+        "event": "settled",
+        "next": "wait"
+      },
+      {
+        "time": 2.0000000000000013,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "approach",
+        "front": 0.9138809579647308
+      },
+      {
+        "time": 7.199999999999429,
+        "event": "precision_approach",
+        "front": 0.549913238088653,
+        "commanded_speed": 0.12
+      },
+      {
+        "time": 13.740000000001258,
+        "event": "approach_braking",
+        "front": 0.2545236058377056,
+        "speed": 0.0999808682956993,
+        "stopping_range": 0.255,
+        "closing_speed": 0.0992365289607059
+      },
+      {
+        "time": 14.390000000001475,
+        "event": "handoff",
+        "previous": "approach",
+        "next": "wait",
+        "front": 0.25407202199163825,
+        "position": [
+          0.6459279780083618,
+          -0.0011665471212174029
+        ]
+      },
+      {
+        "time": 14.900000000001645,
+        "event": "handoff",
+        "previous": "wait",
+        "next": "low_bar_jump",
+        "source": "learned_obstacle_spike_counts",
+        "target": "bar_1"
+      },
+      {
+        "time": 17.704000000001066,
+        "event": "jump_outcome",
+        "success": true,
+        "rear_margin": 0.07941637719463149,
+        "longest_airtime": 0.47800000000000037
+      },
+      {
+        "time": 17.704000000001066,
+        "event": "handoff",
+        "previous": "low_bar_jump",
+        "next": "wait",
+        "source": "verified full crossing; fresh obstacle selection",
+        "crossed": 1
+      }
+    ]
+  }
+]

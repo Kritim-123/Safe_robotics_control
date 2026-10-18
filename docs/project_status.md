@@ -1,5 +1,29 @@
 # Project assessment
 
+October 17, 2026 V5 close-spacing repair: both refused three-bar courses at
+1.8 m and 2.0 m spacing now complete, with 12/12 new close courses and 36
+additional verified jumps without contacts/falls. A separate runner corrects
+the circumscribed-circle landing approximation using actual box geometry,
+preserving the .15 m clearance threshold, .42 m robot disc, learned model,
+motor profile and actuator limits. See the
+[report](agents/v5_close_validation.md) for exact matched-state diagnosis,
+regression/control outcomes and viewer command.
+All nine previous wider courses also pass. Across the frozen assessment,
+23/23 traversable courses complete with 69 jumps and three unsuitable controls
+refuse the affected jump, without any contact/fall. All 221 project tests pass;
+both neural heads replay exactly across 17,624 packets each.
+
+October 17, 2026 V5 multi-obstacle extension: 9/9 held-out two-, three- and
+four-bar courses complete with 27 verified jumps, plus a successful three-bar
+demo. Two additional 1.8/2.0 m-spacing courses are refused by the unchanged
+landing-corridor guard. All twelve assessment episodes avoid contacts/falls.
+A separate measured-outcome bank retains the V5 encoder/motor profile;
+repeated handoffs and bounded approach correction handle multiple jumps in
+one physics episode. Five focused tests passed; the 216-test suite validates
+214 directly and two localhost checks on a successful permitted rerun.
+The [report](agents/v5_multi_validation.md) records failures, training split,
+exact neural replay, retained artifacts and the viewer command.
+
 October 17, 2026 V5 reliability refinement: all five reported failures now
 complete autonomously. The prior twenty worlds are development regressions;
 the frozen fresh paired assessment completes 40/40 courses versus original

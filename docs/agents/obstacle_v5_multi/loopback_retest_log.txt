@@ -1,0 +1,7 @@
+test_http_ui_and_evaluation (test_inspector.InspectorTests.test_http_ui_and_evaluation) ... ok
+test_live_api_isolates_large_traces_and_validates_controls (test_live.LiveTelemetryTests.test_live_api_isolates_large_traces_and_validates_controls) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.061s
+
+OK

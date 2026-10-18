@@ -1,0 +1,28 @@
+{
+  "seed": 22701,
+  "held_out_courses": 9,
+  "additional_spacing_demos": 3,
+  "total_courses": 12,
+  "goals": 10,
+  "expected_jumps": 36,
+  "completed_jumps": 30,
+  "contacts": 0,
+  "falls": 0,
+  "reasons": [
+    "completed",
+    "completed",
+    "completed",
+    "completed",
+    "completed",
+    "completed",
+    "completed",
+    "completed",
+    "completed",
+    "completed",
+    "refused",
+    "refused"
+  ],
+  "neural_packets_replayed": 8529,
+  "audit_errors": [],
+  "head_checksum": "a0780f10704a79c2b8ed6e871902e2caa9875224d1f09bab2e1c62e1240977d8"
+}

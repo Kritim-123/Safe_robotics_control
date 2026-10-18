@@ -1,0 +1,7 @@
+{
+  "source_model_checks": 362,
+  "v3_packets_replayed": 17624,
+  "episodes": 26,
+  "max_base_step_m": 0.005632057170956468,
+  "errors": []
+}

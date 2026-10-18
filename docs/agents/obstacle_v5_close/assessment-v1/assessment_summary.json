@@ -1,0 +1,74 @@
+{
+  "seed": 23701,
+  "head_checksum": "a0780f10704a79c2b8ed6e871902e2caa9875224d1f09bab2e1c62e1240977d8",
+  "jump_packets_replayed": 17624,
+  "errors": [],
+  "groups": {
+    "known": {
+      "cases": 2,
+      "goals": 2,
+      "expected_jumps": 6,
+      "completed_jumps": 6,
+      "contacts": 0,
+      "falls": 0,
+      "reasons": [
+        "completed",
+        "completed"
+      ]
+    },
+    "fresh": {
+      "cases": 12,
+      "goals": 12,
+      "expected_jumps": 36,
+      "completed_jumps": 36,
+      "contacts": 0,
+      "falls": 0,
+      "reasons": [
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed"
+      ]
+    },
+    "wide_regression": {
+      "cases": 9,
+      "goals": 9,
+      "expected_jumps": 27,
+      "completed_jumps": 27,
+      "contacts": 0,
+      "falls": 0,
+      "reasons": [
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed"
+      ]
+    },
+    "control": {
+      "cases": 3,
+      "goals": 0,
+      "expected_jumps": 7,
+      "completed_jumps": 1,
+      "contacts": 0,
+      "falls": 0,
+      "reasons": [
+        "refused",
+        "refused",
+        "refused"
+      ]
+    }
+  }
+}
