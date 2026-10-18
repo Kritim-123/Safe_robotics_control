@@ -1,0 +1,13 @@
+{
+  "selected_profile": "motor-development-v3/candidate-09",
+  "profile_sha256": "dc9357329d90c165af213bfd5ebc383c81c79934ff79859056de7d183d4a84e4",
+  "selected_before_association_training": true,
+  "motor_confirmation": {
+    "cases": 8,
+    "goals": 8,
+    "contacts": 0,
+    "falls": 0,
+    "min_margin": 0.04795146587841448
+  },
+  "selection_reason": "Full six-case development screen plus all eight stress confirmations; largest minimum rear margin among the completed round-three screens. No fresh final test results used."
+}

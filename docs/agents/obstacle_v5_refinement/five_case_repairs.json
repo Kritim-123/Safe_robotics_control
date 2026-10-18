@@ -1,0 +1,52 @@
+[
+  {
+    "case": "v5-test-02",
+    "success": true,
+    "reason": "completed",
+    "jump_completed": true,
+    "collision": false,
+    "fall": false,
+    "final_goal_distance": 0.09016178735425684,
+    "final_collision_geometry_margin": 0.058833345741655184
+  },
+  {
+    "case": "v5-test-04",
+    "success": true,
+    "reason": "completed",
+    "jump_completed": true,
+    "collision": false,
+    "fall": false,
+    "final_goal_distance": 0.08880593685450708,
+    "final_collision_geometry_margin": 0.05468192579846854
+  },
+  {
+    "case": "v5-test-06",
+    "success": true,
+    "reason": "completed",
+    "jump_completed": true,
+    "collision": false,
+    "fall": false,
+    "final_goal_distance": 0.08773798549508594,
+    "final_collision_geometry_margin": 0.09279911624989277
+  },
+  {
+    "case": "v5-test-08",
+    "success": true,
+    "reason": "completed",
+    "jump_completed": true,
+    "collision": false,
+    "fall": false,
+    "final_goal_distance": 0.08996022216076736,
+    "final_collision_geometry_margin": 0.04890844812535592
+  },
+  {
+    "case": "v5-test-14",
+    "success": true,
+    "reason": "completed",
+    "jump_completed": true,
+    "collision": false,
+    "fall": false,
+    "final_goal_distance": 0.09005554425913986,
+    "final_collision_geometry_margin": 0.07833600087239115
+  }
+]

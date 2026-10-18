@@ -1,5 +1,35 @@
 # Project assessment
 
+October 17, 2026 V5 reliability refinement: all five reported failures now
+complete autonomously. The prior twenty worlds are development regressions;
+the frozen fresh paired assessment completes 40/40 courses versus original
+V5's 31/40, gaining nine successes and losing none, with no refined contact,
+fall, refusal or overshoot. All 211 tests passed. The
+[report](agents/v5_refinement_validation.md) documents the separate 72 Nm
+landing-profile revision, preserved encoder population plus finer cells,
+new outcome bank, exact state-matched contact repair and fresh comparison.
+Original V3/V4/V5 artifacts and physical guards are preserved.
+
+October 17, 2026 V5 walk-up update: the robot walks to a static low bar,
+brakes to a supported stance, selects the jump from a new spike-count outcome
+bank and resumes V3 goal tracking in the same episode. Frozen assessment:
+15/20 complete courses, four learned refusals, one rear-thigh jump contact,
+no fall or approach overshoot; six unsuitable-target controls made no jump.
+All 204 project tests passed. The [V5 report](agents/approach_low_bar_v5_validation.md)
+records measured launch state, source/model freeze, exact decision replay,
+remaining contact failure and the distinction between classical braking and
+learned jump selection. V3, V4 and the jump motor profile remain unchanged.
+
+October 17, 2026 V4 observation-selected low-bar update: a separate 168-cell
+LIF count-association head selects the existing low-bar jump without a jump
+request, verifies complete crossing/landing and resumes the unchanged V3
+goal tracker. Held-out assessment: 18/20 low-bar crossings and goal stops,
+two learned count-conflict refusals, no contact/fall; six unsuitable targets
+caused no jump, and a clear-path control reached its goal without jumping.
+The scope starts already in the tested +X launch stance. The
+[V4 report](agents/autonomous_low_bar_v4_validation.md) retains limitations,
+the invalid-start validation control contact and reproducible evidence.
+
 October 17, 2026 terrain/goal update: the opt-in 64-neuron count selector and
 bounded terrain gait improve the original 60-case course from 0/60 to 44/60,
 matching rule control. A separately confirmed goal-hold readout passes 76/100

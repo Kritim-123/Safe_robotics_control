@@ -1,0 +1,135 @@
+{
+  "case": "v5-test-08",
+  "success": true,
+  "reason": "completed",
+  "elapsed": 26.845999999996,
+  "jump_initiated": true,
+  "jump_completed": true,
+  "collision": false,
+  "fall": false,
+  "contacts": [],
+  "final_goal_distance": 0.08996022216076736,
+  "final_position": [
+    2.190749434822754,
+    0.0007869706578161382,
+    0.26755721325584564
+  ],
+  "terminal_stable": true,
+  "torques_released": true,
+  "longest_airtime": 0.47800000000000037,
+  "final_collision_geometry_margin": 0.04890844812535592,
+  "min_foot_bar_clearance": [
+    0.22694206770828484,
+    0.22715959290837662,
+    0.27589664726250057,
+    0.2766317755775924
+  ],
+  "max_torque": 72.0,
+  "max_torque_limit_ratio": 1.0,
+  "max_joint_target_step": 0.23359742648567638,
+  "controller_version": "V5-refined",
+  "reset_policy": "initial placement only",
+  "mission": "progress",
+  "explicit_jump_requests": 0,
+  "jump_entry": {
+    "time": 16.100000000001955,
+    "position": [
+      0.7672317630489898,
+      0.0016076532960766176
+    ],
+    "front": 0.2534588843288741,
+    "speed": 0.0005830898764453549,
+    "linear_speed": 0.00058503316331008,
+    "angular_speed": 0.003876182070262361,
+    "foot_contacts": 4,
+    "stable_hold": 0.508000000000079,
+    "walked_distance": 0.7672317630489898
+  },
+  "approach_brakes": 1,
+  "brake_range": 0.255,
+  "approach_speed": 0.18,
+  "teacher_forced_collection": false,
+  "head_checksum": "9bfa0220c45605caf9103a4dc63896b1bd5c81b522d487b1a86ef57ba3fab79c",
+  "v3_checksum": "b2dcc0e47c62a98896bed3e9108f5534988594fc806535c98cf5baa216d01841",
+  "jump_config": {
+    "preparation": 0.5613990308283466,
+    "thrust": 0.09628111625320697,
+    "flight": 0.20524861828533056,
+    "absorption": 0.19990199390732843,
+    "recovery": 0.6,
+    "crouch_thigh": 1.0995402618802197,
+    "crouch_calf": -2.1990805237604394,
+    "extension_calf": -0.9692037240973742,
+    "forward_lean": 1.1561029381302022,
+    "flight_calf": -2.520064769027069,
+    "flight_lean": -0.14232852578791116,
+    "absorption_thigh": 0.95,
+    "absorption_calf": -1.9,
+    "torque_limit": 72.0,
+    "landing_kp": 44.68241315046006,
+    "landing_kd": 1.681895864153737,
+    "forward_clearance": 0.5
+  },
+  "scenario": {
+    "name": "v5-test-08",
+    "start": [
+      0.0,
+      0.0
+    ],
+    "goal": [
+      2.2807062147139794,
+      0.0
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          1.0207062147139796,
+          0.0
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.006988428471130658,
+          0.6
+        ],
+        "height": 0.03967820512723979,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.8067592950151777,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  "neural_jump_proposals": 6,
+  "vetoed_jump_proposals": 0
+}

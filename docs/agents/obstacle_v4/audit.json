@@ -1,0 +1,55 @@
+{
+  "frozen_file_checks": 162,
+  "source_or_asset_mismatches": [],
+  "jump_head_packets_replayed": 2931,
+  "v3_packets_replayed": 2931,
+  "decision_errors": [],
+  "refused_cases": [
+    "v4-test-09",
+    "v4-test-16"
+  ],
+  "negative_controls": [
+    {
+      "case": "v4-control-blocked-landing",
+      "reason": "refused",
+      "neural_jump_proposals": 0,
+      "vetoed_jump_proposals": 0
+    },
+    {
+      "case": "v4-control-distant",
+      "reason": "refused",
+      "neural_jump_proposals": 0,
+      "vetoed_jump_proposals": 0
+    },
+    {
+      "case": "v4-control-low-friction",
+      "reason": "refused",
+      "neural_jump_proposals": 0,
+      "vetoed_jump_proposals": 0
+    },
+    {
+      "case": "v4-control-misaligned",
+      "reason": "refused",
+      "neural_jump_proposals": 0,
+      "vetoed_jump_proposals": 0
+    },
+    {
+      "case": "v4-control-moving",
+      "reason": "refused",
+      "neural_jump_proposals": 0,
+      "vetoed_jump_proposals": 0
+    },
+    {
+      "case": "v4-control-no-obstacle",
+      "reason": "completed",
+      "neural_jump_proposals": 0,
+      "vetoed_jump_proposals": 0
+    },
+    {
+      "case": "v4-control-tall",
+      "reason": "refused",
+      "neural_jump_proposals": 0,
+      "vetoed_jump_proposals": 0
+    }
+  ]
+}

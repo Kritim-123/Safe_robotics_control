@@ -1,0 +1,15 @@
+{
+  "source_model_checks": 177,
+  "source_model_mismatches": [],
+  "inherited_v5_checks": 169,
+  "inherited_v5_mismatches": [],
+  "packet_replays": {
+    "baseline": 0,
+    "refined": 5859
+  },
+  "v3_packet_replays": 5859,
+  "decision_errors": [],
+  "paired_world_mismatches": [],
+  "max_actuator_limit_ratio": 1.0,
+  "episodes": 27
+}

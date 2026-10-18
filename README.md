@@ -1,5 +1,29 @@
 # Go2 MuJoCo Simulation
 
+The [V5 reliability refinement](docs/agents/v5_refinement_validation.md) fixes
+the four refusals and rear-thigh contact, and completes 40/40 fresh paired
+courses versus original V5's 31/40, with no refined contact/fall or lost
+success. All 211 tests passed. Watch the formerly contacting course with
+`python -m experiments.obstacle_v5_refinement.run --viewer --video --viewer-speed .5`.
+It uses a separate landing profile and finer outcome associations while
+preserving the original models and actuator bounds.
+
+The [V5 walk-up experiment](docs/agents/approach_low_bar_v5_validation.md) now
+walks toward a low bar, brakes into a supported stance, selects a jump from
+SNN counts and continues to its goal in one episode. Run
+`python -m experiments.obstacle_v5.run --viewer --video --viewer-speed .5`.
+It completed 15/20 fresh courses, with four refusals and one jump contact;
+all 204 tests passed. Approach/braking is classical range control; the jump
+association bank is learned. V3/V4 and the jump motor profile remain unchanged.
+
+The opt-in [V4 low-bar experiment](docs/agents/autonomous_low_bar_v4_validation.md)
+selects a jump from obstacle observations without an explicit jump request,
+then resumes V3 walking and goal stopping in one physics episode. It passed
+18/20 held-out low bars with two learned refusals and no contact/fall. Start
+the finite demo with `python -m experiments.obstacle_v4.run --viewer --video`.
+It starts in a restricted, tested launch stance; camera perception and walking
+up to distant bars remain future work.
+
 The [terrain and goal experiment](docs/agents/terrain_goal_validation.md) improves
 the original transfer course from 0/60 to **44/60**, matching its rule control.
 The frozen 64-neuron goal readout adds confirmed stopping and release while

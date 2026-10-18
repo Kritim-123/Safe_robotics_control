@@ -1,0 +1,19 @@
+{
+  "preparation": 0.5613990308283466,
+  "thrust": 0.10697901805911886,
+  "flight": 0.20524861828533056,
+  "absorption": 0.19990199390732843,
+  "recovery": 0.6,
+  "crouch_thigh": 1.0995402618802197,
+  "crouch_calf": -2.1990805237604394,
+  "extension_calf": -0.9692037240973742,
+  "forward_lean": 1.1161029381302021,
+  "flight_calf": -2.520064769027069,
+  "flight_lean": -0.14232852578791116,
+  "absorption_thigh": 1.03,
+  "absorption_calf": -2.06,
+  "torque_limit": 72.0,
+  "landing_kp": 44.68241315046006,
+  "landing_kd": 1.681895864153737,
+  "forward_clearance": 0.5
+}

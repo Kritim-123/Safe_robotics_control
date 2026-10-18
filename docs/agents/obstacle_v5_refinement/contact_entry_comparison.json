@@ -1,0 +1,9 @@
+{
+  "old_jump_time": 16.100000000001955,
+  "new_jump_time": 16.100000000001955,
+  "entry_qpos_max_error": 0.0,
+  "entry_qvel_max_error": 0.0,
+  "new_margin": 0.04890844812535592,
+  "old_result": "obstacle contact",
+  "new_result": "completed"
+}

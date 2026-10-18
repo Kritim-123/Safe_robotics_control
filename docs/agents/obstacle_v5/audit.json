@@ -1,0 +1,60 @@
+{
+  "frozen_file_checks": 169,
+  "frozen_mismatches": [],
+  "v4_frozen_file_checks": 162,
+  "v4_mismatches": [],
+  "jump_head_packets_replayed": 5500,
+  "v3_packets_replayed": 5500,
+  "decision_errors": [],
+  "teacher_forced_evaluations": 0,
+  "launch_ranges": [
+    0.24558665983644176,
+    0.2613911169895661
+  ],
+  "pre_jump_walk_ranges": [
+    0.5406320519370312,
+    0.8984768297142053
+  ],
+  "jump_start_times": [
+    13.300000000001111,
+    17.50000000000118
+  ],
+  "max_entry_linear_speed": 0.0026018379888635194,
+  "min_entry_supported_hold": 0.5079999999997185,
+  "all_entry_four_feet": true,
+  "max_torque_limit_ratio": 1.0,
+  "torques_released_all": true,
+  "failed_cases": [
+    {
+      "case": "v5-test-02",
+      "reason": "refused",
+      "contacts": []
+    },
+    {
+      "case": "v5-test-04",
+      "reason": "refused",
+      "contacts": []
+    },
+    {
+      "case": "v5-test-06",
+      "reason": "refused",
+      "contacts": []
+    },
+    {
+      "case": "v5-test-08",
+      "reason": "obstacle contact",
+      "contacts": [
+        {
+          "time": 17.270000000001307,
+          "geom1": "",
+          "geom2": "obstacle_geom_0"
+        }
+      ]
+    },
+    {
+      "case": "v5-test-14",
+      "reason": "refused",
+      "contacts": []
+    }
+  ]
+}

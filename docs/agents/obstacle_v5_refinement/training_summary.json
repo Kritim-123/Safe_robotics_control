@@ -1,0 +1,11 @@
+{
+  "physics_trials": 80,
+  "crossings": 80,
+  "goals": 80,
+  "contacts": 0,
+  "falls": 0,
+  "measured_packet_rows": 240,
+  "total_training_rows": 336,
+  "head_checksum": "9bfa0220c45605caf9103a4dc63896b1bd5c81b522d487b1a86ef57ba3fab79c",
+  "training_correct": 336
+}

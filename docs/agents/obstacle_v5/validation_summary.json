@@ -1,0 +1,123 @@
+{
+  "split": "validation",
+  "low_bar_cases": 8,
+  "autonomous_crossings": 7,
+  "reached_goals": 7,
+  "contacts": 0,
+  "falls": 0,
+  "refused_low_bars": 1,
+  "overshoots": 0,
+  "negative_controls": 6,
+  "negative_jumps": 0,
+  "negative_contacts": 0,
+  "clear_goal_success": true,
+  "clear_jump": false,
+  "all_explicit_jump_requests": 0,
+  "launch_entries": [
+    {
+      "case": "v5-validation-00",
+      "time": 15.700000000001912,
+      "position": [
+        0.7478819007146558,
+        0.0010882091052176067
+      ],
+      "front": 0.253628592415624,
+      "speed": 0.0006039893146096132,
+      "linear_speed": 0.0006089440902855694,
+      "angular_speed": 0.004119326856301975,
+      "foot_contacts": 4,
+      "stable_hold": 0.5080000000001696,
+      "walked_distance": 0.7478819007146558
+    },
+    {
+      "case": "v5-validation-01",
+      "time": 14.400000000001478,
+      "position": [
+        0.6111205617609169,
+        0.00032008086794034734
+      ],
+      "front": 0.2558977825479521,
+      "speed": 0.00029003392096551043,
+      "linear_speed": 0.0004307310585624729,
+      "angular_speed": 0.0017682944182034529,
+      "foot_contacts": 4,
+      "stable_hold": 0.7880000000002632,
+      "walked_distance": 0.6111205617609169
+    },
+    {
+      "case": "v5-validation-02",
+      "time": 17.000000000001457,
+      "position": [
+        0.8479893562888808,
+        -0.0003993038413697654
+      ],
+      "front": 0.25578571755878843,
+      "speed": 0.001191780105512727,
+      "linear_speed": 0.0011932651565310821,
+      "angular_speed": 0.0037220879182192947,
+      "foot_contacts": 4,
+      "stable_hold": 0.5959999999996697,
+      "walked_distance": 0.8479893562888808
+    },
+    {
+      "case": "v5-validation-03",
+      "time": 13.900000000001311,
+      "position": [
+        0.5968701864040882,
+        0.0006964358456125327
+      ],
+      "front": 0.2514008230987867,
+      "speed": 0.0027565463567409973,
+      "linear_speed": 0.002859800808294216,
+      "angular_speed": 0.005690427378076309,
+      "foot_contacts": 4,
+      "stable_hold": 0.5580000000001863,
+      "walked_distance": 0.5968701864040882
+    },
+    {
+      "case": "v5-validation-04",
+      "time": 17.1000000000014,
+      "position": [
+        0.8803860935135583,
+        0.003355526393742091
+      ],
+      "front": 0.25060254239280794,
+      "speed": 0.0022249012654436072,
+      "linear_speed": 0.002299431584630478,
+      "angular_speed": 0.005179430656049775,
+      "foot_contacts": 4,
+      "stable_hold": 0.5459999999996974,
+      "walked_distance": 0.8803860935135583
+    },
+    {
+      "case": "v5-validation-05",
+      "time": 17.000000000001457,
+      "position": [
+        0.8512057630576731,
+        -0.0014629152719765805
+      ],
+      "front": 0.25583541018286765,
+      "speed": 0.0011824722866826455,
+      "linear_speed": 0.0011838887275155278,
+      "angular_speed": 0.0036579934095075954,
+      "foot_contacts": 4,
+      "stable_hold": 0.5959999999996697,
+      "walked_distance": 0.8512057630576731
+    },
+    {
+      "case": "v5-validation-06",
+      "time": 15.800000000001946,
+      "position": [
+        0.7583767294198965,
+        0.001732369645219139
+      ],
+      "front": 0.2574641719403948,
+      "speed": 0.0010211625591504973,
+      "linear_speed": 0.0010216429959824527,
+      "angular_speed": 0.003497332115564395,
+      "foot_contacts": 4,
+      "stable_hold": 0.578000000000193,
+      "walked_distance": 0.7583767294198965
+    }
+  ]
+}

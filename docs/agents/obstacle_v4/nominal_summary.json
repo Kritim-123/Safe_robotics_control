@@ -1,0 +1,111 @@
+{
+  "case": "v4-nominal",
+  "success": true,
+  "reason": "completed",
+  "elapsed": 12.712000000000915,
+  "jump_initiated": true,
+  "jump_completed": true,
+  "collision": false,
+  "fall": false,
+  "contacts": [],
+  "final_goal_distance": 0.09167738392143471,
+  "terminal_stable": true,
+  "torques_released": true,
+  "longest_airtime": 0.4840000000000004,
+  "final_collision_geometry_margin": 0.0809698095909516,
+  "min_foot_bar_clearance": [
+    0.2240725833854542,
+    0.22411167024441378,
+    0.2972641819403352,
+    0.2974017386001834
+  ],
+  "max_torque": 72.0,
+  "max_torque_limit_ratio": 1.0,
+  "max_joint_target_step": 0.21430382887304833,
+  "reset_policy": "initial placement only",
+  "mission": "progress",
+  "explicit_jump_requests": 0,
+  "head_checksum": "5b3c8c7c6c21ad4433b63cf0ca20aa79b720ec504773c665d93313a09486e980",
+  "v3_checksum": "b2dcc0e47c62a98896bed3e9108f5534988594fc806535c98cf5baa216d01841",
+  "jump_config": {
+    "preparation": 0.5613990308283466,
+    "thrust": 0.10697901805911886,
+    "flight": 0.20524861828533056,
+    "absorption": 0.19990199390732843,
+    "recovery": 0.6,
+    "crouch_thigh": 1.0995402618802197,
+    "crouch_calf": -2.1990805237604394,
+    "extension_calf": -0.9692037240973742,
+    "forward_lean": 1.1161029381302021,
+    "flight_calf": -2.520064769027069,
+    "flight_lean": -0.14232852578791116,
+    "absorption_thigh": 1.03,
+    "absorption_calf": -2.06,
+    "torque_limit": 72.0,
+    "landing_kp": 44.68241315046006,
+    "landing_kd": 1.681895864153737,
+    "forward_clearance": 0.5
+  },
+  "scenario": {
+    "name": "v4-nominal",
+    "start": [
+      0.0,
+      0.0
+    ],
+    "goal": [
+      1.5,
+      0.0
+    ],
+    "obstacles": [
+      {
+        "name": "bar",
+        "center": [
+          0.24,
+          0.0
+        ],
+        "radius": 0.23,
+        "velocity": [
+          0.0,
+          0.0
+        ],
+        "stop_after": 40.0,
+        "shape": "box",
+        "half_extents": [
+          0.01,
+          0.6
+        ],
+        "height": 0.04,
+        "yaw": 0.0,
+        "motion": "linear",
+        "amplitude": [
+          0.0,
+          0.8
+        ],
+        "period": 60.0,
+        "start_after": 0.0
+      }
+    ],
+    "bounds": [
+      -4.0,
+      5.0,
+      -4.0,
+      4.0
+    ],
+    "start_yaw": 0.0,
+    "timeout": 150.0,
+    "friction": 0.85,
+    "push_time": -1.0,
+    "push_force": [
+      0.0,
+      0.0
+    ],
+    "push_duration": 0.2,
+    "position_noise": 0.0,
+    "velocity_noise": 0.0,
+    "sensor_delay": 0.0,
+    "sensor_filter_tau": 0.0,
+    "sensing_seed": 0
+  },
+  "neural_jump_proposals": 20,
+  "vetoed_jump_proposals": 0
+}

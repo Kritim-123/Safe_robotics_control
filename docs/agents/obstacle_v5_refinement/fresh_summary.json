@@ -1,0 +1,32 @@
+{
+  "baseline": {
+    "cases": 40,
+    "goals": 31,
+    "crossings": 31,
+    "contacts": 4,
+    "falls": 0,
+    "refusals": 4,
+    "overshoots": 0,
+    "negative_jumps": 0,
+    "negative_contacts": 0,
+    "clear_success": true,
+    "clear_jump": false
+  },
+  "refined": {
+    "cases": 40,
+    "goals": 40,
+    "crossings": 40,
+    "contacts": 0,
+    "falls": 0,
+    "refusals": 0,
+    "overshoots": 0,
+    "negative_jumps": 0,
+    "negative_contacts": 0,
+    "clear_success": true,
+    "clear_jump": false
+  },
+  "paired": {
+    "gained": 9,
+    "lost": 0
+  }
+}

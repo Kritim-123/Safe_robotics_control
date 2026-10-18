@@ -1,0 +1,15 @@
+{
+  "refined": {
+    "cases": 16,
+    "goals": 16,
+    "crossings": 16,
+    "contacts": 0,
+    "falls": 0,
+    "refusals": 0,
+    "overshoots": 0,
+    "negative_jumps": 0,
+    "negative_contacts": 0,
+    "clear_success": true,
+    "clear_jump": false
+  }
+}
